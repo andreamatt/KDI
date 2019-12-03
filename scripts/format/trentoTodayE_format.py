@@ -11,6 +11,7 @@ def rm_main(JSONString):
 		'tutto il giorno': '00:00-23:59'
 	}
 	
+	events = []
 	for event in obj['events']:
 		if 'date' in event:
 			dates = re.findall(r'\d\d/\d\d/\d\d\d\d', event['date'])
@@ -33,6 +34,7 @@ def rm_main(JSONString):
 				elif len(times) == 2:
 					new_time = f'{times[0]}-{times[1]}'
 		event['time'] = new_time
-	
-	return json.dumps(obj)
+
+		events.append(event)
+	return json.dumps(events)
 

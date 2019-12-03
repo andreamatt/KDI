@@ -112,7 +112,7 @@
         <parameter key="use_default_python" value="true"/>
         <parameter key="package_manager" value="conda (anaconda)"/>
       </operator>
-      <operator activated="true" class="python_scripting:execute_python" compatibility="9.3.001" expanded="true" height="103" name="Execute Python" width="90" x="179" y="544">
+      <operator activated="true" class="python_scripting:execute_python" compatibility="9.3.001" expanded="true" height="103" name="trentoToday format" width="90" x="179" y="544">
         <parameter key="script" value="import pandas&#10;&#10;# rm_main is a mandatory function, &#10;# the number of arguments has to be the number of input ports (can be none)&#10;def rm_main(data):&#10;    print('Hello, world!')&#10;    # output can be found in Log View&#10;    print(type(data))&#10;&#10;    #your code goes here&#10;&#10;    #for example:&#10;    data2 = pandas.DataFrame([3,5,77,8])&#10;&#10;    # connect 2 output ports to see the results&#10;    return data, data2"/>
         <parameter key="script_file" value="https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/format/trentoTodayE_format.py"/>
         <parameter key="notebook_cell_tag_filter" value="https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/format/trentoTodayE_format.py"/>
@@ -231,8 +231,8 @@
       <connect from_op="mart" from_port="output 1" to_op="Append" to_port="example set 4"/>
       <connect from_op="cultura PRE" from_port="output 1" to_op="cultura" to_port="input 1"/>
       <connect from_op="cultura" from_port="output 1" to_op="Append" to_port="example set 3"/>
-      <connect from_op="trentoToday PRE" from_port="output 1" to_op="Execute Python" to_port="input 1"/>
-      <connect from_op="Execute Python" from_port="output 1" to_op="trentoToday" to_port="input 1"/>
+      <connect from_op="trentoToday PRE" from_port="output 1" to_op="trentoToday format" to_port="input 1"/>
+      <connect from_op="trentoToday format" from_port="output 1" to_op="trentoToday" to_port="input 1"/>
       <connect from_op="trentoToday" from_port="output 1" to_op="Append" to_port="example set 6"/>
       <connect from_op="visitTrentino PRE" from_port="output 1" to_op="visitTrentino" to_port="input 1"/>
       <connect from_op="visitTrentino" from_port="output 1" to_op="Append" to_port="example set 7"/>
