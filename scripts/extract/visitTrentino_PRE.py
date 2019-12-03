@@ -7,9 +7,19 @@ def rm_main():
 	obj = json.loads(requests.get(url).text)
 
 	for event in obj['events']:
-		# if no category, get first tag
-		event['category'] = event['category'][len('Tipologia\n'):]
-		event['location'] = event['location'][len('Località\n'):]
-		event['date'] = event['date'][len('Periodo\n'):]
+		if 'category' in event:
+			event['category'] = event['category'][len('Tipologia\n'):]
+		else:
+			event['category'] = ""
+		
+		if 'location' in event:
+			event['location'] = event['location'][len('Località\n'):]
+		else:
+			event['location'] = ""
+
+		if 'date' in event:
+			event['date'] = event['date'][len('Periodo\n'):]
+		else:
+			event['date'] = ""
 
 	return json.dumps(obj)
