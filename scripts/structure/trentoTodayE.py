@@ -28,8 +28,9 @@ class eventObj:
 
 
 def rm_main(JSONString):
-	events = json.loads(JSONString)
-	for event in events:
+	events = []
+	trentoTodayE = json.loads(JSONString)
+	for event in trentoTodayE:
 		if 'Title' not in event:
 			continue
 		if 'category' not in event:
