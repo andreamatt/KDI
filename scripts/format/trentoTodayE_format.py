@@ -3,6 +3,8 @@ import re
 import requests
 
 def rm_main(JSONString):
+	#url = 'http://194.32.77.99/KDI/dataset/trentoTodayE.json'
+	#obj = json.loads(requests.get(url).text)
 	obj = json.loads(JSONString)
 	
 	known_times = {
@@ -31,5 +33,6 @@ def rm_main(JSONString):
 				elif len(times) == 2:
 					new_time = f'{times[0]}-{times[1]}'
 		event['time'] = new_time
-		
+	
 	return json.dumps(obj)
+
