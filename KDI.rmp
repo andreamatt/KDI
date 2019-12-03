@@ -133,42 +133,6 @@
         <parameter key="use_default_python" value="true"/>
         <parameter key="package_manager" value="conda (anaconda)"/>
       </operator>
-      <operator activated="true" class="python_scripting:execute_python" compatibility="9.3.001" expanded="true" height="103" name="visitTrentino" width="90" x="313" y="646">
-        <parameter key="script" value="import pandas as pd&#10;import json&#10;class eventObj:&#10;&#9;def __init__(self, title=&quot;&quot;, category=&quot;&quot;, subCategory=&quot;&quot;, date=&quot;&quot;, time=&quot;&quot;, locationName=&quot;&quot;, locationURL=&quot;&quot;,&#10;&#9;&#9;&#9;&#9; suitableFor=&quot;&quot;, source=&quot;&quot;, description=&quot;&quot;, other=&quot;&quot;, contact=&quot;&quot;, cost=&quot;&quot;, link=&quot;&quot;, subSubCategory=&quot;&quot;):&#10;&#9;&#9;self.source = source&#10;&#9;&#9;self.category = category&#10;&#9;&#9;self.subCategory = subCategory&#10;&#9;&#9;self.subSubCategory = subSubCategory&#10;&#9;&#9;self.suitableFor = suitableFor&#10;&#9;&#9;self.title = title&#10;&#9;&#9;self.date = date&#10;&#9;&#9;self.time = time&#10;&#9;&#9;self.locationName = locationName&#10;&#9;&#9;self.locationURL = locationURL&#10;&#9;&#9;self.description = description&#10;&#9;&#9;self.contact = contact&#10;&#9;&#9;self.cost = cost&#10;&#9;&#9;self.other = other&#10;&#9;&#9;self.link = link&#10;&#10;def rm_main(data):&#10;&#9;culturaEvents = []&#10;&#9;cultura = json.load(data)&#10;&#9;for day in cultura['result']['events']:&#10;&#9;&#9;for eventType in day['tipo_evento']:&#10;&#9;&#9;&#9;for event in eventType['events']:&#10;&#9;&#9;&#9;&#9;subSubCategory = &quot;&quot;&#10;&#9;&#9;&#9;&#9;for subType in event['tipo_evento']:&#10;&#9;&#9;&#9;&#9;&#9;if subType['name'] is not None:&#10;&#9;&#9;&#9;&#9;&#9;&#9;subSubCategory += subType['name'] + &quot;,&quot;&#10;&#9;&#9;&#9;&#9;if len(event['luogo_della_cultura']) == 0:&#10;&#9;&#9;&#9;&#9;&#9;event['luogo_della_cultura'].append({&#10;&#9;&#9;&#9;&#9;&#9;&#9;&quot;name&quot;: &quot;&quot;&#10;&#9;&#9;&#9;&#9;&#9;})&#10;&#9;&#9;&#9;&#9;culturaEvents.append(eventObj(&#10;&#9;&#9;&#9;&#9;&#9;&#9;source=&quot;cultura&quot;,&#10;&#9;&#9;&#9;&#9;&#9;&#9;category=&quot;Cultural&quot;,&#10;&#9;&#9;&#9;&#9;&#9;&#9;subCategory=eventType['name'],&#10;&#9;&#9;&#9;&#9;&#9;&#9;subSubCategory=subSubCategory,&#10;&#9;&#9;&#9;&#9;&#9;&#9;title=event['name'],&#10;&#9;&#9;&#9;&#9;&#9;&#9;link=event['href'],&#10;&#9;&#9;&#9;&#9;&#9;&#9;date=day['day']['identifier'],&#10;&#9;&#9;&#9;&#9;&#9;&#9;time=event['orario_svolgimento'],&#10;&#9;&#9;&#9;&#9;&#9;&#9;locationName=event['comune'][0]['name'] + &quot; --SELF-- &quot; + event['luogo_svolgimento'] + &quot; --SELF-- &quot; +&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9; event['luogo_della_cultura'][0]['name'],&#10;&#9;&#9;&#9;&#9;&#9;&#9;cost=event['costi'],&#10;&#9;&#9;&#9;&#9;&#9;&#9;contact=event['telefono'] + &quot; --SELF-- &quot; + event['email']&#10;&#9;&#9;&#9;&#9;))&#10;&#9;culturaEvents = [ob.__dict__ for ob in culturaEvents]&#10;&#9;js = json.dumps(culturaEvents)&#10;&#9;print(js)&#10;&#9;df = pd.DataFrame(culturaEvents)&#10;&#9;&#10;&#9;return df"/>
-        <parameter key="script_file" value="https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/structure/visitTrentino.py"/>
-        <parameter key="notebook_cell_tag_filter" value=""/>
-        <parameter key="use_default_python" value="true"/>
-        <parameter key="package_manager" value="conda (anaconda)"/>
-      </operator>
-      <operator activated="true" class="append" compatibility="9.5.001" expanded="true" height="208" name="Append" width="90" x="648" y="289">
-        <parameter key="datamanagement" value="double_array"/>
-        <parameter key="data_management" value="auto"/>
-        <parameter key="merge_type" value="all"/>
-      </operator>
-      <operator activated="false" class="read_excel" compatibility="9.5.001" expanded="true" height="68" name="Read Excel" width="90" x="581" y="34">
-        <parameter key="excel_file" value="http://arya.li/KDI/dataset/Dataset.xlsx"/>
-        <parameter key="sheet_selection" value="sheet name"/>
-        <parameter key="sheet_name" value="Multiply"/>
-        <parameter key="sheet_number" value="1"/>
-        <parameter key="imported_cell_range" value="A1:O1025"/>
-        <parameter key="encoding" value="UTF-8"/>
-        <parameter key="first_row_as_names" value="true"/>
-        <list key="annotations"/>
-        <parameter key="date_format" value=""/>
-        <parameter key="time_zone" value="SYSTEM"/>
-        <parameter key="locale" value="English (United States)"/>
-        <parameter key="read_all_values_as_polynominal" value="false"/>
-        <list key="data_set_meta_data_information"/>
-        <parameter key="read_not_matching_values_as_missings" value="true"/>
-        <parameter key="datamanagement" value="double_array"/>
-        <parameter key="data_management" value="auto"/>
-      </operator>
-      <operator activated="true" class="generate_attributes" compatibility="9.5.001" expanded="true" height="82" name="Generate Attributes" width="90" x="849" y="34">
-        <list key="function_descriptions">
-          <parameter key="CAT" value="concat(category,&quot;--&quot;,subCategory)"/>
-        </list>
-        <parameter key="keep_all" value="true"/>
-      </operator>
       <operator activated="true" class="read_excel" compatibility="9.5.001" expanded="true" height="68" name="DICT" width="90" x="849" y="136">
         <parameter key="excel_file" value="http://arya.li/KDI/dictionary/dict.xlsx"/>
         <parameter key="sheet_selection" value="sheet name"/>
@@ -186,6 +150,31 @@
         <parameter key="read_not_matching_values_as_missings" value="true"/>
         <parameter key="datamanagement" value="double_array"/>
         <parameter key="data_management" value="auto"/>
+      </operator>
+      <operator activated="true" class="python_scripting:execute_python" compatibility="9.3.001" expanded="true" height="103" name="visitTrentino format" width="90" x="179" y="646">
+        <parameter key="script" value="import pandas&#10;&#10;# rm_main is a mandatory function, &#10;# the number of arguments has to be the number of input ports (can be none)&#10;def rm_main(data):&#10;    print('Hello, world!')&#10;    # output can be found in Log View&#10;    print(type(data))&#10;&#10;    #your code goes here&#10;&#10;    #for example:&#10;    data2 = pandas.DataFrame([3,5,77,8])&#10;&#10;    # connect 2 output ports to see the results&#10;    return data, data2"/>
+        <parameter key="script_file" value="https://github.com/andreamatt/KDI/blob/master/scripts/format/visitTrentino_format.py"/>
+        <parameter key="notebook_cell_tag_filter" value=""/>
+        <parameter key="use_default_python" value="true"/>
+        <parameter key="package_manager" value="conda (anaconda)"/>
+      </operator>
+      <operator activated="true" class="python_scripting:execute_python" compatibility="9.3.001" expanded="true" height="103" name="visitTrentino" width="90" x="313" y="646">
+        <parameter key="script" value="import pandas as pd&#10;import json&#10;class eventObj:&#10;&#9;def __init__(self, title=&quot;&quot;, category=&quot;&quot;, subCategory=&quot;&quot;, date=&quot;&quot;, time=&quot;&quot;, locationName=&quot;&quot;, locationURL=&quot;&quot;,&#10;&#9;&#9;&#9;&#9; suitableFor=&quot;&quot;, source=&quot;&quot;, description=&quot;&quot;, other=&quot;&quot;, contact=&quot;&quot;, cost=&quot;&quot;, link=&quot;&quot;, subSubCategory=&quot;&quot;):&#10;&#9;&#9;self.source = source&#10;&#9;&#9;self.category = category&#10;&#9;&#9;self.subCategory = subCategory&#10;&#9;&#9;self.subSubCategory = subSubCategory&#10;&#9;&#9;self.suitableFor = suitableFor&#10;&#9;&#9;self.title = title&#10;&#9;&#9;self.date = date&#10;&#9;&#9;self.time = time&#10;&#9;&#9;self.locationName = locationName&#10;&#9;&#9;self.locationURL = locationURL&#10;&#9;&#9;self.description = description&#10;&#9;&#9;self.contact = contact&#10;&#9;&#9;self.cost = cost&#10;&#9;&#9;self.other = other&#10;&#9;&#9;self.link = link&#10;&#10;def rm_main(data):&#10;&#9;culturaEvents = []&#10;&#9;cultura = json.load(data)&#10;&#9;for day in cultura['result']['events']:&#10;&#9;&#9;for eventType in day['tipo_evento']:&#10;&#9;&#9;&#9;for event in eventType['events']:&#10;&#9;&#9;&#9;&#9;subSubCategory = &quot;&quot;&#10;&#9;&#9;&#9;&#9;for subType in event['tipo_evento']:&#10;&#9;&#9;&#9;&#9;&#9;if subType['name'] is not None:&#10;&#9;&#9;&#9;&#9;&#9;&#9;subSubCategory += subType['name'] + &quot;,&quot;&#10;&#9;&#9;&#9;&#9;if len(event['luogo_della_cultura']) == 0:&#10;&#9;&#9;&#9;&#9;&#9;event['luogo_della_cultura'].append({&#10;&#9;&#9;&#9;&#9;&#9;&#9;&quot;name&quot;: &quot;&quot;&#10;&#9;&#9;&#9;&#9;&#9;})&#10;&#9;&#9;&#9;&#9;culturaEvents.append(eventObj(&#10;&#9;&#9;&#9;&#9;&#9;&#9;source=&quot;cultura&quot;,&#10;&#9;&#9;&#9;&#9;&#9;&#9;category=&quot;Cultural&quot;,&#10;&#9;&#9;&#9;&#9;&#9;&#9;subCategory=eventType['name'],&#10;&#9;&#9;&#9;&#9;&#9;&#9;subSubCategory=subSubCategory,&#10;&#9;&#9;&#9;&#9;&#9;&#9;title=event['name'],&#10;&#9;&#9;&#9;&#9;&#9;&#9;link=event['href'],&#10;&#9;&#9;&#9;&#9;&#9;&#9;date=day['day']['identifier'],&#10;&#9;&#9;&#9;&#9;&#9;&#9;time=event['orario_svolgimento'],&#10;&#9;&#9;&#9;&#9;&#9;&#9;locationName=event['comune'][0]['name'] + &quot; --SELF-- &quot; + event['luogo_svolgimento'] + &quot; --SELF-- &quot; +&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9; event['luogo_della_cultura'][0]['name'],&#10;&#9;&#9;&#9;&#9;&#9;&#9;cost=event['costi'],&#10;&#9;&#9;&#9;&#9;&#9;&#9;contact=event['telefono'] + &quot; --SELF-- &quot; + event['email']&#10;&#9;&#9;&#9;&#9;))&#10;&#9;culturaEvents = [ob.__dict__ for ob in culturaEvents]&#10;&#9;js = json.dumps(culturaEvents)&#10;&#9;print(js)&#10;&#9;df = pd.DataFrame(culturaEvents)&#10;&#9;&#10;&#9;return df"/>
+        <parameter key="script_file" value="https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/structure/visitTrentino.py"/>
+        <parameter key="notebook_cell_tag_filter" value=""/>
+        <parameter key="use_default_python" value="true"/>
+        <parameter key="package_manager" value="conda (anaconda)"/>
+      </operator>
+      <operator activated="true" class="append" compatibility="9.5.001" expanded="true" height="208" name="Append" width="90" x="648" y="289">
+        <parameter key="datamanagement" value="double_array"/>
+        <parameter key="data_management" value="auto"/>
+        <parameter key="merge_type" value="all"/>
+      </operator>
+      <operator activated="true" class="generate_attributes" compatibility="9.5.001" expanded="true" height="82" name="Generate Attributes" width="90" x="849" y="34">
+        <list key="function_descriptions">
+          <parameter key="CAT" value="concat(category,&quot;--&quot;,subCategory)"/>
+        </list>
+        <parameter key="keep_all" value="true"/>
       </operator>
       <operator activated="true" class="replace_dictionary" compatibility="9.5.001" expanded="true" height="103" name="Replace (Dictionary)" width="90" x="983" y="34">
         <parameter key="return_preprocessing_model" value="false"/>
@@ -234,11 +223,12 @@
       <connect from_op="trentoToday PRE" from_port="output 1" to_op="trentoToday format" to_port="input 1"/>
       <connect from_op="trentoToday format" from_port="output 1" to_op="trentoToday" to_port="input 1"/>
       <connect from_op="trentoToday" from_port="output 1" to_op="Append" to_port="example set 6"/>
-      <connect from_op="visitTrentino PRE" from_port="output 1" to_op="visitTrentino" to_port="input 1"/>
+      <connect from_op="visitTrentino PRE" from_port="output 1" to_op="visitTrentino format" to_port="input 1"/>
+      <connect from_op="DICT" from_port="output" to_op="Replace (Dictionary)" to_port="dictionary"/>
+      <connect from_op="visitTrentino format" from_port="output 1" to_op="visitTrentino" to_port="input 1"/>
       <connect from_op="visitTrentino" from_port="output 1" to_op="Append" to_port="example set 7"/>
       <connect from_op="Append" from_port="merged set" to_op="Generate Attributes" to_port="example set input"/>
       <connect from_op="Generate Attributes" from_port="example set output" to_op="Replace (Dictionary)" to_port="example set input"/>
-      <connect from_op="DICT" from_port="output" to_op="Replace (Dictionary)" to_port="dictionary"/>
       <connect from_op="Replace (Dictionary)" from_port="example set output" to_op="Multiply" to_port="input"/>
       <connect from_op="Multiply" from_port="output 1" to_port="result 1"/>
       <connect from_op="Multiply" from_port="output 2" to_op="Write Excel" to_port="input"/>

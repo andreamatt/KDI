@@ -3,12 +3,13 @@ import re
 import requests
 
 def rm_main(JSONString):
-	url = 'https://raw.githubusercontent.com/andreamatt/KDI/master/dataset/visitTrentino.json'
-	obj = json.loads(requests.get(url).text)
-	#obj = json.loads(JSONString)
+	#url = 'https://raw.githubusercontent.com/andreamatt/KDI/master/dataset/visitTrentino.json'
+	#obj = json.loads(requests.get(url).text)
+	obj = json.loads(JSONString)
 	
 	known_times = {
-		'tutto il giorno': '00:00-23:59'
+		'tutto il giorno': '00:00-23:59',
+		'tutta la giornata': '00:00-23:59'
 	}
 	
 	events = []
@@ -27,7 +28,6 @@ def rm_main(JSONString):
 
 		new_time = ""
 		if 'time' in event:
-			print('time')
 			if event['time'] in known_times:
 				new_time = known_times[event['time']]
 			else:
@@ -38,8 +38,7 @@ def rm_main(JSONString):
 				elif len(times) == 2:
 					new_time = f'{times[0]}-{times[1]}'
 		event['time'] = new_time
-
 		events.append(event)
+	
 	return json.dumps(events)
 
-rm_main("{}")
