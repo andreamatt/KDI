@@ -24,9 +24,6 @@ class eventObj:
 		self.link = link.replace("\n", " ,")
 
 
-
-
-
 def rm_main(JSONString):
 	events = []
 	trentoTodayE = json.loads(JSONString)

@@ -234,8 +234,8 @@
       <connect from_op="trentoToday PRE" from_port="output 1" to_op="trentoToday format" to_port="input 1"/>
       <connect from_op="trentoToday format" from_port="output 1" to_op="trentoToday" to_port="input 1"/>
       <connect from_op="trentoToday" from_port="output 1" to_op="Append" to_port="example set 6"/>
-      <connect from_op="trentoToday" from_port="output 2" to_op="Append" to_port="example set 7"/>
       <connect from_op="visitTrentino PRE" from_port="output 1" to_op="visitTrentino" to_port="input 1"/>
+      <connect from_op="visitTrentino" from_port="output 1" to_op="Append" to_port="example set 7"/>
       <connect from_op="Append" from_port="merged set" to_op="Generate Attributes" to_port="example set input"/>
       <connect from_op="Generate Attributes" from_port="example set output" to_op="Replace (Dictionary)" to_port="example set input"/>
       <connect from_op="DICT" from_port="output" to_op="Replace (Dictionary)" to_port="dictionary"/>
