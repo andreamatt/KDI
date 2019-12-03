@@ -200,14 +200,14 @@
       <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="124" name="Multiply" width="90" x="916" y="34"/>
       <operator activated="true" class="python_scripting:execute_python" compatibility="9.3.001" expanded="true" height="103" name="Places" width="90" x="916" y="238">
         <parameter key="script" value="import pandas&#10;&#10;# rm_main is a mandatory function, &#10;# the number of arguments has to be the number of input ports (can be none)&#10;def rm_main(data):&#10;    print('Hello, world!')&#10;    # output can be found in Log View&#10;    print(type(data))&#10;&#10;    #your code goes here&#10;&#10;    #for example:&#10;    data2 = pandas.DataFrame([3,5,77,8])&#10;&#10;    # connect 2 output ports to see the results&#10;    return data, data2"/>
-        <parameter key="script_file" value="https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/location/google_places.py"/>
+        <parameter key="script_file" value="C:\Users\andre\Desktop\kdi\scraping\KDI\scripts\locations\google_places.py"/>
         <parameter key="notebook_cell_tag_filter" value=""/>
         <parameter key="use_default_python" value="true"/>
         <parameter key="package_manager" value="conda (anaconda)"/>
       </operator>
       <operator activated="true" class="python_scripting:execute_python" compatibility="9.3.001" expanded="true" height="103" name="Geocoding" width="90" x="1050" y="238">
         <parameter key="script" value="import pandas&#10;&#10;# rm_main is a mandatory function, &#10;# the number of arguments has to be the number of input ports (can be none)&#10;def rm_main(data):&#10;    print('Hello, world!')&#10;    # output can be found in Log View&#10;    print(type(data))&#10;&#10;    #your code goes here&#10;&#10;    #for example:&#10;    data2 = pandas.DataFrame([3,5,77,8])&#10;&#10;    # connect 2 output ports to see the results&#10;    return data, data2"/>
-        <parameter key="script_file" value="https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/location/geocoding.py"/>
+        <parameter key="script_file" value="C:\Users\andre\Desktop\kdi\scraping\KDI\scripts\locations\geocoding.py"/>
         <parameter key="notebook_cell_tag_filter" value=""/>
         <parameter key="use_default_python" value="true"/>
         <parameter key="package_manager" value="conda (anaconda)"/>
