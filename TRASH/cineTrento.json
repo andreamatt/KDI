@@ -1,0 +1,338 @@
+{
+ "movies": [
+  {
+   "title": "V.O. DOWNTON ABBEY",
+   "description": "Trama: The continuing story of the Crawley family, wealthy owners of a large estate in the English countryside in the early 20th century. MOVIE IN ENGLISH",
+   "genre": "Genere:",
+   "lenght": "Durata: 122",
+   "schedule": [
+    {
+     "day": "Martedì 29",
+     "location": "Trento - Multisala G. Modena",
+     "time": [
+      {
+       "hour": "19:30"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "PAVAROTTI",
+   "description": "Trama: La storia, la voce, i segreti e la leggenda del tenore Luciano Pavarotti e del suo incredibile percorso, da figlio di un fornaio a superstar internazionale capace di trasformare per sempre il mondo dell'opera. Firmato dal regista Premio Oscar® Ron Howard, il film è realizzato con filmati mai visti prima e immagini delle performance più iconiche del tenore che offrono un ritratto intimo ed emozionante dell'artista e dell'uomo, il più amato cantante d'opera di tutti i tempi con oltre 100 milioni di dischi venduti nel corso della sua carriera. FILM EVENTO: 12€ intero - 10€ ridotto",
+   "genre": "Genere:",
+   "lenght": "Durata: 115",
+   "schedule": [
+    {
+     "day": "Lunedì 28",
+     "location": "Trento - Multisala G. Modena",
+     "time": [
+      {
+       "hour": "19:40 FILM EVENTO"
+      }
+     ]
+    },
+    {
+     "day": "Martedì 29",
+     "location": "Trento - Multisala G. Modena",
+     "time": [
+      {
+       "hour": "17:20 FILM EVENTO"
+      },
+      {
+       "hour": "19:40 FILM EVENTO"
+      }
+     ]
+    },
+    {
+     "day": "Mercoledì 30",
+     "location": "Trento - Multisala G. Modena",
+     "time": [
+      {
+       "hour": "18:00 FILM EVENTO"
+      },
+      {
+       "hour": "21:00 FILM EVENTO"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "FINCHE' MORTE NON CI SEPARI (READY OR NOT)",
+   "description": "Trama: Grace, novella sposa, decide di rispettare una bizzarra tradizione della famiglia del neomarito Alex: la notte delle sue nozze, dovrà prendere parte a un gioco. Sfortunatamente, però, scoprirà che si tratta di una sorta di nascondino e che l’obiettivo è sacrificare un essere umano. Da qui, si troverà a lottare per la sua sopravvivenza fino all’alba.",
+   "genre": "Genere:",
+   "lenght": "Durata: 95",
+   "schedule": [
+    {
+     "day": "Lunedì 28",
+     "location": "Trento - Multisala G. Modena",
+     "time": [
+      {
+       "hour": "22:00"
+      }
+     ]
+    },
+    {
+     "day": "Martedì 29",
+     "location": "Trento - Multisala G. Modena",
+     "time": [
+      {
+       "hour": "22:00"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "SCARY STORIES TO TELL IN THE DARK",
+   "description": "Trama: La storia segue le vicende di un gruppo di teenager impegnati a risolvere il mistero che avvolge una serie di improvvise e macabre morti nella loro cittadina.",
+   "genre": "Genere:",
+   "lenght": "Durata: 108",
+   "schedule": [
+    {
+     "day": "Lunedì 28",
+     "location": "Trento - Multisala G. Modena",
+     "time": [
+      {
+       "hour": "17:15"
+      },
+      {
+       "hour": "22:00"
+      }
+     ]
+    },
+    {
+     "day": "Martedì 29",
+     "location": "Trento - Multisala G. Modena",
+     "time": [
+      {
+       "hour": "19:45"
+      },
+      {
+       "hour": "22:00"
+      }
+     ]
+    },
+    {
+     "day": "Mercoledì 30",
+     "location": "Trento - Multisala G. Modena",
+     "time": [
+      {
+       "hour": "18:00"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "VICINO ALL'ORIZZONTE (DEM HORIZONT SO NAH)",
+   "description": "Trama: Jessica ha 18 anni e un futuro promettente quando un giorno incontra Danny. Bello, affascinante e sicuro di sé, dietro una facciata apparentemente perfetta il ragazzo nasconde in realtà un doloroso segreto. Jessica capisce presto che il futuro che sogna con lui forse non arriverà mai, ma vuole credere fermamente in Danny e nella loro storia. Perché alla fine l'unica cosa che conta davvero non è quanto dura un amore ma quanto è profondo.",
+   "genre": "Genere:",
+   "lenght": "Durata: 109",
+   "schedule": [
+    {
+     "day": "Lunedì 28",
+     "location": "Trento - Multisala G. Modena",
+     "time": [
+      {
+       "hour": "17:15"
+      }
+     ]
+    },
+    {
+     "day": "Martedì 29",
+     "location": "Trento - Multisala G. Modena",
+     "time": [
+      {
+       "hour": "17:20"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "DOWNTON ABBEY",
+   "description": "Trama: Il film è basato sulla celebre omonima serie tv, ambientata nella immaginaria Downton Abbey, dimora signorile del conte e della contessa di Grantham, all'inizio del regno di Giorgio V. La serie si estende nei due anni precedenti la Grande Guerra, che inizia con la notizia del naufragio del Titanic, un evento che attiva gran parte della trama. Tutto sembra immobile, come se il modo di vivere dei Crawley potesse durare altri mille anni, ma non sarà così.",
+   "genre": "Genere:",
+   "lenght": "Durata: 122",
+   "schedule": [
+    {
+     "day": "Lunedì 28",
+     "location": "Trento - Multisala G. Modena",
+     "time": [
+      {
+       "hour": "17:15"
+      },
+      {
+       "hour": "19:30"
+      },
+      {
+       "hour": "22:00"
+      }
+     ]
+    },
+    {
+     "day": "Martedì 29",
+     "location": "Trento - Multisala G. Modena",
+     "time": [
+      {
+       "hour": "17:20"
+      },
+      {
+       "hour": "22:00"
+      }
+     ]
+    },
+    {
+     "day": "Mercoledì 30",
+     "location": "Trento - Multisala G. Modena",
+     "time": [
+      {
+       "hour": "18:00"
+      },
+      {
+       "hour": "21:00"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "V.O. MALEFICENT - SIGNORA DEL MALE (MALEFICENT - MISTRESS OF EVIL)",
+   "description": "Trama: Maleficent and her goddaughter Aurora begin to question the complex family ties that bind them as they are pulled in different directions by impending nuptials, unexpected allies, and dark new forces at play. MOVIE IN ENGLISH",
+   "genre": "Genere:",
+   "lenght": "Durata: 118",
+   "schedule": [
+    {
+     "day": "Lunedì 28",
+     "location": "Trento - Multisala G. Modena",
+     "time": [
+      {
+       "hour": "19:30"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "MALEFICENT - SIGNORA DEL MALE (MALEFICENT - MISTRESS OF EVIL)",
+   "description": "Trama: Il Principe chiede la mano ad Aurora che accetta, senza consultarsi con Malefica. Il matrimonio tra i due scatenerà tutta la sua gelosia, anche per via del rapporto della Regina Madre con la ragazza.",
+   "genre": "Genere:",
+   "lenght": "Durata: 118",
+   "schedule": [
+    {
+     "day": "Lunedì 28",
+     "location": "Trento - Supercinema Vittoria",
+     "time": [
+      {
+       "hour": "18:00"
+      },
+      {
+       "hour": "21:00"
+      }
+     ]
+    },
+    {
+     "day": "Martedì 29",
+     "location": "Trento - Supercinema Vittoria",
+     "time": [
+      {
+       "hour": "18:00"
+      },
+      {
+       "hour": "21:00"
+      }
+     ]
+    },
+    {
+     "day": "Mercoledì 30",
+     "location": "Trento - Supercinema Vittoria",
+     "time": [
+      {
+       "hour": "18:00"
+      },
+      {
+       "hour": "21:00"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "V.O. JOKER",
+   "description": "Trama: An original standalone origin story of the iconic villain not seen before on the big screen, it's a gritty character study of Arthur Fleck, a man disregarded by society, and a broader cautionary tale. MOVIE IN ENGLISH",
+   "genre": "Genere:",
+   "lenght": "Durata: 122",
+   "schedule": [
+    {
+     "day": "Mercoledì 30",
+     "location": "Trento - Cinema Teatro Nuovo Roma",
+     "time": [
+      {
+       "hour": "18:00"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "JOKER",
+   "description": "Trama: Arthur Fleck vive con l'anziana madre in un palazzone fatiscente e sbarca il lunario facendo pubblicità per la strada travestito da clown, in attesa di avere il giusto materiale per realizzare il desiderio di fare il comico. La sua vita, però, è una tragedia: ignorato, calpestato, bullizzato, preso in giro da da chiunque, ha sviluppato un tic nervoso che lo fa ridere a sproposito incontrollabilmente, rendendolo inquietante e allontanando ulteriormente da lui ogni possibile relazione sociale.",
+   "genre": "Genere:",
+   "lenght": "Durata: 122",
+   "schedule": [
+    {
+     "day": "Lunedì 28",
+     "location": "Trento - Cinema Teatro Nuovo Roma",
+     "time": [
+      {
+       "hour": "18:00"
+      },
+      {
+       "hour": "21:00"
+      }
+     ]
+    },
+    {
+     "day": "Martedì 29",
+     "location": "Trento - Cinema Teatro Nuovo Roma",
+     "time": [
+      {
+       "hour": "18:00"
+      },
+      {
+       "hour": "21:00"
+      }
+     ]
+    },
+    {
+     "day": "Mercoledì 30",
+     "location": "Trento - Cinema Teatro Nuovo Roma",
+     "time": [
+      {
+       "hour": "21:00"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "CERA UNA VOLTA A...HOLLYWOOD (ONCE UPON A TIME IN...HOLLYWOOD)",
+   "description": "Trama: Ambientato nella Los Angeles del 1969 in cui tutto sta cambiando, l’attore televisivo Rick Dalton e la sua storica controfigura Cliff Booth cercano di farsi strada in una Hollywood che ormai non riconoscono più.",
+   "genre": "Genere:",
+   "lenght": "Durata: 161",
+   "schedule": [
+    {
+     "day": "Mercoledì 30",
+     "location": "Trento - Multisala G. Modena",
+     "time": [
+      {
+       "hour": "21:00 LAST CALL"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
