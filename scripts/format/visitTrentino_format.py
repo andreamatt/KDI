@@ -3,9 +3,9 @@ import re
 import requests
 
 def rm_main(JSONString):
-	#url = 'https://raw.githubusercontent.com/andreamatt/KDI/master/dataset/trentoTodayE.json'
-	#obj = json.loads(requests.get(url).text)
-	obj = json.loads(JSONString)
+	url = 'https://raw.githubusercontent.com/andreamatt/KDI/master/dataset/visitTrentino.json'
+	obj = json.loads(requests.get(url).text)
+	#obj = json.loads(JSONString)
 	
 	known_times = {
 		'tutto il giorno': '00:00-23:59'
@@ -13,7 +13,12 @@ def rm_main(JSONString):
 	
 	events = []
 	for event in obj['events']:
+		# ATTENZIONE RIMUOVERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+		event['date'] = event['date'][len('Periodo\n'):]
+		# -------------------------------------------------------------------
+
 		if 'date' in event:
+			print(event['date'])
 			dates = re.findall(r'\d\d/\d\d/\d\d\d\d', event['date'])
 			if len(set(dates)) == 1:
 				event['date'] = dates[0]
@@ -38,3 +43,4 @@ def rm_main(JSONString):
 		events.append(event)
 	return json.dumps(events)
 
+rm_main("{}")

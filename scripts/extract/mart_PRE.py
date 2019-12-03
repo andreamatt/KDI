@@ -6,7 +6,7 @@ import re
 
 
 def rm_main():
-	url = 'http://194.32.77.99/KDI/dataset/mart.json'
+	url = 'https://raw.githubusercontent.com/andreamatt/KDI/master/dataset/mart.json'
 	mart = json.loads(requests.get(url).text)
 	for event in mart:
 		if "locationName" not in event:

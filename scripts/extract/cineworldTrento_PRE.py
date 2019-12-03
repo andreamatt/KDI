@@ -3,7 +3,7 @@ import requests
 
 
 def rm_main():
-    url = 'http://194.32.77.99/KDI/dataset/cineworldTrento.json'
+    url = 'https://raw.githubusercontent.com/andreamatt/KDI/master/dataset/cineworldTrento.json'
     obj = json.loads(requests.get(url).text)
     prices = "https://www.cineworldtrento.it/info-contatti-cinema-trento/"
     standardPrice = "8.50"

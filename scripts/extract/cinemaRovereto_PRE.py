@@ -4,7 +4,7 @@ import requests
 
 
 def rm_main():
-	url = 'http://194.32.77.99/KDI/dataset/cinemaRovereto.json'
+	url = 'https://raw.githubusercontent.com/andreamatt/KDI/master/dataset/cinemaRovereto.json'
 	obj = json.loads(requests.get(url).text)
 	obj['Location'] = "Piazza Rosmini 18/A. Rovereto (TN)"
 	obj['Contact'] = "0464 421216"

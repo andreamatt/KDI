@@ -32,8 +32,8 @@ def rm_main(JSONString):
 			continue
 		if 'fulldesc' not in event:
 			event['fulldesc'] = ""
-		if 'hours' not in event:
-			event['hours'] = ""
+		if 'times' not in event:
+			event['times'] = ""
 		if 'category' not in event:
 			event['category'] = ""
 		if 'sub_title' not in event:
@@ -47,8 +47,8 @@ def rm_main(JSONString):
 				category="Cultural",
 				subCategory=event['category'],
 				title=event['Title'],
-				date=event['dates'],
-				time=event['hours'],
+				date=event['date'],
+				time=event['times'],
 				link=event['link'],
 				locationName=event['location'],
 				description=event['fulldesc'],
