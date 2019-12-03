@@ -13,22 +13,21 @@ def rm_main(JSONString):
 	
 	events = []
 	for event in obj['events']:
-		# ATTENZIONE RIMUOVERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-		event['date'] = event['date'][len('Periodo\n'):]
-		# -------------------------------------------------------------------
 
 		if 'date' in event:
-			print(event['date'])
 			dates = re.findall(r'\d\d/\d\d/\d\d\d\d', event['date'])
 			if len(set(dates)) == 1:
 				event['date'] = dates[0]
-			else:
+			elif len(set(dates)) == 2:
 				event['date'] = f'{dates[0]}-{dates[1]}'
+			else:
+				event['date'] = ""
 		else:
 			event['date'] = ""
 
 		new_time = ""
 		if 'time' in event:
+			print('time')
 			if event['time'] in known_times:
 				new_time = known_times[event['time']]
 			else:
