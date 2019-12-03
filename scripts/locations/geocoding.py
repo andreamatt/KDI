@@ -2,7 +2,7 @@ from concurrent.futures import ThreadPoolExecutor as PoolExecutor
 import requests
 import json
 
-API_key = "AIzaSyB211Jj9rzG_io-a_DBNx_aaALMdOaNiug"
+API_KEY = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/location/api_key.txt').text
 MAX_WORKERS = 100
 
 locations = [
@@ -18,7 +18,7 @@ def geocode(name):
         return geocoded[name]
     
     url = f'https://maps.googleapis.com/maps/api/geocode'\
-    f'/json?key={API_key}&region=it&address={name}'
+    f'/json?key={API_KEY}&region=it&address={name}'
     
     response = requests.get(url)
 
