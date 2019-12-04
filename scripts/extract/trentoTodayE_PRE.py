@@ -25,7 +25,7 @@ cat_dict = {
 
 def get_category(cat):
 	for k, v in cat_dict.items():
-		if cat in v:
+		if k != general and cat in v:
 			return k
 	return general
 
