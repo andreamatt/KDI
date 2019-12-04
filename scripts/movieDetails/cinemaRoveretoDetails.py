@@ -131,6 +131,6 @@ def rm_main(JSONString):
             new_dict = parse(url)
             movieDict.update(new_dict)
 
-        outputArray.append(movieDict)
+        movie.append(movieDict)
 
     return json.dumps(obj)

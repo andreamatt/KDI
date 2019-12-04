@@ -26,11 +26,3 @@ def rm_main():
             elif item["location"] == "Trento - Supercinema Vittoria":
                 item.update({'location': item["location"] + addressVittoria})
     return json.dumps(obj)
-
-
-
-
-
-
-
-
