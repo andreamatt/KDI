@@ -15,9 +15,10 @@ def rm_main(JSONString):
 		if 'date' in event:
 			dates = re.findall(r'\d\d/\d\d/\d\d\d\d', event['date'])
 			if len(set(dates)) == 1:
-				event['date'] = dates[0]
-			else:
-				event['date'] = f'{dates[0]}-{dates[1]}'
+				event['startDate'] = event['endDate'] = dates[0]
+			elif len(set(dates)) == 2:
+				event['startDate'] = dates[0]
+				event['endDate'] = dates[1]
 		else:
 			event['date'] = ""
 

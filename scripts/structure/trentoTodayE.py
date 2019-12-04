@@ -86,11 +86,20 @@ exec(constants_txt)
 
 
 def rm_main(JSONString):
-	events = []
 	trentoTodayE = json.loads(JSONString)
+	events = {}
+
 	for e in trentoTodayE:
 		gen = GeneralEvent(e['Title'], e['price'], e['description'], e['Link'], '', '', '', e['location'])
+		time = Time(e['startDate'], e['endDate'], e['startTime'], e['endTime'])
+		event = {**gen, **time}
 
-	events = [ob.__dict__ for ob in events]
-	df = pd.DataFrame(events)
-	return df
+		if e['category'] not in events:
+			events[e['category']] = []
+		events[e['category']].append(event)
+
+	#events = [ob.__dict__ for ob in events]
+	#df = pd.DataFrame(events)
+	#return df
+
+	return json.dumps(events)
