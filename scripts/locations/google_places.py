@@ -127,11 +127,11 @@ def place_details_ALL():
 			pass
 
 
-def rm_main(events):
+def rm_main(locations):
+	#locations = [loc for loc in list(events.loc[:, "locationName"]) if str(loc) != 'nan']
 
 	facilities = []
 
-	locations = [loc for loc in list(events.loc[:, "locationName"]) if str(loc) != 'nan']
 	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/locations.json', 'w') as outfile:
 		#outfile.write(f'{loc},\n')
 		json.dump(locations, outfile, indent='\t')

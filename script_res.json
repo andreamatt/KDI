@@ -1,1034 +1,19 @@
 [
 	{
-		"searched": "Piazza Rosmini 18/A. Rovereto (TN)",
+		"searched": "Via del Suffragio; Via del Suffragio",
 		"facility": "",
 		"geocoordinates": {
-			"latitude": 45.8904808,
-			"longitude": 11.0433908,
+			"latitude": 46.0710383,
+			"longitude": 11.1248052,
 			"altitude": "",
-			"address": "Piazza Antonio Rosmini, 18, 38068 Rovereto TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38068"
-		}
-	},
-	{
-		"searched": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
-		"facility": {
-			"name": "Cinema Teatro Nuovo Roma",
-			"telephone": "0461 261819",
-			"website": "http://www.cineworldtrento.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0614157,
-			"longitude": 11.1248262,
-			"altitude": "",
-			"address": "Corso 3 Novembre 1918, 35, 38122 Trento TN",
+			"address": "Via del Suffragio, 38122 Trento TN",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
 			"postalCode": "38122"
 		}
 	},
 	{
-		"searched": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
-		"facility": {
-			"name": "Supercinema Vittoria",
-			"telephone": "0461 261819",
-			"website": "http://www.cineworldtrento.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.06987820000001,
-			"longitude": 11.1240854,
-			"altitude": "",
-			"address": "Via Giannantonio Manci, 72, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-		"facility": {
-			"name": "Multiplex G. Modena",
-			"telephone": "0461 261819",
-			"website": "http://www.cineworldtrento.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.06688049999999,
-			"longitude": 11.1255992,
-			"altitude": "",
-			"address": "Viale S. Francesco d'Assisi, 6, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Trento --SELF--  --SELF-- Palazzo Trentini",
-		"facility": {
-			"name": "palazzo Trentini",
-			"telephone": "",
-			"website": "",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0700733,
-			"longitude": 11.1230885,
-			"altitude": "",
-			"address": "Via Giannantonio Manci, 27, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Trento --SELF--  --SELF-- Muse - Science Museum - Trento",
-		"facility": {
-			"name": "MUSE",
-			"telephone": "0461 270311",
-			"website": "https://www.muse.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0626048,
-			"longitude": 11.1145374,
-			"altitude": "",
-			"address": "Corso del Lavoro e della Scienza, 3, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38121"
-		}
-	},
-	{
-		"searched": "Trento --SELF--  --SELF-- Sanb\u00e0polis theatre",
-		"facility": {
-			"name": "Teatro Sanb\u00e0Polis",
-			"telephone": "",
-			"website": "",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0456605,
-			"longitude": 11.1330785,
-			"altitude": "",
-			"address": "Via della Malpensada, 82, 38123 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38123"
-		}
-	},
-	{
-		"searched": "Trento --SELF--  --SELF-- Social Theatre",
-		"facility": {
-			"name": "Social Theatre",
-			"telephone": "0461 213862",
-			"website": "http://www.centrosantachiara.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.06939060000001,
-			"longitude": 11.1225996,
-			"altitude": "",
-			"address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Trento --SELF--  --SELF-- Cuminetti Theatre",
-		"facility": {
-			"name": "Social Theatre",
-			"telephone": "0461 213862",
-			"website": "http://www.centrosantachiara.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.06939060000001,
-			"longitude": 11.1225996,
-			"altitude": "",
-			"address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Teatro Sanbapolis ,Via della Malpensada",
-		"facility": {
-			"name": "Teatro Sanb\u00e0Polis",
-			"telephone": "",
-			"website": "",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0456605,
-			"longitude": 11.1330785,
-			"altitude": "",
-			"address": "Via della Malpensada, 82, 38123 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38123"
-		}
-	},
-	{
-		"searched": "Trento --SELF-- Chiesa di San Francesco Saverio --SELF-- ",
-		"facility": {
-			"name": "San Francesco Saverio",
-			"telephone": "0461 980132",
-			"website": "",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.069896,
-			"longitude": 11.1211644,
-			"altitude": "",
-			"address": "Via Roma, 57, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Avio --SELF--  --SELF-- Avio castle",
-		"facility": {
-			"name": "FAI - Castello di Avio",
-			"telephone": "0464 684453",
-			"website": "http://www.castellodiavio.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 45.7468494,
-			"longitude": 10.9518518,
-			"altitude": "",
-			"address": "Via al Castello, 38063 Sabbionara, Avio TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38063"
-		}
-	},
-	{
-		"searched": "Riva del Garda --SELF--  --SELF-- Mag Alto Garda museum ",
-		"facility": {
-			"name": "MAG Museo Alto Garda",
-			"telephone": "0464 573869",
-			"website": "http://www.museoaltogarda.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 45.88436400000001,
-			"longitude": 10.8423169,
-			"altitude": "",
-			"address": "Piazza Cesare Battisti, 3/A, 38066 Riva del Garda TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38066"
-		}
-	},
-	{
-		"searched": "Muse",
-		"facility": {
-			"name": "MUSE",
-			"telephone": "0461 270311",
-			"website": "https://www.muse.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0626048,
-			"longitude": 11.1145374,
-			"altitude": "",
-			"address": "Corso del Lavoro e della Scienza, 3, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38121"
-		}
-	},
-	{
-		"searched": "Muse, Trento",
-		"facility": {
-			"name": "MUSE",
-			"telephone": "0461 270311",
-			"website": "https://www.muse.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0626048,
-			"longitude": 11.1145374,
-			"altitude": "",
-			"address": "Corso del Lavoro e della Scienza, 3, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38121"
-		}
-	},
-	{
-		"searched": "Attivit\u00e0 sul territorio",
-		"facility": {
-			"name": "MUSE",
-			"telephone": "0461 270311",
-			"website": "https://www.muse.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0626048,
-			"longitude": 11.1145374,
-			"altitude": "",
-			"address": "Corso del Lavoro e della Scienza, 3, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38121"
-		}
-	},
-	{
-		"searched": "Trento --SELF--  --SELF-- Sala Sosat",
-		"facility": {
-			"name": "Ristorante Self Glenda",
-			"telephone": "0461 822160",
-			"website": "http://www.risto3.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0943305,
-			"longitude": 11.1162386,
-			"altitude": "",
-			"address": "Via Giovanni Battista Trener, 16, 38121 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38121"
-		}
-	},
-	{
-		"searched": "Piazza Fiera ,Piazza di Fiera",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.06499039999999,
-			"longitude": 11.1247026,
-			"altitude": "",
-			"address": "Piazza di Fiera, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Trento --SELF--  --SELF-- Buonconsiglio Castle",
-		"facility": {
-			"name": "Buonconsiglio Castle Museum",
-			"telephone": "0461 233770",
-			"website": "http://www.buonconsiglio.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.07154999999999,
-			"longitude": 11.126608,
-			"altitude": "",
-			"address": "Via Bernardo Clesio, 5, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Castello del Buonconsiglio ,Via Bernardo Clesio",
-		"facility": {
-			"name": "Buonconsiglio Castle Museum",
-			"telephone": "0461 233770",
-			"website": "http://www.buonconsiglio.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.07154999999999,
-			"longitude": 11.126608,
-			"altitude": "",
-			"address": "Via Bernardo Clesio, 5, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Mart, sale espositive",
-		"facility": {
-			"name": "Museum of Modern and Contemporary Art of Trento and Rovereto",
-			"telephone": "0464 438887",
-			"website": "http://www.mart.trento.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 45.8939992,
-			"longitude": 11.0446889,
-			"altitude": "",
-			"address": "Corso Angelo Bettini, 43, 38068 Rovereto TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38068"
-		}
-	},
-	{
-		"searched": "Mart, Area educazione",
-		"facility": {
-			"name": "Museum of Modern and Contemporary Art of Trento and Rovereto",
-			"telephone": "0464 438887",
-			"website": "http://www.mart.trento.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 45.8939992,
-			"longitude": 11.0446889,
-			"altitude": "",
-			"address": "Corso Angelo Bettini, 43, 38068 Rovereto TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38068"
-		}
-	},
-	{
-		"searched": "Mart, Sale espositive",
-		"facility": {
-			"name": "Museum of Modern and Contemporary Art of Trento and Rovereto",
-			"telephone": "0464 438887",
-			"website": "http://www.mart.trento.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 45.8939992,
-			"longitude": 11.0446889,
-			"altitude": "",
-			"address": "Corso Angelo Bettini, 43, 38068 Rovereto TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38068"
-		}
-	},
-	{
-		"searched": "Borgo Valsugana --SELF--  --SELF-- Arte Sella",
-		"facility": {
-			"name": "Arte Sella",
-			"telephone": "0461 751251",
-			"website": "http://www.artesella.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.002799,
-			"longitude": 11.369018,
-			"altitude": "",
-			"address": "Malga Costa, 38051 Borgo Valsugana TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38051"
-		}
-	},
-	{
-		"searched": "Piazza Santa Maria Maggiore ,Piazza Santa Maria Maggiore",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.068487,
-			"longitude": 11.1188283,
-			"altitude": "",
-			"address": "Piazza Santa Maria Maggiore, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Bookique ,Via Torre D'Augusto",
-		"facility": {
-			"name": "Bookique",
-			"telephone": "342 701 1498",
-			"website": "https://bookique.net/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0730057,
-			"longitude": 11.1264776,
-			"altitude": "",
-			"address": "Via Torre D'Augusto, 29, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Rovereto --SELF--  --SELF-- Mart - Museum of Modern and Contemporary Art of Rovereto - Rovereto",
-		"facility": {
-			"name": "Museum of Modern and Contemporary Art of Trento and Rovereto",
-			"telephone": "0464 438887",
-			"website": "http://www.mart.trento.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 45.8939992,
-			"longitude": 11.0446889,
-			"altitude": "",
-			"address": "Corso Angelo Bettini, 43, 38068 Rovereto TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38068"
-		}
-	},
-	{
-		"searched": "Mart, Rovereto",
-		"facility": {
-			"name": "Museum of Modern and Contemporary Art of Trento and Rovereto",
-			"telephone": "0464 438887",
-			"website": "http://www.mart.trento.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 45.8939992,
-			"longitude": 11.0446889,
-			"altitude": "",
-			"address": "Corso Angelo Bettini, 43, 38068 Rovereto TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38068"
-		}
-	},
-	{
-		"searched": "None",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 44.9334927,
-			"longitude": 7.540749399999998,
-			"altitude": "",
-			"address": "10060 None, Metropolitan City of Turin",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "10060"
-		}
-	},
-	{
-		"searched": "Circolo ACLI GARDOLO ,Via Laurence Feininger, 4",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.1080128,
-			"longitude": 11.1115948,
-			"altitude": "",
-			"address": "Via Laurence Feininger, 4, 38121 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38121"
-		}
-	},
-	{
-		"searched": "Museo Geologico delle Dolomiti di Predazzo",
-		"facility": {
-			"name": "Geological Museum of the Dolomites Predazzo",
-			"telephone": "0462 500366",
-			"website": "http://www2.muse.it/museogeologico/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.31214229999999,
-			"longitude": 11.6035392,
-			"altitude": "",
-			"address": "Piazza SS. Filippo e Giacomo, 2, 38037 Predazzo TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38037"
-		}
-	},
-	{
-		"searched": "Castello di Avio ,via al castello ,Avio",
-		"facility": {
-			"name": "FAI - Castello di Avio",
-			"telephone": "0464 684453",
-			"website": "http://www.castellodiavio.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 45.7468494,
-			"longitude": 10.9518518,
-			"altitude": "",
-			"address": "Via al Castello, 38063 Sabbionara, Avio TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38063"
-		}
-	},
-	{
-		"searched": "Mart - Museo di Arte Moderna e Contemporanea ,Corso Bettini ,Rovereto",
-		"facility": {
-			"name": "Museum of Modern and Contemporary Art of Trento and Rovereto",
-			"telephone": "0464 438887",
-			"website": "http://www.mart.trento.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 45.8939992,
-			"longitude": 11.0446889,
-			"altitude": "",
-			"address": "Corso Angelo Bettini, 43, 38068 Rovereto TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38068"
-		}
-	},
-	{
-		"searched": "Distilleria Marzadro ,Strada Provinciale 90 ,Isera",
-		"facility": {
-			"name": "Distilleria Marzadro",
-			"telephone": "0464 304555",
-			"website": "https://www.marzadro.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 45.9089878,
-			"longitude": 11.0281386,
-			"altitude": "",
-			"address": "Via per Brancolino, 10, 38060 Nogaredo TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38060"
-		}
-	},
-	{
-		"searched": "centro storico ,Piaz de Ramon ,Moena",
-		"facility": {
-			"name": "Apartments Moena - Living 2000",
-			"telephone": "0462 573193",
-			"website": "http://www.moena-appartamenti.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.37617900000001,
-			"longitude": 11.660669,
-			"altitude": "",
-			"address": "Piaz de Ramon, 59, 38035 Moena TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38035"
-		}
-	},
-	{
-		"searched": "EIT Digital Italy Co-Location Centre ,Via Sommarive, 18",
-		"facility": {
-			"name": "EIT Digital Italy",
-			"telephone": "0461 314045",
-			"website": "https://www.eitdigital.eu/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0677984,
-			"longitude": 11.151339,
-			"altitude": "",
-			"address": "1st floor Northern Building, Via Sommarive, 18, 38123 Povo TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38123"
-		}
-	},
-	{
-		"searched": "Bugs ,Largo Giosu\u00e8 Carducci",
-		"facility": {
-			"name": "Bugs Trento",
-			"telephone": "",
-			"website": "http://facebook.com/bugstrento",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.06845670000001,
-			"longitude": 11.1252337,
-			"altitude": "",
-			"address": "Largo Giosu\u00e8 Carducci, 51, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Piedicastello ,Via D\u00f2s Trento",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.0716484,
-			"longitude": 11.1149877,
-			"altitude": "",
-			"address": "Vicolo di Piedicastello & Via D\u00f2s Trento, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38121"
-		}
-	},
-	{
-		"searched": "Le Gallerie Piedicastello ,Via D\u00f2s Trento",
-		"facility": {
-			"name": "The Piedicastello Tunnel",
-			"telephone": "0461 174 7000",
-			"website": "http://fondazione.museostorico.it/index.php/Luoghi/I-luoghi-della-Fondazione/Le-Gallerie",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.071672,
-			"longitude": 11.1136268,
-			"altitude": "",
-			"address": "Piazza di Piedicastello, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Centro Storico ,Indirizzo non disponibile ,Pergine Valsugana",
-		"facility": {
-			"name": "Castel Pergine",
-			"telephone": "0461 531158",
-			"website": "http://www.castelpergine.it/it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.05919919999999,
-			"longitude": 11.249821,
-			"altitude": "",
-			"address": "Via al Castello, 10, 38057 Pergine Valsugana TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38057"
-		}
-	},
-	{
-		"searched": "centro storico ,Via Andrea Maffei ,Riva del Garda",
-		"facility": {
-			"name": "Liceo Andrea Maffei",
-			"telephone": "0464 553511",
-			"website": "http://e.liceomaffei.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 45.887436,
-			"longitude": 10.844791,
-			"altitude": "",
-			"address": "Viale Lutti Alberti, 7, 38066 Riva del Garda TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38066"
-		}
-	},
-	{
-		"searched": "Teatro Sociale ,Via Oss Mazzurana",
-		"facility": {
-			"name": "Social Theatre",
-			"telephone": "0461 213862",
-			"website": "http://www.centrosantachiara.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.06939060000001,
-			"longitude": 11.1225996,
-			"altitude": "",
-			"address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Giardino dei Ciucioi ,Piazza Venezia, 2 ,Lavarone",
-		"facility": {
-			"name": "Giardino dei Ciucioi",
-			"telephone": "327 766 0813",
-			"website": "http://www.ecoargentario.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.1387805,
-			"longitude": 11.1179099,
-			"altitude": "",
-			"address": "Vicolo dei Ciucioi, 38015 Lavis TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38015"
-		}
-	},
-	{
-		"searched": "centro storico ,Via Dante Alighieri ,Tenno",
-		"facility": {
-			"name": "Comune di Tenno",
-			"telephone": "0464 500624",
-			"website": "http://www.comune.tenno.tn.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 45.92024029999999,
-			"longitude": 10.8324822,
-			"altitude": "",
-			"address": "Via Dante Alighieri, 18, 38060 Tenno TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38060"
-		}
-	},
-	{
-		"searched": "Teatro San Marco ,Via San Bernardino",
-		"facility": {
-			"name": "Teatro San Marco",
-			"telephone": "0461 233522",
-			"website": "https://www.teatrosanmarco.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0638188,
-			"longitude": 11.1287118,
-			"altitude": "",
-			"address": "Via S. Bernardino, 10, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "parrocchia di Madonna Bianca ,Via Angelo Bettini, 11",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.0415587,
-			"longitude": 11.1329949,
-			"altitude": "",
-			"address": "Via Angelo Bettini, 11, 38123 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38123"
-		}
-	},
-	{
-		"searched": "Centro Storico ,Strada de Meida ,Pozza di Fassa",
-		"facility": {
-			"name": "Hotel Meida - Pozza di Fassa",
-			"telephone": "0462 764283",
-			"website": "http://www.hotelmeida.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.4300636,
-			"longitude": 11.6915665,
-			"altitude": "",
-			"address": "strada de Meida, 67, 38036 Pozza di Fassa TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38036"
-		}
-	},
-	{
-		"searched": "Centro Storico ,Piazza Gavazzi ,Pergine Valsugana",
-		"facility": {
-			"name": "City of Pergine Valsugana",
-			"telephone": "0461 502111",
-			"website": "http://www.comune.pergine.tn.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.060537,
-			"longitude": 11.2406332,
-			"altitude": "",
-			"address": "Piazza Municipio, 7, 38057 Pergine Valsugana TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38057"
-		}
-	},
-	{
-		"searched": "Arco",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.9268706,
-			"longitude": 10.9097607,
-			"altitude": "",
-			"address": "38062 Arco, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38062"
-		}
-	},
-	{
-		"searched": "centro storico ,Indirizzo non disponibile ,Cavalese",
-		"facility": {
-			"name": "Hotel Garni Laurino",
-			"telephone": "0462 340151",
-			"website": "http://www.hotelgarnilaurino.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.2896974,
-			"longitude": 11.4600364,
-			"altitude": "",
-			"address": "Via Antoniazzi, 14, 38033 Cavalese TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38033"
-		}
-	},
-	{
-		"searched": "Teatro di Meano ,Via delle Sugarine, 22",
+		"searched": "Teatro di Meano; Via delle Sugarine, 22",
 		"facility": {
 			"name": "Teatro di Meano",
 			"telephone": "0461 534321",
@@ -1050,191 +35,7 @@
 		}
 	},
 	{
-		"searched": "Teatro Portland ,Via Papiria, 8",
-		"facility": {
-			"name": "Teatro Portland",
-			"telephone": "0461 924470",
-			"website": "http://www.teatroportland.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0701296,
-			"longitude": 11.1117611,
-			"altitude": "",
-			"address": "Via Papiria, 8, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38121"
-		}
-	},
-	{
-		"searched": "Trentino-Alto Adige, Italy ,Piazza di San Vigilio ,Calavino",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.0688273,
-			"longitude": 10.9824757,
-			"altitude": "",
-			"address": "Piazza di S. Vigilio, 38070 Santa Massenza TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38070"
-		}
-	},
-	{
-		"searched": "Palazzo delle Albere ,Via Roberto da Sanseverino",
-		"facility": {
-			"name": "Albere Palace",
-			"telephone": "0461 496914",
-			"website": "https://www.cultura.trentino.it/Luoghi/Tutti-i-luoghi-della-cultura/Palazzi-storici/Palazzo-delle-Albere",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0631566,
-			"longitude": 11.1137877,
-			"altitude": "",
-			"address": "Via Roberto da Sanseverino, 43, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38121"
-		}
-	},
-	{
-		"searched": "Chiese della citt\u00e0 ,Piazza Santa Maria Maggiore",
-		"facility": {
-			"name": "Santa Maria Maggiore, Trento",
-			"telephone": "0461 230037",
-			"website": "http://www.comune.trento.it/Aree-tematiche/Turismo/Visitare/Chiese/Basilica-di-Santa-Maria-Maggiore",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0686385,
-			"longitude": 11.1194609,
-			"altitude": "",
-			"address": "Vicolo delle Orsoline, 1, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Cinema Comunale di Ossana ,Via Bartolomeo Bezzi, 12 ,Ossana",
-		"facility": {
-			"name": "Biblioteca - Teatro Comunali",
-			"telephone": "0463 752013",
-			"website": "http://www.bibliotechevaldisole.it/biblioteche",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.3091923,
-			"longitude": 10.7312179,
-			"altitude": "",
-			"address": "Via Bartolomeo Bezzi, 0, 38026 Ossana TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38026"
-		}
-	},
-	{
-		"searched": "Riva del Garda",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.88919839999999,
-			"longitude": 10.8430696,
-			"altitude": "",
-			"address": "38066 Riva del Garda, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38066"
-		}
-	},
-	{
-		"searched": "Torbole sul Garda - Nago",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.87782430000001,
-			"longitude": 10.8908516,
-			"altitude": "",
-			"address": "38069 Nago\u2013Torbole, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38069"
-		}
-	},
-	{
-		"searched": "Vezzano",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.0802175,
-			"longitude": 11.0014092,
-			"altitude": "",
-			"address": "38070 Vezzano, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38070"
-		}
-	},
-	{
-		"searched": "centro storico ,Corso Bettini ,Rovereto",
-		"facility": {
-			"name": "Consorzio Rovereto In Centro",
-			"telephone": "0464 424047",
-			"website": "http://www.roveretoincentro.com/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 45.8927082,
-			"longitude": 11.0436527,
-			"altitude": "",
-			"address": "Corso Angelo, Corso Bettini, 64, 38068 Rovereto TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38068"
-		}
-	},
-	{
-		"searched": "Teatro comunale di Pergine Valsugana ,Piazza Garibaldi, 5g ,Pergine Valsugana",
-		"facility": {
-			"name": "Teatro Comunale di Pergine",
-			"telephone": "0461 534321",
-			"website": "http://www.teatrodipergine.it/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0622777,
-			"longitude": 11.2390965,
-			"altitude": "",
-			"address": "Piazza Garibaldi, 5G, 38057 Pergine Valsugana TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38057"
-		}
-	},
-	{
-		"searched": "Centro di meditazione Kushi Ling ,Via Alle Fontane, Loc. Laghel 44 ,Arco",
+		"searched": "Centro di meditazione Kushi Ling; Via Alle Fontane, Loc. Laghel 44; Arco",
 		"facility": {
 			"name": "Kushi Ling",
 			"telephone": "",
@@ -1256,42 +57,291 @@
 		}
 	},
 	{
-		"searched": "Marilleva",
+		"searched": "Arco, Drena, Dro ...",
 		"facility": "",
 		"geocoordinates": {
-			"latitude": 46.298827,
-			"longitude": 10.811343,
+			"latitude": 45.9708209,
+			"longitude": 10.9456656,
 			"altitude": "",
-			"address": "38020 Marilleva, Province of Trento",
+			"address": "38074 Drena, Province of Trento",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38020"
+			"postalCode": "38074"
 		}
 	},
 	{
-		"searched": "Rovereto",
+		"searched": "Bosentino",
 		"facility": "",
 		"geocoordinates": {
-			"latitude": 45.89096,
-			"longitude": 11.0401399,
+			"latitude": 46.0023334,
+			"longitude": 11.2247758,
 			"altitude": "",
-			"address": "38068 Rovereto, Province of Trento",
+			"address": "38049 Bosentino, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38049"
+		}
+	},
+	{
+		"searched": "Trentino-Alto Adige, Italy; Piazza di San Vigilio; Calavino",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.0688273,
+			"longitude": 10.9824757,
+			"altitude": "",
+			"address": "Piazza di S. Vigilio, 38070 Santa Massenza TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38070"
+		}
+	},
+	{
+		"searched": "Mori",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 45.8513894,
+			"longitude": 10.9787861,
+			"altitude": "",
+			"address": "38065 Mori, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38065"
+		}
+	},
+	{
+		"searched": "Ziano di Fiemme",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.2865642,
+			"longitude": 11.5592481,
+			"altitude": "",
+			"address": "38030 Ziano di Fiemme, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38030"
+		}
+	},
+	{
+		"searched": "Campitello di Fassa, Canazei, Mazzin ...",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.4573084,
+			"longitude": 11.6996124,
+			"altitude": "",
+			"address": "38030 Mazzin, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38030"
+		}
+	},
+	{
+		"searched": "Le Gallerie Piedicastello; Via D\u00f2s Trento",
+		"facility": {
+			"name": "The Piedicastello Tunnel",
+			"telephone": "0461 174 7000",
+			"website": "http://fondazione.museostorico.it/index.php/Luoghi/I-luoghi-della-Fondazione/Le-Gallerie",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.071672,
+			"longitude": 11.1136268,
+			"altitude": "",
+			"address": "Piazza di Piedicastello, 38122 Trento TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38122"
+		}
+	},
+	{
+		"searched": "Quartiere Le Albere; Via Roberto da Sanseverino",
+		"facility": {
+			"name": "Albere Palace",
+			"telephone": "0461 496914",
+			"website": "https://www.cultura.trentino.it/Luoghi/Tutti-i-luoghi-della-cultura/Palazzi-storici/Palazzo-delle-Albere",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.0631566,
+			"longitude": 11.1137877,
+			"altitude": "",
+			"address": "Via Roberto da Sanseverino, 43, 38122 Trento TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38121"
+		}
+	},
+	{
+		"searched": "Piedicastello; Via D\u00f2s Trento",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.0716484,
+			"longitude": 11.1149877,
+			"altitude": "",
+			"address": "Vicolo di Piedicastello & Via D\u00f2s Trento, 38122 Trento TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38121"
+		}
+	},
+	{
+		"searched": "Folgaria",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 45.9096785,
+			"longitude": 11.1845902,
+			"altitude": "",
+			"address": "38064 Folgaria, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38064"
+		}
+	},
+	{
+		"searched": "Campitello di Fassa",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.4907862,
+			"longitude": 11.7123873,
+			"altitude": "",
+			"address": "38031 Campitello di Fassa, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38031"
+		}
+	},
+	{
+		"searched": "Mart - Museo di Arte Moderna e Contemporanea; Corso Bettini; Rovereto",
+		"facility": {
+			"name": "Museum of Modern and Contemporary Art of Trento and Rovereto",
+			"telephone": "0464 438887",
+			"website": "http://www.mart.trento.it/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 45.8939992,
+			"longitude": 11.0446889,
+			"altitude": "",
+			"address": "Corso Angelo Bettini, 43, 38068 Rovereto TN",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
 			"postalCode": "38068"
 		}
 	},
 	{
-		"searched": "Moena",
+		"searched": "Varena",
 		"facility": "",
 		"geocoordinates": {
-			"latitude": 46.37642,
-			"longitude": 11.6615999,
+			"latitude": 46.30530900000001,
+			"longitude": 11.4579089,
 			"altitude": "",
-			"address": "38035 Moena, Province of Trento",
+			"address": "38030 Varena, Trentino, Province of Trento",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38035"
+			"postalCode": "38030"
+		}
+	},
+	{
+		"searched": "Teatro Sanbapolis; Via della Malpensada",
+		"facility": {
+			"name": "Teatro Sanb\u00e0Polis",
+			"telephone": "",
+			"website": "",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.0456605,
+			"longitude": 11.1330785,
+			"altitude": "",
+			"address": "Via della Malpensada, 82, 38123 Trento TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38123"
+		}
+	},
+	{
+		"searched": "Teatro Portland; Via Papiria, 8",
+		"facility": {
+			"name": "Teatro Portland",
+			"telephone": "0461 924470",
+			"website": "http://www.teatroportland.it/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.0701296,
+			"longitude": 11.1117611,
+			"altitude": "",
+			"address": "Via Papiria, 8, 38122 Trento TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38121"
+		}
+	},
+	{
+		"searched": "Canazei, Moena, Vigo di Fassa",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.42086339999999,
+			"longitude": 11.6748775,
+			"altitude": "",
+			"address": "38039 Vigo di Fassa, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38039"
+		}
+	},
+	{
+		"searched": "Baselga di Pine'",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.1243042,
+			"longitude": 11.2574845,
+			"altitude": "",
+			"address": "38042 Baselga di Pin\u00e8, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38042"
+		}
+	},
+	{
+		"searched": "Sala della circoscrizione di Sardagna; Localita' Sardagna",
+		"facility": {
+			"name": "Comune Di Trento Comune Di Trento Circoscrizione Di Sardagna",
+			"telephone": "0461 889770",
+			"website": "",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.06323520000001,
+			"longitude": 11.0971739,
+			"altitude": "",
+			"address": "Via Gerolamo Bucelleni, 10, 38123 Sardagna TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38123"
 		}
 	},
 	{
@@ -1308,16 +358,29 @@
 		}
 	},
 	{
-		"searched": "San Martino di Castrozza",
+		"searched": "Vigo di Fassa",
 		"facility": "",
 		"geocoordinates": {
-			"latitude": 46.26176419999999,
-			"longitude": 11.8002183,
+			"latitude": 46.42086339999999,
+			"longitude": 11.6748775,
 			"altitude": "",
-			"address": "38054 San Martino di Castrozza, Province of Trento",
+			"address": "38039 Vigo di Fassa, Province of Trento",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38054"
+			"postalCode": "38039"
+		}
+	},
+	{
+		"searched": "Villa Lagarina, Nomi, Pomarolo",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 45.9296906,
+			"longitude": 11.067229,
+			"altitude": "",
+			"address": "38060 Nomi, Trentino, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38060"
 		}
 	},
 	{
@@ -1334,24 +397,11 @@
 		}
 	},
 	{
-		"searched": "Rovereto, Terragnolo",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.89096,
-			"longitude": 11.0401399,
-			"altitude": "",
-			"address": "38068 Rovereto, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38068"
-		}
-	},
-	{
-		"searched": "Castellano ,via al castello ,Villa Lagarina",
+		"searched": "centro storico; Piaz de Ramon; Moena",
 		"facility": {
-			"name": "Castle of Castellano",
-			"telephone": "349 711 9977",
-			"website": "https://www.visitrovereto.it/scopri/castelli/castello-di-castellano/",
+			"name": "Apartments Moena - Living 2000",
+			"telephone": "0462 573193",
+			"website": "http://www.moena-appartamenti.it/",
 			"mail": "No email from google to avoid spamming",
 			"hasParking": "",
 			"animalsAllowed": "",
@@ -1359,209 +409,314 @@
 			"isIndoor": ""
 		},
 		"geocoordinates": {
-			"latitude": 45.9211919,
-			"longitude": 11.0064004,
+			"latitude": 46.37617900000001,
+			"longitude": 11.660669,
 			"altitude": "",
-			"address": "Viale Lodron, 17, 38060 Castellano TN",
+			"address": "Piaz de Ramon, 59, 38035 Moena TN",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38060"
+			"postalCode": "38035"
 		}
 	},
 	{
-		"searched": "Santa Massenza ,Centro storico ,Vezzano",
+		"searched": "Canazei",
 		"facility": "",
 		"geocoordinates": {
-			"latitude": 46.06837090000001,
-			"longitude": 10.9817449,
+			"latitude": 46.4767277,
+			"longitude": 11.7703015,
 			"altitude": "",
-			"address": "38070 Santa Massenza, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38070"
-		}
-	},
-	{
-		"searched": "Fiera di Primiero, Primiero - Siror, Primiero - Imer ...",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.1757686,
-			"longitude": 11.8283805,
-			"altitude": "",
-			"address": "38054 Fiera di Primiero, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38054"
-		}
-	},
-	{
-		"searched": "Ristoranti della citt\u00e0 ,Piazza del Duomo",
-		"facility": {
-			"name": "Maio Restaurant",
-			"telephone": "02 885 2455",
-			"website": "http://www.maiorestaurant.com/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 45.464794,
-			"longitude": 9.191839000000002,
-			"altitude": "",
-			"address": "Piazza del Duomo, 20121 Milano MI",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "20121"
-		}
-	},
-	{
-		"searched": "Arco, Drena, Dro ...",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.9708209,
-			"longitude": 10.9456656,
-			"altitude": "",
-			"address": "38074 Drena, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38074"
-		}
-	},
-	{
-		"searched": "Spazio Archeologico Sotterraneo del SAS ,Piazza Cesare Battisti",
-		"facility": {
-			"name": "Museo S.A.S.S. Spazio Archeologico Sotterraneo del Sas",
-			"telephone": "0461 230171",
-			"website": "https://www.cultura.trentino.it/Temi/Archeologia",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 46.0695538,
-			"longitude": 11.1236897,
-			"altitude": "",
-			"address": "Piazza Cesare Battisti, 38122 Trento TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Primiero - Siror",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.1757686,
-			"longitude": 11.8283805,
-			"altitude": "",
-			"address": "38054 Fiera di Primiero, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38054"
-		}
-	},
-	{
-		"searched": "Folgarida, Marilleva, Passo del Tonale ...",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.2564381,
-			"longitude": 10.5808235,
-			"altitude": "",
-			"address": "Tonale Pass, 25056 Ponte di Legno, Province of Brescia",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "25056"
-		}
-	},
-	{
-		"searched": "Vigo di Fassa",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.42086339999999,
-			"longitude": 11.6748775,
-			"altitude": "",
-			"address": "38039 Vigo di Fassa, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38039"
-		}
-	},
-	{
-		"searched": "Centro Storico ,Via Giuseppe Garibaldi",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.0733586,
-			"longitude": 7.6789807,
-			"altitude": "",
-			"address": "Via Giuseppe Garibaldi, 10122 Torino TO",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "10122"
-		}
-	},
-	{
-		"searched": "centro storico ,Via Giovanni Segantini ,Arco",
-		"facility": {
-			"name": "Appartamenti Segantini Arco",
-			"telephone": "347 412 0189",
-			"website": "http://appartamentisegantini.com/",
-			"mail": "No email from google to avoid spamming",
-			"hasParking": "",
-			"animalsAllowed": "",
-			"smokingAllowed": "",
-			"isIndoor": ""
-		},
-		"geocoordinates": {
-			"latitude": 45.9194328,
-			"longitude": 10.8873446,
-			"altitude": "",
-			"address": "Via Giovanni Segantini, 75, 38062 Arco TN",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38062"
-		}
-	},
-	{
-		"searched": "Levico Terme",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.01302399999999,
-			"longitude": 11.2977599,
-			"altitude": "",
-			"address": "38056 Levico Terme, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38056"
-		}
-	},
-	{
-		"searched": "Campitello di Fassa, Canazei, Moena ...",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.4767783,
-			"longitude": 11.7703649,
-			"altitude": "",
-			"address": "Canazei TN",
+			"address": "38032 Canazei, Province of Trento",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
 			"postalCode": "38032"
 		}
 	},
 	{
-		"searched": "Dro",
-		"facility": "",
+		"searched": "Bookique; Via Torre D'Augusto",
+		"facility": {
+			"name": "Bookique",
+			"telephone": "342 701 1498",
+			"website": "https://bookique.net/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
 		"geocoordinates": {
-			"latitude": 45.9603668,
-			"longitude": 10.9101973,
+			"latitude": 46.0730057,
+			"longitude": 11.1264776,
 			"altitude": "",
-			"address": "38074 Dro, Province of Trento",
+			"address": "Via Torre D'Augusto, 29, 38122 Trento TN",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38074"
+			"postalCode": "38122"
+		}
+	},
+	{
+		"searched": "Denno",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.27468210000001,
+			"longitude": 11.0481459,
+			"altitude": "",
+			"address": "38010 Denno, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38010"
+		}
+	},
+	{
+		"searched": "Arco, Riva del Garda",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 45.88919839999999,
+			"longitude": 10.8430696,
+			"altitude": "",
+			"address": "38066 Riva del Garda, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38066"
+		}
+	},
+	{
+		"searched": "Palazzo delle Albere; Via Roberto da Sanseverino",
+		"facility": {
+			"name": "Albere Palace",
+			"telephone": "0461 496914",
+			"website": "https://www.cultura.trentino.it/Luoghi/Tutti-i-luoghi-della-cultura/Palazzi-storici/Palazzo-delle-Albere",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.0631566,
+			"longitude": 11.1137877,
+			"altitude": "",
+			"address": "Via Roberto da Sanseverino, 43, 38122 Trento TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38121"
+		}
+	},
+	{
+		"searched": "Chiese della citt\u00e0; Piazza Santa Maria Maggiore",
+		"facility": {
+			"name": "Santa Maria Maggiore, Trento",
+			"telephone": "0461 230037",
+			"website": "http://www.comune.trento.it/Aree-tematiche/Turismo/Visitare/Chiese/Basilica-di-Santa-Maria-Maggiore",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.0686385,
+			"longitude": 11.1194609,
+			"altitude": "",
+			"address": "Vicolo delle Orsoline, 1, 38122 Trento TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38122"
+		}
+	},
+	{
+		"searched": "Tenno",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 45.9195492,
+			"longitude": 10.8329991,
+			"altitude": "",
+			"address": "38060 Tenno, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38060"
+		}
+	},
+	{
+		"searched": "Teatro comunale di Pergine Valsugana; Piazza Garibaldi, 5g; Pergine Valsugana",
+		"facility": {
+			"name": "Teatro Comunale di Pergine",
+			"telephone": "0461 534321",
+			"website": "http://www.teatrodipergine.it/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.0622777,
+			"longitude": 11.2390965,
+			"altitude": "",
+			"address": "Piazza Garibaldi, 5G, 38057 Pergine Valsugana TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38057"
+		}
+	},
+	{
+		"searched": "Commezzadura",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.3199561,
+			"longitude": 10.8400103,
+			"altitude": "",
+			"address": "38020 Commezzadura, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38020"
+		}
+	},
+	{
+		"searched": "centro storico; Via Andrea Maffei; Riva del Garda",
+		"facility": {
+			"name": "Liceo Andrea Maffei",
+			"telephone": "0464 553511",
+			"website": "http://e.liceomaffei.it/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 45.887436,
+			"longitude": 10.844791,
+			"altitude": "",
+			"address": "Viale Lutti Alberti, 7, 38066 Riva del Garda TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38066"
+		}
+	},
+	{
+		"searched": "Circolo ACLI GARDOLO; Via Laurence Feininger, 4",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.1080128,
+			"longitude": 11.1115948,
+			"altitude": "",
+			"address": "Via Laurence Feininger, 4, 38121 Trento TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38121"
+		}
+	},
+	{
+		"searched": "Rabbi",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.4121956,
+			"longitude": 10.7888809,
+			"altitude": "",
+			"address": "38020 Rabbi, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38020"
+		}
+	},
+	{
+		"searched": "Teatro San Marco; Via San Bernardino",
+		"facility": {
+			"name": "Teatro San Marco",
+			"telephone": "0461 233522",
+			"website": "https://www.teatrosanmarco.it/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.0638188,
+			"longitude": 11.1287118,
+			"altitude": "",
+			"address": "Via S. Bernardino, 10, 38122 Trento TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38122"
+		}
+	},
+	{
+		"searched": "Ossana",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.3078419,
+			"longitude": 10.7355513,
+			"altitude": "",
+			"address": "38026 Ossana, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38026"
+		}
+	},
+	{
+		"searched": "Riva del Garda",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 45.88919839999999,
+			"longitude": 10.8430696,
+			"altitude": "",
+			"address": "38066 Riva del Garda, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38066"
+		}
+	},
+	{
+		"searched": "Vallarsa",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 45.7905752,
+			"longitude": 11.1253551,
+			"altitude": "",
+			"address": "38060 Vallarsa, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38060"
+		}
+	},
+	{
+		"searched": "parrocchia di Madonna Bianca; Via Angelo Bettini, 11",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.0415587,
+			"longitude": 11.1329949,
+			"altitude": "",
+			"address": "Via Angelo Bettini, 11, 38123 Trento TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38123"
+		}
+	},
+	{
+		"searched": "Cavalese",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.2912024,
+			"longitude": 11.4605662,
+			"altitude": "",
+			"address": "38033 Cavalese, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38033"
+		}
+	},
+	{
+		"searched": "Piazza Santa Maria Maggiore; Piazza Santa Maria Maggiore",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.068487,
+			"longitude": 11.1188283,
+			"altitude": "",
+			"address": "Piazza Santa Maria Maggiore, 38122 Trento TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38122"
 		}
 	},
 	{
@@ -1587,107 +742,68 @@
 		}
 	},
 	{
-		"searched": "Caldes",
+		"searched": "Pergine Valsugana",
 		"facility": "",
 		"geocoordinates": {
-			"latitude": 46.36553740000001,
-			"longitude": 10.9387742,
+			"latitude": 46.06174,
+			"longitude": 11.2369603,
 			"altitude": "",
-			"address": "38022 Caldes, Province of Trento",
+			"address": "38057 Pergine Valsugana, Province of Trento",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38022"
+			"postalCode": "38057"
 		}
 	},
 	{
-		"searched": "Trento",
+		"searched": "Campitello di Fassa, Canazei",
 		"facility": "",
 		"geocoordinates": {
-			"latitude": 46.0747793,
-			"longitude": 11.1217486,
+			"latitude": 46.43068939999999,
+			"longitude": 11.6857172,
 			"altitude": "",
-			"address": "Trento, Province of Trento",
+			"address": "38036 Pozza di Fassa, Province of Trento",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
-			"postalCode": ""
+			"postalCode": "38036"
 		}
 	},
 	{
-		"searched": "Lavarone, Folgaria, Luserna",
+		"searched": "Rovereto",
 		"facility": "",
 		"geocoordinates": {
-			"latitude": 45.9253574,
-			"longitude": 11.341417,
+			"latitude": 45.89096,
+			"longitude": 11.0401399,
 			"altitude": "",
-			"address": "38040 Luserna, Province of Trento",
+			"address": "38068 Rovereto, Province of Trento",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38040"
+			"postalCode": "38068"
 		}
 	},
 	{
-		"searched": "Arco, Riva del Garda",
+		"searched": "Centro Storico; Via Giuseppe Garibaldi",
 		"facility": "",
 		"geocoordinates": {
-			"latitude": 45.88919839999999,
-			"longitude": 10.8430696,
+			"latitude": 45.0733586,
+			"longitude": 7.6789807,
 			"altitude": "",
-			"address": "38066 Riva del Garda, Province of Trento",
+			"address": "Via Giuseppe Garibaldi, 10122 Torino TO",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38066"
+			"postalCode": "10122"
 		}
 	},
 	{
-		"searched": "Cavalese",
+		"searched": "Arco",
 		"facility": "",
 		"geocoordinates": {
-			"latitude": 46.2912024,
-			"longitude": 11.4605662,
+			"latitude": 45.9268706,
+			"longitude": 10.9097607,
 			"altitude": "",
-			"address": "38033 Cavalese, Province of Trento",
+			"address": "38062 Arco, Province of Trento",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38033"
-		}
-	},
-	{
-		"searched": "Bosentino",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.0023334,
-			"longitude": 11.2247758,
-			"altitude": "",
-			"address": "38049 Bosentino, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38049"
-		}
-	},
-	{
-		"searched": "Canazei, Moena, Vigo di Fassa",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.42086339999999,
-			"longitude": 11.6748775,
-			"altitude": "",
-			"address": "38039 Vigo di Fassa, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38039"
-		}
-	},
-	{
-		"searched": "Tenno",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.9195492,
-			"longitude": 10.8329991,
-			"altitude": "",
-			"address": "38060 Tenno, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38060"
+			"postalCode": "38062"
 		}
 	},
 	{
@@ -1704,33 +820,654 @@
 		}
 	},
 	{
-		"searched": "Folgaria",
-		"facility": "",
+		"searched": "Centro Storico; Piazza Gavazzi; Pergine Valsugana",
+		"facility": {
+			"name": "City of Pergine Valsugana",
+			"telephone": "0461 502111",
+			"website": "http://www.comune.pergine.tn.it/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
 		"geocoordinates": {
-			"latitude": 45.9096785,
-			"longitude": 11.1845902,
+			"latitude": 46.060537,
+			"longitude": 11.2406332,
 			"altitude": "",
-			"address": "38064 Folgaria, Province of Trento",
+			"address": "Piazza Municipio, 7, 38057 Pergine Valsugana TN",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38064"
+			"postalCode": "38057"
 		}
 	},
 	{
-		"searched": "Via del Suffragio ,Via del Suffragio",
+		"searched": "Fondo",
 		"facility": "",
 		"geocoordinates": {
-			"latitude": 46.0710383,
-			"longitude": 11.1248052,
+			"latitude": 46.4365458,
+			"longitude": 11.1401368,
 			"altitude": "",
-			"address": "Via del Suffragio, 38122 Trento TN",
+			"address": "38013 Fondo, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38013"
+		}
+	},
+	{
+		"searched": "Torbole sul Garda - Nago",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 45.87782430000001,
+			"longitude": 10.8908516,
+			"altitude": "",
+			"address": "38069 Nago\u2013Torbole, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38069"
+		}
+	},
+	{
+		"searched": "Centro Storico; Indirizzo non disponibile; Pergine Valsugana",
+		"facility": {
+			"name": "Castel Pergine",
+			"telephone": "0461 531158",
+			"website": "http://www.castelpergine.it/it/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.05919919999999,
+			"longitude": 11.249821,
+			"altitude": "",
+			"address": "Via al Castello, 10, 38057 Pergine Valsugana TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38057"
+		}
+	},
+	{
+		"searched": "Campitello di Fassa, Canazei, Moena ...",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.4767783,
+			"longitude": 11.7703649,
+			"altitude": "",
+			"address": "Canazei TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38032"
+		}
+	},
+	{
+		"searched": "Avio",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 45.73277940000001,
+			"longitude": 10.9397993,
+			"altitude": "",
+			"address": "38063 Avio, Trentino, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38063"
+		}
+	},
+	{
+		"searched": "Giardino dei Ciucioi; Piazza Venezia, 2; Lavarone",
+		"facility": {
+			"name": "Giardino dei Ciucioi",
+			"telephone": "327 766 0813",
+			"website": "http://www.ecoargentario.it/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.1387805,
+			"longitude": 11.1179099,
+			"altitude": "",
+			"address": "Vicolo dei Ciucioi, 38015 Lavis TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38015"
+		}
+	},
+	{
+		"searched": "centro storico; Indirizzo non disponibile; Cavalese",
+		"facility": {
+			"name": "Hotel Garni Laurino",
+			"telephone": "0462 340151",
+			"website": "http://www.hotelgarnilaurino.it/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.2896974,
+			"longitude": 11.4600364,
+			"altitude": "",
+			"address": "Via Antoniazzi, 14, 38033 Cavalese TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38033"
+		}
+	},
+	{
+		"searched": "Folgarida, Marilleva, Passo del Tonale ...",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.2564381,
+			"longitude": 10.5808235,
+			"altitude": "",
+			"address": "Tonale Pass, 25056 Ponte di Legno, Province of Brescia",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "25056"
+		}
+	},
+	{
+		"searched": "Castello di Avio; via al castello; Avio",
+		"facility": {
+			"name": "FAI - Castello di Avio",
+			"telephone": "0464 684453",
+			"website": "http://www.castellodiavio.it/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 45.7468494,
+			"longitude": 10.9518518,
+			"altitude": "",
+			"address": "Via al Castello, 38063 Sabbionara, Avio TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38063"
+		}
+	},
+	{
+		"searched": "Spazio Archeologico Sotterraneo del SAS; Piazza Cesare Battisti",
+		"facility": {
+			"name": "Museo S.A.S.S. Spazio Archeologico Sotterraneo del Sas",
+			"telephone": "0461 230171",
+			"website": "https://www.cultura.trentino.it/Temi/Archeologia",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.0695538,
+			"longitude": 11.1236897,
+			"altitude": "",
+			"address": "Piazza Cesare Battisti, 38122 Trento TN",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
 			"postalCode": "38122"
 		}
 	},
 	{
-		"searched": "Parco Asburgico ,Via Guglielmo Marconi ,Levico Terme",
+		"searched": "Centro Storico; Strada de Meida; Pozza di Fassa",
+		"facility": {
+			"name": "Hotel Meida - Pozza di Fassa",
+			"telephone": "0462 764283",
+			"website": "http://www.hotelmeida.it/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.4300636,
+			"longitude": 11.6915665,
+			"altitude": "",
+			"address": "strada de Meida, 67, 38036 Pozza di Fassa TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38036"
+		}
+	},
+	{
+		"searched": "Predazzo",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.312589,
+			"longitude": 11.602437,
+			"altitude": "",
+			"address": "38037 Predazzo, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38037"
+		}
+	},
+	{
+		"searched": "Levico Terme",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.01302399999999,
+			"longitude": 11.2977599,
+			"altitude": "",
+			"address": "38056 Levico Terme, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38056"
+		}
+	},
+	{
+		"searched": "Palazzo Roccabruna; Via Santa Trinit\u00e0, 44",
+		"facility": {
+			"name": "Palazzo Roccabruna",
+			"telephone": "0461 887101",
+			"website": "http://www.palazzoroccabruna.it/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.066349,
+			"longitude": 11.123444,
+			"altitude": "",
+			"address": "Via Santa Trinit\u00e0, 24, 38122 Trento TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38122"
+		}
+	},
+	{
+		"searched": "Brentonico",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 45.81712659999999,
+			"longitude": 10.9495574,
+			"altitude": "",
+			"address": "38060 Brentonico, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38060"
+		}
+	},
+	{
+		"searched": "Villa Lagarina - Lago di Cei",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 45.9509207,
+			"longitude": 11.0201642,
+			"altitude": "",
+			"address": "Lago di Cei, 38060 Villa Lagarina, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38060"
+		}
+	},
+	{
+		"searched": "Castello del Buonconsiglio; Via Bernardo Clesio",
+		"facility": {
+			"name": "Buonconsiglio Castle Museum",
+			"telephone": "0461 233770",
+			"website": "http://www.buonconsiglio.it/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.07154999999999,
+			"longitude": 11.126608,
+			"altitude": "",
+			"address": "Via Bernardo Clesio, 5, 38122 Trento TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38122"
+		}
+	},
+	{
+		"searched": "centro storico; Corso Bettini; Rovereto",
+		"facility": {
+			"name": "Consorzio Rovereto In Centro",
+			"telephone": "0464 424047",
+			"website": "http://www.roveretoincentro.com/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 45.8927082,
+			"longitude": 11.0436527,
+			"altitude": "",
+			"address": "Corso Angelo, Corso Bettini, 64, 38068 Rovereto TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38068"
+		}
+	},
+	{
+		"searched": "centro storico; Via Giovanni Segantini; Arco",
+		"facility": {
+			"name": "Appartamenti Segantini Arco",
+			"telephone": "347 412 0189",
+			"website": "http://appartamentisegantini.com/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 45.9194328,
+			"longitude": 10.8873446,
+			"altitude": "",
+			"address": "Via Giovanni Segantini, 75, 38062 Arco TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38062"
+		}
+	},
+	{
+		"searched": "Dro",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 45.9603668,
+			"longitude": 10.9101973,
+			"altitude": "",
+			"address": "38074 Dro, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38074"
+		}
+	},
+	{
+		"searched": "Faedo",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.1925658,
+			"longitude": 11.1618684,
+			"altitude": "",
+			"address": "38010 Faedo, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38010"
+		}
+	},
+	{
+		"searched": "Rovereto, Terragnolo",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 45.89096,
+			"longitude": 11.0401399,
+			"altitude": "",
+			"address": "38068 Rovereto, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38068"
+		}
+	},
+	{
+		"searched": "centro storico; Via Dante Alighieri; Tenno",
+		"facility": {
+			"name": "Comune di Tenno",
+			"telephone": "0464 500624",
+			"website": "http://www.comune.tenno.tn.it/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 45.92024029999999,
+			"longitude": 10.8324822,
+			"altitude": "",
+			"address": "Via Dante Alighieri, 18, 38060 Tenno TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38060"
+		}
+	},
+	{
+		"searched": "EIT Digital Italy Co-Location Centre; Via Sommarive, 18",
+		"facility": {
+			"name": "EIT Digital Italy",
+			"telephone": "0461 314045",
+			"website": "https://www.eitdigital.eu/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.0677984,
+			"longitude": 11.151339,
+			"altitude": "",
+			"address": "1st floor Northern Building, Via Sommarive, 18, 38123 Povo TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38123"
+		}
+	},
+	{
+		"searched": "Teatro Sociale; Via Oss Mazzurana",
+		"facility": {
+			"name": "Social Theatre",
+			"telephone": "0461 213862",
+			"website": "http://www.centrosantachiara.it/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.06939060000001,
+			"longitude": 11.1225996,
+			"altitude": "",
+			"address": "Via Paolo Oss-Mazzurana, 19, 38122 Trento TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38122"
+		}
+	},
+	{
+		"searched": "Santa Massenza; Centro storico; Vezzano",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.06837090000001,
+			"longitude": 10.9817449,
+			"altitude": "",
+			"address": "38070 Santa Massenza, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38070"
+		}
+	},
+	{
+		"searched": "San Martino di Castrozza",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.26176419999999,
+			"longitude": 11.8002183,
+			"altitude": "",
+			"address": "38054 San Martino di Castrozza, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38054"
+		}
+	},
+	{
+		"searched": "Moena",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.37642,
+			"longitude": 11.6615999,
+			"altitude": "",
+			"address": "38035 Moena, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38035"
+		}
+	},
+	{
+		"searched": "Distilleria Marzadro; Strada Provinciale 90; Isera",
+		"facility": {
+			"name": "Distilleria Marzadro",
+			"telephone": "0464 304555",
+			"website": "https://www.marzadro.it/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 45.9089878,
+			"longitude": 11.0281386,
+			"altitude": "",
+			"address": "Via per Brancolino, 10, 38060 Nogaredo TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38060"
+		}
+	},
+	{
+		"searched": "Primiero - Siror",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.1757686,
+			"longitude": 11.8283805,
+			"altitude": "",
+			"address": "38054 Fiera di Primiero, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38054"
+		}
+	},
+	{
+		"searched": "Fiera di Primiero, Primiero - Siror, Primiero - Imer ...",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.1757686,
+			"longitude": 11.8283805,
+			"altitude": "",
+			"address": "38054 Fiera di Primiero, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38054"
+		}
+	},
+	{
+		"searched": "Cinema Comunale di Ossana; Via Bartolomeo Bezzi, 12; Ossana",
+		"facility": {
+			"name": "Biblioteca - Teatro Comunali",
+			"telephone": "0463 752013",
+			"website": "http://www.bibliotechevaldisole.it/biblioteche",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.3091923,
+			"longitude": 10.7312179,
+			"altitude": "",
+			"address": "Via Bartolomeo Bezzi, 0, 38026 Ossana TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38026"
+		}
+	},
+	{
+		"searched": "Cimego",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 45.9117544,
+			"longitude": 10.6134314,
+			"altitude": "",
+			"address": "38082 Cimego, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38082"
+		}
+	},
+	{
+		"searched": "Vezzano",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.0802175,
+			"longitude": 11.0014092,
+			"altitude": "",
+			"address": "38070 Vezzano, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38070"
+		}
+	},
+	{
+		"searched": "Trento",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.0747793,
+			"longitude": 11.1217486,
+			"altitude": "",
+			"address": "Trento, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": ""
+		}
+	},
+	{
+		"searched": "Marilleva",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.298827,
+			"longitude": 10.811343,
+			"altitude": "",
+			"address": "38020 Marilleva, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38020"
+		}
+	},
+	{
+		"searched": "Bugs; Largo Giosu\u00e8 Carducci",
+		"facility": {
+			"name": "Bugs Trento",
+			"telephone": "",
+			"website": "http://facebook.com/bugstrento",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 46.06845670000001,
+			"longitude": 11.1252337,
+			"altitude": "",
+			"address": "Largo Giosu\u00e8 Carducci, 51, 38122 Trento TN",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38122"
+		}
+	},
+	{
+		"searched": "Parco Asburgico; Via Guglielmo Marconi; Levico Terme",
 		"facility": {
 			"name": "Parco Asburgico Secolare di Levico Terme",
 			"telephone": "",
@@ -1752,59 +1489,103 @@
 		}
 	},
 	{
-		"searched": "Baselga di Pine'",
+		"searched": "Piazza Fiera; Piazza di Fiera",
 		"facility": "",
 		"geocoordinates": {
-			"latitude": 46.1243042,
-			"longitude": 11.2574845,
+			"latitude": 46.06499039999999,
+			"longitude": 11.1247026,
 			"altitude": "",
-			"address": "38042 Baselga di Pin\u00e8, Province of Trento",
+			"address": "Piazza di Fiera, 38122 Trento TN",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38042"
+			"postalCode": "38122"
 		}
 	},
 	{
-		"searched": "Vallarsa",
+		"searched": "Caldes",
 		"facility": "",
 		"geocoordinates": {
-			"latitude": 45.7905752,
-			"longitude": 11.1253551,
+			"latitude": 46.36553740000001,
+			"longitude": 10.9387742,
 			"altitude": "",
-			"address": "38060 Vallarsa, Province of Trento",
+			"address": "38022 Caldes, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38022"
+		}
+	},
+	{
+		"searched": "Tesero",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.2895689,
+			"longitude": 11.5079659,
+			"altitude": "",
+			"address": "38038 Tesero, Province of Trento",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38038"
+		}
+	},
+	{
+		"searched": "Ristoranti della citt\u00e0; Piazza del Duomo",
+		"facility": {
+			"name": "Maio Restaurant",
+			"telephone": "02 885 2455",
+			"website": "http://www.maiorestaurant.com/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 45.464794,
+			"longitude": 9.191839000000002,
+			"altitude": "",
+			"address": "Piazza del Duomo, 20121 Milano MI",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "20121"
+		}
+	},
+	{
+		"searched": "Castellano; via al castello; Villa Lagarina",
+		"facility": {
+			"name": "Castle of Castellano",
+			"telephone": "349 711 9977",
+			"website": "https://www.visitrovereto.it/scopri/castelli/castello-di-castellano/",
+			"mail": "No email from google to avoid spamming",
+			"hasParking": "",
+			"animalsAllowed": "",
+			"smokingAllowed": "",
+			"isIndoor": ""
+		},
+		"geocoordinates": {
+			"latitude": 45.9211919,
+			"longitude": 11.0064004,
+			"altitude": "",
+			"address": "Viale Lodron, 17, 38060 Castellano TN",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
 			"postalCode": "38060"
 		}
 	},
 	{
-		"searched": "Faedo",
+		"searched": "Lavarone, Folgaria, Luserna",
 		"facility": "",
 		"geocoordinates": {
-			"latitude": 46.1925658,
-			"longitude": 11.1618684,
+			"latitude": 45.9253574,
+			"longitude": 11.341417,
 			"altitude": "",
-			"address": "38010 Faedo, Province of Trento",
+			"address": "38040 Luserna, Province of Trento",
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38010"
+			"postalCode": "38040"
 		}
 	},
 	{
-		"searched": "Mori",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.8513894,
-			"longitude": 10.9787861,
-			"altitude": "",
-			"address": "38065 Mori, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38065"
-		}
-	},
-	{
-		"searched": "Centro Storico ,Piazza del Duomo",
+		"searched": "Centro Storico; Piazza del Duomo",
 		"facility": {
 			"name": "Piazza del Duomo",
 			"telephone": "",
@@ -1826,384 +1607,7 @@
 		}
 	},
 	{
-		"searched": "Brentonico",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.81712659999999,
-			"longitude": 10.9495574,
-			"altitude": "",
-			"address": "38060 Brentonico, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38060"
-		}
-	},
-	{
-		"searched": "Campitello di Fassa",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.4907862,
-			"longitude": 11.7123873,
-			"altitude": "",
-			"address": "38031 Campitello di Fassa, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38031"
-		}
-	},
-	{
-		"searched": "Canazei",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.4767277,
-			"longitude": 11.7703015,
-			"altitude": "",
-			"address": "38032 Canazei, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38032"
-		}
-	},
-	{
-		"searched": "Cimego",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.9117544,
-			"longitude": 10.6134314,
-			"altitude": "",
-			"address": "38082 Cimego, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38082"
-		}
-	},
-	{
-		"searched": "Commezzadura",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.3199561,
-			"longitude": 10.8400103,
-			"altitude": "",
-			"address": "38020 Commezzadura, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38020"
-		}
-	},
-	{
-		"searched": "Fondo",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.4365458,
-			"longitude": 11.1401368,
-			"altitude": "",
-			"address": "38013 Fondo, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38013"
-		}
-	},
-	{
-		"searched": "Predazzo",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.312589,
-			"longitude": 11.602437,
-			"altitude": "",
-			"address": "38037 Predazzo, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38037"
-		}
-	},
-	{
-		"searched": "Ossana",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.3078419,
-			"longitude": 10.7355513,
-			"altitude": "",
-			"address": "38026 Ossana, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38026"
-		}
-	},
-	{
-		"searched": "Varena",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.30530900000001,
-			"longitude": 11.4579089,
-			"altitude": "",
-			"address": "38030 Varena, Trentino, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38030"
-		}
-	},
-	{
-		"searched": "Denno",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.27468210000001,
-			"longitude": 11.0481459,
-			"altitude": "",
-			"address": "38010 Denno, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38010"
-		}
-	},
-	{
-		"searched": "Villa Lagarina - Lago di Cei",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.9509207,
-			"longitude": 11.0201642,
-			"altitude": "",
-			"address": "Lago di Cei, 38060 Villa Lagarina, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38060"
-		}
-	},
-	{
-		"searched": "Tesero",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.2895689,
-			"longitude": 11.5079659,
-			"altitude": "",
-			"address": "38038 Tesero, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38038"
-		}
-	},
-	{
-		"searched": "Villa Lagarina, Nomi, Pomarolo",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.9296906,
-			"longitude": 11.067229,
-			"altitude": "",
-			"address": "38060 Nomi, Trentino, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38060"
-		}
-	},
-	{
-		"searched": "Pergine Valsugana",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.06174,
-			"longitude": 11.2369603,
-			"altitude": "",
-			"address": "38057 Pergine Valsugana, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38057"
-		}
-	},
-	{
-		"searched": "Ziano di Fiemme",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.2865642,
-			"longitude": 11.5592481,
-			"altitude": "",
-			"address": "38030 Ziano di Fiemme, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38030"
-		}
-	},
-	{
-		"searched": "Avio",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.73277940000001,
-			"longitude": 10.9397993,
-			"altitude": "",
-			"address": "38063 Avio, Trentino, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38063"
-		}
-	},
-	{
-		"searched": "Campitello di Fassa, Canazei",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.43068939999999,
-			"longitude": 11.6857172,
-			"altitude": "",
-			"address": "38036 Pozza di Fassa, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38036"
-		}
-	},
-	{
-		"searched": "Campitello di Fassa, Canazei, Mazzin ...",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.4573084,
-			"longitude": 11.6996124,
-			"altitude": "",
-			"address": "38030 Mazzin, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38030"
-		}
-	},
-	{
-		"searched": "Rabbi",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.4121956,
-			"longitude": 10.7888809,
-			"altitude": "",
-			"address": "38020 Rabbi, Province of Trento",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38020"
-		}
-	},
-	{
-		"searched": "Trento --SELF--  --SELF-- Trentino history museum foundation, the Tunnels of Piedicastello - Trento",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.07078509999999,
-			"longitude": 11.1124883,
-			"altitude": "",
-			"address": "Piedicastello, 38121 Trento, Province of Trento, Italy",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38121"
-		}
-	},
-	{
-		"searched": "Rovereto --SELF--  --SELF-- Bell of the Fallen",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.89096,
-			"longitude": 11.0401399,
-			"altitude": "",
-			"address": "38068 Rovereto, Province of Trento, Italy",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38068"
-		}
-	},
-	{
-		"searched": "Trento --SELF-- Fondazione Bruno Kessler --SELF-- ",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.066963,
-			"longitude": 11.1511945,
-			"altitude": "",
-			"address": "Via Sommarive, 18, 38123 Povo TN, Italy",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38123"
-		}
-	},
-	{
-		"searched": "Rovereto --SELF--  --SELF-- Depero  Futurist House of the Arts",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.886972,
-			"longitude": 11.045252,
-			"altitude": "",
-			"address": "Via dei Portici, 38, 38068 Rovereto TN, Italy",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38068"
-		}
-	},
-	{
-		"searched": "Trento --SELF--  --SELF-- Palazzo Roccabruna",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.066349,
-			"longitude": 11.123444,
-			"altitude": "",
-			"address": "Via Santa Trinit\u00e0, 24, 38122 Trento TN, Italy",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Cavalese --SELF--  --SELF-- Palace of the 'Magnifica Comunit\u00e0 di Fiemme'",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.2912024,
-			"longitude": 11.4605662,
-			"altitude": "",
-			"address": "38033 Cavalese, Province of Trento, Italy",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38033"
-		}
-	},
-	{
-		"searched": "Trento --SELF--  --SELF-- Tridentum. S.A.S.S. - Underground Archaeological Site Sas",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.0695538,
-			"longitude": 11.1236897,
-			"altitude": "",
-			"address": "Piazza Cesare Battisti, 38122 Trento TN, Italy",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Trento --SELF--  --SELF-- Civic art gallery - Trento",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.068653,
-			"longitude": 11.1269701,
-			"altitude": "",
-			"address": "Via Dietro le Mura B, 6, 38122 Trento TN, Italy",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38122"
-		}
-	},
-	{
-		"searched": "Trento --SELF--  --SELF-- Theatre Auditorium",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.0747793,
-			"longitude": 11.1217486,
-			"altitude": "",
-			"address": "Trento, Province of Trento, Italy",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": ""
-		}
-	},
-	{
-		"searched": "Rovereto --SELF--  --SELF-- Theatre Auditorium Fausto Melotti",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.8938485,
-			"longitude": 11.044469,
-			"altitude": "",
-			"address": "Corso Bettini, 43, 38068 Rovereto TN, Italy",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38068"
-		}
-	},
-	{
-		"searched": "Maurina ,Indirizzo non disponibile ,Spormaggiore",
+		"searched": "Maurina; Indirizzo non disponibile; Spormaggiore",
 		"facility": "",
 		"geocoordinates": {
 			"latitude": 46.2207428,
@@ -2216,33 +1620,7 @@
 		}
 	},
 	{
-		"searched": "Centro Storico ,Indirizzo non disponibile ,Cimego",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 45.9117544,
-			"longitude": 10.6134314,
-			"altitude": "",
-			"address": "38082 Cimego, Province of Trento, Italy",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38082"
-		}
-	},
-	{
-		"searched": "Centro Storico ,Indirizzo non disponibile ,Ossana",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.3078419,
-			"longitude": 10.7355513,
-			"altitude": "",
-			"address": "38026 Ossana, Province of Trento, Italy",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38026"
-		}
-	},
-	{
-		"searched": "centro storico ,Indirizzo non disponibile ,Siror",
+		"searched": "centro storico; Indirizzo non disponibile; Siror",
 		"facility": "",
 		"geocoordinates": {
 			"latitude": 46.1877609,
@@ -2255,7 +1633,33 @@
 		}
 	},
 	{
-		"searched": "Centro Storico ,Indirizzo non disponibile ,Vezzano",
+		"searched": "centro storico; piazza Cesare Battisti; Tesero",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.2888742,
+			"longitude": 11.5106452,
+			"altitude": "",
+			"address": "Piazza Cesare Battisti, 38038 Tesero TN, Italy",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38038"
+		}
+	},
+	{
+		"searched": "Centro Storico; Indirizzo non disponibile; Ossana",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 46.3078419,
+			"longitude": 10.7355513,
+			"altitude": "",
+			"address": "38026 Ossana, Province of Trento, Italy",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38026"
+		}
+	},
+	{
+		"searched": "Centro Storico; Indirizzo non disponibile; Vezzano",
 		"facility": "",
 		"geocoordinates": {
 			"latitude": 46.0802175,
@@ -2268,7 +1672,20 @@
 		}
 	},
 	{
-		"searched": "Centro Storico ,Indirizzo non disponibile ,Ledro",
+		"searched": "Centro Storico; Indirizzo non disponibile; Cimego",
+		"facility": "",
+		"geocoordinates": {
+			"latitude": 45.9117544,
+			"longitude": 10.6134314,
+			"altitude": "",
+			"address": "38082 Cimego, Province of Trento, Italy",
+			"addressLocality": "WHAT IS IT??",
+			"addressRegion": "WHAT IS IT???",
+			"postalCode": "38082"
+		}
+	},
+	{
+		"searched": "Centro Storico; Indirizzo non disponibile; Ledro",
 		"facility": "",
 		"geocoordinates": {
 			"latitude": 45.8765359,
@@ -2278,19 +1695,6 @@
 			"addressLocality": "WHAT IS IT??",
 			"addressRegion": "WHAT IS IT???",
 			"postalCode": "38067"
-		}
-	},
-	{
-		"searched": "centro storico ,piazza Cesare Battisti ,Tesero",
-		"facility": "",
-		"geocoordinates": {
-			"latitude": 46.2888742,
-			"longitude": 11.5106452,
-			"altitude": "",
-			"address": "Piazza Cesare Battisti, 38038 Tesero TN, Italy",
-			"addressLocality": "WHAT IS IT??",
-			"addressRegion": "WHAT IS IT???",
-			"postalCode": "38038"
 		}
 	}
 ]

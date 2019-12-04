@@ -1,12 +1,12 @@
 import json
 import requests
 
-fields = ['Title', 'Link', 'category', 'location', 'price', 'date', 'time', 'description']
+fields = ['Title', 'Link', 'category', 'location', 'price', 'date', 'time', 'description', 'startDate', 'endDate', 'startTime', 'endTime']
 
 
 def fill_event(e):
 	for f in fields:
-		e[f] = e.get(f, '')
+		e[f] = e.get(f, '').replace('\n', '; ')
 
 
 constants_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/constants.py').text
@@ -25,7 +25,7 @@ cat_dict = {
 
 def get_category(cat):
 	for k, v in cat_dict.items():
-		if k != general and cat in v:
+		if k != general and cat.lower() in v:
 			return k
 	return general
 
@@ -35,11 +35,7 @@ def rm_main():
 	obj = json.loads(requests.get(url).text)
 	events = [e for e in obj['events'] if 'Title' in e]
 	for event in events:
-		# if no category, get first tag
-		if 'category' not in event:
-			if 'tags' in event:
-				event['category'] = event['tags'][0]['name']
-		event['category'] = get_category(event)
+		event['category'] = get_category(event['category'])
 		fill_event(event)
 
 	return json.dumps(events)

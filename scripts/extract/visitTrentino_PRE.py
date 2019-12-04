@@ -16,19 +16,19 @@ cat_dict = {
 
 
 def get_category(cat):
-	for c in cat.split('-'):
+	for c in cat.split(', '):
 		for k, v in cat_dict.items():
-			if k != general and c in v:
+			if k != general and c.lower() in v:
 				return k
 	return general
 
 
-fields = ['Title', 'link', 'category', 'location', 'Prices', 'date', 'time', 'description']
+fields = ['Title', 'link', 'category', 'location', 'Prices', 'date', 'time', 'description', 'startDate', 'endDate', 'startTime', 'endTime']
 
 
 def fill_event(e):
 	for f in fields:
-		e[f] = e.get(f, '')
+		e[f] = e.get(f, '').replace('\n', '; ')
 
 
 def rm_main():
@@ -45,6 +45,6 @@ def rm_main():
 
 		fill_event(event)
 
-		event['category'] = get_category(event)
+		event['category'] = get_category(event['category'])
 
 	return json.dumps(events)
