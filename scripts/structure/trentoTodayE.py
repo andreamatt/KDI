@@ -1,98 +1,96 @@
 import json
-
 import pandas as pd
 import requests
 
 
-class eventObj:
-
-	def __init__(self,
-	             title="",
-	             ScienceEvent=False,
-	             VisualArtsEvent=False,
-	             MusicEvent=False,
-	             ScreeningEvent=False,
-	             TheatreEvent=False,
-	             TalkEvent=False,
-	             GeneralEvent=False,
-	             date="",
-	             time="",
-	             locationName="",
-	             locationURL="",
-	             suitableFor="",
-	             source="",
-	             description="",
-	             other="",
-	             contact="",
-	             cost="",
-	             link=""):
-		self.source = source.replace("\n", " ,")
-		self.ScienceEvent = ScienceEvent
-		self.VisualArtsEvent = VisualArtsEvent
-		self.MusicEvent = MusicEvent
-		self.ScreeningEvent = ScreeningEvent
-		self.TheatreEvent = TheatreEvent
-		self.TalkEvent = TalkEvent
-		self.GeneralEvent = GeneralEvent
-		self.suitableFor = suitableFor.replace("\n", " ,")
-		self.title = title.replace("\n", " ,")
-		self.date = date.replace("\n", " ,")
-		self.time = time.replace("\n", " ,")
-		self.locationName = locationName.replace("\n", " ,")
-		self.locationURL = locationURL.replace("\n", " ,")
-		self.description = description.replace("\n", " ,")
-		self.contact = contact.replace("\n", " ,")
-		self.cost = cost.replace("\n", " ,")
-		self.other = other.replace("\n", " ,")
-		self.link = link.replace("\n", " ,")
+def GeneralEvent(name, price, description, website, duration, language, isTicketAvailable, locationText):
+	return locals()
 
 
-def get_category(cat, sub_cat):
-	science = 'ScienceEvent'
-	visual = 'VisualArtsEvent'
-	music = 'MusicEvent'
-	screen = 'ScreeningEvent'
-	theatre = 'TheatreEvent'
-	talk = 'TalkEvent'
-	general = 'Event'
-	cat_dict = {
-	    science: ['enogastronomia', 'eventi rifugi'],
-	    visual: ['mercati e mercatini', 'mostre', 'spettacoli pirotecnici', 'visite guidate'],
-	    music: ['feste e sagre', 'festival', 'fiere', 'musica'],
-	    screen: ['cinema'],
-	    theatre: ['teatro/danza', 'intrattenimento della località', 'folklore'],
-	    talk: ['conferenze/congressi', 'rifugi aperti'],
-	    general: ['altro', 'eventi culturali', 'sport', 'top eventi sport']
-	}
+def ScienceEvent(topic):
+	return locals()
+
+
+def VisualArtsEvent(artMovement):
+	return locals()
+
+
+def MusicEvent(genre, performer):
+	return locals()
+
+
+def ScreeningEvent(salaNumber):
+	return locals()
+
+
+def TheatreEvent(interpreters):
+	return locals()
+
+
+def TalkEvent(hasPresentation, isConference):
+	return locals()
+
+
+def VisualArtwork(style):
+	return locals()
+
+
+def MusicPlaylist(songs):
+	return locals()
+
+
+def Movie(originalName, genre, duration):
+	return locals()
+
+
+def Play(genre):
+	return locals()
+
+
+def Book(pages, genre, editor):
+	return locals()
+
+
+def Time(startDate, endDate, startTime, endTime):
+	return locals()
+
+
+def Period(byDay, byMonth, byMonthDay, repeatCount, repeatFrequency):
+	return locals()
+
+
+def Discount(young, students, children, groups):
+	return locals()
+
+
+def CreativeWork(name, creator, createDate, url):
+	return locals()
+
+
+def Facility(name, telephone, website, mail, hasParking, animalsAllowed, smokingAllowed, isIndoor):
+	return locals()
+
+
+def Timetables(monday, tuestay, wednesday, thursday, friday, saturday, sunday):
+	return locals()
+
+
+def GeoCoordinates(latitude, longitude, altitude, address, addressLocality, addressRegion, postalCode, locationText):
+	return locals()
+
+
+classes_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/structure/classes.py').text
+exec(classes_txt)
+constants_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/constants.py').text
+exec(constants_txt)
 
 
 def rm_main(JSONString):
 	events = []
 	trentoTodayE = json.loads(JSONString)
-	for event in trentoTodayE:
-		if 'Title' not in event:
-			continue
-		if 'category' not in event:
-			event['category'] = ""
-		if 'location' not in event:
-			event['location'] = ""
-		if 'location_url' not in event:
-			event['location_url'] = ""
-		events.append(
-		    eventObj(
-		        source="trentoTodayE",
-		        category="Cultural",
-		        subCategory=event['category'],
-		        title=event['Title'],
-		        cost=event['price'],
-		        locationName=event['location'],
-		        locationURL=event['location_url'],
-		        description=event['description'],
-		        date=event['date'],
-		        time=event['time'],
-		        link=event['Link']
-		        # many tags!
-		    ))
+	for e in trentoTodayE:
+		gen = GeneralEvent(e['Title'], e['price'], e['description'], e['Link'], '', '', '', e['location'])
+
 	events = [ob.__dict__ for ob in events]
 	df = pd.DataFrame(events)
 	return df
