@@ -1,16 +1,38 @@
 import json
-
 import pandas as pd
 import requests
 
 
 class eventObj:
-	def __init__(self, title="", category="", subCategory="", date="", time="", locationName="", locationURL="",
-				 suitableFor="", source="", description="", other="", contact="", cost="", link="", subSubCategory=""):
+
+	def __init__(self,
+	             title="",
+	             ScienceEvent=False,
+	             VisualArtsEvent=False,
+	             MusicEvent=False,
+	             ScreeningEvent=False,
+	             TheatreEvent=False,
+	             TalkEvent=False,
+	             GeneralEvent=False,
+	             date="",
+	             time="",
+	             locationName="",
+	             locationURL="",
+	             suitableFor="",
+	             source="",
+	             description="",
+	             other="",
+	             contact="",
+	             cost="",
+	             link=""):
 		self.source = source.replace("\n", " ,")
-		self.category = category.replace("\n", " ,")
-		self.subCategory = subCategory.replace("\n", " ,")
-		self.subSubCategory = subSubCategory.replace("\n", " ,")
+		self.ScienceEvent = ScienceEvent
+		self.VisualArtsEvent = VisualArtsEvent
+		self.MusicEvent = MusicEvent
+		self.ScreeningEvent = ScreeningEvent
+		self.TheatreEvent = TheatreEvent
+		self.TalkEvent = TalkEvent
+		self.GeneralEvent = GeneralEvent
 		self.suitableFor = suitableFor.replace("\n", " ,")
 		self.title = title.replace("\n", " ,")
 		self.date = date.replace("\n", " ,")
@@ -22,6 +44,25 @@ class eventObj:
 		self.cost = cost.replace("\n", " ,")
 		self.other = other.replace("\n", " ,")
 		self.link = link.replace("\n", " ,")
+
+
+def get_category(cat, sub_cat):
+	science = 'ScienceEvent'
+	visual = 'VisualArtsEvent'
+	music = 'MusicEvent'
+	screen = 'ScreeningEvent'
+	theatre = 'TheatreEvent'
+	talk = 'TalkEvent'
+	general = 'Event'
+	cat_dict = {
+	    science: ['escursioni', 'religione', 'auto e moto'],
+	    visual: ['mostre', 'mercatini', 'fiere', 'inaugurazioni', 'turismo', 'moda'],
+	    music: ['sagre', 'concerti', 'disco&feste'],
+	    screen: ['cinema'],
+	    theatre: ['teatri'],
+	    talk: ['incontri', 'manifestazioni', 'talk'],
+	    general: ['cibo e vino', 'sport', 'fitness', 'hobby', 'promozioni']
+	}
 
 
 def rm_main(JSONString):
@@ -42,22 +83,21 @@ def rm_main(JSONString):
 			event['contacts'] = ""
 		if 'location' not in event:
 			event['location'] = ""
-		events.append(eventObj(
-				source="visitTrentino",
-				category="Cultural",
-				subCategory=event['category'],
-				title=event['Title'],
-				date=event['date'],
-				time=event['time'],
-				link=event['link'],
-				locationName=event['location'],
-				description=event['fulldesc'],
-				other=event['sub_title'],
-				contact=json.dumps(event['contacts'])
-				# miniDesc,dates
-		))
+		events.append(
+		    eventObj(
+		        source="visitTrentino",
+		        category="Cultural",
+		        subCategory=event['category'],
+		        title=event['Title'],
+		        date=event['date'],
+		        time=event['time'],
+		        link=event['link'],
+		        locationName=event['location'],
+		        description=event['fulldesc'],
+		        other=event['sub_title'],
+		        contact=json.dumps(event['contacts'])
+		        # miniDesc,dates
+		    ))
 	events = [ob.__dict__ for ob in events]
 	df = pd.DataFrame(events)
 	return df
-
-

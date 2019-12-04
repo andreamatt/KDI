@@ -82,91 +82,6 @@
 			"political"
 		]
 	},
-	"Cavalese --SELF--  --SELF-- Palace of the 'Magnifica Comunit\u00e0 di Fiemme'": {
-		"address_components": [
-			{
-				"long_name": "Cavalese",
-				"short_name": "Cavalese",
-				"types": [
-					"locality",
-					"political"
-				]
-			},
-			{
-				"long_name": "Cavalese",
-				"short_name": "Cavalese",
-				"types": [
-					"administrative_area_level_3",
-					"political"
-				]
-			},
-			{
-				"long_name": "Province of Trento",
-				"short_name": "TN",
-				"types": [
-					"administrative_area_level_2",
-					"political"
-				]
-			},
-			{
-				"long_name": "Trentino-South Tyrol",
-				"short_name": "Trentino-South Tyrol",
-				"types": [
-					"administrative_area_level_1",
-					"political"
-				]
-			},
-			{
-				"long_name": "Italy",
-				"short_name": "IT",
-				"types": [
-					"country",
-					"political"
-				]
-			},
-			{
-				"long_name": "38033",
-				"short_name": "38033",
-				"types": [
-					"postal_code"
-				]
-			}
-		],
-		"formatted_address": "38033 Cavalese, Province of Trento, Italy",
-		"geometry": {
-			"bounds": {
-				"northeast": {
-					"lat": 46.296676,
-					"lng": 11.4710389
-				},
-				"southwest": {
-					"lat": 46.2845187,
-					"lng": 11.4473797
-				}
-			},
-			"location": {
-				"lat": 46.2912024,
-				"lng": 11.4605662
-			},
-			"location_type": "APPROXIMATE",
-			"viewport": {
-				"northeast": {
-					"lat": 46.296676,
-					"lng": 11.4710389
-				},
-				"southwest": {
-					"lat": 46.2845187,
-					"lng": 11.4473797
-				}
-			}
-		},
-		"partial_match": true,
-		"place_id": "ChIJYx-lB1V8eEcR8w7sQr1Nf-U",
-		"types": [
-			"locality",
-			"political"
-		]
-	},
 	"Rovereto --SELF--  --SELF-- Bell of the Fallen": {
 		"address_components": [
 			{
@@ -255,22 +170,22 @@
 	"Trento --SELF-- Fondazione Bruno Kessler --SELF-- ": {
 		"address_components": [
 			{
-				"long_name": "8",
-				"short_name": "8",
+				"long_name": "18",
+				"short_name": "18",
 				"types": [
 					"street_number"
 				]
 			},
 			{
-				"long_name": "Via alla Veduta",
-				"short_name": "Via alla Veduta",
+				"long_name": "Via Sommarive",
+				"short_name": "Via Sommarive",
 				"types": [
 					"route"
 				]
 			},
 			{
-				"long_name": "Trento",
-				"short_name": "TN",
+				"long_name": "Povo",
+				"short_name": "Povo",
 				"types": [
 					"locality",
 					"political"
@@ -309,118 +224,40 @@
 				]
 			},
 			{
-				"long_name": "38122",
-				"short_name": "38122",
+				"long_name": "38123",
+				"short_name": "38123",
 				"types": [
 					"postal_code"
 				]
 			}
 		],
-		"formatted_address": "Via alla Veduta, 8, 38122 Trento TN, Italy",
+		"formatted_address": "Via Sommarive, 18, 38123 Povo TN, Italy",
 		"geometry": {
 			"location": {
-				"lat": 46.0758275,
-				"lng": 11.1445428
+				"lat": 46.066963,
+				"lng": 11.1511945
 			},
 			"location_type": "ROOFTOP",
 			"viewport": {
 				"northeast": {
-					"lat": 46.0771764802915,
-					"lng": 11.1458917802915
+					"lat": 46.0683119802915,
+					"lng": 11.1525434802915
 				},
 				"southwest": {
-					"lat": 46.0744785197085,
-					"lng": 11.1431938197085
-				}
-			}
-		},
-		"place_id": "ChIJo-Gfk8R2gkcRY2bpHDpjAqU",
-		"plus_code": {
-			"compound_code": "34GV+8R Trento, Province of Trento, Italy",
-			"global_code": "8FRH34GV+8R"
-		},
-		"types": [
-			"establishment",
-			"laundry",
-			"point_of_interest"
-		]
-	},
-	"Trento --SELF--  --SELF-- Theatre Auditorium": {
-		"address_components": [
-			{
-				"long_name": "Trento",
-				"short_name": "TN",
-				"types": [
-					"locality",
-					"political"
-				]
-			},
-			{
-				"long_name": "Trento",
-				"short_name": "Trento",
-				"types": [
-					"administrative_area_level_3",
-					"political"
-				]
-			},
-			{
-				"long_name": "Province of Trento",
-				"short_name": "TN",
-				"types": [
-					"administrative_area_level_2",
-					"political"
-				]
-			},
-			{
-				"long_name": "Trentino-South Tyrol",
-				"short_name": "Trentino-South Tyrol",
-				"types": [
-					"administrative_area_level_1",
-					"political"
-				]
-			},
-			{
-				"long_name": "Italy",
-				"short_name": "IT",
-				"types": [
-					"country",
-					"political"
-				]
-			}
-		],
-		"formatted_address": "Trento, Province of Trento, Italy",
-		"geometry": {
-			"bounds": {
-				"northeast": {
-					"lat": 46.1327915,
-					"lng": 11.1580189
-				},
-				"southwest": {
-					"lat": 46.0281314,
-					"lng": 11.0826925
-				}
-			},
-			"location": {
-				"lat": 46.0747793,
-				"lng": 11.1217486
-			},
-			"location_type": "APPROXIMATE",
-			"viewport": {
-				"northeast": {
-					"lat": 46.1327915,
-					"lng": 11.1580189
-				},
-				"southwest": {
-					"lat": 46.0281314,
-					"lng": 11.0826925
+					"lat": 46.06561401970851,
+					"lng": 11.1498455197085
 				}
 			}
 		},
 		"partial_match": true,
-		"place_id": "ChIJ253Oycp2gkcRR_WfE5mixic",
+		"place_id": "ChIJn6M0MpV2gkcRPz1GtaQxLLQ",
+		"plus_code": {
+			"compound_code": "3582+QF Povo, Trento, Province of Trento, Italy",
+			"global_code": "8FRH3582+QF"
+		},
 		"types": [
-			"locality",
-			"political"
+			"establishment",
+			"point_of_interest"
 		]
 	},
 	"Rovereto --SELF--  --SELF-- Depero  Futurist House of the Arts": {
@@ -518,6 +355,445 @@
 			"tourist_attraction"
 		]
 	},
+	"Trento --SELF--  --SELF-- Palazzo Roccabruna": {
+		"address_components": [
+			{
+				"long_name": "24",
+				"short_name": "24",
+				"types": [
+					"street_number"
+				]
+			},
+			{
+				"long_name": "Via Santa Trinit\u00e0",
+				"short_name": "Via Santa Trinit\u00e0",
+				"types": [
+					"route"
+				]
+			},
+			{
+				"long_name": "Trento",
+				"short_name": "TN",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trento",
+				"short_name": "Trento",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Provincia di Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-Alto Adige",
+				"short_name": "Trentino-Alto Adige",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38122",
+				"short_name": "38122",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "Via Santa Trinit\u00e0, 24, 38122 Trento TN, Italy",
+		"geometry": {
+			"location": {
+				"lat": 46.066349,
+				"lng": 11.123444
+			},
+			"location_type": "ROOFTOP",
+			"viewport": {
+				"northeast": {
+					"lat": 46.06769798029149,
+					"lng": 11.1247929802915
+				},
+				"southwest": {
+					"lat": 46.06500001970849,
+					"lng": 11.1220950197085
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJBc_lyLR2gkcRdiSoTeMc20s",
+		"plus_code": {
+			"compound_code": "348F+G9 Trento, Province of Trento, Italy",
+			"global_code": "8FRH348F+G9"
+		},
+		"types": [
+			"bar",
+			"establishment",
+			"food",
+			"point_of_interest"
+		]
+	},
+	"Cavalese --SELF--  --SELF-- Palace of the 'Magnifica Comunit\u00e0 di Fiemme'": {
+		"address_components": [
+			{
+				"long_name": "Cavalese",
+				"short_name": "Cavalese",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Cavalese",
+				"short_name": "Cavalese",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Province of Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-South Tyrol",
+				"short_name": "Trentino-South Tyrol",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38033",
+				"short_name": "38033",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "38033 Cavalese, Province of Trento, Italy",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": 46.296676,
+					"lng": 11.4710389
+				},
+				"southwest": {
+					"lat": 46.2845187,
+					"lng": 11.4473797
+				}
+			},
+			"location": {
+				"lat": 46.2912024,
+				"lng": 11.4605662
+			},
+			"location_type": "APPROXIMATE",
+			"viewport": {
+				"northeast": {
+					"lat": 46.296676,
+					"lng": 11.4710389
+				},
+				"southwest": {
+					"lat": 46.2845187,
+					"lng": 11.4473797
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJYx-lB1V8eEcR8w7sQr1Nf-U",
+		"types": [
+			"locality",
+			"political"
+		]
+	},
+	"Trento --SELF--  --SELF-- Tridentum. S.A.S.S. - Underground Archaeological Site Sas": {
+		"address_components": [
+			{
+				"long_name": "Piazza Cesare Battisti",
+				"short_name": "Piazza Cesare Battisti",
+				"types": [
+					"route"
+				]
+			},
+			{
+				"long_name": "Trento",
+				"short_name": "TN",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trento",
+				"short_name": "Trento",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Provincia di Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-Alto Adige",
+				"short_name": "Trentino-Alto Adige",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38122",
+				"short_name": "38122",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "Piazza Cesare Battisti, 38122 Trento TN, Italy",
+		"geometry": {
+			"location": {
+				"lat": 46.0695538,
+				"lng": 11.1236897
+			},
+			"location_type": "GEOMETRIC_CENTER",
+			"viewport": {
+				"northeast": {
+					"lat": 46.0709027802915,
+					"lng": 11.1250386802915
+				},
+				"southwest": {
+					"lat": 46.0682048197085,
+					"lng": 11.1223407197085
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJ95B-vEpxgkcRsf1N0br7MBk",
+		"plus_code": {
+			"compound_code": "349F+RF Trento, Province of Trento, Italy",
+			"global_code": "8FRH349F+RF"
+		},
+		"types": [
+			"establishment",
+			"museum",
+			"point_of_interest",
+			"tourist_attraction"
+		]
+	},
+	"Trento --SELF--  --SELF-- Civic art gallery - Trento": {
+		"address_components": [
+			{
+				"long_name": "6",
+				"short_name": "6",
+				"types": [
+					"street_number"
+				]
+			},
+			{
+				"long_name": "Via Dietro le Mura B",
+				"short_name": "Via Dietro le Mura B",
+				"types": [
+					"route"
+				]
+			},
+			{
+				"long_name": "Trento",
+				"short_name": "TN",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trento",
+				"short_name": "Trento",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Provincia di Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-Alto Adige",
+				"short_name": "Trentino-Alto Adige",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38122",
+				"short_name": "38122",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "Via Dietro le Mura B, 6, 38122 Trento TN, Italy",
+		"geometry": {
+			"location": {
+				"lat": 46.068653,
+				"lng": 11.1269701
+			},
+			"location_type": "ROOFTOP",
+			"viewport": {
+				"northeast": {
+					"lat": 46.07000198029151,
+					"lng": 11.1283190802915
+				},
+				"southwest": {
+					"lat": 46.06730401970851,
+					"lng": 11.1256211197085
+				}
+			}
+		},
+		"place_id": "ChIJ-9rbc7V2gkcRiLJj9-EAz7g",
+		"plus_code": {
+			"compound_code": "349G+FQ Trento, Province of Trento, Italy",
+			"global_code": "8FRH349G+FQ"
+		},
+		"types": [
+			"establishment",
+			"lodging",
+			"point_of_interest"
+		]
+	},
+	"Trento --SELF--  --SELF-- Theatre Auditorium": {
+		"address_components": [
+			{
+				"long_name": "Trento",
+				"short_name": "TN",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trento",
+				"short_name": "Trento",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Province of Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-South Tyrol",
+				"short_name": "Trentino-South Tyrol",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			}
+		],
+		"formatted_address": "Trento, Province of Trento, Italy",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": 46.1327915,
+					"lng": 11.1580189
+				},
+				"southwest": {
+					"lat": 46.0281314,
+					"lng": 11.0826925
+				}
+			},
+			"location": {
+				"lat": 46.0747793,
+				"lng": 11.1217486
+			},
+			"location_type": "APPROXIMATE",
+			"viewport": {
+				"northeast": {
+					"lat": 46.1327915,
+					"lng": 11.1580189
+				},
+				"southwest": {
+					"lat": 46.0281314,
+					"lng": 11.0826925
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJ253Oycp2gkcRR_WfE5mixic",
+		"types": [
+			"locality",
+			"political"
+		]
+	},
 	"Rovereto --SELF--  --SELF-- Theatre Auditorium Fausto Melotti": {
 		"address_components": [
 			{
@@ -611,21 +887,19 @@
 			"point_of_interest"
 		]
 	},
-	"vedi info ,Indirizzo non disponibile": "",
-	"Centro Storico ,Indirizzo non disponibile ,Ala": "",
-	"centro storico ,Indirizzo non disponibile ,Siror": {
+	"Maurina ,Indirizzo non disponibile ,Spormaggiore": {
 		"address_components": [
 			{
-				"long_name": "Siror",
-				"short_name": "Siror",
+				"long_name": "Maurina",
+				"short_name": "Maurina",
 				"types": [
 					"locality",
 					"political"
 				]
 			},
 			{
-				"long_name": "Siror",
-				"short_name": "Siror",
+				"long_name": "Spormaggiore",
+				"short_name": "Spormaggiore",
 				"types": [
 					"administrative_area_level_3",
 					"political"
@@ -656,43 +930,129 @@
 				]
 			},
 			{
-				"long_name": "38054",
-				"short_name": "38054",
+				"long_name": "38010",
+				"short_name": "38010",
 				"types": [
 					"postal_code"
 				]
 			}
 		],
-		"formatted_address": "38054 Siror, Province of Trento, Italy",
+		"formatted_address": "38010 Maurina, Province of Trento, Italy",
 		"geometry": {
 			"bounds": {
 				"northeast": {
-					"lat": 46.1910367,
-					"lng": 11.8355545
+					"lat": 46.221951,
+					"lng": 11.038125
 				},
 				"southwest": {
-					"lat": 46.1816238,
-					"lng": 11.8283843
+					"lat": 46.2198122,
+					"lng": 11.035158
 				}
 			},
 			"location": {
-				"lat": 46.1877609,
-				"lng": 11.8302311
+				"lat": 46.2207428,
+				"lng": 11.0364617
 			},
 			"location_type": "APPROXIMATE",
 			"viewport": {
 				"northeast": {
-					"lat": 46.1910367,
-					"lng": 11.8355545
+					"lat": 46.22223058029149,
+					"lng": 11.038125
 				},
 				"southwest": {
-					"lat": 46.1816238,
-					"lng": 11.8283843
+					"lat": 46.2195326197085,
+					"lng": 11.035158
 				}
 			}
 		},
 		"partial_match": true,
-		"place_id": "ChIJgWxR4bn3eEcR8IfAP1XJTkA",
+		"place_id": "ChIJc0DbanhjgkcRsT1wLogJByY",
+		"types": [
+			"locality",
+			"political"
+		]
+	},
+	"vedi info ,Indirizzo non disponibile": "",
+	"Centro Storico ,Indirizzo non disponibile ,Cimego": {
+		"address_components": [
+			{
+				"long_name": "Cimego",
+				"short_name": "Cimego",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Cimego",
+				"short_name": "Cimego",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Province of Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-South Tyrol",
+				"short_name": "Trentino-South Tyrol",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38082",
+				"short_name": "38082",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "38082 Cimego, Province of Trento, Italy",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": 45.9183573,
+					"lng": 10.6275294
+				},
+				"southwest": {
+					"lat": 45.9095337,
+					"lng": 10.6100106
+				}
+			},
+			"location": {
+				"lat": 45.9117544,
+				"lng": 10.6134314
+			},
+			"location_type": "APPROXIMATE",
+			"viewport": {
+				"northeast": {
+					"lat": 45.9183573,
+					"lng": 10.6275294
+				},
+				"southwest": {
+					"lat": 45.9095337,
+					"lng": 10.6100106
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJY1bvtVA6gkcRsbtNVzf3bh8",
 		"types": [
 			"locality",
 			"political"
@@ -783,19 +1143,19 @@
 			"political"
 		]
 	},
-	"Centro Storico ,Indirizzo non disponibile ,Cimego": {
+	"centro storico ,Indirizzo non disponibile ,Siror": {
 		"address_components": [
 			{
-				"long_name": "Cimego",
-				"short_name": "Cimego",
+				"long_name": "Siror",
+				"short_name": "Siror",
 				"types": [
 					"locality",
 					"political"
 				]
 			},
 			{
-				"long_name": "Cimego",
-				"short_name": "Cimego",
+				"long_name": "Siror",
+				"short_name": "Siror",
 				"types": [
 					"administrative_area_level_3",
 					"political"
@@ -826,124 +1186,45 @@
 				]
 			},
 			{
-				"long_name": "38082",
-				"short_name": "38082",
+				"long_name": "38054",
+				"short_name": "38054",
 				"types": [
 					"postal_code"
 				]
 			}
 		],
-		"formatted_address": "38082 Cimego, Province of Trento, Italy",
+		"formatted_address": "38054 Siror, Province of Trento, Italy",
 		"geometry": {
 			"bounds": {
 				"northeast": {
-					"lat": 45.9183573,
-					"lng": 10.6275294
+					"lat": 46.1910367,
+					"lng": 11.8355545
 				},
 				"southwest": {
-					"lat": 45.9095337,
-					"lng": 10.6100106
+					"lat": 46.1816238,
+					"lng": 11.8283843
 				}
 			},
 			"location": {
-				"lat": 45.9117544,
-				"lng": 10.6134314
+				"lat": 46.1877609,
+				"lng": 11.8302311
 			},
 			"location_type": "APPROXIMATE",
 			"viewport": {
 				"northeast": {
-					"lat": 45.9183573,
-					"lng": 10.6275294
+					"lat": 46.1910367,
+					"lng": 11.8355545
 				},
 				"southwest": {
-					"lat": 45.9095337,
-					"lng": 10.6100106
+					"lat": 46.1816238,
+					"lng": 11.8283843
 				}
 			}
 		},
 		"partial_match": true,
-		"place_id": "ChIJY1bvtVA6gkcRsbtNVzf3bh8",
+		"place_id": "ChIJgWxR4bn3eEcR8IfAP1XJTkA",
 		"types": [
 			"locality",
-			"political"
-		]
-	},
-	"Indirizzo non disponibile": "",
-	"centro storico ,Indirizzo non disponibile ,Ala": "",
-	"Centro Storico ,Indirizzo non disponibile ,Ledro": {
-		"address_components": [
-			{
-				"long_name": "Ledro",
-				"short_name": "Ledro",
-				"types": [
-					"administrative_area_level_3",
-					"political"
-				]
-			},
-			{
-				"long_name": "Province of Trento",
-				"short_name": "TN",
-				"types": [
-					"administrative_area_level_2",
-					"political"
-				]
-			},
-			{
-				"long_name": "Trentino-South Tyrol",
-				"short_name": "Trentino-South Tyrol",
-				"types": [
-					"administrative_area_level_1",
-					"political"
-				]
-			},
-			{
-				"long_name": "Italy",
-				"short_name": "IT",
-				"types": [
-					"country",
-					"political"
-				]
-			},
-			{
-				"long_name": "38067",
-				"short_name": "38067",
-				"types": [
-					"postal_code"
-				]
-			}
-		],
-		"formatted_address": "38067 Ledro, Province of Trento, Italy",
-		"geometry": {
-			"bounds": {
-				"northeast": {
-					"lat": 45.9698749,
-					"lng": 10.8579872
-				},
-				"southwest": {
-					"lat": 45.8018536,
-					"lng": 10.6111793
-				}
-			},
-			"location": {
-				"lat": 45.8765359,
-				"lng": 10.7321478
-			},
-			"location_type": "APPROXIMATE",
-			"viewport": {
-				"northeast": {
-					"lat": 45.9698749,
-					"lng": 10.8579872
-				},
-				"southwest": {
-					"lat": 45.8018536,
-					"lng": 10.6111793
-				}
-			}
-		},
-		"partial_match": true,
-		"place_id": "ChIJk8aJIRM9gkcR_CpveFtR34U",
-		"types": [
-			"administrative_area_level_3",
 			"political"
 		]
 	},
@@ -1032,19 +1313,14 @@
 			"political"
 		]
 	},
-	"Maurina ,Indirizzo non disponibile ,Spormaggiore": {
+	"Centro Storico ,Indirizzo non disponibile ,Ala": "",
+	"Indirizzo non disponibile": "",
+	"centro storico ,Indirizzo non disponibile ,Ala": "",
+	"Centro Storico ,Indirizzo non disponibile ,Ledro": {
 		"address_components": [
 			{
-				"long_name": "Maurina",
-				"short_name": "Maurina",
-				"types": [
-					"locality",
-					"political"
-				]
-			},
-			{
-				"long_name": "Spormaggiore",
-				"short_name": "Spormaggiore",
+				"long_name": "Ledro",
+				"short_name": "Ledro",
 				"types": [
 					"administrative_area_level_3",
 					"political"
@@ -1075,45 +1351,45 @@
 				]
 			},
 			{
-				"long_name": "38010",
-				"short_name": "38010",
+				"long_name": "38067",
+				"short_name": "38067",
 				"types": [
 					"postal_code"
 				]
 			}
 		],
-		"formatted_address": "38010 Maurina, Province of Trento, Italy",
+		"formatted_address": "38067 Ledro, Province of Trento, Italy",
 		"geometry": {
 			"bounds": {
 				"northeast": {
-					"lat": 46.221951,
-					"lng": 11.038125
+					"lat": 45.9698749,
+					"lng": 10.8579872
 				},
 				"southwest": {
-					"lat": 46.2198122,
-					"lng": 11.035158
+					"lat": 45.8018536,
+					"lng": 10.6111793
 				}
 			},
 			"location": {
-				"lat": 46.2207428,
-				"lng": 11.0364617
+				"lat": 45.8765359,
+				"lng": 10.7321478
 			},
 			"location_type": "APPROXIMATE",
 			"viewport": {
 				"northeast": {
-					"lat": 46.22223058029149,
-					"lng": 11.038125
+					"lat": 45.9698749,
+					"lng": 10.8579872
 				},
 				"southwest": {
-					"lat": 46.2195326197085,
-					"lng": 11.035158
+					"lat": 45.8018536,
+					"lng": 10.6111793
 				}
 			}
 		},
 		"partial_match": true,
-		"place_id": "ChIJc0DbanhjgkcRsT1wLogJByY",
+		"place_id": "ChIJk8aJIRM9gkcR_CpveFtR34U",
 		"types": [
-			"locality",
+			"administrative_area_level_3",
 			"political"
 		]
 	},
