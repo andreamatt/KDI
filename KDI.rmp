@@ -197,22 +197,25 @@
         <parameter key="convert_to_lowercase" value="false"/>
         <parameter key="first_match_only" value="false"/>
       </operator>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="124" name="Multiply" width="90" x="916" y="34"/>
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="124" name="Multiply events" width="90" x="916" y="34"/>
       <operator activated="true" class="python_scripting:execute_python" compatibility="9.3.001" expanded="true" height="103" name="Places" width="90" x="916" y="238">
         <parameter key="script" value="import pandas&#10;&#10;# rm_main is a mandatory function, &#10;# the number of arguments has to be the number of input ports (can be none)&#10;def rm_main(data):&#10;    print('Hello, world!')&#10;    # output can be found in Log View&#10;    print(type(data))&#10;&#10;    #your code goes here&#10;&#10;    #for example:&#10;    data2 = pandas.DataFrame([3,5,77,8])&#10;&#10;    # connect 2 output ports to see the results&#10;    return data, data2"/>
-        <parameter key="script_file" value="C:\Users\andre\Desktop\kdi\scraping\KDI\scripts\locations\google_places.py"/>
+        <parameter key="script_file" value="https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/locations/google_places.py"/>
         <parameter key="notebook_cell_tag_filter" value=""/>
         <parameter key="use_default_python" value="true"/>
         <parameter key="package_manager" value="conda (anaconda)"/>
       </operator>
-      <operator activated="true" class="python_scripting:execute_python" compatibility="9.3.001" expanded="true" height="103" name="Geocoding" width="90" x="1050" y="238">
-        <parameter key="script" value="import pandas&#10;&#10;# rm_main is a mandatory function, &#10;# the number of arguments has to be the number of input ports (can be none)&#10;def rm_main(data):&#10;    print('Hello, world!')&#10;    # output can be found in Log View&#10;    print(type(data))&#10;&#10;    #your code goes here&#10;&#10;    #for example:&#10;    data2 = pandas.DataFrame([3,5,77,8])&#10;&#10;    # connect 2 output ports to see the results&#10;    return data, data2"/>
-        <parameter key="script_file" value="C:\Users\andre\Desktop\kdi\scraping\KDI\scripts\locations\geocoding.py"/>
-        <parameter key="notebook_cell_tag_filter" value=""/>
-        <parameter key="use_default_python" value="true"/>
-        <parameter key="package_manager" value="conda (anaconda)"/>
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Multiply facilities" width="90" x="1050" y="238"/>
+      <operator activated="true" class="write_excel" compatibility="9.5.001" expanded="true" height="103" name="Save facilities" width="90" x="1184" y="289">
+        <parameter key="excel_file" value="RESULT_FACILITIES.xlsx"/>
+        <parameter key="file_format" value="xlsx"/>
+        <enumeration key="sheet_names"/>
+        <parameter key="sheet_name" value="RapidMiner Data"/>
+        <parameter key="date_format" value="yyyy-MM-dd HH:mm:ss"/>
+        <parameter key="number_format" value="#.0"/>
+        <parameter key="encoding" value="UTF-8"/>
       </operator>
-      <operator activated="true" class="write_excel" compatibility="9.5.001" expanded="true" height="103" name="Write Excel" width="90" x="1050" y="85">
+      <operator activated="true" class="write_excel" compatibility="9.5.001" expanded="true" height="103" name="Save events" width="90" x="1050" y="85">
         <parameter key="excel_file" value="Dataset_CAT.xlsx"/>
         <parameter key="file_format" value="xlsx"/>
         <enumeration key="sheet_names"/>
@@ -243,14 +246,17 @@
       <connect from_op="visitTrentino" from_port="output 1" to_op="Append" to_port="example set 7"/>
       <connect from_op="Append" from_port="merged set" to_op="Generate Attributes" to_port="example set input"/>
       <connect from_op="Generate Attributes" from_port="example set output" to_op="Replace (Dictionary)" to_port="example set input"/>
-      <connect from_op="Replace (Dictionary)" from_port="example set output" to_op="Multiply" to_port="input"/>
-      <connect from_op="Multiply" from_port="output 1" to_port="result 1"/>
-      <connect from_op="Multiply" from_port="output 2" to_op="Write Excel" to_port="input"/>
-      <connect from_op="Multiply" from_port="output 3" to_op="Places" to_port="input 1"/>
-      <connect from_op="Places" from_port="output 1" to_op="Geocoding" to_port="input 1"/>
+      <connect from_op="Replace (Dictionary)" from_port="example set output" to_op="Multiply events" to_port="input"/>
+      <connect from_op="Multiply events" from_port="output 1" to_port="result 1"/>
+      <connect from_op="Multiply events" from_port="output 2" to_op="Save events" to_port="input"/>
+      <connect from_op="Multiply events" from_port="output 3" to_op="Places" to_port="input 1"/>
+      <connect from_op="Places" from_port="output 1" to_op="Multiply facilities" to_port="input"/>
+      <connect from_op="Multiply facilities" from_port="output 1" to_port="result 2"/>
+      <connect from_op="Multiply facilities" from_port="output 2" to_op="Save facilities" to_port="input"/>
       <portSpacing port="source_input 1" spacing="0"/>
       <portSpacing port="sink_result 1" spacing="0"/>
       <portSpacing port="sink_result 2" spacing="0"/>
+      <portSpacing port="sink_result 3" spacing="0"/>
     </process>
   </operator>
 </process>
