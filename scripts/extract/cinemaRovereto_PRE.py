@@ -15,6 +15,7 @@ def rm_main():
     }
 
     for movie in obj['movies']:
+        movie['description'] = movie['description'].replace('\n', '; ')
         if 'time' not in movie:
             obj['movies'].remove(movie)
             continue
