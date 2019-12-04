@@ -1,7 +1,7 @@
+general = 'Event'
 science = 'ScienceEvent'
 visual = 'VisualArtsEvent'
 music = 'MusicEvent'
 screen = 'ScreeningEvent'
 theatre = 'TheatreEvent'
 talk = 'TalkEvent'
-general = 'Event'

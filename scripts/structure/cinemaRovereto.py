@@ -24,6 +24,4 @@ def rm_main(JSONString):
 			event = {**gen, **screen, **work, **date}
 			events.append(event)
 
-	events = [ob.__dict__ for ob in events]
-	df = pd.DataFrame(events)
-	return df
+	return json.dumps({screen: events})
