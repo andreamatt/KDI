@@ -1,0 +1,955 @@
+_:f_events_Event1_32654f4a799830aa5c51303930578d87ade34ed2_N14409_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14418 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "La notte dei Krampus a Pozza di Fassa" .
+<http://localhost:8080/source/object/Centro%20Storico;%20Strada%20de%20Meida;%20Pozza%20di%20Fassa/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Centro%20Storico;%20Strada%20de%20Meida;%20Pozza%20di%20Fassa/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_32654f4a799830aa5c51303930578d87ade34ed2_N14409_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14418 .
+_:f_events_Event1_32654f4a799830aa5c51303930578d87ade34ed2_N14409_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14418 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Centro%20Storico;%20Strada%20de%20Meida;%20Pozza%20di%20Fassa/id> .
+_:f_events_Event1_32654f4a799830aa5c51303930578d87ade34ed2_N14409_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14418 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+_:f_events_Event1_32654f4a799830aa5c51303930578d87ade34ed2_N14409_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14418 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+_:f_events_Event1_bc4e574f0c66ea3e072abf7cdfa4ec9ce3403191_N14422_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14431 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Distilleria%20Marzadro;%20Strada%20Provinciale%2090;%20Isera/id> .
+<http://localhost:8080/source/object/Distilleria%20Marzadro;%20Strada%20Provinciale%2090;%20Isera/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_bc4e574f0c66ea3e072abf7cdfa4ec9ce3403191_N14422_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14431 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_bc4e574f0c66ea3e072abf7cdfa4ec9ce3403191_N14422_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14431 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+_:f_events_Event1_bc4e574f0c66ea3e072abf7cdfa4ec9ce3403191_N14422_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14431 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mauro Corona alle distillerie Marzadro" .
+<http://localhost:8080/source/object/Distilleria%20Marzadro;%20Strada%20Provinciale%2090;%20Isera/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_bc4e574f0c66ea3e072abf7cdfa4ec9ce3403191_N14422_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14431 .
+
+_:f_events_Event1_5e6ab9fa20dc56bd8ae21a598d4fc0040ab8f366_N14435_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14444 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Prezzo non disponibile" .
+_:f_events_Event1_5e6ab9fa20dc56bd8ae21a598d4fc0040ab8f366_N14435_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14444 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "I Krampus a Maurina in Val di Non" .
+<http://localhost:8080/source/object/Maurina;%20Indirizzo%20non%20disponibile;%20Spormaggiore/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_5e6ab9fa20dc56bd8ae21a598d4fc0040ab8f366_N14435_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14444 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Maurina;%20Indirizzo%20non%20disponibile;%20Spormaggiore/id> .
+_:f_events_Event1_5e6ab9fa20dc56bd8ae21a598d4fc0040ab8f366_N14435_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14444 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Maurina;%20Indirizzo%20non%20disponibile;%20Spormaggiore/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_5e6ab9fa20dc56bd8ae21a598d4fc0040ab8f366_N14435_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14444 .
+
+_:f_events_Event1_6084de65a6859dbcd548efe242bc85eb4e396263_N14448_0021d42bdd72eb4ab38153fb2b681bd769836fc8_N14457 <http://www.semanticweb.org/facilitiesEventsOntology#price> "8 euro" .
+_:f_events_Event1_6084de65a6859dbcd548efe242bc85eb4e396263_N14448_0021d42bdd72eb4ab38153fb2b681bd769836fc8_N14457 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Piedicastello;%20Via%20D�s%20Trento/id> .
+_:f_events_Event1_6084de65a6859dbcd548efe242bc85eb4e396263_N14448_0021d42bdd72eb4ab38153fb2b681bd769836fc8_N14457 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Alla scoperta di Piedicastello con il FAI" .
+_:f_events_Event1_6084de65a6859dbcd548efe242bc85eb4e396263_N14448_0021d42bdd72eb4ab38153fb2b681bd769836fc8_N14457 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Piedicastello;%20Via%20D�s%20Trento/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Piedicastello;%20Via%20D�s%20Trento/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_6084de65a6859dbcd548efe242bc85eb4e396263_N14448_0021d42bdd72eb4ab38153fb2b681bd769836fc8_N14457 .
+
+_:f_events_Event1_9b896948308929eefa1dd1007ed9dcc3ce9aedf9_N14461_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14470 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Giardino%20dei%20Ciucioi;%20Piazza%20Venezia%2C%202;%20Lavarone/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_9b896948308929eefa1dd1007ed9dcc3ce9aedf9_N14461_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14470 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Giardino%20dei%20Ciucioi;%20Piazza%20Venezia%2C%202;%20Lavarone/id> .
+<http://localhost:8080/source/object/Giardino%20dei%20Ciucioi;%20Piazza%20Venezia%2C%202;%20Lavarone/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_9b896948308929eefa1dd1007ed9dcc3ce9aedf9_N14461_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14470 .
+_:f_events_Event1_9b896948308929eefa1dd1007ed9dcc3ce9aedf9_N14461_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14470 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+_:f_events_Event1_9b896948308929eefa1dd1007ed9dcc3ce9aedf9_N14461_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14470 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "A Lavis la Fiera dei Ciucioi: prima volta con il giardino aperto" .
+
+<http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Pergine%20Valsugana/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Pergine%20Valsugana/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_e50110d9f6d98456a65e05c1b747b75be81de62a_N14474_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14483 .
+_:f_events_Event1_e50110d9f6d98456a65e05c1b747b75be81de62a_N14474_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14483 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_e50110d9f6d98456a65e05c1b747b75be81de62a_N14474_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14483 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Pergine%20Valsugana/id> .
+_:f_events_Event1_e50110d9f6d98456a65e05c1b747b75be81de62a_N14474_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14483 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "I Krampus a Pergine con tante attivit� per i pi� piccoli" .
+_:f_events_Event1_e50110d9f6d98456a65e05c1b747b75be81de62a_N14474_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14483 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+
+_:f_events_Event1_aaf6d402c337d46e62239def15695043f3caeb0c_N14487_3383b953c3c5f986086cb10e141f37404bc39137_N14496 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_aaf6d402c337d46e62239def15695043f3caeb0c_N14487_3383b953c3c5f986086cb10e141f37404bc39137_N14496 <http://www.semanticweb.org/facilitiesEventsOntology#price> "7 euro" .
+_:f_events_Event1_aaf6d402c337d46e62239def15695043f3caeb0c_N14487_3383b953c3c5f986086cb10e141f37404bc39137_N14496 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Bookique;%20Via%20Torre%20D%27Augusto/id> .
+<http://localhost:8080/source/object/Bookique;%20Via%20Torre%20D%27Augusto/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_aaf6d402c337d46e62239def15695043f3caeb0c_N14487_3383b953c3c5f986086cb10e141f37404bc39137_N14496 .
+_:f_events_Event1_aaf6d402c337d46e62239def15695043f3caeb0c_N14487_3383b953c3c5f986086cb10e141f37404bc39137_N14496 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Stand up comedy: Velia Lalli alla Bookique" .
+<http://localhost:8080/source/object/Bookique;%20Via%20Torre%20D%27Augusto/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+
+_:f_events_Event1_81fa2fe73ca73c88f8c553360e7fa671622b956d_N14500_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14509 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Casa astuta: come sfruttare bene l�energia a casa" .
+<http://localhost:8080/source/object/Circolo%20ACLI%20GARDOLO;%20Via%20Laurence%20Feininger%2C%204/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_81fa2fe73ca73c88f8c553360e7fa671622b956d_N14500_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14509 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+_:f_events_Event1_81fa2fe73ca73c88f8c553360e7fa671622b956d_N14500_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14509 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Circolo%20ACLI%20GARDOLO;%20Via%20Laurence%20Feininger%2C%204/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_81fa2fe73ca73c88f8c553360e7fa671622b956d_N14500_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14509 .
+_:f_events_Event1_81fa2fe73ca73c88f8c553360e7fa671622b956d_N14500_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14509 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Circolo%20ACLI%20GARDOLO;%20Via%20Laurence%20Feininger%2C%204/id> .
+
+_:f_events_Event1_4c8d02728499cab7fbd3e77c6c023dc63b606b54_N14513_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14522 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_4c8d02728499cab7fbd3e77c6c023dc63b606b54_N14513_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14522 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Intelligenza artificiale: mito o realt�? Se ne parla a Povo" .
+_:f_events_Event1_4c8d02728499cab7fbd3e77c6c023dc63b606b54_N14513_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14522 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+<http://localhost:8080/source/object/EIT%20Digital%20Italy%20Co-Location%20Centre;%20Via%20Sommarive%2C%2018/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/EIT%20Digital%20Italy%20Co-Location%20Centre;%20Via%20Sommarive%2C%2018/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_4c8d02728499cab7fbd3e77c6c023dc63b606b54_N14513_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14522 .
+_:f_events_Event1_4c8d02728499cab7fbd3e77c6c023dc63b606b54_N14513_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14522 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/EIT%20Digital%20Italy%20Co-Location%20Centre;%20Via%20Sommarive%2C%2018/id> .
+
+<http://localhost:8080/source/object/parrocchia%20di%20Madonna%20Bianca;%20Via%20Angelo%20Bettini%2C%2011/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_83f68fadf2effc2cc2fad9c37415d67314f8ffaf_N14526_b2fdf190dbecec09081909fa420574e9f667eb5b_N14535 .
+_:f_events_Event1_83f68fadf2effc2cc2fad9c37415d67314f8ffaf_N14526_b2fdf190dbecec09081909fa420574e9f667eb5b_N14535 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/parrocchia%20di%20Madonna%20Bianca;%20Via%20Angelo%20Bettini%2C%2011/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_83f68fadf2effc2cc2fad9c37415d67314f8ffaf_N14526_b2fdf190dbecec09081909fa420574e9f667eb5b_N14535 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/parrocchia%20di%20Madonna%20Bianca;%20Via%20Angelo%20Bettini%2C%2011/id> .
+_:f_events_Event1_83f68fadf2effc2cc2fad9c37415d67314f8ffaf_N14526_b2fdf190dbecec09081909fa420574e9f667eb5b_N14535 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Men� 25 euro a persona" .
+_:f_events_Event1_83f68fadf2effc2cc2fad9c37415d67314f8ffaf_N14526_b2fdf190dbecec09081909fa420574e9f667eb5b_N14535 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Camerieri non vedenti e men� a sopresa: ecco la cena al buio di Trento" .
+
+_:f_events_Event1_c36f4b4fb195881edf75c4451e0fef7373e3df20_N14539_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14548 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+<http://localhost:8080/source/object/Piazza%20Fiera;%20Piazza%20di%20Fiera/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_c36f4b4fb195881edf75c4451e0fef7373e3df20_N14539_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14548 .
+_:f_events_Event1_c36f4b4fb195881edf75c4451e0fef7373e3df20_N14539_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14548 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatini di Natale a Trento" .
+_:f_events_Event1_c36f4b4fb195881edf75c4451e0fef7373e3df20_N14539_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14548 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Piazza%20Fiera;%20Piazza%20di%20Fiera/id> .
+<http://localhost:8080/source/object/Piazza%20Fiera;%20Piazza%20di%20Fiera/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_c36f4b4fb195881edf75c4451e0fef7373e3df20_N14539_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14548 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/centro%20storico;%20Via%20Andrea%20Maffei;%20Riva%20del%20Garda/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/centro%20storico;%20Via%20Andrea%20Maffei;%20Riva%20del%20Garda/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_4da41222f8e9191943b0536a761b8605c64db3b9_N14552_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14561 .
+_:f_events_Event1_4da41222f8e9191943b0536a761b8605c64db3b9_N14552_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14561 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Il Natale a Riva � di gusto" .
+_:f_events_Event1_4da41222f8e9191943b0536a761b8605c64db3b9_N14552_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14561 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_4da41222f8e9191943b0536a761b8605c64db3b9_N14552_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14561 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+_:f_events_Event1_4da41222f8e9191943b0536a761b8605c64db3b9_N14552_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14561 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/centro%20storico;%20Via%20Andrea%20Maffei;%20Riva%20del%20Garda/id> .
+
+_:f_events_Event1_85fe53a57b848ac535edd1f6a6fb620bfdb6f66a_N14565_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14574 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_85fe53a57b848ac535edd1f6a6fb620bfdb6f66a_N14565_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14574 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+<http://localhost:8080/source/object/Chiese%20della%20citt�;%20Piazza%20Santa%20Maria%20Maggiore/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_85fe53a57b848ac535edd1f6a6fb620bfdb6f66a_N14565_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14574 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Concerti di Natale nelle chiese di Trento" .
+_:f_events_Event1_85fe53a57b848ac535edd1f6a6fb620bfdb6f66a_N14565_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14574 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Chiese%20della%20citt�;%20Piazza%20Santa%20Maria%20Maggiore/id> .
+<http://localhost:8080/source/object/Chiese%20della%20citt�;%20Piazza%20Santa%20Maria%20Maggiore/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_85fe53a57b848ac535edd1f6a6fb620bfdb6f66a_N14565_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14574 .
+
+_:f_events_Event1_ac9804d915c0957602212d8175246e4f10502800_N14578_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14587 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+<http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Ossana/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_ac9804d915c0957602212d8175246e4f10502800_N14578_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14587 .
+<http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Ossana/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_ac9804d915c0957602212d8175246e4f10502800_N14578_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14587 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Ossana/id> .
+_:f_events_Event1_ac9804d915c0957602212d8175246e4f10502800_N14578_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14587 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Ad Ossana 1000 presepi per il Natale" .
+_:f_events_Event1_ac9804d915c0957602212d8175246e4f10502800_N14578_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14587 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/vedi%20info;%20Indirizzo%20non%20disponibile/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_90be840e4230b0f4bb581443fd9513efb575eb06_N14591_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14600 .
+_:f_events_Event1_90be840e4230b0f4bb581443fd9513efb575eb06_N14591_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14600 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/vedi%20info;%20Indirizzo%20non%20disponibile/id> .
+_:f_events_Event1_90be840e4230b0f4bb581443fd9513efb575eb06_N14591_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14600 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_90be840e4230b0f4bb581443fd9513efb575eb06_N14591_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14600 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+<http://localhost:8080/source/object/vedi%20info;%20Indirizzo%20non%20disponibile/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_90be840e4230b0f4bb581443fd9513efb575eb06_N14591_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14600 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Musicantica, sei concerti dedicati ai suoni d'altri tempi" .
+
+<http://localhost:8080/source/object/centro%20storico;%20Via%20Dante%20Alighieri;%20Tenno/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_ece46b127707bd7f15ceaf9bd8909e55b40e6495_N14604_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14613 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+<http://localhost:8080/source/object/centro%20storico;%20Via%20Dante%20Alighieri;%20Tenno/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_ece46b127707bd7f15ceaf9bd8909e55b40e6495_N14604_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14613 .
+_:f_events_Event1_ece46b127707bd7f15ceaf9bd8909e55b40e6495_N14604_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14613 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_ece46b127707bd7f15ceaf9bd8909e55b40e6495_N14604_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14613 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "A Rango e Canale di Tenno mercatini di Natale d'altri tempi" .
+_:f_events_Event1_ece46b127707bd7f15ceaf9bd8909e55b40e6495_N14604_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14613 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/centro%20storico;%20Via%20Dante%20Alighieri;%20Tenno/id> .
+
+_:f_events_Event1_54b181fd60e1169bbd22a7050e553e6a9c05fe56_N14617_2b32f9b94dd76526b9b5001a5f59f2f37811a87d_N14626 <http://www.semanticweb.org/facilitiesEventsOntology#price> "vedi sito web" .
+<http://localhost:8080/source/object/Bugs;%20Largo%20Giosu�%20Carducci/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_54b181fd60e1169bbd22a7050e553e6a9c05fe56_N14617_2b32f9b94dd76526b9b5001a5f59f2f37811a87d_N14626 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Stand up comedy: al Bugs i \"big\" della nuova scena italiana" .
+<http://localhost:8080/source/object/Bugs;%20Largo%20Giosu�%20Carducci/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_54b181fd60e1169bbd22a7050e553e6a9c05fe56_N14617_2b32f9b94dd76526b9b5001a5f59f2f37811a87d_N14626 .
+_:f_events_Event1_54b181fd60e1169bbd22a7050e553e6a9c05fe56_N14617_2b32f9b94dd76526b9b5001a5f59f2f37811a87d_N14626 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Bugs;%20Largo%20Giosu�%20Carducci/id> .
+_:f_events_Event1_54b181fd60e1169bbd22a7050e553e6a9c05fe56_N14617_2b32f9b94dd76526b9b5001a5f59f2f37811a87d_N14626 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+_:f_events_Event1_76f6623526863e80d9c16afe0df99e8751082ea8_N14630_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14639 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "A Pergine i primi Mercatini di Natale" .
+_:f_events_Event1_76f6623526863e80d9c16afe0df99e8751082ea8_N14630_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14639 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+<http://localhost:8080/source/object/Centro%20Storico;%20Piazza%20Gavazzi;%20Pergine%20Valsugana/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_76f6623526863e80d9c16afe0df99e8751082ea8_N14630_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14639 .
+_:f_events_Event1_76f6623526863e80d9c16afe0df99e8751082ea8_N14630_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14639 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Centro%20Storico;%20Piazza%20Gavazzi;%20Pergine%20Valsugana/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_76f6623526863e80d9c16afe0df99e8751082ea8_N14630_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14639 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Centro%20Storico;%20Piazza%20Gavazzi;%20Pergine%20Valsugana/id> .
+
+_:f_events_Event1_da433629e631d7420e694ab143785e4259b9087a_N14643_5df3576dcdfb1ab5852bd5319d0ba9318fcaa83b_N14652 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_da433629e631d7420e694ab143785e4259b9087a_N14643_5df3576dcdfb1ab5852bd5319d0ba9318fcaa83b_N14652 <http://www.semanticweb.org/facilitiesEventsOntology#price> "10 euro" .
+<http://localhost:8080/source/object/Teatro%20Sanbapolis;%20Via%20della%20Malpensada/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_da433629e631d7420e694ab143785e4259b9087a_N14643_5df3576dcdfb1ab5852bd5319d0ba9318fcaa83b_N14652 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Transiti, al Sanbapolis grande musica" .
+_:f_events_Event1_da433629e631d7420e694ab143785e4259b9087a_N14643_5df3576dcdfb1ab5852bd5319d0ba9318fcaa83b_N14652 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Teatro%20Sanbapolis;%20Via%20della%20Malpensada/id> .
+<http://localhost:8080/source/object/Teatro%20Sanbapolis;%20Via%20della%20Malpensada/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_da433629e631d7420e694ab143785e4259b9087a_N14643_5df3576dcdfb1ab5852bd5319d0ba9318fcaa83b_N14652 .
+
+_:f_events_Event1_57fccf26ea6c118f369aed95141365722713b5cf_N14656_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14665 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+<http://localhost:8080/source/object/centro%20storico;%20Indirizzo%20non%20disponibile;%20Ala/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_57fccf26ea6c118f369aed95141365722713b5cf_N14656_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14665 .
+_:f_events_Event1_57fccf26ea6c118f369aed95141365722713b5cf_N14656_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14665 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/centro%20storico;%20Indirizzo%20non%20disponibile;%20Ala/id> .
+_:f_events_Event1_57fccf26ea6c118f369aed95141365722713b5cf_N14656_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14665 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_57fccf26ea6c118f369aed95141365722713b5cf_N14656_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14665 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatino di Natale ad Ala, un Natale speciale" .
+<http://localhost:8080/source/object/centro%20storico;%20Indirizzo%20non%20disponibile;%20Ala/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+
+<http://localhost:8080/source/object/centro%20storico;%20Indirizzo%20non%20disponibile;%20Siror/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_7e58ba95c1f80654bf24e89aaab23f4c9df81cf7_N14669_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14678 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+_:f_events_Event1_7e58ba95c1f80654bf24e89aaab23f4c9df81cf7_N14669_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14678 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Anche a Siror ci sono i mercatini di Natale" .
+<http://localhost:8080/source/object/centro%20storico;%20Indirizzo%20non%20disponibile;%20Siror/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_7e58ba95c1f80654bf24e89aaab23f4c9df81cf7_N14669_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14678 .
+_:f_events_Event1_7e58ba95c1f80654bf24e89aaab23f4c9df81cf7_N14669_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14678 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/centro%20storico;%20Indirizzo%20non%20disponibile;%20Siror/id> .
+_:f_events_Event1_7e58ba95c1f80654bf24e89aaab23f4c9df81cf7_N14669_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14678 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/Teatro%20Sociale;%20Via%20Oss%20Mazzurana/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_68bd200b47cafb18c0a5480abb2459ba7a40cce9_N14682_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14691 .
+_:f_events_Event1_68bd200b47cafb18c0a5480abb2459ba7a40cce9_N14682_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14691 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_68bd200b47cafb18c0a5480abb2459ba7a40cce9_N14682_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14691 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "La stagione di Teatro tra la Grande Prosa e altre tendenze" .
+_:f_events_Event1_68bd200b47cafb18c0a5480abb2459ba7a40cce9_N14682_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14691 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Prezzo non disponibile" .
+<http://localhost:8080/source/object/Teatro%20Sociale;%20Via%20Oss%20Mazzurana/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_68bd200b47cafb18c0a5480abb2459ba7a40cce9_N14682_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14691 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Teatro%20Sociale;%20Via%20Oss%20Mazzurana/id> .
+
+_:f_events_Event1_a5d0bc323260431d5e4eca98f45a2b18ee1fa3f8_N14695_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14704 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "La nuova stagione del Teatro di Meano" .
+_:f_events_Event1_a5d0bc323260431d5e4eca98f45a2b18ee1fa3f8_N14695_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14704 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Prezzo non disponibile" .
+<http://localhost:8080/source/object/Teatro%20di%20Meano;%20Via%20delle%20Sugarine%2C%2022/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_a5d0bc323260431d5e4eca98f45a2b18ee1fa3f8_N14695_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14704 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_a5d0bc323260431d5e4eca98f45a2b18ee1fa3f8_N14695_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14704 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Teatro%20di%20Meano;%20Via%20delle%20Sugarine%2C%2022/id> .
+<http://localhost:8080/source/object/Teatro%20di%20Meano;%20Via%20delle%20Sugarine%2C%2022/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_a5d0bc323260431d5e4eca98f45a2b18ee1fa3f8_N14695_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14704 .
+
+<http://localhost:8080/source/object/centro%20storico;%20Via%20Giovanni%20Segantini;%20Arco/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_1a30ee0dba8d483969de0e5545f845369630bbdb_N14708_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14717 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatini di Natale ad Arco" .
+_:f_events_Event1_1a30ee0dba8d483969de0e5545f845369630bbdb_N14708_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14717 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/centro%20storico;%20Via%20Giovanni%20Segantini;%20Arco/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_1a30ee0dba8d483969de0e5545f845369630bbdb_N14708_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14717 .
+_:f_events_Event1_1a30ee0dba8d483969de0e5545f845369630bbdb_N14708_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14717 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/centro%20storico;%20Via%20Giovanni%20Segantini;%20Arco/id> .
+_:f_events_Event1_1a30ee0dba8d483969de0e5545f845369630bbdb_N14708_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14717 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+
+_:f_events_Event1_12b5df2f2302adfb2b7886d1cdc54062fc948e9b_N14721_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14730 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/centro%20storico;%20Piaz%20de%20Ramon;%20Moena/id> .
+_:f_events_Event1_12b5df2f2302adfb2b7886d1cdc54062fc948e9b_N14721_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14730 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatini di Natale a Moena" .
+<http://localhost:8080/source/object/centro%20storico;%20Piaz%20de%20Ramon;%20Moena/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_12b5df2f2302adfb2b7886d1cdc54062fc948e9b_N14721_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14730 .
+_:f_events_Event1_12b5df2f2302adfb2b7886d1cdc54062fc948e9b_N14721_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14730 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/centro%20storico;%20Piaz%20de%20Ramon;%20Moena/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_12b5df2f2302adfb2b7886d1cdc54062fc948e9b_N14721_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14730 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+
+_:f_events_Event1_244481c2b98368e0c8f2b10697bc57607c5cfb92_N14734_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14743 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/centro%20storico;%20Corso%20Bettini;%20Rovereto/id> .
+_:f_events_Event1_244481c2b98368e0c8f2b10697bc57607c5cfb92_N14734_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14743 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "A Rovereto Natale di Luce, arrivano i mercatini" .
+_:f_events_Event1_244481c2b98368e0c8f2b10697bc57607c5cfb92_N14734_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14743 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/centro%20storico;%20Corso%20Bettini;%20Rovereto/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/centro%20storico;%20Corso%20Bettini;%20Rovereto/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_244481c2b98368e0c8f2b10697bc57607c5cfb92_N14734_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14743 .
+_:f_events_Event1_244481c2b98368e0c8f2b10697bc57607c5cfb92_N14734_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14743 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+
+_:f_events_Event1_18a4c00b901524226fd83d684c4a532d049751f4_N14747_d0449018432c229941313c5d38fc24109b4570c3_N14756 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Jazz About, la rassegna continua con tre grandi appuntamenti" .
+_:f_events_Event1_18a4c00b901524226fd83d684c4a532d049751f4_N14747_d0449018432c229941313c5d38fc24109b4570c3_N14756 <http://www.semanticweb.org/facilitiesEventsOntology#price> "da 15 euro" .
+<http://localhost:8080/source/object/Teatro%20Sanbapolis;%20Via%20della%20Malpensada/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_18a4c00b901524226fd83d684c4a532d049751f4_N14747_d0449018432c229941313c5d38fc24109b4570c3_N14756 .
+_:f_events_Event1_18a4c00b901524226fd83d684c4a532d049751f4_N14747_d0449018432c229941313c5d38fc24109b4570c3_N14756 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_18a4c00b901524226fd83d684c4a532d049751f4_N14747_d0449018432c229941313c5d38fc24109b4570c3_N14756 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Teatro%20Sanbapolis;%20Via%20della%20Malpensada/id> .
+<http://localhost:8080/source/object/Teatro%20Sanbapolis;%20Via%20della%20Malpensada/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+
+_:f_events_Event1_53763519817d125f37c879af1a73e6bdb49ee0f1_N14760_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14769 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "In Santa Maria Maggiore c'� Babbo Natale" .
+_:f_events_Event1_53763519817d125f37c879af1a73e6bdb49ee0f1_N14760_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14769 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+<http://localhost:8080/source/object/Piazza%20Santa%20Maria%20Maggiore;%20Piazza%20Santa%20Maria%20Maggiore/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Piazza%20Santa%20Maria%20Maggiore;%20Piazza%20Santa%20Maria%20Maggiore/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_53763519817d125f37c879af1a73e6bdb49ee0f1_N14760_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14769 .
+_:f_events_Event1_53763519817d125f37c879af1a73e6bdb49ee0f1_N14760_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14769 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_53763519817d125f37c879af1a73e6bdb49ee0f1_N14760_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14769 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Piazza%20Santa%20Maria%20Maggiore;%20Piazza%20Santa%20Maria%20Maggiore/id> .
+
+_:f_events_Event1_28b0e99ba7b8a8c5bcec8d35158ba4d2ff1222a8_N14773_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14782 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Vezzano/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Vezzano/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_28b0e99ba7b8a8c5bcec8d35158ba4d2ff1222a8_N14773_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14782 .
+_:f_events_Event1_28b0e99ba7b8a8c5bcec8d35158ba4d2ff1222a8_N14773_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14782 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+_:f_events_Event1_28b0e99ba7b8a8c5bcec8d35158ba4d2ff1222a8_N14773_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14782 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Vezzano/id> .
+_:f_events_Event1_28b0e99ba7b8a8c5bcec8d35158ba4d2ff1222a8_N14773_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14782 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mese Montagna: ospiti Messner, Lunger, De Stefani e tanti altri" .
+
+_:f_events_Event1_eb78a29279beae7227837f5b392c56f70f16b8a6_N14786_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14795 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+_:f_events_Event1_eb78a29279beae7227837f5b392c56f70f16b8a6_N14786_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14795 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/centro%20storico;%20Indirizzo%20non%20disponibile;%20Cavalese/id> .
+<http://localhost:8080/source/object/centro%20storico;%20Indirizzo%20non%20disponibile;%20Cavalese/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/centro%20storico;%20Indirizzo%20non%20disponibile;%20Cavalese/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_eb78a29279beae7227837f5b392c56f70f16b8a6_N14786_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14795 .
+_:f_events_Event1_eb78a29279beae7227837f5b392c56f70f16b8a6_N14786_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14795 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_eb78a29279beae7227837f5b392c56f70f16b8a6_N14786_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14795 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Il Magnifico Mercatino di Natale" .
+
+<http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Cimego/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_8ccefbf99bae2bbe48d550da00f594f7f47a8ad9_N14799_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14808 .
+_:f_events_Event1_8ccefbf99bae2bbe48d550da00f594f7f47a8ad9_N14799_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14808 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Cimego/id> .
+_:f_events_Event1_8ccefbf99bae2bbe48d550da00f594f7f47a8ad9_N14799_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14808 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatini di Natale di Cimego" .
+_:f_events_Event1_8ccefbf99bae2bbe48d550da00f594f7f47a8ad9_N14799_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14808 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Cimego/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_8ccefbf99bae2bbe48d550da00f594f7f47a8ad9_N14799_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14808 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+
+<http://localhost:8080/source/object/Teatro%20Portland;%20Via%20Papiria%2C%208/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_626cc114ad041f485772f20081e76fb9e17d494e_N14812_2b32f9b94dd76526b9b5001a5f59f2f37811a87d_N14821 <http://www.semanticweb.org/facilitiesEventsOntology#price> "vedi sito web" .
+_:f_events_Event1_626cc114ad041f485772f20081e76fb9e17d494e_N14812_2b32f9b94dd76526b9b5001a5f59f2f37811a87d_N14821 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Teatro%20Portland;%20Via%20Papiria%2C%208/id> .
+_:f_events_Event1_626cc114ad041f485772f20081e76fb9e17d494e_N14812_2b32f9b94dd76526b9b5001a5f59f2f37811a87d_N14821 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_626cc114ad041f485772f20081e76fb9e17d494e_N14812_2b32f9b94dd76526b9b5001a5f59f2f37811a87d_N14821 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Teatro: \"La bella stagione\" del Portland" .
+<http://localhost:8080/source/object/Teatro%20Portland;%20Via%20Papiria%2C%208/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_626cc114ad041f485772f20081e76fb9e17d494e_N14812_2b32f9b94dd76526b9b5001a5f59f2f37811a87d_N14821 .
+
+_:f_events_Event1_669c439cf2008618d4c37997da268e5159ecb1ae_N14825_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14834 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Prezzo non disponibile" .
+<http://localhost:8080/source/object/Castello%20di%20Avio;%20via%20al%20castello;%20Avio/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Castello%20di%20Avio;%20via%20al%20castello;%20Avio/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_669c439cf2008618d4c37997da268e5159ecb1ae_N14825_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14834 .
+_:f_events_Event1_669c439cf2008618d4c37997da268e5159ecb1ae_N14825_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14834 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_669c439cf2008618d4c37997da268e5159ecb1ae_N14825_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14834 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Natale al Castello di Avio" .
+_:f_events_Event1_669c439cf2008618d4c37997da268e5159ecb1ae_N14825_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14834 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Castello%20di%20Avio;%20via%20al%20castello;%20Avio/id> .
+
+_:f_events_Event1_ce512007daa97ad70891183020fc1350266545a3_N14838_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14847 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Ala/id> .
+_:f_events_Event1_ce512007daa97ad70891183020fc1350266545a3_N14838_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14847 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Natale nei Palazzi Barocchi" .
+_:f_events_Event1_ce512007daa97ad70891183020fc1350266545a3_N14838_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14847 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+_:f_events_Event1_ce512007daa97ad70891183020fc1350266545a3_N14838_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14847 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Ala/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Ala/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_ce512007daa97ad70891183020fc1350266545a3_N14838_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14847 .
+
+_:f_events_Event1_13e81dfb841e183fd279a48cb007bd33a166ef05_N14851_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14860 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Santa%20Massenza;%20Centro%20storico;%20Vezzano/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_13e81dfb841e183fd279a48cb007bd33a166ef05_N14851_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14860 .
+_:f_events_Event1_13e81dfb841e183fd279a48cb007bd33a166ef05_N14851_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14860 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Santa%20Massenza;%20Centro%20storico;%20Vezzano/id> .
+<http://localhost:8080/source/object/Santa%20Massenza;%20Centro%20storico;%20Vezzano/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_13e81dfb841e183fd279a48cb007bd33a166ef05_N14851_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14860 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+_:f_events_Event1_13e81dfb841e183fd279a48cb007bd33a166ef05_N14851_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14860 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Vite di Luce: i mercatini di Natale a Santa Massenza" .
+
+_:f_events_Event1_2d19e8ee761191f69dff98e99c3960f3267fa826_N14864_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14873 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_2d19e8ee761191f69dff98e99c3960f3267fa826_N14864_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14873 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "A Levico il tradizionale mercatino di Natale nel Parco Asburgico" .
+_:f_events_Event1_2d19e8ee761191f69dff98e99c3960f3267fa826_N14864_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14873 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Parco%20Asburgico;%20Via%20Guglielmo%20Marconi;%20Levico%20Terme/id> .
+<http://localhost:8080/source/object/Parco%20Asburgico;%20Via%20Guglielmo%20Marconi;%20Levico%20Terme/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_2d19e8ee761191f69dff98e99c3960f3267fa826_N14864_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14873 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+<http://localhost:8080/source/object/Parco%20Asburgico;%20Via%20Guglielmo%20Marconi;%20Levico%20Terme/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_2d19e8ee761191f69dff98e99c3960f3267fa826_N14864_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14873 .
+
+_:f_events_Event1_cfb91b21237f6a2254aa07a298fb171189cd5003_N14877_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14886 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "'Mattinate Fai d'inverno': i luoghi visitabili a Rovereto e Trento" .
+<http://localhost:8080/source/object/Indirizzo%20non%20disponibile/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Indirizzo%20non%20disponibile/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_cfb91b21237f6a2254aa07a298fb171189cd5003_N14877_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14886 .
+_:f_events_Event1_cfb91b21237f6a2254aa07a298fb171189cd5003_N14877_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14886 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Prezzo non disponibile" .
+_:f_events_Event1_cfb91b21237f6a2254aa07a298fb171189cd5003_N14877_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14886 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Indirizzo%20non%20disponibile/id> .
+_:f_events_Event1_cfb91b21237f6a2254aa07a298fb171189cd5003_N14877_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14886 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+_:f_events_Event1_ea3ea9f79dbbbbed08ea3fa26f4df683823b9dee_N14890_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14899 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+_:f_events_Event1_ea3ea9f79dbbbbed08ea3fa26f4df683823b9dee_N14890_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14899 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatini di Natale: c'� anche quello della solidariet�" .
+_:f_events_Event1_ea3ea9f79dbbbbed08ea3fa26f4df683823b9dee_N14890_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14899 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Centro%20Storico;%20Via%20Giuseppe%20Garibaldi/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_ea3ea9f79dbbbbed08ea3fa26f4df683823b9dee_N14890_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14899 .
+<http://localhost:8080/source/object/Centro%20Storico;%20Via%20Giuseppe%20Garibaldi/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_ea3ea9f79dbbbbed08ea3fa26f4df683823b9dee_N14890_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14899 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Centro%20Storico;%20Via%20Giuseppe%20Garibaldi/id> .
+
+_:f_events_Event1_2b405e8be232e83768f24f6c677b3d850e6b7095_N14903_f86f038d32c3c4a2b13e8e8e7d4f5f4016dc48b1_N14912 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_2b405e8be232e83768f24f6c677b3d850e6b7095_N14903_f86f038d32c3c4a2b13e8e8e7d4f5f4016dc48b1_N14912 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Ristoranti%20della%20citt�;%20Piazza%20del%20Duomo/id> .
+<http://localhost:8080/source/object/Ristoranti%20della%20citt�;%20Piazza%20del%20Duomo/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Ristoranti%20della%20citt�;%20Piazza%20del%20Duomo/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_2b405e8be232e83768f24f6c677b3d850e6b7095_N14903_f86f038d32c3c4a2b13e8e8e7d4f5f4016dc48b1_N14912 .
+_:f_events_Event1_2b405e8be232e83768f24f6c677b3d850e6b7095_N14903_f86f038d32c3c4a2b13e8e8e7d4f5f4016dc48b1_N14912 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Il Trento doc nei ristoranti della citt�" .
+_:f_events_Event1_2b405e8be232e83768f24f6c677b3d850e6b7095_N14903_f86f038d32c3c4a2b13e8e8e7d4f5f4016dc48b1_N14912 <http://www.semanticweb.org/facilitiesEventsOntology#price> "costo normale dell'aperitivo" .
+
+<http://localhost:8080/source/object/Centro%20di%20meditazione%20Kushi%20Ling;%20Via%20Alle%20Fontane%2C%20Loc.%20Laghel%2044;%20Arco/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_c6dda3c01194a5a474fc89e1f570fa316c1b048b_N14916_f971beca2c13ca0bd2a03bf3b7a8fb958429b51a_N14925 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Centro%20di%20meditazione%20Kushi%20Ling;%20Via%20Alle%20Fontane%2C%20Loc.%20Laghel%2044;%20Arco/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_c6dda3c01194a5a474fc89e1f570fa316c1b048b_N14916_f971beca2c13ca0bd2a03bf3b7a8fb958429b51a_N14925 .
+_:f_events_Event1_c6dda3c01194a5a474fc89e1f570fa316c1b048b_N14916_f971beca2c13ca0bd2a03bf3b7a8fb958429b51a_N14925 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Centro%20di%20meditazione%20Kushi%20Ling;%20Via%20Alle%20Fontane%2C%20Loc.%20Laghel%2044;%20Arco/id> .
+_:f_events_Event1_c6dda3c01194a5a474fc89e1f570fa316c1b048b_N14916_f971beca2c13ca0bd2a03bf3b7a8fb958429b51a_N14925 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Corso di sogno lucido e consapevolezza onirica" .
+_:f_events_Event1_c6dda3c01194a5a474fc89e1f570fa316c1b048b_N14916_f971beca2c13ca0bd2a03bf3b7a8fb958429b51a_N14925 <http://www.semanticweb.org/facilitiesEventsOntology#price> "�80" .
+
+_:f_events_Event1_0ba90def074ee5cd094fafc0d1535d649138edc2_N14929_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14938 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Via%20del%20Suffragio;%20Via%20del%20Suffragio/id> .
+_:f_events_Event1_0ba90def074ee5cd094fafc0d1535d649138edc2_N14929_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14938 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Festa in via Suffragio: bancarelle e libri usati" .
+_:f_events_Event1_0ba90def074ee5cd094fafc0d1535d649138edc2_N14929_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14938 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+_:f_events_Event1_0ba90def074ee5cd094fafc0d1535d649138edc2_N14929_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14938 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Via%20del%20Suffragio;%20Via%20del%20Suffragio/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_0ba90def074ee5cd094fafc0d1535d649138edc2_N14929_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14938 .
+<http://localhost:8080/source/object/Via%20del%20Suffragio;%20Via%20del%20Suffragio/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+
+_:f_events_Event1_501886883b60cc30347f452ae85fb28a97b43e04_N14942_cfab7cd7834f74654b00610fdc8bdb5cce754800_N14951 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_501886883b60cc30347f452ae85fb28a97b43e04_N14942_cfab7cd7834f74654b00610fdc8bdb5cce754800_N14951 <http://www.semanticweb.org/facilitiesEventsOntology#price> "biglietto intero � 15,00 + 2,00, ridotto giovani e universitari under 26 � 10,00 + 2,00" .
+_:f_events_Event1_501886883b60cc30347f452ae85fb28a97b43e04_N14942_cfab7cd7834f74654b00610fdc8bdb5cce754800_N14951 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Concertone dell'Immacolata, a Rovereto arriva Carmen Consoli" .
+<http://localhost:8080/source/object/Mart%20-%20Museo%20di%20Arte%20Moderna%20e%20Contemporanea;%20Corso%20Bettini;%20Rovereto/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_501886883b60cc30347f452ae85fb28a97b43e04_N14942_cfab7cd7834f74654b00610fdc8bdb5cce754800_N14951 .
+<http://localhost:8080/source/object/Mart%20-%20Museo%20di%20Arte%20Moderna%20e%20Contemporanea;%20Corso%20Bettini;%20Rovereto/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_501886883b60cc30347f452ae85fb28a97b43e04_N14942_cfab7cd7834f74654b00610fdc8bdb5cce754800_N14951 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Mart%20-%20Museo%20di%20Arte%20Moderna%20e%20Contemporanea;%20Corso%20Bettini;%20Rovereto/id> .
+
+_:f_events_Event1_f12a0e0e5a62b3afe1945fc4ad5b91cf05a716a3_N14955_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14964 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Trentino-Alto%20Adige%2C%20Italy;%20Piazza%20di%20San%20Vigilio;%20Calavino/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_f12a0e0e5a62b3afe1945fc4ad5b91cf05a716a3_N14955_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14964 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "La notte degli alambicchi accesi" .
+_:f_events_Event1_f12a0e0e5a62b3afe1945fc4ad5b91cf05a716a3_N14955_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14964 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Prezzo non disponibile" .
+<http://localhost:8080/source/object/Trentino-Alto%20Adige%2C%20Italy;%20Piazza%20di%20San%20Vigilio;%20Calavino/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_f12a0e0e5a62b3afe1945fc4ad5b91cf05a716a3_N14955_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14964 .
+_:f_events_Event1_f12a0e0e5a62b3afe1945fc4ad5b91cf05a716a3_N14955_df0a79ea6e006c9deeea38fc36c7ab29fc65536c_N14964 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Trentino-Alto%20Adige%2C%20Italy;%20Piazza%20di%20San%20Vigilio;%20Calavino/id> .
+
+<http://localhost:8080/source/object/Teatro%20comunale%20di%20Pergine%20Valsugana;%20Piazza%20Garibaldi%2C%205g;%20Pergine%20Valsugana/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_60b8d45e7503d4c28320d43d4448015ad8004b18_N14968_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14977 .
+<http://localhost:8080/source/object/Teatro%20comunale%20di%20Pergine%20Valsugana;%20Piazza%20Garibaldi%2C%205g;%20Pergine%20Valsugana/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_60b8d45e7503d4c28320d43d4448015ad8004b18_N14968_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14977 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+_:f_events_Event1_60b8d45e7503d4c28320d43d4448015ad8004b18_N14968_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14977 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Scrittori trentini: Ianes a Campestrini a Pergine" .
+_:f_events_Event1_60b8d45e7503d4c28320d43d4448015ad8004b18_N14968_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14977 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_60b8d45e7503d4c28320d43d4448015ad8004b18_N14968_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14977 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Teatro%20comunale%20di%20Pergine%20Valsugana;%20Piazza%20Garibaldi%2C%205g;%20Pergine%20Valsugana/id> .
+
+_:f_events_Event1_ba5f54bae56f4bbaa23a863c4b0fffc736da2217_N14981_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14990 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Ledro/id> .
+_:f_events_Event1_ba5f54bae56f4bbaa23a863c4b0fffc736da2217_N14981_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14990 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Ledro/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Centro%20Storico;%20Indirizzo%20non%20disponibile;%20Ledro/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_ba5f54bae56f4bbaa23a863c4b0fffc736da2217_N14981_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14990 .
+_:f_events_Event1_ba5f54bae56f4bbaa23a863c4b0fffc736da2217_N14981_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14990 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "A Bezzecca il villaggio di Natale del gigante" .
+_:f_events_Event1_ba5f54bae56f4bbaa23a863c4b0fffc736da2217_N14981_00f5fed35ab963402fe85e5b6bf019c646225ac8_N14990 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+
+_:f_events_Event1_45980b4eefa3ac6d44d6dfba4ffe0706b62911e7_N14994_00f5fed35ab963402fe85e5b6bf019c646225ac8_N15003 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/centro%20storico;%20piazza%20Cesare%20Battisti;%20Tesero/id> .
+_:f_events_Event1_45980b4eefa3ac6d44d6dfba4ffe0706b62911e7_N14994_00f5fed35ab963402fe85e5b6bf019c646225ac8_N15003 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Tesero festeggia il Natale con i suoi presepi" .
+_:f_events_Event1_45980b4eefa3ac6d44d6dfba4ffe0706b62911e7_N14994_00f5fed35ab963402fe85e5b6bf019c646225ac8_N15003 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+<http://localhost:8080/source/object/centro%20storico;%20piazza%20Cesare%20Battisti;%20Tesero/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_45980b4eefa3ac6d44d6dfba4ffe0706b62911e7_N14994_00f5fed35ab963402fe85e5b6bf019c646225ac8_N15003 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/centro%20storico;%20piazza%20Cesare%20Battisti;%20Tesero/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_45980b4eefa3ac6d44d6dfba4ffe0706b62911e7_N14994_00f5fed35ab963402fe85e5b6bf019c646225ac8_N15003 .
+
+<http://localhost:8080/source/object/Castellano;%20via%20al%20castello;%20Villa%20Lagarina/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_688850e1f3a418bff0c00faea28f8f199eb3f794_N15007_00f5fed35ab963402fe85e5b6bf019c646225ac8_N15016 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "El nos Nadal, il Natale dei ricordi a Castellano" .
+<http://localhost:8080/source/object/Castellano;%20via%20al%20castello;%20Villa%20Lagarina/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_688850e1f3a418bff0c00faea28f8f199eb3f794_N15007_00f5fed35ab963402fe85e5b6bf019c646225ac8_N15016 .
+_:f_events_Event1_688850e1f3a418bff0c00faea28f8f199eb3f794_N15007_00f5fed35ab963402fe85e5b6bf019c646225ac8_N15016 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_688850e1f3a418bff0c00faea28f8f199eb3f794_N15007_00f5fed35ab963402fe85e5b6bf019c646225ac8_N15016 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Castellano;%20via%20al%20castello;%20Villa%20Lagarina/id> .
+_:f_events_Event1_688850e1f3a418bff0c00faea28f8f199eb3f794_N15007_00f5fed35ab963402fe85e5b6bf019c646225ac8_N15016 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Gratis" .
+
+_:f_events_Event1_0669cdf596abc4f716f0aed908c18a81a02f5566_N15020_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15029 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Caldes/id> .
+<http://localhost:8080/source/object/Caldes/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_0669cdf596abc4f716f0aed908c18a81a02f5566_N15020_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15029 .
+_:f_events_Event1_0669cdf596abc4f716f0aed908c18a81a02f5566_N15020_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15029 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Caldes/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_0669cdf596abc4f716f0aed908c18a81a02f5566_N15020_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15029 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "La Collezione Cavallini Sgarbi" .
+
+_:f_events_Event1_ce512007daa97ad70891183020fc1350266545a3_N15033_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15042 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Ala/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_ce512007daa97ad70891183020fc1350266545a3_N15033_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15042 .
+_:f_events_Event1_ce512007daa97ad70891183020fc1350266545a3_N15033_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15042 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Ala/id> .
+_:f_events_Event1_ce512007daa97ad70891183020fc1350266545a3_N15033_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15042 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Natale nei Palazzi Barocchi" .
+<http://localhost:8080/source/object/Ala/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+
+_:f_events_Event1_c36f4b4fb195881edf75c4451e0fef7373e3df20_N15046_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15055 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_c36f4b4fb195881edf75c4451e0fef7373e3df20_N15046_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15055 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatini di Natale a Trento" .
+_:f_events_Event1_c36f4b4fb195881edf75c4451e0fef7373e3df20_N15046_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15055 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Trento/id> .
+<http://localhost:8080/source/object/Trento/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_c36f4b4fb195881edf75c4451e0fef7373e3df20_N15046_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15055 .
+<http://localhost:8080/source/object/Trento/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+
+<http://localhost:8080/source/object/Baselga%20di%20Pine%27/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_8f695c465dc3184f05fb56a92d27c595e2d059da_N15059_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15068 .
+_:f_events_Event1_8f695c465dc3184f05fb56a92d27c595e2d059da_N15059_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15068 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Baselga%20di%20Pine%27/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_8f695c465dc3184f05fb56a92d27c595e2d059da_N15059_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15068 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Baselga%20di%20Pine%27/id> .
+_:f_events_Event1_8f695c465dc3184f05fb56a92d27c595e2d059da_N15059_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15068 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "El pa�s dei presepi" .
+
+_:f_events_Event1_f9834841cd3e9bc2c417875c59673a6e1a9540ee_N15072_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15081 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "26� Mercatino di Natale di Siror - Christkindlmarkt" .
+<http://localhost:8080/source/object/Primiero%20-%20Siror/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_f9834841cd3e9bc2c417875c59673a6e1a9540ee_N15072_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15081 .
+_:f_events_Event1_f9834841cd3e9bc2c417875c59673a6e1a9540ee_N15072_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15081 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Primiero%20-%20Siror/id> .
+<http://localhost:8080/source/object/Primiero%20-%20Siror/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_f9834841cd3e9bc2c417875c59673a6e1a9540ee_N15072_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15081 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/Moena/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Moena/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_d95ced257be63d111b7f27fa53b4fb41ad238e82_N15085_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15094 .
+_:f_events_Event1_d95ced257be63d111b7f27fa53b4fb41ad238e82_N15085_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15094 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Arriva San Nicol�" .
+_:f_events_Event1_d95ced257be63d111b7f27fa53b4fb41ad238e82_N15085_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15094 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_d95ced257be63d111b7f27fa53b4fb41ad238e82_N15085_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15094 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Moena/id> .
+
+<http://localhost:8080/source/object/Canazei/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_94b24e5d04f08f1d8e1b3fb0437c98255fce1dcb_N15098_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15107 .
+_:f_events_Event1_94b24e5d04f08f1d8e1b3fb0437c98255fce1dcb_N15098_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15107 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Canazei/id> .
+<http://localhost:8080/source/object/Canazei/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_94b24e5d04f08f1d8e1b3fb0437c98255fce1dcb_N15098_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_94b24e5d04f08f1d8e1b3fb0437c98255fce1dcb_N15098_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15107 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Hockey su ghiaccio: Fassa Falcons vs. HC Gherd�ina" .
+
+_:f_events_Event1_25a51e7ee3368bfcd03e7f606bd77b505a472e4e_N15111_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15120 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Vigo%20di%20Fassa/id> .
+_:f_events_Event1_25a51e7ee3368bfcd03e7f606bd77b505a472e4e_N15111_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15120 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Arriva San Nicol� a Vigo di Fassa" .
+<http://localhost:8080/source/object/Vigo%20di%20Fassa/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_25a51e7ee3368bfcd03e7f606bd77b505a472e4e_N15111_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15120 .
+<http://localhost:8080/source/object/Vigo%20di%20Fassa/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_25a51e7ee3368bfcd03e7f606bd77b505a472e4e_N15111_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+_:f_events_Event1_068ce8b4c4acc311e040cf5d412f555ce7b8fc09_N15124_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15133 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Rovereto/id> .
+_:f_events_Event1_068ce8b4c4acc311e040cf5d412f555ce7b8fc09_N15124_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Rovereto/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_068ce8b4c4acc311e040cf5d412f555ce7b8fc09_N15124_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15133 .
+<http://localhost:8080/source/object/Rovereto/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_068ce8b4c4acc311e040cf5d412f555ce7b8fc09_N15124_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15133 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Depero Incontri" .
+
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_9a8a03407fc47424025039b5642754eec55ece90_N15137_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15146 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Riva%20del%20Garda/id> .
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_9a8a03407fc47424025039b5642754eec55ece90_N15137_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15146 .
+_:f_events_Event1_9a8a03407fc47424025039b5642754eec55ece90_N15137_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15146 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Auguri in Musica" .
+_:f_events_Event1_9a8a03407fc47424025039b5642754eec55ece90_N15137_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/Vigo%20di%20Fassa/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_07cea03f0524cc23839120648aada6074af235b0_N15150_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15159 .
+_:f_events_Event1_07cea03f0524cc23839120648aada6074af235b0_N15150_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15159 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Vigo%20di%20Fassa/id> .
+_:f_events_Event1_07cea03f0524cc23839120648aada6074af235b0_N15150_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_07cea03f0524cc23839120648aada6074af235b0_N15150_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15159 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Sagra di San Nicol�" .
+<http://localhost:8080/source/object/Vigo%20di%20Fassa/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_7ac97aaa80abb0c622b3c9625e1c3ceaaf997d93_N15163_3a33a6f00554a005e700d1e6d2f7688c29c964d8_N15172 .
+_:f_events_Event1_7ac97aaa80abb0c622b3c9625e1c3ceaaf997d93_N15163_3a33a6f00554a005e700d1e6d2f7688c29c964d8_N15172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_7ac97aaa80abb0c622b3c9625e1c3ceaaf997d93_N15163_3a33a6f00554a005e700d1e6d2f7688c29c964d8_N15172 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Riva%20del%20Garda/id> .
+_:f_events_Event1_7ac97aaa80abb0c622b3c9625e1c3ceaaf997d93_N15163_3a33a6f00554a005e700d1e6d2f7688c29c964d8_N15172 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Festa dei giovani" .
+_:f_events_Event1_7ac97aaa80abb0c622b3c9625e1c3ceaaf997d93_N15163_3a33a6f00554a005e700d1e6d2f7688c29c964d8_N15172 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Intero � 25,00 / Ridotto � 15,00" .
+
+_:f_events_Event1_79c2bfa421560b0dc380b21c382f46b85a68612c_N15176_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15185 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Canazei/id> .
+_:f_events_Event1_79c2bfa421560b0dc380b21c382f46b85a68612c_N15176_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_79c2bfa421560b0dc380b21c382f46b85a68612c_N15176_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15185 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Trofeo San Nicol�" .
+<http://localhost:8080/source/object/Canazei/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Canazei/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_79c2bfa421560b0dc380b21c382f46b85a68612c_N15176_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15185 .
+
+_:f_events_Event1_26d4022052c33b6ae6962ec55e111fde5efb8aac_N15189_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15198 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Vezzano/id> .
+<http://localhost:8080/source/object/Vezzano/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_26d4022052c33b6ae6962ec55e111fde5efb8aac_N15189_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15198 .
+<http://localhost:8080/source/object/Vezzano/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_26d4022052c33b6ae6962ec55e111fde5efb8aac_N15189_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_26d4022052c33b6ae6962ec55e111fde5efb8aac_N15189_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15198 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Vite di Luce" .
+
+<http://localhost:8080/source/object/Arco/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_f69a19dde89c3bd46f9bfae498c1f222c700c0a0_N15202_e26121a856e9963facf2229a960637e5d665794c_N15211 .
+_:f_events_Event1_f69a19dde89c3bd46f9bfae498c1f222c700c0a0_N15202_e26121a856e9963facf2229a960637e5d665794c_N15211 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Consigliata la prenotazione, posti limitati" .
+_:f_events_Event1_f69a19dde89c3bd46f9bfae498c1f222c700c0a0_N15202_e26121a856e9963facf2229a960637e5d665794c_N15211 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Carols!" .
+<http://localhost:8080/source/object/Arco/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_f69a19dde89c3bd46f9bfae498c1f222c700c0a0_N15202_e26121a856e9963facf2229a960637e5d665794c_N15211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_f69a19dde89c3bd46f9bfae498c1f222c700c0a0_N15202_e26121a856e9963facf2229a960637e5d665794c_N15211 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Arco/id> .
+
+_:f_events_Event1_b130d367e8b0b60e085ab8c695e9b3a1fc4c233e_N15215_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15224 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Arco/id> .
+_:f_events_Event1_b130d367e8b0b60e085ab8c695e9b3a1fc4c233e_N15215_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Arco/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_b130d367e8b0b60e085ab8c695e9b3a1fc4c233e_N15215_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15224 .
+<http://localhost:8080/source/object/Arco/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_b130d367e8b0b60e085ab8c695e9b3a1fc4c233e_N15215_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15224 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Fuochi d'artificio tra castello e olivaia" .
+
+<http://localhost:8080/source/object/Fiera%20di%20Primiero%2C%20Primiero%20-%20Siror%2C%20Primiero%20-%20Imer%20.../id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_c535b6dde6c2e7fc97cbef3270c8551c8fa04a70_N15228_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15237 .
+_:f_events_Event1_c535b6dde6c2e7fc97cbef3270c8551c8fa04a70_N15228_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15237 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Primiero Dolomiti Festival" .
+_:f_events_Event1_c535b6dde6c2e7fc97cbef3270c8551c8fa04a70_N15228_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_c535b6dde6c2e7fc97cbef3270c8551c8fa04a70_N15228_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15237 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Fiera%20di%20Primiero%2C%20Primiero%20-%20Siror%2C%20Primiero%20-%20Imer%20.../id> .
+<http://localhost:8080/source/object/Fiera%20di%20Primiero%2C%20Primiero%20-%20Siror%2C%20Primiero%20-%20Imer%20.../id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+
+_:f_events_Event1_60b3c3b1f80241d5d2c7cb7e315185543b89c6f6_N15241_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15250 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Levico%20Terme/id> .
+_:f_events_Event1_60b3c3b1f80241d5d2c7cb7e315185543b89c6f6_N15241_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15250 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Krampus" .
+<http://localhost:8080/source/object/Levico%20Terme/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_60b3c3b1f80241d5d2c7cb7e315185543b89c6f6_N15241_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15250 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Levico%20Terme/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_60b3c3b1f80241d5d2c7cb7e315185543b89c6f6_N15241_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15250 .
+
+_:f_events_Event1_05946cfda053238192e0f4d6f2c55edf460ce2b9_N15254_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15263 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Il Villaggio di Natale del Gigante" .
+_:f_events_Event1_05946cfda053238192e0f4d6f2c55edf460ce2b9_N15254_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15263 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/Folgaria/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_7c22b96031fb160a154575d697e564044bedcfe2_N15267_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15276 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Bolkhent" .
+<http://localhost:8080/source/object/Folgaria/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_7c22b96031fb160a154575d697e564044bedcfe2_N15267_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15276 .
+_:f_events_Event1_7c22b96031fb160a154575d697e564044bedcfe2_N15267_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15276 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Folgaria/id> .
+_:f_events_Event1_7c22b96031fb160a154575d697e564044bedcfe2_N15267_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15276 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_20d7f60624a2af9a54305d6bc14bbb73f9c2fb0c_N15280_a8518fab87785ebd2ca19101e8873b6dfc8398f0_N15289 <http://www.semanticweb.org/facilitiesEventsOntology#price> "� 25,00 - � 20, 00" .
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_20d7f60624a2af9a54305d6bc14bbb73f9c2fb0c_N15280_a8518fab87785ebd2ca19101e8873b6dfc8398f0_N15289 .
+_:f_events_Event1_20d7f60624a2af9a54305d6bc14bbb73f9c2fb0c_N15280_a8518fab87785ebd2ca19101e8873b6dfc8398f0_N15289 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Riva%20del%20Garda/id> .
+_:f_events_Event1_20d7f60624a2af9a54305d6bc14bbb73f9c2fb0c_N15280_a8518fab87785ebd2ca19101e8873b6dfc8398f0_N15289 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Cherryl Porter & Hallelujah Gospel Singers" .
+_:f_events_Event1_20d7f60624a2af9a54305d6bc14bbb73f9c2fb0c_N15280_a8518fab87785ebd2ca19101e8873b6dfc8398f0_N15289 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+_:f_events_Event1_f27e228b9ac80819ff2df7ed91dfba620e4a3fcc_N15293_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15302 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Arco/id> .
+<http://localhost:8080/source/object/Arco/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_f27e228b9ac80819ff2df7ed91dfba620e4a3fcc_N15293_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15302 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_f27e228b9ac80819ff2df7ed91dfba620e4a3fcc_N15293_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15302 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatino di Natale di Arco: Moonlight" .
+<http://localhost:8080/source/object/Arco/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_f27e228b9ac80819ff2df7ed91dfba620e4a3fcc_N15293_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15302 .
+
+_:f_events_Event1_3eac705b70c25d0daa8f83b2b7837c758e86c4f3_N15306_76ac79f94b7d0023ecf8d9b97f9f4b2999cca0e4_N15315 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_3eac705b70c25d0daa8f83b2b7837c758e86c4f3_N15306_76ac79f94b7d0023ecf8d9b97f9f4b2999cca0e4_N15315 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Concerto di Carmen Consoli" .
+<http://localhost:8080/source/object/Rovereto/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_3eac705b70c25d0daa8f83b2b7837c758e86c4f3_N15306_76ac79f94b7d0023ecf8d9b97f9f4b2999cca0e4_N15315 .
+<http://localhost:8080/source/object/Rovereto/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_3eac705b70c25d0daa8f83b2b7837c758e86c4f3_N15306_76ac79f94b7d0023ecf8d9b97f9f4b2999cca0e4_N15315 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Rovereto/id> .
+_:f_events_Event1_3eac705b70c25d0daa8f83b2b7837c758e86c4f3_N15306_76ac79f94b7d0023ecf8d9b97f9f4b2999cca0e4_N15315 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Biglietto intero � 15,00 + 2,00, ridotto giovani e universitari under 26 � 10,00 + 2,00" .
+
+<http://localhost:8080/source/object/Marilleva/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_c5e7dbaa5a038ee4fdbf5a4d9367eb0fd18c16c1_N15319_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15328 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Marilleva/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_c5e7dbaa5a038ee4fdbf5a4d9367eb0fd18c16c1_N15319_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15328 .
+_:f_events_Event1_c5e7dbaa5a038ee4fdbf5a4d9367eb0fd18c16c1_N15319_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15328 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Marilleva/id> .
+_:f_events_Event1_c5e7dbaa5a038ee4fdbf5a4d9367eb0fd18c16c1_N15319_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15328 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "SnowWeek 2019" .
+
+<http://localhost:8080/source/object/Vezzano/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_f12a0e0e5a62b3afe1945fc4ad5b91cf05a716a3_N15332_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15341 .
+_:f_events_Event1_f12a0e0e5a62b3afe1945fc4ad5b91cf05a716a3_N15332_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15341 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Vezzano/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_f12a0e0e5a62b3afe1945fc4ad5b91cf05a716a3_N15332_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15341 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "La notte degli alambicchi accesi" .
+_:f_events_Event1_f12a0e0e5a62b3afe1945fc4ad5b91cf05a716a3_N15332_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15341 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Vezzano/id> .
+
+_:f_events_Event1_e69aea36c6b0810a1a966114ee657e77909fc92a_N15345_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15354 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_e69aea36c6b0810a1a966114ee657e77909fc92a_N15345_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15354 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Happy Trentodoc" .
+<http://localhost:8080/source/object/Trento/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_e69aea36c6b0810a1a966114ee657e77909fc92a_N15345_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15354 .
+_:f_events_Event1_e69aea36c6b0810a1a966114ee657e77909fc92a_N15345_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15354 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Trento/id> .
+<http://localhost:8080/source/object/Trento/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+
+_:f_events_Event1_a7a361183a93a7098ce545f81e162e9759a95a40_N15358_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15367 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_a7a361183a93a7098ce545f81e162e9759a95a40_N15358_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15367 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Trentodoc Bollicine sulla citt�" .
+<http://localhost:8080/source/object/Trento/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_a7a361183a93a7098ce545f81e162e9759a95a40_N15358_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15367 .
+_:f_events_Event1_a7a361183a93a7098ce545f81e162e9759a95a40_N15358_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15367 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Trento/id> .
+<http://localhost:8080/source/object/Trento/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+
+<http://localhost:8080/source/object/Moena/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_d515d988ccb803b7e960668f33204ebb95ba8756_N15371_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15380 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Moena/id> .
+<http://localhost:8080/source/object/Moena/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_d515d988ccb803b7e960668f33204ebb95ba8756_N15371_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15380 .
+_:f_events_Event1_d515d988ccb803b7e960668f33204ebb95ba8756_N15371_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15380 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_d515d988ccb803b7e960668f33204ebb95ba8756_N15371_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15380 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Vin brul� degli Alpini" .
+
+_:f_events_Event1_8bf4e9d7645458eb2e5bca0e52dba83d708ed8d4_N15384_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15393 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_8bf4e9d7645458eb2e5bca0e52dba83d708ed8d4_N15384_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15393 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercato contadino Arco" .
+<http://localhost:8080/source/object/Arco/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_8bf4e9d7645458eb2e5bca0e52dba83d708ed8d4_N15384_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15393 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Arco/id> .
+<http://localhost:8080/source/object/Arco/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_8bf4e9d7645458eb2e5bca0e52dba83d708ed8d4_N15384_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15393 .
+
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_753b767a817b794e7eb8e463088fa0a3d24b95ea_N15397_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15406 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Riva%20del%20Garda/id> .
+_:f_events_Event1_753b767a817b794e7eb8e463088fa0a3d24b95ea_N15397_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15406 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_753b767a817b794e7eb8e463088fa0a3d24b95ea_N15397_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15406 .
+_:f_events_Event1_753b767a817b794e7eb8e463088fa0a3d24b95ea_N15397_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15406 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercato settimanale Riva del Garda" .
+
+<http://localhost:8080/source/object/Arco/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_ab3ab68e5dda8f452fcc47887f9a80b3b91a7bc9_N15410_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15419 .
+_:f_events_Event1_ab3ab68e5dda8f452fcc47887f9a80b3b91a7bc9_N15410_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15419 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Arco/id> .
+<http://localhost:8080/source/object/Arco/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_ab3ab68e5dda8f452fcc47887f9a80b3b91a7bc9_N15410_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15419 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Spettacolo di Natale" .
+_:f_events_Event1_ab3ab68e5dda8f452fcc47887f9a80b3b91a7bc9_N15410_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15419 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/Arco/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_12d1021c6574586dce67386d15adf16fe280e3e1_N15423_977fdceb5ae92bec35981d452df19b22872099d1_N15432 .
+_:f_events_Event1_12d1021c6574586dce67386d15adf16fe280e3e1_N15423_977fdceb5ae92bec35981d452df19b22872099d1_N15432 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Concerto Sinfonico" .
+_:f_events_Event1_12d1021c6574586dce67386d15adf16fe280e3e1_N15423_977fdceb5ae92bec35981d452df19b22872099d1_N15432 <http://www.semanticweb.org/facilitiesEventsOntology#price> "� 15.00 , ridotto � 10.00" .
+<http://localhost:8080/source/object/Arco/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_12d1021c6574586dce67386d15adf16fe280e3e1_N15423_977fdceb5ae92bec35981d452df19b22872099d1_N15432 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Arco/id> .
+_:f_events_Event1_12d1021c6574586dce67386d15adf16fe280e3e1_N15423_977fdceb5ae92bec35981d452df19b22872099d1_N15432 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+_:f_events_Event1_b54631a5336e2ac44f78a9079e6cff542f18f241_N15436_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15445 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Arco%2C%20Drena%2C%20Dro%20.../id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_b54631a5336e2ac44f78a9079e6cff542f18f241_N15436_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15445 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Arco%2C%20Drena%2C%20Dro%20.../id> .
+<http://localhost:8080/source/object/Arco%2C%20Drena%2C%20Dro%20.../id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_b54631a5336e2ac44f78a9079e6cff542f18f241_N15436_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15445 .
+_:f_events_Event1_b54631a5336e2ac44f78a9079e6cff542f18f241_N15436_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15445 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Arriva Santa Lucia" .
+
+_:f_events_Event1_29df6b41828fe92982daef41161a25d9995832d8_N15449_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15458 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_29df6b41828fe92982daef41161a25d9995832d8_N15449_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15458 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Levico%20Terme/id> .
+_:f_events_Event1_29df6b41828fe92982daef41161a25d9995832d8_N15449_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15458 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "La Strozegada di Santa Lucia" .
+<http://localhost:8080/source/object/Levico%20Terme/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_29df6b41828fe92982daef41161a25d9995832d8_N15449_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15458 .
+<http://localhost:8080/source/object/Levico%20Terme/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+
+<http://localhost:8080/source/object/Torbole%20sul%20Garda%20-%20Nago/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_481ef4db409095c880232b7c394a2fa7af10b8dd_N15462_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15471 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Torbole%20sul%20Garda%20-%20Nago/id> .
+_:f_events_Event1_481ef4db409095c880232b7c394a2fa7af10b8dd_N15462_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15471 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Arrivo di Santa Lucia in barca" .
+<http://localhost:8080/source/object/Torbole%20sul%20Garda%20-%20Nago/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_481ef4db409095c880232b7c394a2fa7af10b8dd_N15462_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15471 .
+_:f_events_Event1_481ef4db409095c880232b7c394a2fa7af10b8dd_N15462_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15471 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+_:f_events_Event1_bfbd32fca8dedefb2f032ecc0435b68bf6ff796e_N15475_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15484 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Spettacolo di fuochi d'artificio" .
+<http://localhost:8080/source/object/Levico%20Terme/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Levico%20Terme/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_bfbd32fca8dedefb2f032ecc0435b68bf6ff796e_N15475_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15484 .
+_:f_events_Event1_bfbd32fca8dedefb2f032ecc0435b68bf6ff796e_N15475_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15484 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Levico%20Terme/id> .
+_:f_events_Event1_bfbd32fca8dedefb2f032ecc0435b68bf6ff796e_N15475_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15484 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+_:f_events_Event1_40c1542c61dce15a2cfe7ca0bf7b938f4657dff9_N15488_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15497 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Campitello%20di%20Fassa%2C%20Canazei%2C%20Moena%20.../id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_40c1542c61dce15a2cfe7ca0bf7b938f4657dff9_N15488_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15497 .
+<http://localhost:8080/source/object/Campitello%20di%20Fassa%2C%20Canazei%2C%20Moena%20.../id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_40c1542c61dce15a2cfe7ca0bf7b938f4657dff9_N15488_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15497 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Campitello%20di%20Fassa%2C%20Canazei%2C%20Moena%20.../id> .
+_:f_events_Event1_40c1542c61dce15a2cfe7ca0bf7b938f4657dff9_N15488_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15497 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Free Ski Day - In Trentino si impara a sciare gratis!" .
+
+_:f_events_Event1_9e9369e797eeb47f0f47c31450552b4b2e9886e6_N15501_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15510 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Polsa%2C%20San%20Valentino/id> .
+_:f_events_Event1_9e9369e797eeb47f0f47c31450552b4b2e9886e6_N15501_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15510 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Polsa%2C%20San%20Valentino/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Polsa%2C%20San%20Valentino/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_9e9369e797eeb47f0f47c31450552b4b2e9886e6_N15501_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15510 .
+_:f_events_Event1_9e9369e797eeb47f0f47c31450552b4b2e9886e6_N15501_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15510 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Free Ski Day" .
+
+_:f_events_Event1_9e9369e797eeb47f0f47c31450552b4b2e9886e6_N15514_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15523 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/San%20Martino%20di%20Castrozza/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_9e9369e797eeb47f0f47c31450552b4b2e9886e6_N15514_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15523 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/San%20Martino%20di%20Castrozza/id> .
+_:f_events_Event1_9e9369e797eeb47f0f47c31450552b4b2e9886e6_N15514_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15523 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Free Ski Day" .
+<http://localhost:8080/source/object/San%20Martino%20di%20Castrozza/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_9e9369e797eeb47f0f47c31450552b4b2e9886e6_N15514_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15523 .
+
+<http://localhost:8080/source/object/Torbole%20sul%20Garda%20-%20Nago/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_3ce4be81067174bbb7ce7c939b8a3993a76b9b5d_N15527_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15536 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Torbole%20sul%20Garda%20-%20Nago/id> .
+_:f_events_Event1_3ce4be81067174bbb7ce7c939b8a3993a76b9b5d_N15527_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15536 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Garda Trentino Xmas Trail" .
+_:f_events_Event1_3ce4be81067174bbb7ce7c939b8a3993a76b9b5d_N15527_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15536 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Torbole%20sul%20Garda%20-%20Nago/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_3ce4be81067174bbb7ce7c939b8a3993a76b9b5d_N15527_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15536 .
+
+_:f_events_Event1_55fa577b8f74eba123ac6fb401af7a12866e4d36_N15540_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15549 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_55fa577b8f74eba123ac6fb401af7a12866e4d36_N15540_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15549 .
+_:f_events_Event1_55fa577b8f74eba123ac6fb401af7a12866e4d36_N15540_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15549 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Riva%20del%20Garda/id> .
+_:f_events_Event1_55fa577b8f74eba123ac6fb401af7a12866e4d36_N15540_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15549 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Concerto di Natale" .
+
+<http://localhost:8080/source/object/Folgarida%2C%20Marilleva%2C%20Passo%20del%20Tonale%20.../id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_c3f238e3dbef7abe5548502116d32e5b934a2b5a_N15553_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15562 .
+<http://localhost:8080/source/object/Folgarida%2C%20Marilleva%2C%20Passo%20del%20Tonale%20.../id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_c3f238e3dbef7abe5548502116d32e5b934a2b5a_N15553_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15562 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Free Ski Day 2019" .
+_:f_events_Event1_c3f238e3dbef7abe5548502116d32e5b934a2b5a_N15553_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15562 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Folgarida%2C%20Marilleva%2C%20Passo%20del%20Tonale%20.../id> .
+_:f_events_Event1_c3f238e3dbef7abe5548502116d32e5b934a2b5a_N15553_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15562 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+_:f_events_Event1_f1ff0837cfea29a5fada7b846fca5cb14f97508f_N15566_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15575 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Lavarone%2C%20Folgaria%2C%20Luserna/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_f1ff0837cfea29a5fada7b846fca5cb14f97508f_N15566_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15575 .
+_:f_events_Event1_f1ff0837cfea29a5fada7b846fca5cb14f97508f_N15566_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15575 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Lavarone%2C%20Folgaria%2C%20Luserna/id> .
+<http://localhost:8080/source/object/Lavarone%2C%20Folgaria%2C%20Luserna/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_f1ff0837cfea29a5fada7b846fca5cb14f97508f_N15566_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15575 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "FREE SKI DAY" .
+
+<http://localhost:8080/source/object/Dro/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_55fa577b8f74eba123ac6fb401af7a12866e4d36_N15579_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15588 .
+_:f_events_Event1_55fa577b8f74eba123ac6fb401af7a12866e4d36_N15579_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15588 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_55fa577b8f74eba123ac6fb401af7a12866e4d36_N15579_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15588 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Dro/id> .
+<http://localhost:8080/source/object/Dro/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_55fa577b8f74eba123ac6fb401af7a12866e4d36_N15579_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15588 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Concerto di Natale" .
+
+_:f_events_Event1_83a2eceb4e38fce30ba75b94acc9562b7a4bfb46_N15592_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15601 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Primiero%20-%20Imer/id> .
+_:f_events_Event1_83a2eceb4e38fce30ba75b94acc9562b7a4bfb46_N15592_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15601 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "BluOff" .
+<http://localhost:8080/source/object/Primiero%20-%20Imer/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_83a2eceb4e38fce30ba75b94acc9562b7a4bfb46_N15592_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15601 .
+<http://localhost:8080/source/object/Primiero%20-%20Imer/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_83a2eceb4e38fce30ba75b94acc9562b7a4bfb46_N15592_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15601 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/Tenno/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_7d18952403a5befd999f88575f2ea4a83cfb61a5_N15605_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15614 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Tenno/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_7d18952403a5befd999f88575f2ea4a83cfb61a5_N15605_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15614 .
+_:f_events_Event1_7d18952403a5befd999f88575f2ea4a83cfb61a5_N15605_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15614 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Tenno/id> .
+_:f_events_Event1_7d18952403a5befd999f88575f2ea4a83cfb61a5_N15605_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15614 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatino di Natale di Canale di Tenno" .
+
+<http://localhost:8080/source/object/Cavalese%2C%20Alpe%20Cermis%2C%20Pampeago-Predazzo-Obereggen%20.../id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_49049575a96213ca4dba955743dac50f68eefcea_N15618_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15627 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Cavalese%2C%20Alpe%20Cermis%2C%20Pampeago-Predazzo-Obereggen%20.../id> .
+<http://localhost:8080/source/object/Cavalese%2C%20Alpe%20Cermis%2C%20Pampeago-Predazzo-Obereggen%20.../id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_49049575a96213ca4dba955743dac50f68eefcea_N15618_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15627 .
+_:f_events_Event1_49049575a96213ca4dba955743dac50f68eefcea_N15618_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15627 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Ski Opening: la prima neve in musica" .
+_:f_events_Event1_49049575a96213ca4dba955743dac50f68eefcea_N15618_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15627 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/Villa%20Lagarina%20-%20Lago%20di%20Cei/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_d631a3b75bbaef86fa8d34454bbffada9ab52030_N15631_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15640 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Villa%20Lagarina%20-%20Lago%20di%20Cei/id> .
+_:f_events_Event1_d631a3b75bbaef86fa8d34454bbffada9ab52030_N15631_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15640 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_d631a3b75bbaef86fa8d34454bbffada9ab52030_N15631_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15640 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Il Natale dei Ricordi - El nos Nadal" .
+<http://localhost:8080/source/object/Villa%20Lagarina%20-%20Lago%20di%20Cei/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_d631a3b75bbaef86fa8d34454bbffada9ab52030_N15631_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15640 .
+
+<http://localhost:8080/source/object/Avio/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_669c439cf2008618d4c37997da268e5159ecb1ae_N15644_de7f8905514b78aea4061ca264fa080fe390951f_N15653 .
+<http://localhost:8080/source/object/Avio/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_669c439cf2008618d4c37997da268e5159ecb1ae_N15644_de7f8905514b78aea4061ca264fa080fe390951f_N15653 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Natale al Castello di Avio" .
+_:f_events_Event1_669c439cf2008618d4c37997da268e5159ecb1ae_N15644_de7f8905514b78aea4061ca264fa080fe390951f_N15653 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Avio/id> .
+_:f_events_Event1_669c439cf2008618d4c37997da268e5159ecb1ae_N15644_de7f8905514b78aea4061ca264fa080fe390951f_N15653 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_669c439cf2008618d4c37997da268e5159ecb1ae_N15644_de7f8905514b78aea4061ca264fa080fe390951f_N15653 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Prezzi; Visita libera al Castello con parti affrescate: � 4; Bambini fino a 6 anni, aderenti al FAI e residenti: gratuito; Visita guidata il sabato e la domenica ore 11.00, 13.00, 15.00 e 17.00 (su prenotazione, gruppi max 30 persone): � 7; biglietto d'ingresso compreso nella Museum Pass; In caso di manifestazioni il prezzo pu� variare.; In occasione del Mercatino di Natale, l'accesso al solo mercatino � gratuito." .
+
+_:f_events_Event1_7faa04b76887845ea2d36e08b5730d1226320087_N15657_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15666 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Passeggiata tra i Presepi" .
+<http://localhost:8080/source/object/Rovereto%2C%20Terragnolo/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_7faa04b76887845ea2d36e08b5730d1226320087_N15657_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15666 .
+<http://localhost:8080/source/object/Rovereto%2C%20Terragnolo/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_7faa04b76887845ea2d36e08b5730d1226320087_N15657_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15666 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Rovereto%2C%20Terragnolo/id> .
+_:f_events_Event1_7faa04b76887845ea2d36e08b5730d1226320087_N15657_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15666 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/Rovereto/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_da0731a6a0057d1498fb4f6f68b407ef4bf3135b_N15670_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15679 .
+<http://localhost:8080/source/object/Rovereto/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_da0731a6a0057d1498fb4f6f68b407ef4bf3135b_N15670_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15679 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Matin�es in Casa Mozart" .
+_:f_events_Event1_da0731a6a0057d1498fb4f6f68b407ef4bf3135b_N15670_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15679 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Rovereto/id> .
+_:f_events_Event1_da0731a6a0057d1498fb4f6f68b407ef4bf3135b_N15670_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15679 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+_:f_events_Event1_7b38825baf479eaba9492bd7214aa48a45a56a11_N15683_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15692 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Due passi tra i Presepi - Poesie Natalizie" .
+<http://localhost:8080/source/object/Arco/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_7b38825baf479eaba9492bd7214aa48a45a56a11_N15683_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15692 .
+<http://localhost:8080/source/object/Arco/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_7b38825baf479eaba9492bd7214aa48a45a56a11_N15683_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15692 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Arco/id> .
+_:f_events_Event1_7b38825baf479eaba9492bd7214aa48a45a56a11_N15683_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15692 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/Arco/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_7208d19c2c17efa0596ea2e527648f00a90a5d81_N15696_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15705 .
+<http://localhost:8080/source/object/Arco/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_7208d19c2c17efa0596ea2e527648f00a90a5d81_N15696_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15705 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Storie a merenda" .
+_:f_events_Event1_7208d19c2c17efa0596ea2e527648f00a90a5d81_N15696_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15705 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Arco/id> .
+_:f_events_Event1_7208d19c2c17efa0596ea2e527648f00a90a5d81_N15696_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15705 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+_:f_events_Event1_7a228bf3090af075236175c9277788c0d17d9ae9_N15709_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15718 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Magie natalizie al Lago di Carezza" .
+_:f_events_Event1_7a228bf3090af075236175c9277788c0d17d9ae9_N15709_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15718 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Vigo%20di%20Fassa/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_7a228bf3090af075236175c9277788c0d17d9ae9_N15709_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15718 .
+_:f_events_Event1_7a228bf3090af075236175c9277788c0d17d9ae9_N15709_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15718 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Vigo%20di%20Fassa/id> .
+<http://localhost:8080/source/object/Vigo%20di%20Fassa/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+
+<http://localhost:8080/source/object/Brentonico/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_5f0afe54172303997abe728825bfb4c0f49e4aa0_N15722_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15731 .
+<http://localhost:8080/source/object/Brentonico/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_5f0afe54172303997abe728825bfb4c0f49e4aa0_N15722_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15731 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Il Natale dell'Albero" .
+_:f_events_Event1_5f0afe54172303997abe728825bfb4c0f49e4aa0_N15722_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15731 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_5f0afe54172303997abe728825bfb4c0f49e4aa0_N15722_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15731 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Brentonico/id> .
+
+<http://localhost:8080/source/object/Canazei%2C%20Moena%2C%20Vigo%20di%20Fassa/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_5260f3671e2071948b1ba8aa972e9761a0f7e17b_N15735_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15744 .
+_:f_events_Event1_5260f3671e2071948b1ba8aa972e9761a0f7e17b_N15735_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15744 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_5260f3671e2071948b1ba8aa972e9761a0f7e17b_N15735_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15744 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Canazei%2C%20Moena%2C%20Vigo%20di%20Fassa/id> .
+<http://localhost:8080/source/object/Canazei%2C%20Moena%2C%20Vigo%20di%20Fassa/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_5260f3671e2071948b1ba8aa972e9761a0f7e17b_N15735_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15744 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "RDS - Play the winter - Val di Fassa" .
+
+_:f_events_Event1_ee33183f851960019e6b97b95aaee73796578c19_N15748_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15757 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Artigiani a Bosentino, il Mercatino di Natale" .
+<http://localhost:8080/source/object/Bosentino/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_ee33183f851960019e6b97b95aaee73796578c19_N15748_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15757 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Bosentino/id> .
+<http://localhost:8080/source/object/Bosentino/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_ee33183f851960019e6b97b95aaee73796578c19_N15748_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15757 .
+_:f_events_Event1_ee33183f851960019e6b97b95aaee73796578c19_N15748_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15757 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/Torbole%20sul%20Garda%20-%20Nago/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Torbole%20sul%20Garda%20-%20Nago/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_547ff4de8c52851559c8f980b194b9f0727a5aa1_N15761_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15770 .
+_:f_events_Event1_547ff4de8c52851559c8f980b194b9f0727a5aa1_N15761_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15770 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "La casa di zia Natalia" .
+_:f_events_Event1_547ff4de8c52851559c8f980b194b9f0727a5aa1_N15761_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15770 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_547ff4de8c52851559c8f980b194b9f0727a5aa1_N15761_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15770 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Torbole%20sul%20Garda%20-%20Nago/id> .
+
+_:f_events_Event1_b0717ef9607d25dc45a46799d160e69e823446d1_N15774_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15783 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_b0717ef9607d25dc45a46799d160e69e823446d1_N15774_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15783 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Aspettando il Natale" .
+_:f_events_Event1_b0717ef9607d25dc45a46799d160e69e823446d1_N15774_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15783 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Vigo%20di%20Fassa/id> .
+<http://localhost:8080/source/object/Vigo%20di%20Fassa/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Vigo%20di%20Fassa/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_b0717ef9607d25dc45a46799d160e69e823446d1_N15774_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15783 .
+
+_:f_events_Event1_efa1d81e2ffaee13ae3abd0af739ea46e06fcd50_N15787_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15796 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Campitello%20di%20Fassa%2C%20Canazei/id> .
+_:f_events_Event1_efa1d81e2ffaee13ae3abd0af739ea46e06fcd50_N15787_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15796 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Settimane Vip in Alta Quota" .
+_:f_events_Event1_efa1d81e2ffaee13ae3abd0af739ea46e06fcd50_N15787_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15796 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Campitello%20di%20Fassa%2C%20Canazei/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Campitello%20di%20Fassa%2C%20Canazei/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_efa1d81e2ffaee13ae3abd0af739ea46e06fcd50_N15787_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15796 .
+
+_:f_events_Event1_12b5df2f2302adfb2b7886d1cdc54062fc948e9b_N15800_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15809 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Moena/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_12b5df2f2302adfb2b7886d1cdc54062fc948e9b_N15800_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15809 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Moena/id> .
+_:f_events_Event1_12b5df2f2302adfb2b7886d1cdc54062fc948e9b_N15800_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15809 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatini di Natale a Moena" .
+<http://localhost:8080/source/object/Moena/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_12b5df2f2302adfb2b7886d1cdc54062fc948e9b_N15800_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15809 .
+
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_472c641aae8ab9190b111a0781674d9831087c6f_N15813_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15822 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Riva%20del%20Garda/id> .
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_472c641aae8ab9190b111a0781674d9831087c6f_N15813_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15822 .
+_:f_events_Event1_472c641aae8ab9190b111a0781674d9831087c6f_N15813_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15822 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_472c641aae8ab9190b111a0781674d9831087c6f_N15813_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15822 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercato contadino Riva del Garda" .
+
+_:f_events_Event1_8ccefbf99bae2bbe48d550da00f594f7f47a8ad9_N15826_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15835 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Cimego/id> .
+_:f_events_Event1_8ccefbf99bae2bbe48d550da00f594f7f47a8ad9_N15826_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15835 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Cimego/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_8ccefbf99bae2bbe48d550da00f594f7f47a8ad9_N15826_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15835 .
+<http://localhost:8080/source/object/Cimego/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_8ccefbf99bae2bbe48d550da00f594f7f47a8ad9_N15826_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15835 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatini di Natale di Cimego" .
+
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_9dd83e9812be387cb84cf66e4dc43a1c55c46558_N15839_877ec0d6bdd8f5b398c5325e4a69b05df92c72e3_N15848 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Dicembre al MAG insieme alla Casa di Babbo Natale" .
+_:f_events_Event1_9dd83e9812be387cb84cf66e4dc43a1c55c46558_N15839_877ec0d6bdd8f5b398c5325e4a69b05df92c72e3_N15848 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Riva%20del%20Garda/id> .
+_:f_events_Event1_9dd83e9812be387cb84cf66e4dc43a1c55c46558_N15839_877ec0d6bdd8f5b398c5325e4a69b05df92c72e3_N15848 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_9dd83e9812be387cb84cf66e4dc43a1c55c46558_N15839_877ec0d6bdd8f5b398c5325e4a69b05df92c72e3_N15848 <http://www.semanticweb.org/facilitiesEventsOntology#price> "� 8,00" .
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_9dd83e9812be387cb84cf66e4dc43a1c55c46558_N15839_877ec0d6bdd8f5b398c5325e4a69b05df92c72e3_N15848 .
+
+_:f_events_Event1_11e11d8b808fbb51e427a32e6770754569799027_N15852_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15861 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_11e11d8b808fbb51e427a32e6770754569799027_N15852_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15861 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatino di Natale Arco - Asburgico 800" .
+<http://localhost:8080/source/object/Arco/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Arco/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_11e11d8b808fbb51e427a32e6770754569799027_N15852_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15861 .
+_:f_events_Event1_11e11d8b808fbb51e427a32e6770754569799027_N15852_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15861 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Arco/id> .
+
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_8843aa9d0fa853ed0083b2cee687d7e75435605c_N15865_f51aa3b1d6fc9bc059e5325db4cff69d14cc0e7b_N15874 .
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_8843aa9d0fa853ed0083b2cee687d7e75435605c_N15865_f51aa3b1d6fc9bc059e5325db4cff69d14cc0e7b_N15874 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Casa di Babbo Natale - Riva del Garda - Lago di Garda" .
+_:f_events_Event1_8843aa9d0fa853ed0083b2cee687d7e75435605c_N15865_f51aa3b1d6fc9bc059e5325db4cff69d14cc0e7b_N15874 <http://www.semanticweb.org/facilitiesEventsOntology#price> "� 7,00 - Ridotto � 4,00" .
+_:f_events_Event1_8843aa9d0fa853ed0083b2cee687d7e75435605c_N15865_f51aa3b1d6fc9bc059e5325db4cff69d14cc0e7b_N15874 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Riva%20del%20Garda/id> .
+_:f_events_Event1_8843aa9d0fa853ed0083b2cee687d7e75435605c_N15865_f51aa3b1d6fc9bc059e5325db4cff69d14cc0e7b_N15874 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+_:f_events_Event1_5a1bba4dbd2b787511ecf2732d986a912efcc3b2_N15878_2309092e706071af168d7ac8668ba5730d50d81f_N15887 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Adulti: � 7 (� 5 con Museum Pass) per visite guidate e city trek; � 8 (6 con Museum Pass) per le visite tematiche di luglio e agosto; Bambini fino ai 10 anni: gratis; Possessori di Trentino Guest Card: gratis con prenotazione tramite App (senza prenotazione � 7/� 8); iOS: https://itunes.apple.com/it/app/trentino-guest-card/id1264524737?l=it&mt=8; Android: https://play.google.com/store/apps/details?id=com.rievoluzione.guestcard; Video tutorial App: http://www.youtube.com/watch?v=3qktjayoUVU" .
+<http://localhost:8080/source/object/Rovereto/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_5a1bba4dbd2b787511ecf2732d986a912efcc3b2_N15878_2309092e706071af168d7ac8668ba5730d50d81f_N15887 .
+<http://localhost:8080/source/object/Rovereto/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_5a1bba4dbd2b787511ecf2732d986a912efcc3b2_N15878_2309092e706071af168d7ac8668ba5730d50d81f_N15887 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Rovereto/id> .
+_:f_events_Event1_5a1bba4dbd2b787511ecf2732d986a912efcc3b2_N15878_2309092e706071af168d7ac8668ba5730d50d81f_N15887 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Visite guidate" .
+_:f_events_Event1_5a1bba4dbd2b787511ecf2732d986a912efcc3b2_N15878_2309092e706071af168d7ac8668ba5730d50d81f_N15887 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/Torbole%20sul%20Garda%20-%20Nago/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_8324ae935abd90bd24a39df1bddfab39e69c97b9_N15891_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15900 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Torbole%20sul%20Garda%20-%20Nago/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_8324ae935abd90bd24a39df1bddfab39e69c97b9_N15891_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15900 .
+_:f_events_Event1_8324ae935abd90bd24a39df1bddfab39e69c97b9_N15891_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15900 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Torbole Sparkling Saturday" .
+_:f_events_Event1_8324ae935abd90bd24a39df1bddfab39e69c97b9_N15891_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15900 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Torbole%20sul%20Garda%20-%20Nago/id> .
+
+<http://localhost:8080/source/object/Tesero/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_b1677938973b933e030d8c7ae21765f29ddd0d03_N15904_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15913 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_b1677938973b933e030d8c7ae21765f29ddd0d03_N15904_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15913 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Tesero e i suoi presepi" .
+<http://localhost:8080/source/object/Tesero/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_b1677938973b933e030d8c7ae21765f29ddd0d03_N15904_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15913 .
+_:f_events_Event1_b1677938973b933e030d8c7ae21765f29ddd0d03_N15904_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15913 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Tesero/id> .
+
+_:f_events_Event1_cec39ce73a1d7bf7e817a9e8fb8ab7c2505a0363_N15917_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15926 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_cec39ce73a1d7bf7e817a9e8fb8ab7c2505a0363_N15917_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15926 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatino di Natale a Vigo" .
+<http://localhost:8080/source/object/Vigo%20di%20Fassa/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_cec39ce73a1d7bf7e817a9e8fb8ab7c2505a0363_N15917_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15926 .
+<http://localhost:8080/source/object/Vigo%20di%20Fassa/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_cec39ce73a1d7bf7e817a9e8fb8ab7c2505a0363_N15917_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15926 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Vigo%20di%20Fassa/id> .
+
+<http://localhost:8080/source/object/Campitello%20di%20Fassa/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_0591b671929b8c3ede1e3436c414bab4dec1bf0c_N15930_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15939 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatini di Natale a Campitello" .
+<http://localhost:8080/source/object/Campitello%20di%20Fassa/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_0591b671929b8c3ede1e3436c414bab4dec1bf0c_N15930_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15939 .
+_:f_events_Event1_0591b671929b8c3ede1e3436c414bab4dec1bf0c_N15930_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15939 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_0591b671929b8c3ede1e3436c414bab4dec1bf0c_N15930_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15939 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Campitello%20di%20Fassa/id> .
+
+<http://localhost:8080/source/object/Faedo/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_7683abb4111f34ecac64abfc9d5a7b263407bc79_N15943_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15952 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Faedo/id> .
+_:f_events_Event1_7683abb4111f34ecac64abfc9d5a7b263407bc79_N15943_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15952 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Faedo/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_7683abb4111f34ecac64abfc9d5a7b263407bc79_N15943_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15952 .
+_:f_events_Event1_7683abb4111f34ecac64abfc9d5a7b263407bc79_N15943_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15952 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Faedo, il paese del presepe" .
+
+<http://localhost:8080/source/object/Tesero/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_2dbd1aabf4145e648c35bfccae473b0b0b862c3e_N15956_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15965 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatino sotto le stelle" .
+_:f_events_Event1_2dbd1aabf4145e648c35bfccae473b0b0b862c3e_N15956_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15965 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Tesero/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_2dbd1aabf4145e648c35bfccae473b0b0b862c3e_N15956_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15965 .
+_:f_events_Event1_2dbd1aabf4145e648c35bfccae473b0b0b862c3e_N15956_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15965 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Tesero/id> .
+
+_:f_events_Event1_3a70a3ae50ce06664becd1dedca348651864f5ad_N15969_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15978 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Vigo%20di%20Fassa/id> .
+_:f_events_Event1_3a70a3ae50ce06664becd1dedca348651864f5ad_N15969_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15978 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Vigo%20di%20Fassa/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Vigo%20di%20Fassa/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_3a70a3ae50ce06664becd1dedca348651864f5ad_N15969_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15978 .
+_:f_events_Event1_3a70a3ae50ce06664becd1dedca348651864f5ad_N15969_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15978 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Alberi di Vita" .
+
+<http://localhost:8080/source/object/Rovereto/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_367583d5978718c2590d16ed657637a4e01eb340_N15982_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15991 .
+_:f_events_Event1_367583d5978718c2590d16ed657637a4e01eb340_N15982_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15991 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Rovereto/id> .
+_:f_events_Event1_367583d5978718c2590d16ed657637a4e01eb340_N15982_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15991 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Natale di Luce - Mercatino a Rovereto" .
+<http://localhost:8080/source/object/Rovereto/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_367583d5978718c2590d16ed657637a4e01eb340_N15982_da39a3ee5e6b4b0d3255bfef95601890afd80709_N15991 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+_:f_events_Event1_4559d07089177af1cdc181860a790ef57c013d2c_N15995_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16004 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Il Magnifico Mercatino" .
+_:f_events_Event1_4559d07089177af1cdc181860a790ef57c013d2c_N15995_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16004 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Cavalese/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_4559d07089177af1cdc181860a790ef57c013d2c_N15995_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16004 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Cavalese/id> .
+<http://localhost:8080/source/object/Cavalese/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_4559d07089177af1cdc181860a790ef57c013d2c_N15995_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16004 .
+
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_abc87bebf1e710ef817c6ba178f1462c35e195fb_N16008_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16017 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Riva%20del%20Garda/id> .
+_:f_events_Event1_abc87bebf1e710ef817c6ba178f1462c35e195fb_N16008_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16017 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "11� Edizione - Mostra di Presepi Napoletani" .
+_:f_events_Event1_abc87bebf1e710ef817c6ba178f1462c35e195fb_N16008_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16017 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_abc87bebf1e710ef817c6ba178f1462c35e195fb_N16008_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16017 .
+
+_:f_events_Event1_d9a97a52ede4e9e7393e7bef192344c46e7a967a_N16021_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16030 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_d9a97a52ede4e9e7393e7bef192344c46e7a967a_N16021_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16030 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "La Valle dei Presepi" .
+<http://localhost:8080/source/object/Rabbi/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_d9a97a52ede4e9e7393e7bef192344c46e7a967a_N16021_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16030 .
+<http://localhost:8080/source/object/Rabbi/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_d9a97a52ede4e9e7393e7bef192344c46e7a967a_N16021_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16030 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Rabbi/id> .
+
+_:f_events_Event1_4e66fc694e77bd6a22409eb16ee683521df3ab12_N16034_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16043 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Predazzo/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_4e66fc694e77bd6a22409eb16ee683521df3ab12_N16034_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16043 .
+_:f_events_Event1_4e66fc694e77bd6a22409eb16ee683521df3ab12_N16034_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16043 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Villaggio sotto l'albero" .
+_:f_events_Event1_4e66fc694e77bd6a22409eb16ee683521df3ab12_N16034_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16043 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Predazzo/id> .
+<http://localhost:8080/source/object/Predazzo/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+
+_:f_events_Event1_da02b7f3e70bf1134a2f2e94e89004c799f80dd6_N16047_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16056 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Di Gusto in Gusto" .
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_da02b7f3e70bf1134a2f2e94e89004c799f80dd6_N16047_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16056 .
+_:f_events_Event1_da02b7f3e70bf1134a2f2e94e89004c799f80dd6_N16047_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16056 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Riva%20del%20Garda/id> .
+_:f_events_Event1_da02b7f3e70bf1134a2f2e94e89004c799f80dd6_N16047_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16056 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/Arco/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_caccae41835884b0515c58ed5f0dea3d41dcba54_N16060_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16069 .
+_:f_events_Event1_caccae41835884b0515c58ed5f0dea3d41dcba54_N16060_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16069 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Arco/id> .
+<http://localhost:8080/source/object/Arco/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_caccae41835884b0515c58ed5f0dea3d41dcba54_N16060_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16069 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Presepi ai piedi del Castello" .
+_:f_events_Event1_caccae41835884b0515c58ed5f0dea3d41dcba54_N16060_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16069 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+_:f_events_Event1_40d0bea0d448dc355638d3d1b6b7e9bda2a81b0d_N16073_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16082 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Fattoria degli Animali" .
+_:f_events_Event1_40d0bea0d448dc355638d3d1b6b7e9bda2a81b0d_N16073_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16082 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Arco/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Arco/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_40d0bea0d448dc355638d3d1b6b7e9bda2a81b0d_N16073_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16082 .
+_:f_events_Event1_40d0bea0d448dc355638d3d1b6b7e9bda2a81b0d_N16073_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16082 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Arco/id> .
+
+<http://localhost:8080/source/object/Arco/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_fcdadeffccf9e9099166b689b8e2f50169cccaf8_N16086_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16095 .
+_:f_events_Event1_fcdadeffccf9e9099166b689b8e2f50169cccaf8_N16086_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16095 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_fcdadeffccf9e9099166b689b8e2f50169cccaf8_N16086_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16095 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Op-op Somarello" .
+_:f_events_Event1_fcdadeffccf9e9099166b689b8e2f50169cccaf8_N16086_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16095 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Arco/id> .
+<http://localhost:8080/source/object/Arco/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+
+_:f_events_Event1_fb2d7dc0d927b6370665f3cafe9839d511d5ed29_N16099_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16108 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Fondo/id> .
+<http://localhost:8080/source/object/Fondo/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_fb2d7dc0d927b6370665f3cafe9839d511d5ed29_N16099_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16108 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "NATALE... IN TUTTI I SENSI" .
+<http://localhost:8080/source/object/Fondo/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_fb2d7dc0d927b6370665f3cafe9839d511d5ed29_N16099_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16108 .
+_:f_events_Event1_fb2d7dc0d927b6370665f3cafe9839d511d5ed29_N16099_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/Pergine%20Valsugana/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Pergine%20Valsugana/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_b456d0fe1ab9d38a143abe65b7ca6ff85ffa6219_N16112_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16121 .
+_:f_events_Event1_b456d0fe1ab9d38a143abe65b7ca6ff85ffa6219_N16112_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16121 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatino di Natale dei Canopi" .
+_:f_events_Event1_b456d0fe1ab9d38a143abe65b7ca6ff85ffa6219_N16112_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16121 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Pergine%20Valsugana/id> .
+_:f_events_Event1_b456d0fe1ab9d38a143abe65b7ca6ff85ffa6219_N16112_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+_:f_events_Event1_6d73f07ab26a90c986833196ce204a9c9fa07c89_N16125_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16134 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Levico%20Terme/id> .
+<http://localhost:8080/source/object/Levico%20Terme/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Levico%20Terme/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_6d73f07ab26a90c986833196ce204a9c9fa07c89_N16125_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16134 .
+_:f_events_Event1_6d73f07ab26a90c986833196ce204a9c9fa07c89_N16125_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_6d73f07ab26a90c986833196ce204a9c9fa07c89_N16125_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16134 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mercatino di Natale a Levico Terme" .
+
+_:f_events_Event1_334abf73b248d141e55d079ece00dc8b1e762c1c_N16138_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16147 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "I Paesi dei Presepi" .
+<http://localhost:8080/source/object/Villa%20Lagarina%2C%20Nomi%2C%20Pomarolo/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_334abf73b248d141e55d079ece00dc8b1e762c1c_N16138_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16147 .
+<http://localhost:8080/source/object/Villa%20Lagarina%2C%20Nomi%2C%20Pomarolo/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_334abf73b248d141e55d079ece00dc8b1e762c1c_N16138_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16147 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Villa%20Lagarina%2C%20Nomi%2C%20Pomarolo/id> .
+_:f_events_Event1_334abf73b248d141e55d079ece00dc8b1e762c1c_N16138_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+_:f_events_Event1_d35c73758713c68e3d306d5e9ac13fda99a09f42_N16151_4ee64ab7499ae692309fdf3682242a7414c62b46_N16160 <http://www.semanticweb.org/facilitiesEventsOntology#price> "La Pista di pattinaggio; Costo ingresso; con noleggio pattini; Adulti: 6,00 �; Bambini: 5,00�; senza noleggio pattini; Adulti: 4,00 �; Bambini: 3,00�" .
+_:f_events_Event1_d35c73758713c68e3d306d5e9ac13fda99a09f42_N16151_4ee64ab7499ae692309fdf3682242a7414c62b46_N16160 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Mori/id> .
+_:f_events_Event1_d35c73758713c68e3d306d5e9ac13fda99a09f42_N16151_4ee64ab7499ae692309fdf3682242a7414c62b46_N16160 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "La Fiaba del Natale" .
+<http://localhost:8080/source/object/Mori/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_d35c73758713c68e3d306d5e9ac13fda99a09f42_N16151_4ee64ab7499ae692309fdf3682242a7414c62b46_N16160 .
+<http://localhost:8080/source/object/Mori/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_d35c73758713c68e3d306d5e9ac13fda99a09f42_N16151_4ee64ab7499ae692309fdf3682242a7414c62b46_N16160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+
+<http://localhost:8080/source/object/Ossana/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_f70942cab88556c38c03915ec57b1ef6109028b8_N16164_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16173 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Ossana/id> .
+_:f_events_Event1_f70942cab88556c38c03915ec57b1ef6109028b8_N16164_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16173 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Ossana, il borgo dei 1000 presepi" .
+_:f_events_Event1_f70942cab88556c38c03915ec57b1ef6109028b8_N16164_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Ossana/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_f70942cab88556c38c03915ec57b1ef6109028b8_N16164_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16173 .
+
+<http://localhost:8080/source/object/Campitello%20di%20Fassa%2C%20Canazei%2C%20Mazzin%20.../id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_e4dd8a63d848cfa547fce4d549fea763208f51e4_N16177_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16186 .
+_:f_events_Event1_e4dd8a63d848cfa547fce4d549fea763208f51e4_N16177_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16186 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Campitello%20di%20Fassa%2C%20Canazei%2C%20Mazzin%20.../id> .
+_:f_events_Event1_e4dd8a63d848cfa547fce4d549fea763208f51e4_N16177_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Campitello%20di%20Fassa%2C%20Canazei%2C%20Mazzin%20.../id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_e4dd8a63d848cfa547fce4d549fea763208f51e4_N16177_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16186 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "E� Natale in Val di Fassa" .
+
+_:f_events_Event1_b6ce7fda1c8b1e7bc0d034e7dac00c9707b9b6cb_N16190_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16199 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "El Presepe vizin a c�" .
+_:f_events_Event1_b6ce7fda1c8b1e7bc0d034e7dac00c9707b9b6cb_N16190_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16199 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Levico%20Terme/id> .
+<http://localhost:8080/source/object/Levico%20Terme/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_b6ce7fda1c8b1e7bc0d034e7dac00c9707b9b6cb_N16190_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Levico%20Terme/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_b6ce7fda1c8b1e7bc0d034e7dac00c9707b9b6cb_N16190_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16199 .
+
+<http://localhost:8080/source/object/Denno/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_0da60d9354b99aa13ec8dcfefa6937b42ed50549_N16203_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16212 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Den tra i Presepi" .
+_:f_events_Event1_0da60d9354b99aa13ec8dcfefa6937b42ed50549_N16203_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Denno/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_0da60d9354b99aa13ec8dcfefa6937b42ed50549_N16203_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16212 .
+_:f_events_Event1_0da60d9354b99aa13ec8dcfefa6937b42ed50549_N16203_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16212 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Denno/id> .
+
+_:f_events_Event1_231ab916f770c04311f994da2bf850d7defb1cc9_N16216_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_231ab916f770c04311f994da2bf850d7defb1cc9_N16216_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16225 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Arco/id> .
+<http://localhost:8080/source/object/Arco/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_231ab916f770c04311f994da2bf850d7defb1cc9_N16216_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16225 .
+<http://localhost:8080/source/object/Arco/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_231ab916f770c04311f994da2bf850d7defb1cc9_N16216_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16225 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Due Passi tra i Presepi" .
+
+_:f_events_Event1_dbfa21679b8424bda5296fb34774baa679560640_N16229_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16238 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_dbfa21679b8424bda5296fb34774baa679560640_N16229_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16238 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "La Via di Betlemme" .
+<http://localhost:8080/source/object/Varena/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_dbfa21679b8424bda5296fb34774baa679560640_N16229_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16238 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Varena/id> .
+<http://localhost:8080/source/object/Varena/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_dbfa21679b8424bda5296fb34774baa679560640_N16229_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16238 .
+
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_35890c570c1af81703d5d907c6cfe15a52d564b2_N16242_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16251 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Mai pi� senza storie" .
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_35890c570c1af81703d5d907c6cfe15a52d564b2_N16242_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16251 .
+_:f_events_Event1_35890c570c1af81703d5d907c6cfe15a52d564b2_N16242_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16251 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_35890c570c1af81703d5d907c6cfe15a52d564b2_N16242_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16251 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Riva%20del%20Garda/id> .
+
+_:f_events_Event1_fe26bc772eb8cea1b62b444ccc40d983175b27b6_N16255_646e0968942d6f8ab2f512c15680b5a8ef3d40f3_N16264 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Rovereto/id> .
+_:f_events_Event1_fe26bc772eb8cea1b62b444ccc40d983175b27b6_N16255_646e0968942d6f8ab2f512c15680b5a8ef3d40f3_N16264 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Aperitivo InDanza" .
+<http://localhost:8080/source/object/Rovereto/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Rovereto/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_fe26bc772eb8cea1b62b444ccc40d983175b27b6_N16255_646e0968942d6f8ab2f512c15680b5a8ef3d40f3_N16264 .
+_:f_events_Event1_fe26bc772eb8cea1b62b444ccc40d983175b27b6_N16255_646e0968942d6f8ab2f512c15680b5a8ef3d40f3_N16264 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_fe26bc772eb8cea1b62b444ccc40d983175b27b6_N16255_646e0968942d6f8ab2f512c15680b5a8ef3d40f3_N16264 <http://www.semanticweb.org/facilitiesEventsOntology#price> "Aperitivo compreso nel biglietto d�ingresso al Mart o nel biglietto dello spettacolo della rassegna inDanza." .
+
+_:f_events_Event1_081bbf5876a685d7da03f1ca0716a37246791bef_N16268_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16277 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Ziano%20di%20Fiemme/id> .
+_:f_events_Event1_081bbf5876a685d7da03f1ca0716a37246791bef_N16268_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16277 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "I presepi nel bosco di Zanolin" .
+_:f_events_Event1_081bbf5876a685d7da03f1ca0716a37246791bef_N16268_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16277 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Ziano%20di%20Fiemme/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Ziano%20di%20Fiemme/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_081bbf5876a685d7da03f1ca0716a37246791bef_N16268_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16277 .
+
+<http://localhost:8080/source/object/Brentonico/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_34a7014323e93f996e4607618555800e09cd9402_N16281_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16290 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Eventi a Baita Laghetto" .
+_:f_events_Event1_34a7014323e93f996e4607618555800e09cd9402_N16281_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16290 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Brentonico/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_34a7014323e93f996e4607618555800e09cd9402_N16281_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16290 .
+_:f_events_Event1_34a7014323e93f996e4607618555800e09cd9402_N16281_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16290 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Brentonico/id> .
+
+_:f_events_Event1_f9f080b258fb9a425504dde4d8ee03d6274bf7ab_N16294_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16303 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "SkiEat" .
+<http://localhost:8080/source/object/Commezzadura/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_f9f080b258fb9a425504dde4d8ee03d6274bf7ab_N16294_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16303 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_f9f080b258fb9a425504dde4d8ee03d6274bf7ab_N16294_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16303 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Commezzadura/id> .
+<http://localhost:8080/source/object/Commezzadura/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_f9f080b258fb9a425504dde4d8ee03d6274bf7ab_N16294_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16303 .
+
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_7692ac175364f06542811cfe02c8b379739425e1_N16307_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16316 .
+_:f_events_Event1_7692ac175364f06542811cfe02c8b379739425e1_N16307_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16316 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_7692ac175364f06542811cfe02c8b379739425e1_N16307_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16316 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Es war einmal...H�rt zu und macht mit!" .
+_:f_events_Event1_7692ac175364f06542811cfe02c8b379739425e1_N16307_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16316 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Riva%20del%20Garda/id> .
+
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_27eeb27eaf306fe89b9180ac1a4ea0e13bf9eb92_N16320_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16329 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Storylab" .
+_:f_events_Event1_27eeb27eaf306fe89b9180ac1a4ea0e13bf9eb92_N16320_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16329 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_27eeb27eaf306fe89b9180ac1a4ea0e13bf9eb92_N16320_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16329 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Riva%20del%20Garda/id> .
+<http://localhost:8080/source/object/Riva%20del%20Garda/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_27eeb27eaf306fe89b9180ac1a4ea0e13bf9eb92_N16320_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16329 .
+
+_:f_events_Event1_90b4d6c448eae0edcd0acab4e0610cde4f33a0a8_N16333_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16342 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Arco/id> .
+_:f_events_Event1_90b4d6c448eae0edcd0acab4e0610cde4f33a0a8_N16333_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16342 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Corde resonanti - Omaggio a Beethoven" .
+_:f_events_Event1_90b4d6c448eae0edcd0acab4e0610cde4f33a0a8_N16333_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16342 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+<http://localhost:8080/source/object/Arco/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+<http://localhost:8080/source/object/Arco/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_90b4d6c448eae0edcd0acab4e0610cde4f33a0a8_N16333_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16342 .
+
+<http://localhost:8080/source/object/Levico%20Terme/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates> .
+_:f_events_Event1_bfbd32fca8dedefb2f032ecc0435b68bf6ff796e_N16346_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16355 <http://www.semanticweb.org/facilitiesEventsOntology#eventName> "Spettacolo di fuochi d'artificio" .
+<http://localhost:8080/source/object/Levico%20Terme/id> <http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf> _:f_events_Event1_bfbd32fca8dedefb2f032ecc0435b68bf6ff796e_N16346_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16355 .
+_:f_events_Event1_bfbd32fca8dedefb2f032ecc0435b68bf6ff796e_N16346_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16355 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/facilitiesEventsOntology#Event> .
+_:f_events_Event1_bfbd32fca8dedefb2f032ecc0435b68bf6ff796e_N16346_da39a3ee5e6b4b0d3255bfef95601890afd80709_N16355 <http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn> <http://localhost:8080/source/object/Levico%20Terme/id> .
+

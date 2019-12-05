@@ -171,7 +171,7 @@ def rm_main(locations):
 				postalCode = comp['long_name']
 		coordinates = GeoCoordinates(lat, lng, altitude, address, addressLocality, addressRegion, postalCode)
 
-		facilities.append({'searched': searched_name, 'facility': "" if fac == "" else fac.__dict__, 'geocoordinates': coordinates.__dict__})
+		facilities.append({'locationText': searched_name, 'facility': "" if fac == "" else fac.__dict__, 'geocoordinates': coordinates.__dict__})
 
 	# no results in google places, used google geocoding
 	for searched_name, result in no_results.items():
@@ -191,14 +191,14 @@ def rm_main(locations):
 					postalCode = comp['long_name']
 			coordinates = GeoCoordinates(lat, lng, altitude, address, addressLocality, addressRegion, postalCode)
 
-			facilities.append({'searched': searched_name, 'facility': "", 'geocoordinates': coordinates.__dict__})
+			facilities.append({'locationText': searched_name, 'facility': "", 'geocoordinates': coordinates.__dict__})
 
 	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/script_res.json', 'w') as outfile:
 		json.dump(facilities, outfile, indent='\t')
 
 	facilities_DF = []
 	for fac in facilities:
-		obj = {'searched': fac['searched']}
+		obj = {'locationText': fac['locationText']}
 		for k, v in fac['geocoordinates'].items():
 			obj[f'GEO_{k}'] = v
 
