@@ -127,8 +127,14 @@ def place_details_ALL():
 			pass
 
 
-def rm_main(locations):
+def rm_main(eventsJSON):
 	#locations = [loc for loc in list(events.loc[:, "locationName"]) if str(loc) != 'nan']
+	events = json.loads(eventsJSON)
+	locations = []
+	for l in events.values():
+		for e in l:
+			if e['GEN_locationText'] != "":
+				locations.append(e['GEN_locationText'])
 
 	facilities = []
 
@@ -208,4 +214,6 @@ def rm_main(locations):
 
 		facilities_DF.append(obj)
 
-	return pd.DataFrame(facilities_DF)
+	events['facilities'] = facilities_DF
+	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/output/UNIFIED.json', 'w') as outfile:
+		json.dump(events, outfile, indent='\t')

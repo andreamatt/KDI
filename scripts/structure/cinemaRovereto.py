@@ -27,7 +27,17 @@ def rm_main(JSONString):
 		for dateAndTime in movie['time']:
 			for hour in dateAndTime['hour'].split('-'):
 				date = Time(dateAndTime['day'], dateAndTime['day'], hour, '')
-				event = {**gen, **scr, **m, **work, **date}
+				event = {}
+				for k, v in gen.items():
+					event[f'GEN_{k}'] = v
+				for k, v in scr.items():
+					event[f'SCREEN_{k}'] = v
+				for k, v in m.items():
+					event[f'MOVIE_{k}'] = v
+				for k, v in work.items():
+					event[f'WORK_{k}'] = v
+				for k, v in date.items():
+					event[f'TIME_{k}'] = v
 				events.append(event)
 
 	return json.dumps({screen: events})

@@ -26,9 +26,20 @@ def rm_main(JSONString):
 			gen = GeneralEvent(movie['title'], schedule['Price'], movie['description'], movie['Link'], movie['length'], movie['language'], True,
 			                   schedule['location'])
 
-			for hour in schedule['time']:
-				date = Time(schedule['day'], schedule['day'], hour, '')
-				event = {**gen, **scr, **m, **work, **date}
+			for t in schedule['time']:
+				hours = t['hour'].split('-')
+				date = Time(schedule['day'], schedule['day'], hours[0], hours[1])
+				event = {}
+				for k, v in gen.items():
+					event[f'GEN_{k}'] = v
+				for k, v in scr.items():
+					event[f'SCREEN_{k}'] = v
+				for k, v in m.items():
+					event[f'MOVIE_{k}'] = v
+				for k, v in work.items():
+					event[f'WORK_{k}'] = v
+				for k, v in date.items():
+					event[f'TIME_{k}'] = v
 				events.append(event)
 
 	return json.dumps({screen: events})
