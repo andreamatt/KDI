@@ -41,19 +41,19 @@ def rm_main(JSONString):
 
     obj = json.loads(JSONString)
 
-    def findDay(string, lenght, index, substring):
+    def findDay(string, length, index, substring):
         if index >= len(string):
-            if lenght > 0 and lenght < 3:
+            if length > 0 and length < 3:
 
                 return {'day': substring, 'index': 100}
             else:
                 return {'day': '--', 'index': 100}
         if string[index].isdigit():
-            lenght = lenght + 1
+            length = length + 1
             substring = substring + string[index]
-            return findDay(string, lenght, index + 1, substring)
+            return findDay(string, length, index + 1, substring)
 
-        elif lenght > 0 and lenght < 3:
+        elif length > 0 and length < 3:
             return {'day': substring, 'index': index}
         else:
             return findDay(string, 0, index + 1, '')
@@ -73,19 +73,19 @@ def rm_main(JSONString):
             else:
                 return findMonth(string, index + 1, '')
 
-    def findYear(string, lenght, index, substring):
+    def findYear(string, length, index, substring):
         if index >= len(string):
-            if lenght == 4:
+            if length == 4:
                 return {'year': substring, 'index': index}
             else:
                 return {'year': '--', 'index': 100}
 
         if string[index].isdigit():
-            lenght = lenght + 1
+            length = length + 1
             substring = substring + string[index]
-            return findYear(string, lenght, index + 1, substring)
+            return findYear(string, length, index + 1, substring)
 
-        elif lenght == 4:
+        elif length == 4:
             return {'year': substring, 'index': index}
         else:
             return findYear(string, 0, index + 1, '')
@@ -100,21 +100,21 @@ def rm_main(JSONString):
                 index = new_index
         return {'index': index, 'find': find}
 
-    def findHour(string, lenght, index, substring):
+    def findHour(string, length, index, substring):
         if index >= len(string):
-            if lenght == 2 or lenght == 5:
+            if length == 2 or length == 5:
                 return {'hour': substring, 'index': 100}
             else:
                 return {'hour': '', 'index': 100}
-        if string[index].isdigit() or (string[index] == '.' and (lenght == 2 or lenght == 5)):
-            lenght = lenght + 1
+        if string[index].isdigit() or (string[index] == '.' and (length == 2 or length == 5)):
+            length = length + 1
             substring = substring + string[index]
-            return findHour(string, lenght, index + 1, substring)
-        elif string[index] == '-' and (lenght == 2 or lenght == 5):
+            return findHour(string, length, index + 1, substring)
+        elif string[index] == '-' and (length == 2 or length == 5):
             return {'hour': substring, 'index': index, 'interval': True}
-        elif string[index] == ' ' and string[index] == '-' and (lenght == 2 or lenght == 5):
+        elif string[index] == ' ' and string[index] == '-' and (length == 2 or length == 5):
             return {'hour': substring, 'index': index, 'interval': True}
-        elif lenght == 2 or lenght == 5:
+        elif length == 2 or length == 5:
             return {'hour': substring, 'index': index}
         else:
             return findHour(string, 0, index + 1, '')

@@ -2,11 +2,11 @@
     {
         "title": "MIDWAY",
         "wikiUrl": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-        "original title": null,
+        "originalName": null,
         "country": "Stati Uniti d'America",
         "year": "2019",
         "company": [],
-        "lenght": null,
+        "length": null,
         "language": "inglese",
         "genre": [
             "drammatico",
@@ -20,13 +20,13 @@
     {
         "title": "V.O. FROZEN II",
         "wikiUrl": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-        "original title": "Frozen II",
+        "originalName": "Frozen II",
         "country": "Stati Uniti d'America",
         "year": "2019",
         "company": [
             "Walt Disney Animation Studios"
         ],
-        "lenght": "Rapporto",
+        "length": "Rapporto",
         "language": "inglese",
         "genre": [
             "animazione",
@@ -43,13 +43,13 @@
     {
         "title": "I FIGLI DEL MARE (KAIJU NO KODOMO)",
         "wikiUrl": "https://it.wikipedia.org/wiki/Children_of_the_Sea_(film_2019)",
-        "original title": "海獣の子供",
+        "originalName": "海獣の子供",
         "country": "Giappone",
         "year": "2019",
         "company": [
             "Studio 4°C"
         ],
-        "lenght": null,
+        "length": null,
         "language": "giapponese",
         "genre": [
             "animazione",
@@ -67,11 +67,11 @@
     {
         "title": "MIDWAY",
         "wikiUrl": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-        "original title": null,
+        "originalName": null,
         "country": "Stati Uniti d'America",
         "year": "2019",
         "company": [],
-        "lenght": null,
+        "length": null,
         "language": "inglese",
         "genre": [
             "drammatico",
@@ -85,13 +85,13 @@
     {
         "title": "FROZEN II - IL SEGRETO DI ARENDELLE - 3D (FROZEN II)",
         "wikiUrl": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-        "original title": "Frozen II",
+        "originalName": "Frozen II",
         "country": "Stati Uniti d'America",
         "year": "2019",
         "company": [
             "Walt Disney Animation Studios"
         ],
-        "lenght": "Rapporto",
+        "length": "Rapporto",
         "language": "inglese",
         "genre": [
             "animazione",
@@ -108,13 +108,13 @@
     {
         "title": "FROZEN II - IL SEGRETO DI ARENDELLE (FROZEN II)",
         "wikiUrl": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-        "original title": "Frozen II",
+        "originalName": "Frozen II",
         "country": "Stati Uniti d'America",
         "year": "2019",
         "company": [
             "Walt Disney Animation Studios"
         ],
-        "lenght": "Rapporto",
+        "length": "Rapporto",
         "language": "inglese",
         "genre": [
             "animazione",
@@ -135,7 +135,7 @@
     {
         "title": "L'UFFICIALE E LA SPIA (J'ACCUSE)",
         "wikiUrl": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
-        "original title": "J'accuse",
+        "originalName": "J'accuse",
         "country": "Francia",
         "year": "2019",
         "company": [
@@ -147,7 +147,7 @@
             "Eliseo Cinema",
             "Rai Cinema"
         ],
-        "lenght": "B/N",
+        "length": "B/N",
         "language": "francese",
         "genre": [
             "storico",
@@ -160,14 +160,14 @@
     {
         "title": "LE MANS '66 - LA GRANDE SFIDA (FORD V. FERRARI)",
         "wikiUrl": "https://it.wikipedia.org/wiki/Le_Mans_'66_-_La_grande_sfida",
-        "original title": "Ford v Ferrari",
+        "originalName": "Ford v Ferrari",
         "country": "Stati Uniti d'America",
         "year": "2019",
         "company": [
             "20th Century Fox",
             "Chernin Entertainment"
         ],
-        "lenght": "Rapporto",
+        "length": "Rapporto",
         "language": "inglese",
         "genre": [
             "drammatico",
@@ -185,14 +185,14 @@
     {
         "title": "LE RAGAZZE DI WALL STREET (HUSTLERS)",
         "wikiUrl": "https://it.wikipedia.org/wiki/Le_ragazze_di_Wall_Street_-_Business_Is_Business",
-        "original title": "Hustlers",
+        "originalName": "Hustlers",
         "country": "Stati Uniti d'America",
         "year": "2019",
         "company": [
             "Gloria Sanchez Productions",
             "Nuyorican Productions"
         ],
-        "lenght": "Rapporto",
+        "length": "Rapporto",
         "language": "inglese",
         "genre": [
             "commedia",
@@ -206,11 +206,11 @@
     {
         "title": "LA FAMIGLIA ADDAMS (THE ADDAMS FAMILY)",
         "wikiUrl": "https://it.wikipedia.org/wiki/La_famiglia_Addams_(film_1991)",
-        "original title": "The Addams Family",
+        "originalName": "The Addams Family",
         "country": "Stati Uniti d'America",
         "year": "1991",
         "company": null,
-        "lenght": "Genere",
+        "length": "Genere",
         "language": null,
         "genre": [
             "commedia",
@@ -223,7 +223,7 @@
     {
         "title": "JOKER",
         "wikiUrl": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
-        "original title": null,
+        "originalName": null,
         "country": "Stati Uniti d'America",
         "year": "2019",
         "company": [
@@ -235,7 +235,7 @@
             "DC Comics",
             "DC Eintertainment"
         ],
-        "lenght": "Rapporto",
+        "length": "Rapporto",
         "language": "inglese",
         "genre": [
             "drammatico",

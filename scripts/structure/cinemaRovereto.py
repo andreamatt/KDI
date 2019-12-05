@@ -14,14 +14,16 @@ def rm_main(JSONString):
 	events = []
 	cinemaRovereto = json.loads(JSONString)
 	for movie in cinemaRovereto['movies']:
-		gen = GeneralEvent(movie['title'], movie['Price'], movie['description'], movie['cinemaURL'], movie['length'], movie['language'], True,
+		gen = GeneralEvent(movie['title'], movie['price'], movie['description'], movie['cinemaURL'], movie['length'], movie['language'], True,
 		                   movie['location'])
-		screen = ScreeningEvent('', movie['originalName'], movie['genre'], movie['length'])
-		work = CreativeWork(movie['title'], movie['director'], movie['createDate'], movie['URL'])
+		screen = ScreeningEvent('')
+		m = Movie(movie['originalName'], movie['genre'], movie['length'])
+		work = CreativeWork(movie['title'], movie['director'], movie['year'], movie['wikiUrl'])
 
 		for dateAndTime in movie['time']:
-			date = Time(date['day'], date['day'], date['startTime'], '')
-			event = {**gen, **screen, **work, **date}
-			events.append(event)
+			for hour in dateAndTime['hour'].split('-'):
+				date = Time(dateAndTime['day'], dateAndTime['day'], hour, '')
+				event = {**gen, **screen, **m, **work, **date}
+				events.append(event)
 
 	return json.dumps({screen: events})

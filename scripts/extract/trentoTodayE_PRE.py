@@ -35,7 +35,7 @@ def rm_main():
 	obj = json.loads(requests.get(url).text)
 	events = [e for e in obj['events'] if 'Title' in e]
 	for event in events:
-		event['category'] = get_category(event['category'])
 		fill_event(event)
+		event['category'] = get_category(event['category'])
 
 	return json.dumps(events)

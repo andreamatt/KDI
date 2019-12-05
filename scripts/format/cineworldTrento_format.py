@@ -14,7 +14,7 @@ def rm_main(JSONString):
                 hour = re.findall(r'\d+:\d+', time['hour'])
                 hour = hour[0]
                 time['hour'] = hour
-                duration = re.findall(r'\d+', movie['lenght'])[0]
+                duration = re.findall(r'\d+', movie['length'])[0]
                 end = datetime.timedelta(hours=int(hour[0:2]), minutes=int(hour[3:5])) + datetime.timedelta(
                     minutes=int(duration))
                 if end.days > 0:

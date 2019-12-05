@@ -39,7 +39,7 @@ def rm_main():
 						category="Movie",
 						date=schedule['day'],
 						locationName=schedule['location'],
-						time=time['hour'] + "--LEN--" + movie['lenght']
+						time=time['hour'] + "--LEN--" + movie['length']
 				))
 	events = [ob.__dict__ for ob in events]
 	df = pd.DataFrame(events)

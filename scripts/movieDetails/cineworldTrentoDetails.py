@@ -3,14 +3,12 @@ import urllib.parse
 import urllib.request
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
-from urllib.parse import unquote
 import re
 
 
 def rm_main(JSONString):
 
 	obj = json.loads(JSONString)
-
 	api_key = 'AIzaSyDLEU6MpVGA5Pi4Kh44p7Jmt_nkAWY8kbE'
 	service_url = 'https://kgsearch.googleapis.com/v1/entities:search'
 	outputArray = []
@@ -56,35 +54,30 @@ def rm_main(JSONString):
 		return wikiUrl
 
 	def parse(url):
-		try:
-			page = urlopen(url).read()
-			print('asfasfnajkbf')
-			soup = BeautifulSoup(page, 'lxml')
+		page = urlopen(url).read()
+		soup = BeautifulSoup(page, 'lxml')
 
-			title = standardFind(soup, "Titolo originale")
-			country = standardFind(soup, "Paese di produzione")
-			year = standardFind(soup, "Anno")
-			company = listFind(soup, "Casa di produzione")
-			length = nonStandardFind(soup, "Durata")
-			language = nonStandardFind(soup, "Lingua originale")
-			genreList = listFind(soup, "Genere")
-			directorList = listFind(soup, "Regia")
+		title = standardFind(soup, "Titolo originale")
+		country = standardFind(soup, "Paese di produzione")
+		year = standardFind(soup, "Anno")
+		company = listFind(soup, "Casa di produzione")
+		length = nonStandardFind(soup, "Durata")
+		language = nonStandardFind(soup, "Lingua originale")
+		genreList = listFind(soup, "Genere")
+		directorList = listFind(soup, "Regia")
 
-			new_dict = {
-			    'originalName': title,
-			    'country': country,
-			    'year': year,
-			    'company': company,
-			    'Detailslength': length,
-			    'language': language,
-			    'genre': genreList,
-			    'director': directorList
-			}
+		new_dict = {
+		    'originalName': title,
+		    'country': country,
+		    'year': year,
+		    'company': company,
+		    'length': length,
+		    'language': language,
+		    'genre': genreList,
+		    'director': directorList
+		}
 
-			return new_dict
-		except:
-			new_dict = {'originalName': '', 'country': '', 'year': '', 'company': '', 'length': '', 'language': '', 'genre': '', 'director': ''}
-			return new_dict
+		return new_dict
 
 	def standardFind(soup, tag):
 		found = soup.find(text=tag)
@@ -105,13 +98,13 @@ def rm_main(JSONString):
 			array = [x.text for x in obj.find_all('a')]
 			return array
 
-	for movie in obj["movies"]:
+	for movie in obj['movies']:
 		title = movie["title"]
 		query = substring(title)
 		url = exploreGraph(query)
 		movieDict = {'title': title, 'wikiUrl': url}
-		print(url)
 		if url:
+			print(url)
 			new_dict = parse(url)
 			movieDict.update(new_dict)
 		else:

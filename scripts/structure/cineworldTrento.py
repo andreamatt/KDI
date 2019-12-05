@@ -65,7 +65,7 @@ def rm_main(JSONString):
                         contact=cineworldTrento['Contact'],
                         link=cineworldTrento['Link'],
                         time=time['hour'],
-                        other="--LEN--" + movie['lenght']))
+                        other="--LEN--" + movie['length']))
     events = [ob.__dict__ for ob in events]
     df = pd.DataFrame(events)
     return df
