@@ -84,91 +84,7 @@
 			"political"
 		]
 	},
-	"centro storico; Indirizzo non disponibile; Siror": {
-		"address_components": [
-			{
-				"long_name": "Siror",
-				"short_name": "Siror",
-				"types": [
-					"locality",
-					"political"
-				]
-			},
-			{
-				"long_name": "Siror",
-				"short_name": "Siror",
-				"types": [
-					"administrative_area_level_3",
-					"political"
-				]
-			},
-			{
-				"long_name": "Province of Trento",
-				"short_name": "TN",
-				"types": [
-					"administrative_area_level_2",
-					"political"
-				]
-			},
-			{
-				"long_name": "Trentino-South Tyrol",
-				"short_name": "Trentino-South Tyrol",
-				"types": [
-					"administrative_area_level_1",
-					"political"
-				]
-			},
-			{
-				"long_name": "Italy",
-				"short_name": "IT",
-				"types": [
-					"country",
-					"political"
-				]
-			},
-			{
-				"long_name": "38054",
-				"short_name": "38054",
-				"types": [
-					"postal_code"
-				]
-			}
-		],
-		"formatted_address": "38054 Siror, Province of Trento, Italy",
-		"geometry": {
-			"bounds": {
-				"northeast": {
-					"lat": 46.1910367,
-					"lng": 11.8355545
-				},
-				"southwest": {
-					"lat": 46.1816238,
-					"lng": 11.8283843
-				}
-			},
-			"location": {
-				"lat": 46.1877609,
-				"lng": 11.8302311
-			},
-			"location_type": "APPROXIMATE",
-			"viewport": {
-				"northeast": {
-					"lat": 46.1910367,
-					"lng": 11.8355545
-				},
-				"southwest": {
-					"lat": 46.1816238,
-					"lng": 11.8283843
-				}
-			}
-		},
-		"partial_match": true,
-		"place_id": "ChIJgWxR4bn3eEcR8IfAP1XJTkA",
-		"types": [
-			"locality",
-			"political"
-		]
-	},
+	"vedi info; Indirizzo non disponibile": "",
 	"Centro Storico; Indirizzo non disponibile; Ossana": {
 		"address_components": [
 			{
@@ -254,6 +170,7 @@
 			"political"
 		]
 	},
+	"centro storico; Indirizzo non disponibile; Ala": "",
 	"Centro Storico; Indirizzo non disponibile; Cimego": {
 		"address_components": [
 			{
@@ -334,6 +251,91 @@
 		},
 		"partial_match": true,
 		"place_id": "ChIJY1bvtVA6gkcRsbtNVzf3bh8",
+		"types": [
+			"locality",
+			"political"
+		]
+	},
+	"centro storico; Indirizzo non disponibile; Siror": {
+		"address_components": [
+			{
+				"long_name": "Siror",
+				"short_name": "Siror",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Siror",
+				"short_name": "Siror",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Province of Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-South Tyrol",
+				"short_name": "Trentino-South Tyrol",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38054",
+				"short_name": "38054",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "38054 Siror, Province of Trento, Italy",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": 46.1910367,
+					"lng": 11.8355545
+				},
+				"southwest": {
+					"lat": 46.1816238,
+					"lng": 11.8283843
+				}
+			},
+			"location": {
+				"lat": 46.1877609,
+				"lng": 11.8302311
+			},
+			"location_type": "APPROXIMATE",
+			"viewport": {
+				"northeast": {
+					"lat": 46.1910367,
+					"lng": 11.8355545
+				},
+				"southwest": {
+					"lat": 46.1816238,
+					"lng": 11.8283843
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJgWxR4bn3eEcR8IfAP1XJTkA",
 		"types": [
 			"locality",
 			"political"
@@ -424,9 +426,85 @@
 			"political"
 		]
 	},
-	"vedi info; Indirizzo non disponibile": "",
-	"centro storico; Indirizzo non disponibile; Ala": "",
+	"Indirizzo non disponibile": "",
 	"Centro Storico; Indirizzo non disponibile; Ala": "",
+	"Centro Storico; Indirizzo non disponibile; Ledro": {
+		"address_components": [
+			{
+				"long_name": "Ledro",
+				"short_name": "Ledro",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Province of Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-South Tyrol",
+				"short_name": "Trentino-South Tyrol",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38067",
+				"short_name": "38067",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "38067 Ledro, Province of Trento, Italy",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": 45.9698749,
+					"lng": 10.8579872
+				},
+				"southwest": {
+					"lat": 45.8018536,
+					"lng": 10.6111793
+				}
+			},
+			"location": {
+				"lat": 45.8765359,
+				"lng": 10.7321478
+			},
+			"location_type": "APPROXIMATE",
+			"viewport": {
+				"northeast": {
+					"lat": 45.9698749,
+					"lng": 10.8579872
+				},
+				"southwest": {
+					"lat": 45.8018536,
+					"lng": 10.6111793
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJk8aJIRM9gkcR_CpveFtR34U",
+		"types": [
+			"administrative_area_level_3",
+			"political"
+		]
+	},
 	"centro storico; piazza Cesare Battisti; Tesero": {
 		"address_components": [
 			{
@@ -516,84 +594,6 @@
 		"place_id": "ChIJP23DtSxjeEcRnUn3TnsmNw4",
 		"types": [
 			"town_square"
-		]
-	},
-	"Indirizzo non disponibile": "",
-	"Centro Storico; Indirizzo non disponibile; Ledro": {
-		"address_components": [
-			{
-				"long_name": "Ledro",
-				"short_name": "Ledro",
-				"types": [
-					"administrative_area_level_3",
-					"political"
-				]
-			},
-			{
-				"long_name": "Province of Trento",
-				"short_name": "TN",
-				"types": [
-					"administrative_area_level_2",
-					"political"
-				]
-			},
-			{
-				"long_name": "Trentino-South Tyrol",
-				"short_name": "Trentino-South Tyrol",
-				"types": [
-					"administrative_area_level_1",
-					"political"
-				]
-			},
-			{
-				"long_name": "Italy",
-				"short_name": "IT",
-				"types": [
-					"country",
-					"political"
-				]
-			},
-			{
-				"long_name": "38067",
-				"short_name": "38067",
-				"types": [
-					"postal_code"
-				]
-			}
-		],
-		"formatted_address": "38067 Ledro, Province of Trento, Italy",
-		"geometry": {
-			"bounds": {
-				"northeast": {
-					"lat": 45.9698749,
-					"lng": 10.8579872
-				},
-				"southwest": {
-					"lat": 45.8018536,
-					"lng": 10.6111793
-				}
-			},
-			"location": {
-				"lat": 45.8765359,
-				"lng": 10.7321478
-			},
-			"location_type": "APPROXIMATE",
-			"viewport": {
-				"northeast": {
-					"lat": 45.9698749,
-					"lng": 10.8579872
-				},
-				"southwest": {
-					"lat": 45.8018536,
-					"lng": 10.6111793
-				}
-			}
-		},
-		"partial_match": true,
-		"place_id": "ChIJk8aJIRM9gkcR_CpveFtR34U",
-		"types": [
-			"administrative_area_level_3",
-			"political"
 		]
 	}
 }
