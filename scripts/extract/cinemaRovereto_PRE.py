@@ -13,7 +13,7 @@ def rm_main():
 	    'cinemaURL': "http://www.supercinemarovereto.it/"
 	}
 
-	for movie in obj['movies']:
+	for movie in obj['movies'][:]:
 		movie['description'] = movie['description'].replace('\n', '; ')
 		if 'time' not in movie:
 			obj['movies'].remove(movie)
@@ -25,6 +25,6 @@ def rm_main():
 			if isinstance(dateAndTime, str):
 				obj['movies'].remove(movie)
 				break
-
 		movie.update(info)
+
 	return json.dumps(obj)

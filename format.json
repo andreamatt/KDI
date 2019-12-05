@@ -1,0 +1,135 @@
+{
+	"movies": [
+		{
+			"Link": "http://www.supercinemarovereto.it/",
+			"title": "FROZEN II - IL SEGRETO DI ARENDELLE",
+			"description": "Ora che Arendelle e la sua famiglia vivono in armonia, Elsa non vorrebbe per nessun motivo turbare la quiete di entrambe, ma sente una voce, che nessun altro ode, che le mostra frammenti del suo passato e le promette risposte riguardo alla sua identit\u00e0. Per seguire questo richiamo e trovare una spiegazione ai suoi poteri, decide di viaggiare attraverso la foresta incantata di cui le parlava il padre, nonostante questo significhi dover dominare gli spiriti dell\u2019Aria, dell\u2019Acqua, del Fuoco e della Terra. Anna la segue, determinata a proteggere la sorella, e naturalmente Kristoff, Sven e Olaf si uniscono all\u2019impresa.",
+			"genre": "Animazione, Avventura",
+			"length": "103'",
+			"time": [
+				{
+					"day": "Venerd\u00ec 29/11/19",
+					"hour": "18:30-21:00"
+				},
+				{
+					"day": "Sabato 30/11/19",
+					"hour": "16:00-16:15-18:30-21:00"
+				},
+				{
+					"day": "Domenica 01/12/19",
+					"hour": "15:45-16:00-18:30-21:00"
+				},
+				{
+					"day": "Luned\u00ec 02/12/19",
+					"hour": "18:30-21:00"
+				},
+				{
+					"day": "Marted\u00ec 03/12/19",
+					"hour": "18:30-21:00"
+				}
+			],
+			"location": "Piazza Rosmini 18/A. Rovereto (TN)",
+			"contact": "0464 421216",
+			"price": "8,50 \u20ac",
+			"cinemaURL": "http://www.supercinemarovereto.it/"
+		},
+		{
+			"Link": "http://www.supercinemarovereto.it/",
+			"title": "CETTO C'\u00c8, SENZADUBBIAMENTE",
+			"description": "Cetto la Qualunque ha lasciato la politica e l'Italia per trasferirsi felicemente in Germania, dove ha avviato una catena di ristoranti e pizzerie e ha trovato una bella moglie tedesca che gli ha dato una figlia. Ma quando la zia che l'ha cresciuto, sorella di sua madre, lo chiama al capezzale Cetto torna in Calabria, precisamente a Marina di Sopra, dove ora \u00e8 sindaco suo figlio Melo. La zia ha un segreto da rivelargli: Cetto non \u00e8, come aveva sempre creduto, figlio di un venditore ambulante di candeggina, ma l'erede naturale del principe Luigi Buffo di Calabria. Dunque decide di trattenersi al Sud e godere dei privilegi del ruolo di sovrano \"assolutista\", con il sostegno di un aristocratico gattopardiano. Ma non \"tutto tutto\" \u00e8 rose e fiori, e anche il rapporto di Cetto con moglie e figlio verranno messi in gioco.",
+			"genre": "Commedia",
+			"length": "93'",
+			"time": [
+				{
+					"day": "Venerd\u00ec 29/11/19",
+					"hour": "18:45 - 21:00"
+				},
+				{
+					"day": "Sabato 30/11/19",
+					"hour": "18:45 - 21:00"
+				},
+				{
+					"day": "Domenica 01/12/19",
+					"hour": "18:15 - 20:45"
+				},
+				{
+					"day": "Luned\u00ec 02/12/19",
+					"hour": "18:45 - 21:00"
+				},
+				{
+					"day": "Marted\u00ec 03/12/19",
+					"hour": "18:45 - 21:00"
+				}
+			],
+			"location": "Piazza Rosmini 18/A. Rovereto (TN)",
+			"contact": "0464 421216",
+			"price": "8,50 \u20ac",
+			"cinemaURL": "http://www.supercinemarovereto.it/"
+		},
+		{
+			"Link": "http://www.supercinemarovereto.it/",
+			"title": "JOKER",
+			"description": "Arthur Fleck vive con l'anziana madre in un palazzone fatiscente e sbarca il lunario facendo pubblicit\u00e0 per la strada travestito da clown, in attesa di avere il giusto materiale per realizzare il desiderio di fare il comico. La sua vita, per\u00f2, \u00e8 una tragedia: ignorato, calpestato, bullizzato, preso in giro da da chiunque, ha sviluppato un tic nervoso che lo fa ridere a sproposito incontrollabilmente, rendendolo inquietante e allontanando ulteriormente da lui ogni possibile relazione sociale. Ma un giorno Arthur non ce la fa pi\u00f9 e reagisce violentemente, pistola alla mano. Mentre la polizia di Gotham City d\u00e0 la caccia al clown killer, la popolazione lo elegge a eroe metropolitano, simbolo della rivolta degli oppressi contro l'arroganza dei ricchi.",
+			"genre": "azione",
+			"length": "122' - v.m.14 anni",
+			"time": [
+				{
+					"day": "Venerd\u00ec 25/10/19",
+					"hour": "18.30-21.00"
+				},
+				{
+					"day": "Sabato 26/10/19",
+					"hour": "16.00-18.30-21.00"
+				},
+				{
+					"day": "Domenica 27/10/19",
+					"hour": "16.00-18.30-21.00"
+				},
+				{
+					"day": "Luned\u00ec 28/10/19",
+					"hour": "18.30-21.00"
+				},
+				{
+					"day": "Marted\u00ec 29/10/19",
+					"hour": "18.30-21.00"
+				}
+			],
+			"location": "Piazza Rosmini 18/A. Rovereto (TN)",
+			"contact": "0464 421216",
+			"price": "8,50 \u20ac",
+			"cinemaURL": "http://www.supercinemarovereto.it/"
+		},
+		{
+			"Link": "http://www.supercinemarovereto.it/",
+			"title": "MALEFICENT - SIGNORA DEL MALE",
+			"description": "Maleficent 2: Signora del Male continua a seguire la complessa relazione tra Malefica e Aurora. Il loro rapporto, originato da un tradimento, dalla vendetta e infine dall\u2019amore, \u00e8 ormai cresciuto e si \u00e8 consolidato in un forte legame. Ma quando il Principe Filippo chiede la mano ad Aurora, quest'ultima accetta immediatamente, senza consultarsi con Malefica, convinta che l'amore non sempre pu\u00f2 portare a un esito felice. La ragazza \u00e8 sicura di poter dimostrare alla creatura alata che il vero amore esiste e ignora il pensiero della sua madrina al riguardo.; L'imminente matrimonio tra i due giovani \u00e8 motivo di festeggiamenti in tutto il Regno e nelle terre vicine, poich\u00e9 le nozze uniranno i due mondi. Durante la cena di fidanzamento la madre di Filippo, la Regina Ingrith (Michelle Pfeiffer), dichiara a tavola che l'unione tra suo figlio e Aurora far\u00e0 s\u00ec che la ragazza diventi sua, cosicch\u00e9 possa ricevere finalmente l'amore di una madre. Malefica offesa e infuriata decide di schierarsi contro la regina, ma questa volta la sua amata figlioccia si opporr\u00e0 a lei, rimanendo accanto a Filippo e mettendo in discussione il legame con la madrina.; L'astio tra gli uomini e le creature magiche, tenuto in bilico fino a quel momento dal legame tra Aurora e Malefica, si acuisce, portando a uno scontro tra i due gruppi. Malefica e Aurora si ritroveranno sui fronti opposti di una Grande Guerra che metter\u00e0 alla prova la loro lealt\u00e0 e le porter\u00e0 a chiedersi se potranno mai essere davvero una famiglia. Inoltre, un incontro inaspettato dar\u00e0 inizio a una nuova alleanza, grazie alla quale scenderanno in campo potenti forze oscure...",
+			"genre": "fantastico",
+			"time": [
+				{
+					"day": "Venerd\u00ec 25/10/19",
+					"hour": "18.20 - 21.00"
+				},
+				{
+					"day": "Sabato 26/10/19",
+					"hour": "15.40 - 18.20 - 21.00"
+				},
+				{
+					"day": "Domenica 27/10/19",
+					"hour": "15.40 - 18.20 - 21.00"
+				},
+				{
+					"day": "Luned\u00ec 28/10/19",
+					"hour": "18.20 - 21.00"
+				},
+				{
+					"day": "Marted\u00ec 29/10/19",
+					"hour": "18.20 - 21.00"
+				}
+			],
+			"location": "Piazza Rosmini 18/A. Rovereto (TN)",
+			"contact": "0464 421216",
+			"price": "8,50 \u20ac",
+			"cinemaURL": "http://www.supercinemarovereto.it/"
+		}
+	]
+}
