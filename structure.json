@@ -1,9 +1,44 @@
 {
+	"Link": "https://cineworld.18tickets.it/",
+	"Contact": "+39 0461 983237",
 	"movies": [
 		{
-			"Link": "http://www.supercinemarovereto.it/",
-			"title": "FROZEN II - IL SEGRETO DI ARENDELLE",
-			"description": "Ora che Arendelle e la sua famiglia vivono in armonia, Elsa non vorrebbe per nessun motivo turbare la quiete di entrambe, ma sente una voce, che nessun altro ode, che le mostra frammenti del suo passato e le promette risposte riguardo alla sua identit\u00e0. Per seguire questo richiamo e trovare una spiegazione ai suoi poteri, decide di viaggiare attraverso la foresta incantata di cui le parlava il padre, nonostante questo significhi dover dominare gli spiriti dell\u2019Aria, dell\u2019Acqua, del Fuoco e della Terra. Anna la segue, determinata a proteggere la sorella, e naturalmente Kristoff, Sven e Olaf si uniscono all\u2019impresa.",
+			"Link": "https://cineworld.18tickets.it/film/5542",
+			"title": "V.O. MIDWAY",
+			"description": "The story of the Battle of Midway, told by the leaders and the sailors who fought it. MOVIE IN ENGLISH",
+			"genre": [
+				"drammatico",
+				"guerra",
+				"storico"
+			],
+			"length": null,
+			"schedule": [
+				{
+					"day": "04-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "21:00-23:18"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				}
+			],
+			"wikiUrl": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
+			"originalName": null,
+			"country": "Stati Uniti d'America",
+			"year": "2019",
+			"company": [],
+			"language": "inglese",
+			"director": [
+				"Roland Emmerich"
+			]
+		},
+		{
+			"Link": "https://cineworld.18tickets.it/film/5543",
+			"title": "V.O. FROZEN II",
+			"description": "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom. MOVIE IN ENGLISH",
 			"genre": [
 				"animazione",
 				"commedia",
@@ -11,69 +46,20 @@
 				"fantastico",
 				"musicale"
 			],
-			"length": "103'",
-			"time": [
+			"length": "103 min",
+			"schedule": [
 				{
-					"day": "29/11/19",
-					"hour": "18:30"
-				},
-				{
-					"day": "29/11/19",
-					"hour": "21:00"
-				},
-				{
-					"day": "30/11/19",
-					"hour": "16:00"
-				},
-				{
-					"day": "30/11/19",
-					"hour": "16:15"
-				},
-				{
-					"day": "30/11/19",
-					"hour": "18:30"
-				},
-				{
-					"day": "30/11/19",
-					"hour": "21:00"
-				},
-				{
-					"day": "01/12/19",
-					"hour": "15:45"
-				},
-				{
-					"day": "01/12/19",
-					"hour": "16:00"
-				},
-				{
-					"day": "01/12/19",
-					"hour": "18:30"
-				},
-				{
-					"day": "01/12/19",
-					"hour": "21:00"
-				},
-				{
-					"day": "02/12/19",
-					"hour": "18:30"
-				},
-				{
-					"day": "02/12/19",
-					"hour": "21:00"
-				},
-				{
-					"day": "03/12/19",
-					"hour": "18:30"
-				},
-				{
-					"day": "03/12/19",
-					"hour": "21:00"
+					"day": "03-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "19:45-21:28"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				}
 			],
-			"location": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"contact": "0464 421216",
-			"price": "8,50 \u20ac",
-			"cinemaURL": "http://www.supercinemarovereto.it/",
 			"wikiUrl": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"originalName": "Frozen II",
 			"country": "Stati Uniti d'America",
@@ -81,7 +67,6 @@
 			"company": [
 				"Walt Disney Animation Studios"
 			],
-			"Detailslength": "Rapporto",
 			"language": "inglese",
 			"director": [
 				"Chris Buck",
@@ -89,129 +74,979 @@
 			]
 		},
 		{
-			"Link": "http://www.supercinemarovereto.it/",
-			"title": "CETTO C'\u00c8, SENZADUBBIAMENTE",
-			"description": "Cetto la Qualunque ha lasciato la politica e l'Italia per trasferirsi felicemente in Germania, dove ha avviato una catena di ristoranti e pizzerie e ha trovato una bella moglie tedesca che gli ha dato una figlia. Ma quando la zia che l'ha cresciuto, sorella di sua madre, lo chiama al capezzale Cetto torna in Calabria, precisamente a Marina di Sopra, dove ora \u00e8 sindaco suo figlio Melo. La zia ha un segreto da rivelargli: Cetto non \u00e8, come aveva sempre creduto, figlio di un venditore ambulante di candeggina, ma l'erede naturale del principe Luigi Buffo di Calabria. Dunque decide di trattenersi al Sud e godere dei privilegi del ruolo di sovrano \"assolutista\", con il sostegno di un aristocratico gattopardiano. Ma non \"tutto tutto\" \u00e8 rose e fiori, e anche il rapporto di Cetto con moglie e figlio verranno messi in gioco.",
-			"genre": "",
-			"length": "",
-			"time": [
+			"Link": "https://cineworld.18tickets.it/film/5515",
+			"title": "I FIGLI DEL MARE (KAIJU NO KODOMO)",
+			"description": "La storia di Ruka, liceale ribelle esclusa dall'attivit\u00e0 del club di pallamano per l'intera durata delle vacanze scolastiche. Ruka decide cos\u00ec di partire per trascorrere una giornata a Tokyo. Ma, al calare della notte, far\u00e0 uno strano incontro con Umi e Sora, due ragazzi stranieri cresciuti fra strani e straordinari segreti... EVENTO ANIME",
+			"genre": [
+				"animazione",
+				"avventura",
+				"fantastico"
+			],
+			"length": null,
+			"schedule": [
 				{
-					"day": "29/11/19",
-					"hour": "18:45"
+					"day": "03-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "17:30-19:21"
+						},
+						{
+							"hour": "19:45-21:36"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "29/11/19",
-					"hour": "21:00"
-				},
-				{
-					"day": "30/11/19",
-					"hour": "18:45"
-				},
-				{
-					"day": "30/11/19",
-					"hour": "21:00"
-				},
-				{
-					"day": "01/12/19",
-					"hour": "18:15"
-				},
-				{
-					"day": "01/12/19",
-					"hour": "20:45"
-				},
-				{
-					"day": "02/12/19",
-					"hour": "18:45"
-				},
-				{
-					"day": "02/12/19",
-					"hour": "21:00"
-				},
-				{
-					"day": "03/12/19",
-					"hour": "18:45"
-				},
-				{
-					"day": "03/12/19",
-					"hour": "21:00"
+					"day": "04-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "18:00-19:51"
+						},
+						{
+							"hour": "21:00-22:51"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				}
 			],
-			"location": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"contact": "0464 421216",
-			"price": "8,50 \u20ac",
-			"cinemaURL": "http://www.supercinemarovereto.it/",
-			"wikiUrl": "https://en.wikipedia.org/wiki/Cetto_c'%C3%A8,_senzadubbiamente",
+			"wikiUrl": "https://it.wikipedia.org/wiki/I_figli_del_mare",
+			"originalName": "\u6d77\u7363\u306e\u5b50\u4f9b",
+			"country": "Giappone",
+			"year": "2019",
+			"company": [
+				"Studio 4\u00b0C"
+			],
+			"language": "giapponese",
+			"director": [
+				"Ayumu Watanabe"
+			]
+		},
+		{
+			"Link": "https://cineworld.18tickets.it/film/5545",
+			"title": "WESTERN STARS",
+			"description": "La trasposizione cinematografica dell'omonimo album del Boss. Debutto alla regia dello stesso Bruce Springsteen. Evento al cinema solo il 2 - 3 - 4 dicembre 2019",
+			"genre": "",
+			"length": "Durata: 83",
+			"schedule": [
+				{
+					"day": "02-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "22:00-23:23"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "03-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "20:30-21:53"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "04-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "21:00-22:23"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				}
+			],
+			"wikiUrl": false,
 			"originalName": "",
 			"country": "",
 			"year": "",
 			"company": "",
+			"Detailslength": "",
 			"language": "",
 			"director": ""
 		},
 		{
-			"Link": "http://www.supercinemarovereto.it/",
+			"Link": "https://cineworld.18tickets.it/film/5526",
+			"title": "MIDWAY",
+			"description": "Una spettacolare rievocazione della leggendaria battaglia che, nel corso della Seconda Guerra Mondiale, determin\u00f2 una svolta decisiva per il conflitto bloccando nel Pacifico l'avanzata nipponica, cambiando il corso della guerra.",
+			"genre": [
+				"drammatico",
+				"guerra",
+				"storico"
+			],
+			"length": null,
+			"schedule": [
+				{
+					"day": "28-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "19:20-21:38"
+						},
+						{
+							"hour": "22:00-00:18"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "29-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "19:20-21:38"
+						},
+						{
+							"hour": "22:00-00:18"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "30-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "16:00-18:18"
+						},
+						{
+							"hour": "19:30-21:48"
+						},
+						{
+							"hour": "22:00-00:18"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "01-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "16:00-18:18"
+						},
+						{
+							"hour": "18:45-21:03"
+						},
+						{
+							"hour": "21:30-23:48"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "02-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "19:20-21:38"
+						},
+						{
+							"hour": "22:00-00:18"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "03-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "17:30-19:48"
+						},
+						{
+							"hour": "22:00-00:18"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				}
+			],
+			"wikiUrl": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
+			"originalName": null,
+			"country": "Stati Uniti d'America",
+			"year": "2019",
+			"company": [],
+			"language": "inglese",
+			"director": [
+				"Roland Emmerich"
+			]
+		},
+		{
+			"Link": "https://cineworld.18tickets.it/film/5445",
+			"title": "FROZEN II - IL SEGRETO DI ARENDELLE - 3D (FROZEN II)",
+			"description": "Elsa, Anna, Kristoff, Olaf e Sven si spingono all\u2019interno della foresta per scoprire la verit\u00e0 su di un antico mistero del loro regno.",
+			"genre": [
+				"animazione",
+				"commedia",
+				"avventura",
+				"fantastico",
+				"musicale"
+			],
+			"length": "103 min",
+			"schedule": [
+				{
+					"day": "29-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "17:30-19:13"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "30-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "15:40-17:23"
+						},
+						{
+							"hour": "17:50-19:33"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "01-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "15:00-16:43"
+						},
+						{
+							"hour": "17:15-18:58"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "02-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "17:30-19:13"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "03-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "17:30-19:13"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "04-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "18:00-19:43"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				}
+			],
+			"wikiUrl": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"originalName": "Frozen II",
+			"country": "Stati Uniti d'America",
+			"year": "2019",
+			"company": [
+				"Walt Disney Animation Studios"
+			],
+			"language": "inglese",
+			"director": [
+				"Chris Buck",
+				"Jennifer Lee"
+			]
+		},
+		{
+			"Link": "https://cineworld.18tickets.it/film/5444",
+			"title": "FROZEN II - IL SEGRETO DI ARENDELLE (FROZEN II)",
+			"description": "Elsa, Anna, Kristoff, Olaf e Sven si spingono all\u2019interno della foresta per scoprire la verit\u00e0 su di un antico mistero del loro regno.",
+			"genre": [
+				"animazione",
+				"commedia",
+				"avventura",
+				"fantastico",
+				"musicale"
+			],
+			"length": "103 min",
+			"schedule": [
+				{
+					"day": "28-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "20:45-22:28"
+						},
+						{
+							"hour": "19:45-21:28"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "29-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "17:45-19:28"
+						},
+						{
+							"hour": "20:45-22:28"
+						},
+						{
+							"hour": "19:45-21:28"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "30-11-19",
+					"location": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
+					"time": [
+						{
+							"hour": "17:00-18:43"
+						},
+						{
+							"hour": "19:15-20:58"
+						},
+						{
+							"hour": "21:30-23:13"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Corso III Novembre, 35 \u2013 Trento"
+				},
+				{
+					"day": "01-12-19",
+					"location": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
+					"time": [
+						{
+							"hour": "15:45-17:28"
+						},
+						{
+							"hour": "18:00-19:43"
+						},
+						{
+							"hour": "20:30-22:13"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Corso III Novembre, 35 \u2013 Trento"
+				},
+				{
+					"day": "02-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "17:45-19:28"
+						},
+						{
+							"hour": "20:45-22:28"
+						},
+						{
+							"hour": "19:45-21:28"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "03-12-19",
+					"location": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
+					"time": [
+						{
+							"hour": "17:45-19:28"
+						},
+						{
+							"hour": "20:45-22:28"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Corso III Novembre, 35 \u2013 Trento"
+				},
+				{
+					"day": "04-12-19",
+					"location": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
+					"time": [
+						{
+							"hour": "17:45-19:28"
+						},
+						{
+							"hour": "20:45-22:28"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Corso III Novembre, 35 \u2013 Trento"
+				}
+			],
+			"wikiUrl": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"originalName": "Frozen II",
+			"country": "Stati Uniti d'America",
+			"year": "2019",
+			"company": [
+				"Walt Disney Animation Studios"
+			],
+			"language": "inglese",
+			"director": [
+				"Chris Buck",
+				"Jennifer Lee"
+			]
+		},
+		{
+			"Link": "https://cineworld.18tickets.it/film/5479",
+			"title": "CETTO C'E', SENZADUBBIAMENTE",
+			"description": "A dieci anni dalla sua elezione a sindaco di Marina di Sopra di Cetto la Qualunque si erano perse le tracce. Scopriamo che vive in Germania e, messa da parte ogni ambizione politica, Cetto la Qualunque oggi per i tedeschi \u00e8 soltanto un irresistibile e pittoresco imprenditore di successo, che considera la Germania una terra di conquiste e la mafia un marchio di qualit\u00e0.",
+			"genre": "",
+			"length": "Durata: 91",
+			"schedule": [
+				{
+					"day": "28-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "19:30-21:01"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "29-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "17:30-19:01"
+						},
+						{
+							"hour": "19:30-21:01"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "30-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "17:30-19:01"
+						},
+						{
+							"hour": "20:00-21:31"
+						},
+						{
+							"hour": "22:15-23:46"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "01-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "16:50-18:21"
+						},
+						{
+							"hour": "19:30-21:01"
+						},
+						{
+							"hour": "21:30-23:01"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "02-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "17:30-19:01"
+						},
+						{
+							"hour": "19:30-21:01"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "03-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "22:10-23:41"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "04-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "18:00-19:31"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				}
+			],
+			"wikiUrl": false,
+			"originalName": "",
+			"country": "",
+			"year": "",
+			"company": "",
+			"Detailslength": "",
+			"language": "",
+			"director": ""
+		},
+		{
+			"Link": "https://cineworld.18tickets.it/film/5478",
+			"title": "L'UFFICIALE E LA SPIA (J'ACCUSE)",
+			"description": "Il famoso caso Dreyfus che sconvolse l'opinione pubblica francese alla fine del XIX secolo.",
+			"genre": [
+				"storico",
+				"drammatico"
+			],
+			"length": "126 min",
+			"schedule": [
+				{
+					"day": "28-11-19",
+					"location": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
+					"time": [
+						{
+							"hour": "18:00-20:12"
+						},
+						{
+							"hour": "21:00-23:12"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Via Manci, 72 \u2013 Trento"
+				},
+				{
+					"day": "29-11-19",
+					"location": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
+					"time": [
+						{
+							"hour": "18:00-20:12"
+						},
+						{
+							"hour": "21:00-23:12"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Via Manci, 72 \u2013 Trento"
+				},
+				{
+					"day": "30-11-19",
+					"location": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
+					"time": [
+						{
+							"hour": "16:40-18:52"
+						},
+						{
+							"hour": "19:20-21:32"
+						},
+						{
+							"hour": "22:00-00:12"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Via Manci, 72 \u2013 Trento"
+				},
+				{
+					"day": "01-12-19",
+					"location": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
+					"time": [
+						{
+							"hour": "17:00-19:12"
+						},
+						{
+							"hour": "20:30-22:42"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Via Manci, 72 \u2013 Trento"
+				},
+				{
+					"day": "02-12-19",
+					"location": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
+					"time": [
+						{
+							"hour": "18:00-20:12"
+						},
+						{
+							"hour": "21:00-23:12"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Via Manci, 72 \u2013 Trento"
+				},
+				{
+					"day": "03-12-19",
+					"location": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
+					"time": [
+						{
+							"hour": "18:00-20:12"
+						},
+						{
+							"hour": "21:00-23:12"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Via Manci, 72 \u2013 Trento"
+				},
+				{
+					"day": "04-12-19",
+					"location": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
+					"time": [
+						{
+							"hour": "18:00-20:12"
+						},
+						{
+							"hour": "21:00-23:12"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Via Manci, 72 \u2013 Trento"
+				}
+			],
+			"wikiUrl": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
+			"originalName": "J'accuse",
+			"country": "Francia",
+			"year": "2019",
+			"company": [
+				"L\u00e9gende Films",
+				"RP Productions",
+				"Gaumont",
+				"France 2 Cin\u00e9ma",
+				"France 3 Cin\u00e9ma",
+				"Eliseo Cinema",
+				"Rai Cinema"
+			],
+			"language": "francese",
+			"director": [
+				"Roman Pola\u0144ski"
+			]
+		},
+		{
+			"Link": "https://cineworld.18tickets.it/film/5423",
+			"title": "LE MANS '66 - LA GRANDE SFIDA (FORD V. FERRARI)",
+			"description": "Carroll Shelby \u00e8 il pilota che nel '59 ha vinto la 24 ore di Le Mans, la pi\u00f9 ardua delle gare automobilistiche. Quando scopre di non poter pi\u00f9 correre, si dedica a progettare auto insieme all\u2019amico Ken Miles. Insieme accetteranno la sfida targata Ford di sconfiggere la Ferrari e si batteranno per vincere una nuova 24 ore, a bordo di un nuovo veicolo messo a punto da loro stessi.",
+			"genre": [
+				"drammatico",
+				"biografico",
+				"sportivo"
+			],
+			"length": "152 min",
+			"schedule": [
+				{
+					"day": "28-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "21:30-00:02"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "29-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "21:30-00:02"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "30-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "22:00-00:32"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "01-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "18:40-21:12"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "02-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "21:30-00:02"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "03-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "21:30-00:02"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				}
+			],
+			"wikiUrl": "https://it.wikipedia.org/wiki/Le_Mans_'66_-_La_grande_sfida",
+			"originalName": "Ford v Ferrari",
+			"country": "Stati Uniti d'America",
+			"year": "2019",
+			"company": [
+				"20th Century Fox",
+				"Chernin Entertainment"
+			],
+			"language": "inglese",
+			"director": [
+				"James Mangold"
+			]
+		},
+		{
+			"Link": "https://cineworld.18tickets.it/film/5420",
+			"title": "AILO - UN'AVVENTURA TRA I GHIACCI (AILO: UNE ODYSSEE EN LAPONIE)",
+			"description": "La vita della piccola renna Ailo raccontata in sedici mesi e quattro stagioni, dal parto in primavera alla pubert\u00e0, attraverso paesaggi incontaminati e primitivi abitati da animali fantastici. E spesso, come scoprir\u00e0 Ailo, molto pericolosi.",
+			"genre": "",
+			"length": "Durata: 86",
+			"schedule": [
+				{
+					"day": "29-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "17:30-18:56"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "30-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "15:40-17:06"
+						},
+						{
+							"hour": "17:40-19:06"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "01-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "15:00-16:26"
+						},
+						{
+							"hour": "16:50-18:16"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "02-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "17:30-18:56"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				}
+			],
+			"wikiUrl": false,
+			"originalName": "",
+			"country": "",
+			"year": "",
+			"company": "",
+			"Detailslength": "",
+			"language": "",
+			"director": ""
+		},
+		{
+			"Link": "https://cineworld.18tickets.it/film/5369",
+			"title": "LE RAGAZZE DI WALL STREET (HUSTLERS)",
+			"description": "Un gruppo di spogliarelliste, capeggiate dalla madre single Ramona, decidono di unirsi per attuare un'elaborata truffa ai danni di facoltosi clienti, per lo pi\u00f9 broker di Wall Street.",
+			"genre": [
+				"commedia",
+				"drammatico",
+				"thriller"
+			],
+			"length": "110 min",
+			"schedule": [
+				{
+					"day": "28-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "22:00-23:50"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "01-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "21:30-23:20"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				}
+			],
+			"wikiUrl": "https://it.wikipedia.org/wiki/Le_ragazze_di_Wall_Street_-_Business_Is_Business",
+			"originalName": "Hustlers",
+			"country": "Stati Uniti d'America",
+			"year": "2019",
+			"company": [
+				"Gloria Sanchez Productions",
+				"Nuyorican Productions"
+			],
+			"language": "inglese",
+			"director": [
+				"Lorene Scafaria"
+			]
+		},
+		{
+			"Link": "https://cineworld.18tickets.it/film/5307",
+			"title": "LA FAMIGLIA ADDAMS (THE ADDAMS FAMILY)",
+			"description": "La famiglia Addams deve affrontare Margaux Needler, una subdola conduttrice di reality televisivi \"consumata dal desiderio dell'assoluta perfezione color pastello della vita suburbana\". Ci\u00f2 accade mentre gli Addams si apprestano a ricevere i parenti per un'importante riunione di famiglia.",
+			"genre": [
+				"commedia",
+				"fantastico"
+			],
+			"length": "99 min",
+			"schedule": [
+				{
+					"day": "30-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "15:40-17:06"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				},
+				{
+					"day": "01-12-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "15:00-16:26"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
+				}
+			],
+			"wikiUrl": "https://it.wikipedia.org/wiki/La_famiglia_Addams_(film_1991)",
+			"originalName": "The Addams Family",
+			"country": "Stati Uniti d'America",
+			"year": "1991",
+			"company": null,
+			"language": null,
+			"director": [
+				"Barry Sonnenfeld"
+			]
+		},
+		{
+			"Link": "https://cineworld.18tickets.it/film/5079",
 			"title": "JOKER",
-			"description": "Arthur Fleck vive con l'anziana madre in un palazzone fatiscente e sbarca il lunario facendo pubblicit\u00e0 per la strada travestito da clown, in attesa di avere il giusto materiale per realizzare il desiderio di fare il comico. La sua vita, per\u00f2, \u00e8 una tragedia: ignorato, calpestato, bullizzato, preso in giro da da chiunque, ha sviluppato un tic nervoso che lo fa ridere a sproposito incontrollabilmente, rendendolo inquietante e allontanando ulteriormente da lui ogni possibile relazione sociale. Ma un giorno Arthur non ce la fa pi\u00f9 e reagisce violentemente, pistola alla mano. Mentre la polizia di Gotham City d\u00e0 la caccia al clown killer, la popolazione lo elegge a eroe metropolitano, simbolo della rivolta degli oppressi contro l'arroganza dei ricchi.",
+			"description": "Arthur Fleck vive con l'anziana madre in un palazzone fatiscente e sbarca il lunario facendo pubblicit\u00e0 per la strada travestito da clown, in attesa di avere il giusto materiale per realizzare il desiderio di fare il comico. La sua vita, per\u00f2, \u00e8 una tragedia: ignorato, calpestato, bullizzato, preso in giro da da chiunque, ha sviluppato un tic nervoso che lo fa ridere a sproposito incontrollabilmente, rendendolo inquietante e allontanando ulteriormente da lui ogni possibile relazione sociale.",
 			"genre": [
 				"drammatico",
 				"poliziesco",
 				"thriller"
 			],
-			"length": "122' - v.m.14 anni",
-			"time": [
+			"length": "123 min",
+			"schedule": [
 				{
-					"day": "25/10/19",
-					"hour": "18:30"
+					"day": "29-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "22:00-00:02"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "25/10/19",
-					"hour": "21:00"
-				},
-				{
-					"day": "26/10/19",
-					"hour": "16:00"
-				},
-				{
-					"day": "26/10/19",
-					"hour": "18:30"
-				},
-				{
-					"day": "26/10/19",
-					"hour": "21:00"
-				},
-				{
-					"day": "27/10/19",
-					"hour": "16:00"
-				},
-				{
-					"day": "27/10/19",
-					"hour": "18:30"
-				},
-				{
-					"day": "27/10/19",
-					"hour": "21:00"
-				},
-				{
-					"day": "28/10/19",
-					"hour": "18:30"
-				},
-				{
-					"day": "28/10/19",
-					"hour": "21:00"
-				},
-				{
-					"day": "29/10/19",
-					"hour": "18:30"
-				},
-				{
-					"day": "29/10/19",
-					"hour": "21:00"
+					"day": "30-11-19",
+					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
+					"time": [
+						{
+							"hour": "19:30-21:32"
+						}
+					],
+					"Price": "8.50",
+					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				}
 			],
-			"location": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"contact": "0464 421216",
-			"price": "8,50 \u20ac",
-			"cinemaURL": "http://www.supercinemarovereto.it/",
 			"wikiUrl": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
 			"originalName": null,
 			"country": "Stati Uniti d'America",
@@ -225,88 +1060,9 @@
 				"DC Comics",
 				"DC Eintertainment"
 			],
-			"Detailslength": "Rapporto",
 			"language": "inglese",
 			"director": [
 				"Todd Phillips"
-			]
-		},
-		{
-			"Link": "http://www.supercinemarovereto.it/",
-			"title": "MALEFICENT - SIGNORA DEL MALE",
-			"description": "Maleficent 2: Signora del Male continua a seguire la complessa relazione tra Malefica e Aurora. Il loro rapporto, originato da un tradimento, dalla vendetta e infine dall\u2019amore, \u00e8 ormai cresciuto e si \u00e8 consolidato in un forte legame. Ma quando il Principe Filippo chiede la mano ad Aurora, quest'ultima accetta immediatamente, senza consultarsi con Malefica, convinta che l'amore non sempre pu\u00f2 portare a un esito felice. La ragazza \u00e8 sicura di poter dimostrare alla creatura alata che il vero amore esiste e ignora il pensiero della sua madrina al riguardo.; L'imminente matrimonio tra i due giovani \u00e8 motivo di festeggiamenti in tutto il Regno e nelle terre vicine, poich\u00e9 le nozze uniranno i due mondi. Durante la cena di fidanzamento la madre di Filippo, la Regina Ingrith (Michelle Pfeiffer), dichiara a tavola che l'unione tra suo figlio e Aurora far\u00e0 s\u00ec che la ragazza diventi sua, cosicch\u00e9 possa ricevere finalmente l'amore di una madre. Malefica offesa e infuriata decide di schierarsi contro la regina, ma questa volta la sua amata figlioccia si opporr\u00e0 a lei, rimanendo accanto a Filippo e mettendo in discussione il legame con la madrina.; L'astio tra gli uomini e le creature magiche, tenuto in bilico fino a quel momento dal legame tra Aurora e Malefica, si acuisce, portando a uno scontro tra i due gruppi. Malefica e Aurora si ritroveranno sui fronti opposti di una Grande Guerra che metter\u00e0 alla prova la loro lealt\u00e0 e le porter\u00e0 a chiedersi se potranno mai essere davvero una famiglia. Inoltre, un incontro inaspettato dar\u00e0 inizio a una nuova alleanza, grazie alla quale scenderanno in campo potenti forze oscure...",
-			"genre": [
-				"fantastico",
-				"avventura",
-				"azione",
-				"sentimentale"
-			],
-			"time": [
-				{
-					"day": "25/10/19",
-					"hour": "18:20"
-				},
-				{
-					"day": "25/10/19",
-					"hour": "21:00"
-				},
-				{
-					"day": "26/10/19",
-					"hour": "15:40"
-				},
-				{
-					"day": "26/10/19",
-					"hour": "18:20"
-				},
-				{
-					"day": "26/10/19",
-					"hour": "21:00"
-				},
-				{
-					"day": "27/10/19",
-					"hour": "15:40"
-				},
-				{
-					"day": "27/10/19",
-					"hour": "18:20"
-				},
-				{
-					"day": "27/10/19",
-					"hour": "21:00"
-				},
-				{
-					"day": "28/10/19",
-					"hour": "18:20"
-				},
-				{
-					"day": "28/10/19",
-					"hour": "21:00"
-				},
-				{
-					"day": "29/10/19",
-					"hour": "18:20"
-				},
-				{
-					"day": "29/10/19",
-					"hour": "21:00"
-				}
-			],
-			"location": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"contact": "0464 421216",
-			"price": "8,50 \u20ac",
-			"cinemaURL": "http://www.supercinemarovereto.it/",
-			"wikiUrl": "https://it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
-			"originalName": "Maleficent: Mistress of Evil",
-			"country": "Stati Uniti d'America",
-			"year": "2019",
-			"company": [
-				"Walt Disney Pictures",
-				"Roth Films"
-			],
-			"Detailslength": "Rapporto",
-			"language": "inglese",
-			"director": [
-				"Joachim R\u00f8nning"
 			]
 		}
 	]

@@ -61,7 +61,7 @@ def rm_main(JSONString):
 		country = standardFind(soup, "Paese di produzione")
 		year = standardFind(soup, "Anno")
 		company = listFind(soup, "Casa di produzione")
-		length = nonStandardFind(soup, "Durata")
+		length = lengthFind(soup, "Durata")
 		language = nonStandardFind(soup, "Lingua originale")
 		genreList = listFind(soup, "Genere")
 		directorList = listFind(soup, "Regia")
@@ -84,6 +84,12 @@ def rm_main(JSONString):
 		if found:
 			print(found)
 			return found.parent.parent.findNext('td').contents[0].text
+
+	def lengthFind(soup, tag):
+		found = soup.find(text=tag)
+		if found:
+			print(found)
+			return found.parent.parent.findNext('td').text
 
 	def nonStandardFind(soup, tag):
 		found = soup.find(text=tag)

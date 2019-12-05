@@ -126,14 +126,14 @@
         <parameter key="use_default_python" value="true"/>
         <parameter key="package_manager" value="conda (anaconda)"/>
       </operator>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Facilities" width="90" x="782" y="748"/>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Talk" width="90" x="782" y="544"/>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Theatre" width="90" x="782" y="646"/>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Screening" width="90" x="782" y="442"/>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Music" width="90" x="782" y="340"/>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="VisualArts" width="90" x="782" y="238"/>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Science" width="90" x="782" y="136"/>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="General" width="90" x="782" y="34"/>
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="82" name="Facilities" width="90" x="782" y="748"/>
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="82" name="Talk" width="90" x="782" y="544"/>
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="82" name="Theatre" width="90" x="782" y="646"/>
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="82" name="Screening" width="90" x="782" y="442"/>
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="82" name="Music" width="90" x="782" y="340"/>
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="82" name="VisualArts" width="90" x="782" y="238"/>
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="82" name="Science" width="90" x="782" y="136"/>
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="82" name="General" width="90" x="782" y="34"/>
       <connect from_op="trentoToday extract" from_port="output 1" to_op="trentoToday format" to_port="input 1"/>
       <connect from_op="trentoToday format" from_port="output 1" to_op="trentoToday structure" to_port="input 1"/>
       <connect from_op="trentoToday structure" from_port="output 1" to_op="merge and split" to_port="input 1"/>

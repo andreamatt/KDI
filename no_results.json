@@ -1,4 +1,90 @@
 {
+	"Centro Storico; Indirizzo non disponibile; Ossana": {
+		"address_components": [
+			{
+				"long_name": "Ossana",
+				"short_name": "Ossana",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Ossana",
+				"short_name": "Ossana",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Province of Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-South Tyrol",
+				"short_name": "Trentino-South Tyrol",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38026",
+				"short_name": "38026",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "38026 Ossana, Province of Trento, Italy",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": 46.3090288,
+					"lng": 10.7431437
+				},
+				"southwest": {
+					"lat": 46.3034064,
+					"lng": 10.7331989
+				}
+			},
+			"location": {
+				"lat": 46.3078419,
+				"lng": 10.7355513
+			},
+			"location_type": "APPROXIMATE",
+			"viewport": {
+				"northeast": {
+					"lat": 46.3090288,
+					"lng": 10.7431437
+				},
+				"southwest": {
+					"lat": 46.3034064,
+					"lng": 10.7331989
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJV86wuBBYgkcRqtQSsNlw7Ak",
+		"types": [
+			"locality",
+			"political"
+		]
+	},
+	"Centro Storico; Indirizzo non disponibile; Ala": "",
 	"Maurina; Indirizzo non disponibile; Spormaggiore": {
 		"address_components": [
 			{
@@ -84,6 +170,7 @@
 			"political"
 		]
 	},
+	"Indirizzo non disponibile": "",
 	"centro storico; Indirizzo non disponibile; Siror": {
 		"address_components": [
 			{
@@ -164,6 +251,92 @@
 		},
 		"partial_match": true,
 		"place_id": "ChIJgWxR4bn3eEcR8IfAP1XJTkA",
+		"types": [
+			"locality",
+			"political"
+		]
+	},
+	"vedi info; Indirizzo non disponibile": "",
+	"Centro Storico; Indirizzo non disponibile; Vezzano": {
+		"address_components": [
+			{
+				"long_name": "Vezzano",
+				"short_name": "Vezzano",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Vezzano",
+				"short_name": "Vezzano",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Province of Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-South Tyrol",
+				"short_name": "Trentino-South Tyrol",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38070",
+				"short_name": "38070",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "38070 Vezzano, Province of Trento, Italy",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": 46.0847606,
+					"lng": 11.0045533
+				},
+				"southwest": {
+					"lat": 46.0738054,
+					"lng": 10.9938407
+				}
+			},
+			"location": {
+				"lat": 46.0802175,
+				"lng": 11.0014092
+			},
+			"location_type": "APPROXIMATE",
+			"viewport": {
+				"northeast": {
+					"lat": 46.0847606,
+					"lng": 11.0045533
+				},
+				"southwest": {
+					"lat": 46.0738054,
+					"lng": 10.9938407
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJHcrSPWlugkcRaaXU1f_yACY",
 		"types": [
 			"locality",
 			"political"
@@ -260,177 +433,7 @@
 			"town_square"
 		]
 	},
-	"Centro Storico; Indirizzo non disponibile; Ossana": {
-		"address_components": [
-			{
-				"long_name": "Ossana",
-				"short_name": "Ossana",
-				"types": [
-					"locality",
-					"political"
-				]
-			},
-			{
-				"long_name": "Ossana",
-				"short_name": "Ossana",
-				"types": [
-					"administrative_area_level_3",
-					"political"
-				]
-			},
-			{
-				"long_name": "Province of Trento",
-				"short_name": "TN",
-				"types": [
-					"administrative_area_level_2",
-					"political"
-				]
-			},
-			{
-				"long_name": "Trentino-South Tyrol",
-				"short_name": "Trentino-South Tyrol",
-				"types": [
-					"administrative_area_level_1",
-					"political"
-				]
-			},
-			{
-				"long_name": "Italy",
-				"short_name": "IT",
-				"types": [
-					"country",
-					"political"
-				]
-			},
-			{
-				"long_name": "38026",
-				"short_name": "38026",
-				"types": [
-					"postal_code"
-				]
-			}
-		],
-		"formatted_address": "38026 Ossana, Province of Trento, Italy",
-		"geometry": {
-			"bounds": {
-				"northeast": {
-					"lat": 46.3090288,
-					"lng": 10.7431437
-				},
-				"southwest": {
-					"lat": 46.3034064,
-					"lng": 10.7331989
-				}
-			},
-			"location": {
-				"lat": 46.3078419,
-				"lng": 10.7355513
-			},
-			"location_type": "APPROXIMATE",
-			"viewport": {
-				"northeast": {
-					"lat": 46.3090288,
-					"lng": 10.7431437
-				},
-				"southwest": {
-					"lat": 46.3034064,
-					"lng": 10.7331989
-				}
-			}
-		},
-		"partial_match": true,
-		"place_id": "ChIJV86wuBBYgkcRqtQSsNlw7Ak",
-		"types": [
-			"locality",
-			"political"
-		]
-	},
-	"Indirizzo non disponibile": "",
-	"Centro Storico; Indirizzo non disponibile; Vezzano": {
-		"address_components": [
-			{
-				"long_name": "Vezzano",
-				"short_name": "Vezzano",
-				"types": [
-					"locality",
-					"political"
-				]
-			},
-			{
-				"long_name": "Vezzano",
-				"short_name": "Vezzano",
-				"types": [
-					"administrative_area_level_3",
-					"political"
-				]
-			},
-			{
-				"long_name": "Province of Trento",
-				"short_name": "TN",
-				"types": [
-					"administrative_area_level_2",
-					"political"
-				]
-			},
-			{
-				"long_name": "Trentino-South Tyrol",
-				"short_name": "Trentino-South Tyrol",
-				"types": [
-					"administrative_area_level_1",
-					"political"
-				]
-			},
-			{
-				"long_name": "Italy",
-				"short_name": "IT",
-				"types": [
-					"country",
-					"political"
-				]
-			},
-			{
-				"long_name": "38070",
-				"short_name": "38070",
-				"types": [
-					"postal_code"
-				]
-			}
-		],
-		"formatted_address": "38070 Vezzano, Province of Trento, Italy",
-		"geometry": {
-			"bounds": {
-				"northeast": {
-					"lat": 46.0847606,
-					"lng": 11.0045533
-				},
-				"southwest": {
-					"lat": 46.0738054,
-					"lng": 10.9938407
-				}
-			},
-			"location": {
-				"lat": 46.0802175,
-				"lng": 11.0014092
-			},
-			"location_type": "APPROXIMATE",
-			"viewport": {
-				"northeast": {
-					"lat": 46.0847606,
-					"lng": 11.0045533
-				},
-				"southwest": {
-					"lat": 46.0738054,
-					"lng": 10.9938407
-				}
-			}
-		},
-		"partial_match": true,
-		"place_id": "ChIJHcrSPWlugkcRaaXU1f_yACY",
-		"types": [
-			"locality",
-			"political"
-		]
-	},
+	"centro storico; Indirizzo non disponibile; Ala": "",
 	"Centro Storico; Indirizzo non disponibile; Cimego": {
 		"address_components": [
 			{
@@ -513,86 +516,6 @@
 		"place_id": "ChIJY1bvtVA6gkcRsbtNVzf3bh8",
 		"types": [
 			"locality",
-			"political"
-		]
-	},
-	"centro storico; Indirizzo non disponibile; Ala": "",
-	"Centro Storico; Indirizzo non disponibile; Ala": "",
-	"vedi info; Indirizzo non disponibile": "",
-	"Centro Storico; Indirizzo non disponibile; Ledro": {
-		"address_components": [
-			{
-				"long_name": "Ledro",
-				"short_name": "Ledro",
-				"types": [
-					"administrative_area_level_3",
-					"political"
-				]
-			},
-			{
-				"long_name": "Province of Trento",
-				"short_name": "TN",
-				"types": [
-					"administrative_area_level_2",
-					"political"
-				]
-			},
-			{
-				"long_name": "Trentino-South Tyrol",
-				"short_name": "Trentino-South Tyrol",
-				"types": [
-					"administrative_area_level_1",
-					"political"
-				]
-			},
-			{
-				"long_name": "Italy",
-				"short_name": "IT",
-				"types": [
-					"country",
-					"political"
-				]
-			},
-			{
-				"long_name": "38067",
-				"short_name": "38067",
-				"types": [
-					"postal_code"
-				]
-			}
-		],
-		"formatted_address": "38067 Ledro, Province of Trento, Italy",
-		"geometry": {
-			"bounds": {
-				"northeast": {
-					"lat": 45.9698749,
-					"lng": 10.8579872
-				},
-				"southwest": {
-					"lat": 45.8018536,
-					"lng": 10.6111793
-				}
-			},
-			"location": {
-				"lat": 45.8765359,
-				"lng": 10.7321478
-			},
-			"location_type": "APPROXIMATE",
-			"viewport": {
-				"northeast": {
-					"lat": 45.9698749,
-					"lng": 10.8579872
-				},
-				"southwest": {
-					"lat": 45.8018536,
-					"lng": 10.6111793
-				}
-			}
-		},
-		"partial_match": true,
-		"place_id": "ChIJk8aJIRM9gkcR_CpveFtR34U",
-		"types": [
-			"administrative_area_level_3",
 			"political"
 		]
 	}

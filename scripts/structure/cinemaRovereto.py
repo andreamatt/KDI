@@ -15,6 +15,9 @@ def rm_main(JSONString):
 	events = []
 	cinemaRovereto = json.loads(JSONString)
 	for movie in cinemaRovereto['movies']:
+		movie['director'] = movie['director'][0] if len(movie['director']) > 0 else ''
+		movie['genre'] = movie['genre'][0] if len(movie['genre']) > 0 else ''
+
 		gen = GeneralEvent(movie['title'], movie['price'], movie['description'], movie['cinemaURL'], movie['length'], movie['language'], True,
 		                   movie['location'])
 		scr = ScreeningEvent('')
