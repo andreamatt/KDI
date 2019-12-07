@@ -3,32 +3,6 @@ import requests
 import json
 from urllib.parse import quote
 
-
-class Facility:
-
-	def __init__(self, name="", telephone="", website="", mail="", hasParking="", animalsAllowed="", smokingAllowed="", isIndoor=""):
-		self.name = name
-		self.telephone = telephone
-		self.website = website
-		self.mail = mail
-		self.hasParking = hasParking
-		self.animalsAllowed = animalsAllowed
-		self.smokingAllowed = smokingAllowed
-		self.isIndoor = isIndoor
-
-
-class GeoCoordinates:
-
-	def __init__(self, latitude="", longitude="", altitude="", address="", addressLocality="", addressRegion="", postalCode=""):
-		self.latitude = latitude
-		self.longitude = longitude
-		self.altitude = altitude
-		self.address = address
-		self.addressLocality = addressLocality
-		self.addressRegion = addressRegion
-		self.postalCode = postalCode
-
-
 API_KEY = 'AIzaSyB211Jj9rzG_io-a_DBNx_aaALMdOaNiug'
 
 MAX_WORKERS = 100
@@ -39,6 +13,22 @@ FIELDS = [
 ]
 
 DETAILS_FIELDS = ','.join(FIELDS)
+
+classes_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/structure/classes.py').text
+exec(classes_txt)
+
+
+def Facility(name, telephone, website, mail, hasParking, animalsAllowed, smokingAllowed, isIndoor):
+	return locals()
+
+
+def Timetables(monday, tuestay, wednesday, thursday, friday, saturday, sunday):
+	return locals()
+
+
+def GeoCoordinates(latitude, longitude, altitude, address, addressLocality, addressRegion, postalCode, locationText):
+	return locals()
+
 
 geocoded = {}
 search_results = {}
@@ -132,6 +122,9 @@ def text_to_URI(text):
 
 
 def rm_main(eventsJSON):
+	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/DBG/geocoding.json', 'w') as outfile:
+		json.dump(json.loads(eventsJSON), outfile, indent='\t')
+
 	#locations = [loc for loc in list(events.loc[:, "locationName"]) if str(loc) != 'nan']
 	events = json.loads(eventsJSON)
 	locations = []
@@ -139,12 +132,18 @@ def rm_main(eventsJSON):
 		for e in l:
 			if e['GEN_locationText'] != "":
 				locations.append(e['GEN_locationText'])
-				e['GEN_locationText'] = text_to_URI(e['GEN_locationText'])
-
-	facilities = []
+	# to make locations unique
+	locations = list(set(locations))
 
 	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/DBG/locationsToSearch.json', 'w') as outfile:
 		json.dump(locations, outfile, indent='\t')
+
+	for l in events.values():
+		for e in l:
+			if e['GEN_locationText'] != "":
+				e['GEN_locationText'] = text_to_URI(e['GEN_locationText'])
+
+	facilities = []
 
 	place_search_ALL(locations)
 
@@ -154,14 +153,14 @@ def rm_main(eventsJSON):
 		json.dump(errors, outfile, indent="\t")
 
 	for searched_name, result in details_results.items():
-		fac = ""
+		fac = {}
 		if 'point_of_interest' in result['types']:
 			name = result['name']
 			telephone = result.get('formatted_phone_number', '')
 			website = result.get('website', '')
 			mail = "No email from google to avoid spamming"
 			# other fields are not available from google
-			fac = Facility(name, telephone, website, mail)
+			fac = Facility(name, telephone, website, mail, '', '', '', '')
 
 		lat = result['geometry']['location']['lat']
 		lng = result['geometry']['location']['lng']
@@ -173,9 +172,15 @@ def rm_main(eventsJSON):
 		for comp in result['geocoded']['address_components']:
 			if 'postal_code' in comp['types']:
 				postalCode = comp['long_name']
-		coordinates = GeoCoordinates(lat, lng, altitude, address, addressLocality, addressRegion, postalCode)
+		coordinates = GeoCoordinates(lat, lng, altitude, address, addressLocality, addressRegion, postalCode, searched_name)
 
-		facilities.append({'locationText': searched_name, 'facility': "" if fac == "" else fac.__dict__, 'geocoordinates': coordinates.__dict__})
+		facility = {}
+		for k, v in fac.items():
+			facility[f'FAC_{k}'] = v
+		for k, v in coordinates.items():
+			facility[f'GEO_{k}'] = v
+
+		facilities.append(facility)
 
 	# no results in google places, used google geocoding
 	for searched_name, result in no_results.items():
@@ -193,23 +198,28 @@ def rm_main(eventsJSON):
 			for comp in result['address_components']:
 				if 'postal_code' in comp['types']:
 					postalCode = comp['long_name']
-			coordinates = GeoCoordinates(lat, lng, altitude, address, addressLocality, addressRegion, postalCode)
+			coordinates = GeoCoordinates(lat, lng, altitude, address, addressLocality, addressRegion, postalCode, searched_name)
 
-			facilities.append({'locationText': searched_name, 'facility': "", 'geocoordinates': coordinates.__dict__})
+			facility = {}
+			for k, v in coordinates.items():
+				facility[f'GEO_{k}'] = v
 
-	facilities_DF = []
-	for fac in facilities:
-		obj = {'locationText': text_to_URI(fac['locationText'])}
-		for k, v in fac['geocoordinates'].items():
-			obj[f'GEO_{k}'] = v
+			facilities.append(facility)
+			#facilities.append({'locationText': searched_name, 'facility': "", 'geocoordinates': coordinates.__dict__})
 
-		if fac['facility'] != '':
-			for k, v in fac['facility'].items():
-				obj[f'FAC_{k}'] = v
+	#facilities_DF = []
+	# for fac in facilities:
+	# 	obj = {'locationText': text_to_URI(fac['locationText'])}
+	# 	for k, v in fac['geocoordinates'].items():
+	# 		obj[f'GEO_{k}'] = v
 
-		facilities_DF.append(obj)
+	# 	if fac['facility'] != '':
+	# 		for k, v in fac['facility'].items():
+	# 			obj[f'FAC_{k}'] = v
 
-	events['facilities'] = facilities_DF
+	# 	facilities_DF.append(obj)
+
+	events['facilities'] = facilities
 
 	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/output/UNIFIED.json', 'w') as outfile:
 		json.dump(events, outfile, indent='\t')

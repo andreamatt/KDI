@@ -57,7 +57,4 @@ def rm_main(JSONString):
 				events[e['Subcategory']] = []
 			events[e['Subcategory']].append(event)
 
-	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/DBG/events_muse.json', 'w') as outfile:
-		json.dump(events, outfile, indent="\t")
-
 	return json.dumps(events)
