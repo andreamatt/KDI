@@ -1,7 +1,7 @@
 from concurrent.futures import ThreadPoolExecutor as PoolExecutor
 import requests
 import json
-import pandas as pd
+from urllib.parse import quote
 
 
 class Facility:
@@ -127,6 +127,10 @@ def place_details_ALL():
 			pass
 
 
+def text_to_URI(text):
+	return f'http://www.semanticweb.org/facilitiesEventsOntology/{quote(text)}'
+
+
 def rm_main(eventsJSON):
 	#locations = [loc for loc in list(events.loc[:, "locationName"]) if str(loc) != 'nan']
 	events = json.loads(eventsJSON)
@@ -135,25 +139,19 @@ def rm_main(eventsJSON):
 		for e in l:
 			if e['GEN_locationText'] != "":
 				locations.append(e['GEN_locationText'])
+				e['GEN_locationText'] = text_to_URI(e['GEN_locationText'])
 
 	facilities = []
 
-	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/locations.json', 'w') as outfile:
-		#outfile.write(f'{loc},\n')
+	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/DBG/locationsToSearch.json', 'w') as outfile:
 		json.dump(locations, outfile, indent='\t')
 
 	place_search_ALL(locations)
 
 	place_details_ALL()
 
-	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/places.json', 'w') as outfile:
-		json.dump(details_results, outfile, indent="\t")
-
-	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/places_errors.json', 'w') as outfile:
+	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/DBG/places_errors.json', 'w') as outfile:
 		json.dump(errors, outfile, indent="\t")
-
-	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/no_results.json', 'w') as outfile:
-		json.dump(no_results, outfile, indent="\t")
 
 	for searched_name, result in details_results.items():
 		fac = ""
@@ -199,12 +197,9 @@ def rm_main(eventsJSON):
 
 			facilities.append({'locationText': searched_name, 'facility': "", 'geocoordinates': coordinates.__dict__})
 
-	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/script_res.json', 'w') as outfile:
-		json.dump(facilities, outfile, indent='\t')
-
 	facilities_DF = []
 	for fac in facilities:
-		obj = {'locationText': fac['locationText']}
+		obj = {'locationText': text_to_URI(fac['locationText'])}
 		for k, v in fac['geocoordinates'].items():
 			obj[f'GEO_{k}'] = v
 
@@ -215,5 +210,6 @@ def rm_main(eventsJSON):
 		facilities_DF.append(obj)
 
 	events['facilities'] = facilities_DF
+
 	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/output/UNIFIED.json', 'w') as outfile:
 		json.dump(events, outfile, indent='\t')

@@ -4,7 +4,7 @@ import requests
 
 
 def rm_main(JSONString):
-	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/format.json', 'w') as outfile:
+	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/DBG/format.json', 'w') as outfile:
 		json.dump(json.loads(JSONString), outfile, indent="\t")
 
 	obj = json.loads(JSONString)

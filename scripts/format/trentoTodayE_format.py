@@ -4,8 +4,9 @@ import requests
 
 
 def rm_main(JSONString):
-	#url = 'https://raw.githubusercontent.com/andreamatt/KDI/master/dataset/trentoTodayE.json'
-	#obj = json.loads(requests.get(url).text)
+	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/DBG/format.json', 'w') as outfile:
+		json.dump(json.loads(JSONString), outfile, indent="\t")
+
 	obj = json.loads(JSONString)
 
 	known_times = {'tutto il giorno': '00:00>23:59'}

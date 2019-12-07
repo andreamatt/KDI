@@ -36,6 +36,8 @@ timeFinish = ['to', 'a', 'alle']
 
 
 def rm_main(JSONString):
+	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/DBG/format.json', 'w') as outfile:
+		json.dump(json.loads(JSONString), outfile, indent="\t")
 
 	obj = json.loads(JSONString)
 
@@ -220,20 +222,23 @@ def rm_main(JSONString):
 		findDates(dayArray, event['when'].lower(), 0, 0, 0)
 		outputArray = arrayCleaning(dayArray)
 		if outputArray == []:
-			date = findDayString(event['when'].lower(), 0, [])
-			if date != []:
-				event['days'] = date
+			day = findDayString(event['when'].lower(), 0, [])
+			if day != []:
+				event['when'] = []
+				event['days'] = day
 			else:
-				event['when'] = event['days'] = []
+				event['when'] = []
+				event['days'] = []
 		else:
 			event['when'] = outputArray
+			event['days'] = []
 
 		hourArray = []
 		findHourString(event['time'].lower(), 0, hourArray)
 		if hourArray[0] != '' and hourArray[0] != '-':
 			event['time'] = list(set(hourArray))
 		else:
-			event['time'] = ''
+			event['time'] = []
 
 		new_dict = {'contact': obj['contact']}
 		event.update(new_dict)

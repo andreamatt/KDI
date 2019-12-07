@@ -8,38 +8,56 @@ exec(constants_txt)
 
 
 def rm_main(JSONString):
-	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/structure.json', 'w') as outfile:
+	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/DBG/structure.json', 'w') as outfile:
 		json.dump(json.loads(JSONString), outfile, indent="\t")
 
-	trentoTodayE = json.loads(JSONString)
+	muse = json.loads(JSONString)
 	events = {}
 
-	for e in trentoTodayE:
+	for e in muse['events']:
 		gen = GeneralEvent(e['name'], e['cost'], e['description'], e['link'], '', '', '', e['where'])
 
-		period = '' if len(e['days']) == 0 else Period(e['days'], '', '', '', 'daily')
+		period = Period([], [], [], '', '')
+		if len(e['days']) > 0:
+			period = Period(e['days'], '', '', '', 'daily')
+
+		times = []
 		for time in e['time']:
-			for date in e['when']:
-				if '-' in date:
-					if '-' in time:
-						time = Time(date.split('-')[0], date.split('-')[1], time.split('-')[0], time.split('-')[1])
-
-				pass
+			if '-' in time:
+				times.append(Time('', '', time.split('-')[0], time.split('-')[1]))
 			else:
-				pass
+				times.append(Time('', '', time, ''))
 
-		event = {}
-		for k, v in gen.items():
-			event[f'GEN_{k}'] = v
-		for k, v in time.items():
-			event[f'TIME_{k}'] = v
+		if len(times) == 0:
+			times.append(Time('', '', '', ''))
 
-		if e['Subcategory'] not in events:
-			events[e['Subcategory']] = []
-		events[e['Subcategory']].append(event)
+		times_with_dates = []
+		for date in e['when']:
+			if '-' in date:
+				for time in times:
+					times_with_dates.append(Time(date.split('-')[0], date.split('-')[1], time['startTime'], time['endTime']))
+			else:
+				for time in times:
+					times_with_dates.append(Time(date, date, time['startTime'], time['endTime']))
 
-	#events = [ob.__dict__ for ob in events]
-	#df = pd.DataFrame(events)
-	#return df
+		# found no dates => use simple times
+		if len(times_with_dates) == 0:
+			times_with_dates = times
+
+		for time in times_with_dates:
+			event = {}
+			for k, v in gen.items():
+				event[f'GEN_{k}'] = v
+			for k, v in time.items():
+				event[f'TIME_{k}'] = v
+			for k, v in period.items():
+				event[f'PERIOD_{k}'] = v
+
+			if e['Subcategory'] not in events:
+				events[e['Subcategory']] = []
+			events[e['Subcategory']].append(event)
+
+	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/DBG/events_muse.json', 'w') as outfile:
+		json.dump(events, outfile, indent="\t")
 
 	return json.dumps(events)

@@ -2,6 +2,9 @@ import json
 import requests
 from flashtext import KeywordProcessor
 
+constants_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/constants.py').text
+exec(constants_txt)
+
 
 def rm_main():
 	ScienceEvent = {"scienza", "universo", "geologia", "biologia", "scientifico", "scientifica", "scienziato", "scienzata"}
@@ -24,8 +27,9 @@ def rm_main():
 		artList = keyPArt.extract_keywords(event["description"])
 		scienceList = keyPScience.extract_keywords(event["description"])
 		if len(artList) > len(scienceList):
-			event.update({'Subcategory': "VisualArtEvent"})
+			event.update({'Subcategory': visual})
 		elif len(artList) <= len(scienceList):
-			event.update({'Subcategory': "ScienceEvent"})
+			event.update({'Subcategory': science})
+
 	obj["events"] = eventsArray
 	return json.dumps(obj)

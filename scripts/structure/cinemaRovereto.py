@@ -9,8 +9,6 @@ exec(constants_txt)
 
 
 def rm_main(JSONString):
-	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/structure.json', 'w') as outfile:
-		json.dump(json.loads(JSONString), outfile, indent="\t")
 
 	events = []
 	cinemaRovereto = json.loads(JSONString)
