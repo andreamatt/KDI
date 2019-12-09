@@ -12,7 +12,10 @@ exec(constants_txt)
 def text_to_URI(labels):
 	result = BASE_URI
 	for l in labels:
-		result += f'/{quote(l)}'
+		if l != "" and l != None and isinstance(l, str):
+			result += f'/{quote(l)}'
+		else:
+			result += f'/{quote("_")}'
 	return result
 
 
@@ -30,12 +33,12 @@ def rm_main(JSONString):
 		scr = ScreeningEvent('')
 		m = Movie(movie['originalName'], movie['genre'], movie['length'])
 		work_URI = text_to_URI([movie['title'], movie['director'], movie['year'], movie['wikiUrl']])
-		gen['work_URI'] = work_URI
 		work = CreativeWork(movie['title'], movie['director'], movie['year'], movie['wikiUrl'], work_URI)
 
 		for schedule in movie['schedule']:
 			gen = GeneralEvent(movie['title'], schedule['Price'], movie['description'], movie['Link'], movie['length'], movie['language'], True,
 			                   schedule['location'])
+			gen['work_URI'] = work_URI
 
 			for t in schedule['time']:
 				hours = t['hour'].split('-')

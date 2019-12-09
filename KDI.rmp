@@ -175,8 +175,9 @@
         <parameter key="use_default_python" value="true"/>
         <parameter key="package_manager" value="conda (anaconda)"/>
       </operator>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Multiply" width="90" x="1117" y="34"/>
-      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Write CSV" width="90" x="1251" y="85">
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="General" width="90" x="1117" y="34"/>
+      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="General csv" width="90" x="1251" y="85">
+        <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/general.csv"/>
         <parameter key="column_separator" value=";"/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
@@ -184,8 +185,9 @@
         <parameter key="append_to_file" value="false"/>
         <parameter key="encoding" value="UTF-8"/>
       </operator>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Multiply (2)" width="90" x="1117" y="136"/>
-      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Write CSV (2)" width="90" x="1251" y="187">
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Science" width="90" x="1117" y="136"/>
+      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Science csv" width="90" x="1251" y="187">
+        <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/science.csv"/>
         <parameter key="column_separator" value=";"/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
@@ -193,8 +195,9 @@
         <parameter key="append_to_file" value="false"/>
         <parameter key="encoding" value="UTF-8"/>
       </operator>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Multiply (3)" width="90" x="1117" y="238"/>
-      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Write CSV (3)" width="90" x="1251" y="289">
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Visual" width="90" x="1117" y="238"/>
+      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Visual csv" width="90" x="1251" y="289">
+        <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/visual.csv"/>
         <parameter key="column_separator" value=";"/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
@@ -202,8 +205,9 @@
         <parameter key="append_to_file" value="false"/>
         <parameter key="encoding" value="UTF-8"/>
       </operator>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Multiply (4)" width="90" x="1117" y="340"/>
-      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Write CSV (4)" width="90" x="1251" y="391">
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Music" width="90" x="1117" y="340"/>
+      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Music csv" width="90" x="1251" y="391">
+        <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/music.csv"/>
         <parameter key="column_separator" value=";"/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
@@ -211,8 +215,9 @@
         <parameter key="append_to_file" value="false"/>
         <parameter key="encoding" value="UTF-8"/>
       </operator>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Multiply (5)" width="90" x="1117" y="442"/>
-      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Write CSV (5)" width="90" x="1251" y="493">
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Screen" width="90" x="1117" y="442"/>
+      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Screen csv" width="90" x="1251" y="493">
+        <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/screen.csv"/>
         <parameter key="column_separator" value=";"/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
@@ -220,8 +225,9 @@
         <parameter key="append_to_file" value="false"/>
         <parameter key="encoding" value="UTF-8"/>
       </operator>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Multiply (6)" width="90" x="1117" y="544"/>
-      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Write CSV (6)" width="90" x="1251" y="595">
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Theatre" width="90" x="1117" y="544"/>
+      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Theatre csv" width="90" x="1251" y="595">
+        <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/theatre.csv"/>
         <parameter key="column_separator" value=";"/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
@@ -229,8 +235,9 @@
         <parameter key="append_to_file" value="false"/>
         <parameter key="encoding" value="UTF-8"/>
       </operator>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Multiply (7)" width="90" x="1117" y="646"/>
-      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Write CSV (7)" width="90" x="1251" y="697">
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Talk" width="90" x="1117" y="646"/>
+      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Talk csv" width="90" x="1251" y="697">
+        <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/talk.csv"/>
         <parameter key="column_separator" value=";"/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
@@ -238,8 +245,9 @@
         <parameter key="append_to_file" value="false"/>
         <parameter key="encoding" value="UTF-8"/>
       </operator>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Multiply (8)" width="90" x="1117" y="748"/>
-      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Write CSV (8)" width="90" x="1251" y="799">
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Facilities" width="90" x="1117" y="748"/>
+      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Facilities csv" width="90" x="1251" y="799">
+        <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/facilities.csv"/>
         <parameter key="column_separator" value=";"/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
@@ -247,8 +255,9 @@
         <parameter key="append_to_file" value="false"/>
         <parameter key="encoding" value="UTF-8"/>
       </operator>
-      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Multiply (9)" width="90" x="1117" y="850"/>
-      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Write CSV (9)" width="90" x="1251" y="901">
+      <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Creative_movies" width="90" x="1117" y="850"/>
+      <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Creative_movies csv" width="90" x="1251" y="901">
+        <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/creative_movies.csv"/>
         <parameter key="column_separator" value=";"/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
@@ -278,33 +287,33 @@
       <connect from_op="mart structure" from_port="output 1" to_op="Merge" to_port="input 1"/>
       <connect from_op="Merge" from_port="output 1" to_op="Geocoding" to_port="input 1"/>
       <connect from_op="Geocoding" from_port="output 1" to_op="Split and save" to_port="input 1"/>
-      <connect from_op="Split and save" from_port="output 1" to_op="Multiply" to_port="input"/>
-      <connect from_op="Split and save" from_port="output 2" to_op="Multiply (2)" to_port="input"/>
-      <connect from_op="Split and save" from_port="output 3" to_op="Multiply (3)" to_port="input"/>
-      <connect from_op="Split and save" from_port="output 4" to_op="Multiply (4)" to_port="input"/>
-      <connect from_op="Split and save" from_port="output 5" to_op="Multiply (5)" to_port="input"/>
-      <connect from_op="Split and save" from_port="output 6" to_op="Multiply (6)" to_port="input"/>
-      <connect from_op="Split and save" from_port="output 7" to_op="Multiply (7)" to_port="input"/>
-      <connect from_op="Split and save" from_port="output 8" to_op="Multiply (8)" to_port="input"/>
-      <connect from_op="Split and save" from_port="output 9" to_op="Multiply (9)" to_port="input"/>
-      <connect from_op="Multiply" from_port="output 1" to_port="result 1"/>
-      <connect from_op="Multiply" from_port="output 2" to_op="Write CSV" to_port="input"/>
-      <connect from_op="Multiply (2)" from_port="output 1" to_port="result 2"/>
-      <connect from_op="Multiply (2)" from_port="output 2" to_op="Write CSV (2)" to_port="input"/>
-      <connect from_op="Multiply (3)" from_port="output 1" to_op="Write CSV (3)" to_port="input"/>
-      <connect from_op="Multiply (3)" from_port="output 2" to_port="result 3"/>
-      <connect from_op="Multiply (4)" from_port="output 1" to_op="Write CSV (4)" to_port="input"/>
-      <connect from_op="Multiply (4)" from_port="output 2" to_port="result 4"/>
-      <connect from_op="Multiply (5)" from_port="output 1" to_op="Write CSV (5)" to_port="input"/>
-      <connect from_op="Multiply (5)" from_port="output 2" to_port="result 5"/>
-      <connect from_op="Multiply (6)" from_port="output 1" to_op="Write CSV (6)" to_port="input"/>
-      <connect from_op="Multiply (6)" from_port="output 2" to_port="result 6"/>
-      <connect from_op="Multiply (7)" from_port="output 1" to_op="Write CSV (7)" to_port="input"/>
-      <connect from_op="Multiply (7)" from_port="output 2" to_port="result 7"/>
-      <connect from_op="Multiply (8)" from_port="output 1" to_op="Write CSV (8)" to_port="input"/>
-      <connect from_op="Multiply (8)" from_port="output 2" to_port="result 8"/>
-      <connect from_op="Multiply (9)" from_port="output 1" to_op="Write CSV (9)" to_port="input"/>
-      <connect from_op="Multiply (9)" from_port="output 2" to_port="result 9"/>
+      <connect from_op="Split and save" from_port="output 1" to_op="General" to_port="input"/>
+      <connect from_op="Split and save" from_port="output 2" to_op="Science" to_port="input"/>
+      <connect from_op="Split and save" from_port="output 3" to_op="Visual" to_port="input"/>
+      <connect from_op="Split and save" from_port="output 4" to_op="Music" to_port="input"/>
+      <connect from_op="Split and save" from_port="output 5" to_op="Screen" to_port="input"/>
+      <connect from_op="Split and save" from_port="output 6" to_op="Theatre" to_port="input"/>
+      <connect from_op="Split and save" from_port="output 7" to_op="Talk" to_port="input"/>
+      <connect from_op="Split and save" from_port="output 8" to_op="Facilities" to_port="input"/>
+      <connect from_op="Split and save" from_port="output 9" to_op="Creative_movies" to_port="input"/>
+      <connect from_op="General" from_port="output 1" to_port="result 1"/>
+      <connect from_op="General" from_port="output 2" to_op="General csv" to_port="input"/>
+      <connect from_op="Science" from_port="output 1" to_port="result 2"/>
+      <connect from_op="Science" from_port="output 2" to_op="Science csv" to_port="input"/>
+      <connect from_op="Visual" from_port="output 1" to_op="Visual csv" to_port="input"/>
+      <connect from_op="Visual" from_port="output 2" to_port="result 3"/>
+      <connect from_op="Music" from_port="output 1" to_op="Music csv" to_port="input"/>
+      <connect from_op="Music" from_port="output 2" to_port="result 4"/>
+      <connect from_op="Screen" from_port="output 1" to_op="Screen csv" to_port="input"/>
+      <connect from_op="Screen" from_port="output 2" to_port="result 5"/>
+      <connect from_op="Theatre" from_port="output 1" to_op="Theatre csv" to_port="input"/>
+      <connect from_op="Theatre" from_port="output 2" to_port="result 6"/>
+      <connect from_op="Talk" from_port="output 1" to_op="Talk csv" to_port="input"/>
+      <connect from_op="Talk" from_port="output 2" to_port="result 7"/>
+      <connect from_op="Facilities" from_port="output 1" to_op="Facilities csv" to_port="input"/>
+      <connect from_op="Facilities" from_port="output 2" to_port="result 8"/>
+      <connect from_op="Creative_movies" from_port="output 1" to_op="Creative_movies csv" to_port="input"/>
+      <connect from_op="Creative_movies" from_port="output 2" to_port="result 9"/>
       <portSpacing port="source_input 1" spacing="0"/>
       <portSpacing port="sink_result 1" spacing="0"/>
       <portSpacing port="sink_result 2" spacing="0"/>

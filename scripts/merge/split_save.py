@@ -19,7 +19,7 @@ def rm_main(JSONstring):
 		if len(events[t]) > 0:
 			events[t] = DataFrame(events[t])
 		else:
-			fields = [f'GEN_{v}' for v in GeneralEvent("", "", "", "", "", "", "", "").keys()[:-1]]
+			fields = [f'GEN_{v}' for v in list(GeneralEvent("", "", "", "", "", "", "", "").keys())[:-1]]
 			events[t] = DataFrame(columns=fields)
 
 	events['facilities'] = DataFrame(events['facilities'])

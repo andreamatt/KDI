@@ -17,6 +17,8 @@ DETAILS_FIELDS = ','.join(FIELDS)
 
 classes_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/structure/classes.py').text
 exec(classes_txt)
+constants_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/constants.py').text
+exec(constants_txt)
 
 
 def Facility(name, telephone, website, mail, hasParking, animalsAllowed, smokingAllowed, isIndoor):
@@ -129,8 +131,9 @@ def rm_main(eventsJSON):
 	#locations = [loc for loc in list(events.loc[:, "locationName"]) if str(loc) != 'nan']
 	events = json.loads(eventsJSON)
 	locations = []
-	for l in events.values():
-		for e in l:
+	event_types = [general, science, visual, music, screen, theatre, talk]
+	for t in event_types:
+		for e in events[t]:
 			if e['GEN_locationText'] != "":
 				locations.append(e['GEN_locationText'])
 	# to make locations unique
@@ -139,8 +142,8 @@ def rm_main(eventsJSON):
 	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/DBG/locationsToSearch.json', 'w') as outfile:
 		json.dump(locations, outfile, indent='\t')
 
-	for l in events.values():
-		for e in l:
+	for t in event_types:
+		for e in events[t]:
 			text = e.pop('GEN_locationText')
 			if text != "":
 				e['GEN_geoURI'] = text_to_URI(text)

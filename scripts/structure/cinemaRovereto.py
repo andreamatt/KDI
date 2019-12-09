@@ -12,7 +12,10 @@ exec(constants_txt)
 def text_to_URI(labels):
 	result = BASE_URI
 	for l in labels:
-		result += f'/{quote(l)}'
+		if l != "" and l != None:
+			result += f'/{quote(l)}'
+		else:
+			result += f'/{quote("_")}'
 	return result
 
 
