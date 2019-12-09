@@ -1,0 +1,1474 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix f_events: <http://www.semanticweb.org/facilitiesEventsOntology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1drmde471x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "general.csv" ;
+	km-dev:modelPublicationTime "1575931547874"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"GEN_duration\"}],[{\"columnName\":\"GEN_isTicketAvailable\"}],[{\"columnName\":\"GEN_language\"}],[{\"columnName\":\"TIME_endDate\"}],[{\"columnName\":\"TIME_startDate\"}],[{\"columnName\":\"TIME_endTime\"}],[{\"columnName\":\"TIME_startTime\"}],[{\"columnName\":\"GEN_price\"}],[{\"columnName\":\"GEN_name\"}],[{\"columnName\":\"GEN_geoURI\"}],[{\"columnName\":\"GEN_website\"}],[{\"columnName\":\"GEN_description\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"GEN_duration\"}],[{\"columnName\":\"TIME_URI\"}],[{\"columnName\":\"GEN_isTicketAvailable\"}],[{\"columnName\":\"GEN_language\"}],[{\"columnName\":\"TIME_endDate\"}],[{\"columnName\":\"TIME_startDate\"}],[{\"columnName\":\"TIME_endTime\"}],[{\"columnName\":\"TIME_startTime\"}],[{\"columnName\":\"GEN_price\"}],[{\"columnName\":\"GEN_name\"}],[{\"columnName\":\"GEN_geoURI\"}],[{\"columnName\":\"GEN_website\"}],[{\"columnName\":\"GEN_description\"}],[{\"columnName\":\"GEN_URI\"}]]" ;
+	km-dev:hasModelLabel "general.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"OrganizeColumnsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"orderedColumns\",
+                \"type\": \"orderedColumns\",
+                \"value\": [
+                    {
+                        \"visible\": true,
+                        \"name\": \"GEN_name\",
+                        \"id\": [{\"columnName\": \"GEN_name\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"GEN_price\",
+                        \"id\": [{\"columnName\": \"GEN_price\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"GEN_description\",
+                        \"id\": [{\"columnName\": \"GEN_description\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"GEN_website\",
+                        \"id\": [{\"columnName\": \"GEN_website\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"GEN_duration\",
+                        \"id\": [{\"columnName\": \"GEN_duration\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"GEN_language\",
+                        \"id\": [{\"columnName\": \"GEN_language\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"GEN_isTicketAvailable\",
+                        \"id\": [{\"columnName\": \"GEN_isTicketAvailable\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"GEN_geoURI\",
+                        \"id\": [{\"columnName\": \"GEN_geoURI\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"TIME_startDate\",
+                        \"id\": [{\"columnName\": \"TIME_startDate\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"TIME_endDate\",
+                        \"id\": [{\"columnName\": \"TIME_endDate\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"TIME_startTime\",
+                        \"id\": [{\"columnName\": \"TIME_startTime\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"TIME_endTime\",
+                        \"id\": [{\"columnName\": \"TIME_endTime\"}]
+                    }
+                ]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [
+            \"Transformation\",
+            \"IgnoreInBatch\"
+        ]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"GEN_name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"GEN_URI\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"http://www.semanticweb.org/facilitiesEventsOntology/GeneralEvent/GeneralEvent_\\\" + str(getRowIndex())\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_URI\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"TIME_startDate\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"TIME_URI\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"http://www.semanticweb.org/facilitiesEventsOntology/ScreeningEvent/Time/time_\\\" + str(getRowIndex())\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIME_URI\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"GEN_name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#eventName\",
+                    \"DomainLabel\": \"f_events:Event1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"GEN_URI\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"f_events:Event1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_URI\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_URI\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"GEN_price\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#price\",
+                    \"DomainLabel\": \"f_events:Event1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_price\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_price\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"GEN_description\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#description\",
+                    \"DomainLabel\": \"f_events:Event1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_description\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_description\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"GEN_website\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#eventWebsite\",
+                    \"DomainLabel\": \"f_events:Event1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_website\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_website\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"GEN_duration\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#eventDuration\",
+                    \"DomainLabel\": \"f_events:Event1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_duration\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_duration\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"GEN_language\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#language\",
+                    \"DomainLabel\": \"f_events:Event1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_language\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_language\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"GEN_isTicketAvailable\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#isTicketAvailable\",
+                    \"DomainLabel\": \"f_events:Event1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_isTicketAvailable\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_isTicketAvailable\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"TIME_startDate\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Time\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Time1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#startDate\",
+                    \"DomainLabel\": \"f_events:Time1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIME_startDate\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIME_startDate\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"TIME_endDate\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Time\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Time1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#endDate\",
+                    \"DomainLabel\": \"f_events:Time1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIME_endDate\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIME_endDate\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"TIME_startTime\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Time\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Time1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#startTime\",
+                    \"DomainLabel\": \"f_events:Time1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIME_startTime\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIME_startTime\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"TIME_endTime\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Time\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Time1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#endTime\",
+                    \"DomainLabel\": \"f_events:Time1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIME_endTime\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIME_endTime\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"GEN_geoURI\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"f_events:GeoCoordinates1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_geoURI\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_geoURI\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates1\",
+                    \"edgeId\": \"http://www.semanticweb.org/facilitiesEventsOntology#isLocatedIn\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event1\",
+                    \"edgeId\": \"http://www.semanticweb.org/facilitiesEventsOntology#isLocationOf\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Time1\",
+                    \"edgeId\": \"http://www.semanticweb.org/facilitiesEventsOntology#hasSchedule\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Time\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event1\",
+                    \"edgeId\": \"http://www.semanticweb.org/facilitiesEventsOntology#isScheduleOf\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Event\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Time1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Time\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_a9e2fc21-93f9-4916-b570-09602f3f8c57 a rr:TriplesMap .
+
+_:node1drmde471x1 km-dev:hasTriplesMap km-dev:TriplesMap_a9e2fc21-93f9-4916-b570-09602f3f8c57 .
+
+km-dev:TriplesMap_a9e2fc21-93f9-4916-b570-09602f3f8c57 km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x2 rr:tableName "general.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasLogicalTable _:node1drmde471x2 .
+
+km-dev:TriplesMap_a9e2fc21-93f9-4916-b570-09602f3f8c57 rr:logicalTable _:node1drmde471x2 ;
+	rr:subjectMap _:node1drmde471x3 .
+
+_:node1drmde471x1 km-dev:hasSubjectMap _:node1drmde471x3 .
+
+_:node1drmde471x3 km-dev:isPartOfMapping _:node1drmde471x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/facilitiesEventsOntology#Event1" ;
+	rr:class f_events:Event ;
+	rr:template "{GEN_URI}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_aa719677-f796-46e8-ac70-a1fef4ecc911 rr:predicate f_events:price .
+
+_:node1drmde471x4 rr:column "GEN_price" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasObjectMap _:node1drmde471x4 .
+
+km-dev:PredicateObjectMap_aa719677-f796-46e8-ac70-a1fef4ecc911 rr:objectMap _:node1drmde471x4 .
+
+km-dev:TriplesMap_a9e2fc21-93f9-4916-b570-09602f3f8c57 rr:predicateObjectMap km-dev:PredicateObjectMap_aa719677-f796-46e8-ac70-a1fef4ecc911 .
+
+km-dev:PredicateObjectMap_aa719677-f796-46e8-ac70-a1fef4ecc911 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_aa719677-f796-46e8-ac70-a1fef4ecc911 .
+
+km-dev:PredicateObjectMap_963a9560-7c06-4cc0-8275-8eecdfe3bf79 rr:predicate f_events:language .
+
+_:node1drmde471x5 rr:column "GEN_language" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasObjectMap _:node1drmde471x5 .
+
+km-dev:PredicateObjectMap_963a9560-7c06-4cc0-8275-8eecdfe3bf79 rr:objectMap _:node1drmde471x5 .
+
+km-dev:TriplesMap_a9e2fc21-93f9-4916-b570-09602f3f8c57 rr:predicateObjectMap km-dev:PredicateObjectMap_963a9560-7c06-4cc0-8275-8eecdfe3bf79 .
+
+km-dev:PredicateObjectMap_963a9560-7c06-4cc0-8275-8eecdfe3bf79 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_963a9560-7c06-4cc0-8275-8eecdfe3bf79 .
+
+km-dev:PredicateObjectMap_bb304940-c092-4e1c-a5a6-1555f9ff4279 rr:predicate f_events:eventWebsite .
+
+_:node1drmde471x6 rr:column "GEN_website" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasObjectMap _:node1drmde471x6 .
+
+km-dev:PredicateObjectMap_bb304940-c092-4e1c-a5a6-1555f9ff4279 rr:objectMap _:node1drmde471x6 .
+
+km-dev:TriplesMap_a9e2fc21-93f9-4916-b570-09602f3f8c57 rr:predicateObjectMap km-dev:PredicateObjectMap_bb304940-c092-4e1c-a5a6-1555f9ff4279 .
+
+km-dev:PredicateObjectMap_bb304940-c092-4e1c-a5a6-1555f9ff4279 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_bb304940-c092-4e1c-a5a6-1555f9ff4279 .
+
+km-dev:PredicateObjectMap_e1c51d63-1c6b-45e7-a16a-526bb5193ff6 rr:predicate f_events:eventDuration .
+
+_:node1drmde471x7 rr:column "GEN_duration" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasObjectMap _:node1drmde471x7 .
+
+km-dev:PredicateObjectMap_e1c51d63-1c6b-45e7-a16a-526bb5193ff6 rr:objectMap _:node1drmde471x7 .
+
+km-dev:TriplesMap_a9e2fc21-93f9-4916-b570-09602f3f8c57 rr:predicateObjectMap km-dev:PredicateObjectMap_e1c51d63-1c6b-45e7-a16a-526bb5193ff6 .
+
+km-dev:PredicateObjectMap_e1c51d63-1c6b-45e7-a16a-526bb5193ff6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e1c51d63-1c6b-45e7-a16a-526bb5193ff6 .
+
+km-dev:PredicateObjectMap_d6110fbf-4ee6-4e2a-a0c5-96ff3fe6858f rr:predicate f_events:eventName .
+
+_:node1drmde471x8 rr:column "GEN_name" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasObjectMap _:node1drmde471x8 .
+
+km-dev:PredicateObjectMap_d6110fbf-4ee6-4e2a-a0c5-96ff3fe6858f rr:objectMap _:node1drmde471x8 .
+
+km-dev:TriplesMap_a9e2fc21-93f9-4916-b570-09602f3f8c57 rr:predicateObjectMap km-dev:PredicateObjectMap_d6110fbf-4ee6-4e2a-a0c5-96ff3fe6858f .
+
+km-dev:PredicateObjectMap_d6110fbf-4ee6-4e2a-a0c5-96ff3fe6858f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d6110fbf-4ee6-4e2a-a0c5-96ff3fe6858f .
+
+km-dev:PredicateObjectMap_af240efd-e525-434d-9fd2-5db1c5b19279 rr:predicate f_events:description .
+
+_:node1drmde471x9 rr:column "GEN_description" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasObjectMap _:node1drmde471x9 .
+
+km-dev:PredicateObjectMap_af240efd-e525-434d-9fd2-5db1c5b19279 rr:objectMap _:node1drmde471x9 .
+
+km-dev:TriplesMap_a9e2fc21-93f9-4916-b570-09602f3f8c57 rr:predicateObjectMap km-dev:PredicateObjectMap_af240efd-e525-434d-9fd2-5db1c5b19279 .
+
+km-dev:PredicateObjectMap_af240efd-e525-434d-9fd2-5db1c5b19279 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_af240efd-e525-434d-9fd2-5db1c5b19279 .
+
+km-dev:PredicateObjectMap_7eb0d6be-0959-4183-8b37-9494bae35e96 rr:predicate f_events:isTicketAvailable .
+
+_:node1drmde471x10 rr:column "GEN_isTicketAvailable" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasObjectMap _:node1drmde471x10 .
+
+km-dev:PredicateObjectMap_7eb0d6be-0959-4183-8b37-9494bae35e96 rr:objectMap _:node1drmde471x10 .
+
+km-dev:TriplesMap_a9e2fc21-93f9-4916-b570-09602f3f8c57 rr:predicateObjectMap km-dev:PredicateObjectMap_7eb0d6be-0959-4183-8b37-9494bae35e96 .
+
+km-dev:PredicateObjectMap_7eb0d6be-0959-4183-8b37-9494bae35e96 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7eb0d6be-0959-4183-8b37-9494bae35e96 .
+
+km-dev:PredicateObjectMap_81344e6a-eaa2-409e-aacf-c508bb166304 rr:predicate f_events:isLocatedIn .
+
+km-dev:RefObjectMap_d26e2899-6560-4c3a-8009-293861d77c20 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_54531fa2-d327-4ba8-b182-675cc9686ae8 ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasObjectMap km-dev:RefObjectMap_d26e2899-6560-4c3a-8009-293861d77c20 .
+
+km-dev:PredicateObjectMap_81344e6a-eaa2-409e-aacf-c508bb166304 rr:objectMap km-dev:RefObjectMap_d26e2899-6560-4c3a-8009-293861d77c20 .
+
+km-dev:TriplesMap_a9e2fc21-93f9-4916-b570-09602f3f8c57 rr:predicateObjectMap km-dev:PredicateObjectMap_81344e6a-eaa2-409e-aacf-c508bb166304 .
+
+km-dev:PredicateObjectMap_81344e6a-eaa2-409e-aacf-c508bb166304 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_81344e6a-eaa2-409e-aacf-c508bb166304 .
+
+km-dev:PredicateObjectMap_438838f8-9136-43cb-8bef-0947e426aea7 rr:predicate f_events:hasSchedule .
+
+km-dev:RefObjectMap_39b2d115-8163-44c9-b2fa-47c424aa7c5c a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_4fbf9dc9-2f09-431f-8691-7a1650fa92a3 ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasObjectMap km-dev:RefObjectMap_39b2d115-8163-44c9-b2fa-47c424aa7c5c .
+
+km-dev:PredicateObjectMap_438838f8-9136-43cb-8bef-0947e426aea7 rr:objectMap km-dev:RefObjectMap_39b2d115-8163-44c9-b2fa-47c424aa7c5c .
+
+km-dev:TriplesMap_a9e2fc21-93f9-4916-b570-09602f3f8c57 rr:predicateObjectMap km-dev:PredicateObjectMap_438838f8-9136-43cb-8bef-0947e426aea7 .
+
+km-dev:PredicateObjectMap_438838f8-9136-43cb-8bef-0947e426aea7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_438838f8-9136-43cb-8bef-0947e426aea7 .
+
+km-dev:TriplesMap_4fbf9dc9-2f09-431f-8691-7a1650fa92a3 a rr:TriplesMap .
+
+_:node1drmde471x1 km-dev:hasTriplesMap km-dev:TriplesMap_4fbf9dc9-2f09-431f-8691-7a1650fa92a3 .
+
+km-dev:TriplesMap_4fbf9dc9-2f09-431f-8691-7a1650fa92a3 km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x11 rr:tableName "general.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasLogicalTable _:node1drmde471x11 .
+
+km-dev:TriplesMap_4fbf9dc9-2f09-431f-8691-7a1650fa92a3 rr:logicalTable _:node1drmde471x11 ;
+	rr:subjectMap _:node1drmde471x12 .
+
+_:node1drmde471x1 km-dev:hasSubjectMap _:node1drmde471x12 .
+
+_:node1drmde471x12 km-dev:isPartOfMapping _:node1drmde471x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/facilitiesEventsOntology#Time1" ;
+	rr:class f_events:Time ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "f_events:Time1" .
+
+km-dev:PredicateObjectMap_cad7242d-99c0-459a-abf9-94c4be227a5c rr:predicate f_events:startTime .
+
+_:node1drmde471x13 rr:column "TIME_startTime" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasObjectMap _:node1drmde471x13 .
+
+km-dev:PredicateObjectMap_cad7242d-99c0-459a-abf9-94c4be227a5c rr:objectMap _:node1drmde471x13 .
+
+km-dev:TriplesMap_4fbf9dc9-2f09-431f-8691-7a1650fa92a3 rr:predicateObjectMap km-dev:PredicateObjectMap_cad7242d-99c0-459a-abf9-94c4be227a5c .
+
+km-dev:PredicateObjectMap_cad7242d-99c0-459a-abf9-94c4be227a5c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_cad7242d-99c0-459a-abf9-94c4be227a5c .
+
+km-dev:PredicateObjectMap_eda9521b-dc22-43e4-a9e9-61384a873dbe rr:predicate f_events:startDate .
+
+_:node1drmde471x14 rr:column "TIME_startDate" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasObjectMap _:node1drmde471x14 .
+
+km-dev:PredicateObjectMap_eda9521b-dc22-43e4-a9e9-61384a873dbe rr:objectMap _:node1drmde471x14 .
+
+km-dev:TriplesMap_4fbf9dc9-2f09-431f-8691-7a1650fa92a3 rr:predicateObjectMap km-dev:PredicateObjectMap_eda9521b-dc22-43e4-a9e9-61384a873dbe .
+
+km-dev:PredicateObjectMap_eda9521b-dc22-43e4-a9e9-61384a873dbe a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_eda9521b-dc22-43e4-a9e9-61384a873dbe .
+
+km-dev:PredicateObjectMap_b1ace7e9-64f9-4d54-9794-a6b9ec5f33da rr:predicate f_events:endDate .
+
+_:node1drmde471x15 rr:column "TIME_endDate" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasObjectMap _:node1drmde471x15 .
+
+km-dev:PredicateObjectMap_b1ace7e9-64f9-4d54-9794-a6b9ec5f33da rr:objectMap _:node1drmde471x15 .
+
+km-dev:TriplesMap_4fbf9dc9-2f09-431f-8691-7a1650fa92a3 rr:predicateObjectMap km-dev:PredicateObjectMap_b1ace7e9-64f9-4d54-9794-a6b9ec5f33da .
+
+km-dev:PredicateObjectMap_b1ace7e9-64f9-4d54-9794-a6b9ec5f33da a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b1ace7e9-64f9-4d54-9794-a6b9ec5f33da .
+
+km-dev:PredicateObjectMap_cecca042-4bb0-42dd-a4e1-95f2dbd45d8c rr:predicate f_events:endTime .
+
+_:node1drmde471x16 rr:column "TIME_endTime" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasObjectMap _:node1drmde471x16 .
+
+km-dev:PredicateObjectMap_cecca042-4bb0-42dd-a4e1-95f2dbd45d8c rr:objectMap _:node1drmde471x16 .
+
+km-dev:TriplesMap_4fbf9dc9-2f09-431f-8691-7a1650fa92a3 rr:predicateObjectMap km-dev:PredicateObjectMap_cecca042-4bb0-42dd-a4e1-95f2dbd45d8c .
+
+km-dev:PredicateObjectMap_cecca042-4bb0-42dd-a4e1-95f2dbd45d8c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_cecca042-4bb0-42dd-a4e1-95f2dbd45d8c .
+
+km-dev:PredicateObjectMap_7de52497-0e97-4d71-9068-a686f7e9ef05 rr:predicate f_events:isScheduleOf .
+
+km-dev:RefObjectMap_b1076399-4be2-4352-9c3b-4c89417f2c0e a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_a9e2fc21-93f9-4916-b570-09602f3f8c57 ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasObjectMap km-dev:RefObjectMap_b1076399-4be2-4352-9c3b-4c89417f2c0e .
+
+km-dev:PredicateObjectMap_7de52497-0e97-4d71-9068-a686f7e9ef05 rr:objectMap km-dev:RefObjectMap_b1076399-4be2-4352-9c3b-4c89417f2c0e .
+
+km-dev:TriplesMap_4fbf9dc9-2f09-431f-8691-7a1650fa92a3 rr:predicateObjectMap km-dev:PredicateObjectMap_7de52497-0e97-4d71-9068-a686f7e9ef05 .
+
+km-dev:PredicateObjectMap_7de52497-0e97-4d71-9068-a686f7e9ef05 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7de52497-0e97-4d71-9068-a686f7e9ef05 .
+
+km-dev:TriplesMap_54531fa2-d327-4ba8-b182-675cc9686ae8 a rr:TriplesMap .
+
+_:node1drmde471x1 km-dev:hasTriplesMap km-dev:TriplesMap_54531fa2-d327-4ba8-b182-675cc9686ae8 .
+
+km-dev:TriplesMap_54531fa2-d327-4ba8-b182-675cc9686ae8 km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x17 rr:tableName "general.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasLogicalTable _:node1drmde471x17 .
+
+km-dev:TriplesMap_54531fa2-d327-4ba8-b182-675cc9686ae8 rr:logicalTable _:node1drmde471x17 ;
+	rr:subjectMap _:node1drmde471x18 .
+
+_:node1drmde471x1 km-dev:hasSubjectMap _:node1drmde471x18 .
+
+_:node1drmde471x18 km-dev:isPartOfMapping _:node1drmde471x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates1" ;
+	rr:class f_events:GeoCoordinates ;
+	rr:template "{GEN_geoURI}" .
+
+km-dev:PredicateObjectMap_ada32006-3fef-47c7-b0f3-129b7e723a4f rr:predicate f_events:isLocationOf .
+
+km-dev:RefObjectMap_9e321827-07e9-4bf2-8b18-68825575e3a5 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_a9e2fc21-93f9-4916-b570-09602f3f8c57 ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasObjectMap km-dev:RefObjectMap_9e321827-07e9-4bf2-8b18-68825575e3a5 .
+
+km-dev:PredicateObjectMap_ada32006-3fef-47c7-b0f3-129b7e723a4f rr:objectMap km-dev:RefObjectMap_9e321827-07e9-4bf2-8b18-68825575e3a5 .
+
+km-dev:TriplesMap_54531fa2-d327-4ba8-b182-675cc9686ae8 rr:predicateObjectMap km-dev:PredicateObjectMap_ada32006-3fef-47c7-b0f3-129b7e723a4f .
+
+km-dev:PredicateObjectMap_ada32006-3fef-47c7-b0f3-129b7e723a4f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drmde471x1 .
+
+_:node1drmde471x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ada32006-3fef-47c7-b0f3-129b7e723a4f .
