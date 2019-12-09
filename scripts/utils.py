@@ -1,3 +1,16 @@
+from urllib.parse import quote
+
+general = 'Event'
+science = 'ScienceEvent'
+visual = 'VisualArtsEvent'
+music = 'MusicEvent'
+screen = 'ScreeningEvent'
+theatre = 'TheatreEvent'
+talk = 'TalkEvent'
+creative_movies = 'Movie'
+BASE_URI = "http://www.semanticweb.org/facilitiesEventsOntology"
+
+
 def GeneralEvent(name, price, description, website, duration, language, isTicketAvailable, locationText):
 	return locals()
 
@@ -72,3 +85,13 @@ def Timetables(monday, tuestay, wednesday, thursday, friday, saturday, sunday):
 
 def GeoCoordinates(latitude, longitude, altitude, address, addressLocality, addressRegion, postalCode, URI):
 	return locals()
+
+
+def text_to_URI(labels):
+	result = BASE_URI
+	for l in labels:
+		if l != "" and l != None and isinstance(l, str):
+			result += f'/{quote(l)}'
+		else:
+			result += f'/{quote("unknown")}'
+	return result

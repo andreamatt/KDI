@@ -2,10 +2,8 @@ import json
 import requests
 from pandas import DataFrame
 
-classes_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/structure/classes.py').text
-exec(classes_txt)
-constants_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/constants.py').text
-exec(constants_txt)
+utils_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/utils.py').text
+exec(utils_txt)
 
 
 def rm_main(JSONstring):

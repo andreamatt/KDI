@@ -1,7 +1,6 @@
 from concurrent.futures import ThreadPoolExecutor as PoolExecutor
 import requests
 import json
-from urllib.parse import quote
 from pandas import DataFrame
 
 API_KEY = 'AIzaSyB211Jj9rzG_io-a_DBNx_aaALMdOaNiug'
@@ -15,10 +14,8 @@ FIELDS = [
 
 DETAILS_FIELDS = ','.join(FIELDS)
 
-classes_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/structure/classes.py').text
-exec(classes_txt)
-constants_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/constants.py').text
-exec(constants_txt)
+utils_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/utils.py').text
+exec(utils_txt)
 
 
 def Facility(name, telephone, website, mail, hasParking, animalsAllowed, smokingAllowed, isIndoor):
@@ -120,10 +117,6 @@ def place_details_ALL():
 			pass
 
 
-def text_to_URI(text):
-	return f'{BASE_URI}/{quote(text)}'
-
-
 def rm_main(eventsJSON):
 	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/DBG/geocoding.json', 'w') as outfile:
 		json.dump(json.loads(eventsJSON), outfile, indent='\t')
@@ -146,7 +139,7 @@ def rm_main(eventsJSON):
 		for e in events[t]:
 			text = e.pop('GEN_locationText')
 			if text != "":
-				e['GEN_geoURI'] = text_to_URI(text)
+				e['GEN_geoURI'] = text_to_URI([text])
 			else:
 				e['GEN_geoURI'] = ""
 
@@ -179,7 +172,7 @@ def rm_main(eventsJSON):
 		for comp in result['geocoded']['address_components']:
 			if 'postal_code' in comp['types']:
 				postalCode = comp['long_name']
-		coordinates = GeoCoordinates(lat, lng, altitude, address, addressLocality, addressRegion, postalCode, text_to_URI(searched_name))
+		coordinates = GeoCoordinates(lat, lng, altitude, address, addressLocality, addressRegion, postalCode, text_to_URI([searched_name]))
 
 		facility = {}
 		for k, v in fac.items():
@@ -205,7 +198,7 @@ def rm_main(eventsJSON):
 			for comp in result['address_components']:
 				if 'postal_code' in comp['types']:
 					postalCode = comp['long_name']
-			coordinates = GeoCoordinates(lat, lng, altitude, address, addressLocality, addressRegion, postalCode, text_to_URI(searched_name))
+			coordinates = GeoCoordinates(lat, lng, altitude, address, addressLocality, addressRegion, postalCode, text_to_URI([searched_name]))
 
 			facility = {}
 			for k, v in coordinates.items():
