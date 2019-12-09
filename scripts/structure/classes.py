@@ -58,7 +58,7 @@ def Discount(young, students, children, groups):
 	return locals()
 
 
-def CreativeWork(name, creator, createDate, url):
+def CreativeWork(name, creator, createDate, url, URI):
 	return locals()
 
 
@@ -70,5 +70,5 @@ def Timetables(monday, tuestay, wednesday, thursday, friday, saturday, sunday):
 	return locals()
 
 
-def GeoCoordinates(latitude, longitude, altitude, address, addressLocality, addressRegion, postalCode, locationText):
+def GeoCoordinates(latitude, longitude, altitude, address, addressLocality, addressRegion, postalCode, URI):
 	return locals()

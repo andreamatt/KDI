@@ -9,10 +9,10 @@ exec(constants_txt)
 
 
 def rm_main(*JSONStrings):
-	events = {general: [], science: [], visual: [], music: [], screen: [], theatre: [], talk: []}
+	results = {general: [], science: [], visual: [], music: [], screen: [], theatre: [], talk: [], creative_movies: []}
 	for jsonstring in JSONStrings:
 		source_events = json.loads(jsonstring)
-		for category, event_list in source_events.items():
-			events[category].extend(event_list)
+		for entity_type, event_list in source_events.items():
+			results[entity_type].extend(event_list)
 
-	return json.dumps(events)
+	return json.dumps(results)

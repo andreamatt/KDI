@@ -5,3 +5,5 @@ music = 'MusicEvent'
 screen = 'ScreeningEvent'
 theatre = 'TheatreEvent'
 talk = 'TalkEvent'
+creative_movies = 'Movie'
+BASE_URI = "http://www.semanticweb.org/facilitiesEventsOntology"

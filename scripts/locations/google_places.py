@@ -2,6 +2,7 @@ from concurrent.futures import ThreadPoolExecutor as PoolExecutor
 import requests
 import json
 from urllib.parse import quote
+from pandas import DataFrame
 
 API_KEY = 'AIzaSyB211Jj9rzG_io-a_DBNx_aaALMdOaNiug'
 
@@ -118,7 +119,7 @@ def place_details_ALL():
 
 
 def text_to_URI(text):
-	return f'http://www.semanticweb.org/facilitiesEventsOntology/{quote(text)}'
+	return f'{BASE_URI}/{quote(text)}'
 
 
 def rm_main(eventsJSON):
@@ -140,8 +141,11 @@ def rm_main(eventsJSON):
 
 	for l in events.values():
 		for e in l:
-			if e['GEN_locationText'] != "":
-				e['GEN_locationText'] = text_to_URI(e['GEN_locationText'])
+			text = e.pop('GEN_locationText')
+			if text != "":
+				e['GEN_geoURI'] = text_to_URI(text)
+			else:
+				e['GEN_geoURI'] = ""
 
 	facilities = []
 
@@ -172,7 +176,7 @@ def rm_main(eventsJSON):
 		for comp in result['geocoded']['address_components']:
 			if 'postal_code' in comp['types']:
 				postalCode = comp['long_name']
-		coordinates = GeoCoordinates(lat, lng, altitude, address, addressLocality, addressRegion, postalCode, searched_name)
+		coordinates = GeoCoordinates(lat, lng, altitude, address, addressLocality, addressRegion, postalCode, text_to_URI(searched_name))
 
 		facility = {}
 		for k, v in fac.items():
@@ -193,33 +197,19 @@ def rm_main(eventsJSON):
 			address = result['formatted_address']
 			addressLocality = "WHAT IS IT??"
 			addressRegion = "WHAT IS IT???"
-			#postalCode = [comp['long_name'] for comp in result['address_components'] if 'postal_code' in comp['types']][0]
+
 			postalCode = ''
 			for comp in result['address_components']:
 				if 'postal_code' in comp['types']:
 					postalCode = comp['long_name']
-			coordinates = GeoCoordinates(lat, lng, altitude, address, addressLocality, addressRegion, postalCode, searched_name)
+			coordinates = GeoCoordinates(lat, lng, altitude, address, addressLocality, addressRegion, postalCode, text_to_URI(searched_name))
 
 			facility = {}
 			for k, v in coordinates.items():
 				facility[f'GEO_{k}'] = v
 
 			facilities.append(facility)
-			#facilities.append({'locationText': searched_name, 'facility': "", 'geocoordinates': coordinates.__dict__})
-
-	#facilities_DF = []
-	# for fac in facilities:
-	# 	obj = {'locationText': text_to_URI(fac['locationText'])}
-	# 	for k, v in fac['geocoordinates'].items():
-	# 		obj[f'GEO_{k}'] = v
-
-	# 	if fac['facility'] != '':
-	# 		for k, v in fac['facility'].items():
-	# 			obj[f'FAC_{k}'] = v
-
-	# 	facilities_DF.append(obj)
 
 	events['facilities'] = facilities
 
-	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/output/UNIFIED.json', 'w') as outfile:
-		json.dump(events, outfile, indent='\t')
+	return json.dumps(events)
