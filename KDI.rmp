@@ -178,7 +178,7 @@
       <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="General" width="90" x="1117" y="34"/>
       <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="General csv" width="90" x="1251" y="85">
         <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/general.csv"/>
-        <parameter key="column_separator" value=";"/>
+        <parameter key="column_separator" value=","/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
         <parameter key="format_date_attributes" value="true"/>
@@ -188,7 +188,7 @@
       <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Science" width="90" x="1117" y="136"/>
       <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Science csv" width="90" x="1251" y="187">
         <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/science.csv"/>
-        <parameter key="column_separator" value=";"/>
+        <parameter key="column_separator" value=","/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
         <parameter key="format_date_attributes" value="true"/>
@@ -198,7 +198,7 @@
       <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Visual" width="90" x="1117" y="238"/>
       <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Visual csv" width="90" x="1251" y="289">
         <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/visual.csv"/>
-        <parameter key="column_separator" value=";"/>
+        <parameter key="column_separator" value=","/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
         <parameter key="format_date_attributes" value="true"/>
@@ -208,7 +208,7 @@
       <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Music" width="90" x="1117" y="340"/>
       <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Music csv" width="90" x="1251" y="391">
         <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/music.csv"/>
-        <parameter key="column_separator" value=";"/>
+        <parameter key="column_separator" value=","/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
         <parameter key="format_date_attributes" value="true"/>
@@ -218,7 +218,7 @@
       <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Screen" width="90" x="1117" y="442"/>
       <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Screen csv" width="90" x="1251" y="493">
         <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/screen.csv"/>
-        <parameter key="column_separator" value=";"/>
+        <parameter key="column_separator" value=","/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
         <parameter key="format_date_attributes" value="true"/>
@@ -228,7 +228,7 @@
       <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Theatre" width="90" x="1117" y="544"/>
       <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Theatre csv" width="90" x="1251" y="595">
         <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/theatre.csv"/>
-        <parameter key="column_separator" value=";"/>
+        <parameter key="column_separator" value=","/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
         <parameter key="format_date_attributes" value="true"/>
@@ -238,7 +238,7 @@
       <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Talk" width="90" x="1117" y="646"/>
       <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Talk csv" width="90" x="1251" y="697">
         <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/talk.csv"/>
-        <parameter key="column_separator" value=";"/>
+        <parameter key="column_separator" value=","/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
         <parameter key="format_date_attributes" value="true"/>
@@ -248,7 +248,7 @@
       <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Facilities" width="90" x="1117" y="748"/>
       <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Facilities csv" width="90" x="1251" y="799">
         <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/facilities.csv"/>
-        <parameter key="column_separator" value=";"/>
+        <parameter key="column_separator" value=","/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
         <parameter key="format_date_attributes" value="true"/>
@@ -258,7 +258,7 @@
       <operator activated="true" class="multiply" compatibility="9.5.001" expanded="true" height="103" name="Creative_movies" width="90" x="1117" y="850"/>
       <operator activated="true" class="write_csv" compatibility="9.5.001" expanded="true" height="82" name="Creative_movies csv" width="90" x="1251" y="901">
         <parameter key="csv_file" value="C:/Users/andre/Desktop/kdi/scraping/KDI/output/creative_movies.csv"/>
-        <parameter key="column_separator" value=";"/>
+        <parameter key="column_separator" value=","/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
         <parameter key="format_date_attributes" value="true"/>

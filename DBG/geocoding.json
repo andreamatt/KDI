@@ -2490,7 +2490,7 @@
 			"GEN_locationText": "Muse",
 			"TIME_startDate": "",
 			"TIME_endDate": "",
-			"TIME_startTime": "16.00",
+			"TIME_startTime": "18.00",
 			"TIME_endTime": "",
 			"PERIOD_byDay": [
 				"sabato",
@@ -2512,7 +2512,7 @@
 			"GEN_locationText": "Muse",
 			"TIME_startDate": "",
 			"TIME_endDate": "",
-			"TIME_startTime": "10.30",
+			"TIME_startTime": "16.00",
 			"TIME_endTime": "",
 			"PERIOD_byDay": [
 				"sabato",
@@ -2556,7 +2556,7 @@
 			"GEN_locationText": "Muse",
 			"TIME_startDate": "",
 			"TIME_endDate": "",
-			"TIME_startTime": "18.00",
+			"TIME_startTime": "10.30",
 			"TIME_endTime": "",
 			"PERIOD_byDay": [
 				"sabato",
@@ -2641,7 +2641,7 @@
 			"GEN_locationText": "Muse",
 			"TIME_startDate": "",
 			"TIME_endDate": "",
-			"TIME_startTime": "15.00",
+			"TIME_startTime": "11.00",
 			"TIME_endTime": "",
 			"PERIOD_byDay": [
 				"sabato",
@@ -2663,7 +2663,7 @@
 			"GEN_locationText": "Muse",
 			"TIME_startDate": "",
 			"TIME_endDate": "",
-			"TIME_startTime": "11.00",
+			"TIME_startTime": "15.00",
 			"TIME_endTime": "",
 			"PERIOD_byDay": [
 				"sabato",
@@ -2939,7 +2939,7 @@
 			"GEN_locationText": "Muse",
 			"TIME_startDate": "16/10/",
 			"TIME_endDate": "",
-			"TIME_startTime": "16.00",
+			"TIME_startTime": "10.00",
 			"TIME_endTime": "",
 			"PERIOD_byDay": [],
 			"PERIOD_byMonth": [],
@@ -2958,25 +2958,6 @@
 			"GEN_locationText": "Muse",
 			"TIME_startDate": "16/10/",
 			"TIME_endDate": "",
-			"TIME_startTime": "10.00",
-			"TIME_endTime": "",
-			"PERIOD_byDay": [],
-			"PERIOD_byMonth": [],
-			"PERIOD_byMonthDay": [],
-			"PERIOD_repeatCount": "",
-			"PERIOD_repeatFrequency": ""
-		},
-		{
-			"GEN_name": "Passeggini al museo",
-			"GEN_price": "Tariffa \u20ac 5 a coppia (\u20ac 4 per possessori MyMuse Card)",
-			"GEN_description": "\u200b\u200bUna visita interattiva per grandi e piccini, attraverso le sale del museo, la serra tropicale e un momento finale di esplorazione e gioco in Maxi Ooh!; I genitori con bimbi da 0 a 3 anni (passeggini al seguito!) si addentreranno nelle sale del museo in un percorso di visita insolito, pensato proprio per questo target di pubblico.; Durante la visita del museo, i bambini saranno coinvolti attraverso oggetti che consentiranno loro di scoprire ed esplorare, secondo le modalit\u00e0 proprie della loro et\u00e0.; La seconda parte dell'attivit\u00e0 si svolger\u00e0 in Maxi Ooh!, dove adulti e bambini potranno riposarsi e giocare, stimolando la creativit\u00e0 attraverso l'esplorazione di ambienti sorprendenti e interattivi.; Per famiglie e bambini con et\u00e0 0-3\u200b\u200b",
-			"GEN_website": "https://www.muse.it/it/Esplora/Eventi-Attivita/Archivio/Pagine/Passeggini-al-museo-ott-nov-dic-2019.aspx",
-			"GEN_duration": "",
-			"GEN_language": "",
-			"GEN_isTicketAvailable": "",
-			"GEN_locationText": "Muse",
-			"TIME_startDate": "27/10/",
-			"TIME_endDate": "",
 			"TIME_startTime": "16.00",
 			"TIME_endTime": "",
 			"PERIOD_byDay": [],
@@ -3013,7 +2994,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": "",
 			"GEN_locationText": "Muse",
-			"TIME_startDate": "6/11/",
+			"TIME_startDate": "27/10/",
 			"TIME_endDate": "",
 			"TIME_startTime": "16.00",
 			"TIME_endTime": "",
@@ -3051,7 +3032,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": "",
 			"GEN_locationText": "Muse",
-			"TIME_startDate": "24/11/",
+			"TIME_startDate": "6/11/",
 			"TIME_endDate": "",
 			"TIME_startTime": "16.00",
 			"TIME_endTime": "",
@@ -3089,7 +3070,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": "",
 			"GEN_locationText": "Muse",
-			"TIME_startDate": "1/12/",
+			"TIME_startDate": "24/11/",
 			"TIME_endDate": "",
 			"TIME_startTime": "16.00",
 			"TIME_endTime": "",
@@ -3127,7 +3108,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": "",
 			"GEN_locationText": "Muse",
-			"TIME_startDate": "11/12/",
+			"TIME_startDate": "1/12/",
 			"TIME_endDate": "",
 			"TIME_startTime": "16.00",
 			"TIME_endTime": "",
@@ -3149,6 +3130,25 @@
 			"TIME_startDate": "11/12/",
 			"TIME_endDate": "",
 			"TIME_startTime": "10.00",
+			"TIME_endTime": "",
+			"PERIOD_byDay": [],
+			"PERIOD_byMonth": [],
+			"PERIOD_byMonthDay": [],
+			"PERIOD_repeatCount": "",
+			"PERIOD_repeatFrequency": ""
+		},
+		{
+			"GEN_name": "Passeggini al museo",
+			"GEN_price": "Tariffa \u20ac 5 a coppia (\u20ac 4 per possessori MyMuse Card)",
+			"GEN_description": "\u200b\u200bUna visita interattiva per grandi e piccini, attraverso le sale del museo, la serra tropicale e un momento finale di esplorazione e gioco in Maxi Ooh!; I genitori con bimbi da 0 a 3 anni (passeggini al seguito!) si addentreranno nelle sale del museo in un percorso di visita insolito, pensato proprio per questo target di pubblico.; Durante la visita del museo, i bambini saranno coinvolti attraverso oggetti che consentiranno loro di scoprire ed esplorare, secondo le modalit\u00e0 proprie della loro et\u00e0.; La seconda parte dell'attivit\u00e0 si svolger\u00e0 in Maxi Ooh!, dove adulti e bambini potranno riposarsi e giocare, stimolando la creativit\u00e0 attraverso l'esplorazione di ambienti sorprendenti e interattivi.; Per famiglie e bambini con et\u00e0 0-3\u200b\u200b",
+			"GEN_website": "https://www.muse.it/it/Esplora/Eventi-Attivita/Archivio/Pagine/Passeggini-al-museo-ott-nov-dic-2019.aspx",
+			"GEN_duration": "",
+			"GEN_language": "",
+			"GEN_isTicketAvailable": "",
+			"GEN_locationText": "Muse",
+			"TIME_startDate": "11/12/",
+			"TIME_endDate": "",
+			"TIME_startTime": "16.00",
 			"TIME_endTime": "",
 			"PERIOD_byDay": [],
 			"PERIOD_byMonth": [],
@@ -4937,7 +4937,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29/11/19",
 			"TIME_endDate": "29/11/19",
@@ -4953,7 +4953,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29/11/19",
 			"TIME_endDate": "29/11/19",
@@ -4969,7 +4969,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30/11/19",
 			"TIME_endDate": "30/11/19",
@@ -4985,7 +4985,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30/11/19",
 			"TIME_endDate": "30/11/19",
@@ -5001,7 +5001,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30/11/19",
 			"TIME_endDate": "30/11/19",
@@ -5017,7 +5017,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30/11/19",
 			"TIME_endDate": "30/11/19",
@@ -5033,7 +5033,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01/12/19",
 			"TIME_endDate": "01/12/19",
@@ -5049,7 +5049,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01/12/19",
 			"TIME_endDate": "01/12/19",
@@ -5065,7 +5065,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01/12/19",
 			"TIME_endDate": "01/12/19",
@@ -5081,7 +5081,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01/12/19",
 			"TIME_endDate": "01/12/19",
@@ -5097,7 +5097,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02/12/19",
 			"TIME_endDate": "02/12/19",
@@ -5113,7 +5113,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02/12/19",
 			"TIME_endDate": "02/12/19",
@@ -5129,7 +5129,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03/12/19",
 			"TIME_endDate": "03/12/19",
@@ -5145,7 +5145,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03/12/19",
 			"TIME_endDate": "03/12/19",
@@ -5161,7 +5161,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29/11/19",
 			"TIME_endDate": "29/11/19",
@@ -5177,7 +5177,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29/11/19",
 			"TIME_endDate": "29/11/19",
@@ -5193,7 +5193,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30/11/19",
 			"TIME_endDate": "30/11/19",
@@ -5209,7 +5209,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30/11/19",
 			"TIME_endDate": "30/11/19",
@@ -5225,7 +5225,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01/12/19",
 			"TIME_endDate": "01/12/19",
@@ -5241,7 +5241,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01/12/19",
 			"TIME_endDate": "01/12/19",
@@ -5257,7 +5257,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02/12/19",
 			"TIME_endDate": "02/12/19",
@@ -5273,7 +5273,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02/12/19",
 			"TIME_endDate": "02/12/19",
@@ -5289,7 +5289,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03/12/19",
 			"TIME_endDate": "03/12/19",
@@ -5305,7 +5305,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03/12/19",
 			"TIME_endDate": "03/12/19",
@@ -5321,7 +5321,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "25/10/19",
 			"TIME_endDate": "25/10/19",
@@ -5337,7 +5337,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "25/10/19",
 			"TIME_endDate": "25/10/19",
@@ -5353,7 +5353,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "26/10/19",
 			"TIME_endDate": "26/10/19",
@@ -5369,7 +5369,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "26/10/19",
 			"TIME_endDate": "26/10/19",
@@ -5385,7 +5385,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "26/10/19",
 			"TIME_endDate": "26/10/19",
@@ -5401,7 +5401,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "27/10/19",
 			"TIME_endDate": "27/10/19",
@@ -5417,7 +5417,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "27/10/19",
 			"TIME_endDate": "27/10/19",
@@ -5433,7 +5433,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "27/10/19",
 			"TIME_endDate": "27/10/19",
@@ -5449,7 +5449,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "28/10/19",
 			"TIME_endDate": "28/10/19",
@@ -5465,7 +5465,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "28/10/19",
 			"TIME_endDate": "28/10/19",
@@ -5481,7 +5481,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29/10/19",
 			"TIME_endDate": "29/10/19",
@@ -5497,7 +5497,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29/10/19",
 			"TIME_endDate": "29/10/19",
@@ -5513,7 +5513,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "25/10/19",
 			"TIME_endDate": "25/10/19",
@@ -5529,7 +5529,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "25/10/19",
 			"TIME_endDate": "25/10/19",
@@ -5545,7 +5545,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "26/10/19",
 			"TIME_endDate": "26/10/19",
@@ -5561,7 +5561,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "26/10/19",
 			"TIME_endDate": "26/10/19",
@@ -5577,7 +5577,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "26/10/19",
 			"TIME_endDate": "26/10/19",
@@ -5593,7 +5593,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "27/10/19",
 			"TIME_endDate": "27/10/19",
@@ -5609,7 +5609,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "27/10/19",
 			"TIME_endDate": "27/10/19",
@@ -5625,7 +5625,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "27/10/19",
 			"TIME_endDate": "27/10/19",
@@ -5641,7 +5641,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "28/10/19",
 			"TIME_endDate": "28/10/19",
@@ -5657,7 +5657,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "28/10/19",
 			"TIME_endDate": "28/10/19",
@@ -5673,7 +5673,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29/10/19",
 			"TIME_endDate": "29/10/19",
@@ -5689,7 +5689,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Piazza Rosmini 18/A. Rovereto (TN)",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29/10/19",
 			"TIME_endDate": "29/10/19",
@@ -5705,7 +5705,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/V.O.%20MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "04-12-19",
 			"TIME_endDate": "04-12-19",
@@ -5721,7 +5721,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/V.O.%20FROZEN%20II/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03-12-19",
 			"TIME_endDate": "03-12-19",
@@ -5737,7 +5737,7 @@
 			"GEN_language": "giapponese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/I%20FIGLI%20DEL%20MARE%20%28KAIJU%20NO%20KODOMO%29/Ayumu%20Watanabe/2019/https%3A//it.wikipedia.org/wiki/I_figli_del_mare",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/I_figli_del_mare",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03-12-19",
 			"TIME_endDate": "03-12-19",
@@ -5753,7 +5753,7 @@
 			"GEN_language": "giapponese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/I%20FIGLI%20DEL%20MARE%20%28KAIJU%20NO%20KODOMO%29/Ayumu%20Watanabe/2019/https%3A//it.wikipedia.org/wiki/I_figli_del_mare",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/I_figli_del_mare",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03-12-19",
 			"TIME_endDate": "03-12-19",
@@ -5769,7 +5769,7 @@
 			"GEN_language": "giapponese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/I%20FIGLI%20DEL%20MARE%20%28KAIJU%20NO%20KODOMO%29/Ayumu%20Watanabe/2019/https%3A//it.wikipedia.org/wiki/I_figli_del_mare",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/I_figli_del_mare",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "04-12-19",
 			"TIME_endDate": "04-12-19",
@@ -5785,7 +5785,7 @@
 			"GEN_language": "giapponese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/I%20FIGLI%20DEL%20MARE%20%28KAIJU%20NO%20KODOMO%29/Ayumu%20Watanabe/2019/https%3A//it.wikipedia.org/wiki/I_figli_del_mare",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/I_figli_del_mare",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "04-12-19",
 			"TIME_endDate": "04-12-19",
@@ -5801,7 +5801,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/WESTERN%20STARS/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02-12-19",
 			"TIME_endDate": "02-12-19",
@@ -5817,7 +5817,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/WESTERN%20STARS/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03-12-19",
 			"TIME_endDate": "03-12-19",
@@ -5833,7 +5833,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/WESTERN%20STARS/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "04-12-19",
 			"TIME_endDate": "04-12-19",
@@ -5849,7 +5849,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "28-11-19",
 			"TIME_endDate": "28-11-19",
@@ -5865,7 +5865,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "28-11-19",
 			"TIME_endDate": "28-11-19",
@@ -5881,7 +5881,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29-11-19",
 			"TIME_endDate": "29-11-19",
@@ -5897,7 +5897,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29-11-19",
 			"TIME_endDate": "29-11-19",
@@ -5913,7 +5913,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -5929,7 +5929,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -5945,7 +5945,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -5961,7 +5961,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -5977,7 +5977,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -5993,7 +5993,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -6009,7 +6009,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02-12-19",
 			"TIME_endDate": "02-12-19",
@@ -6025,7 +6025,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02-12-19",
 			"TIME_endDate": "02-12-19",
@@ -6041,7 +6041,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03-12-19",
 			"TIME_endDate": "03-12-19",
@@ -6057,7 +6057,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03-12-19",
 			"TIME_endDate": "03-12-19",
@@ -6073,7 +6073,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20-%203D%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29-11-19",
 			"TIME_endDate": "29-11-19",
@@ -6089,7 +6089,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20-%203D%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -6105,7 +6105,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20-%203D%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -6121,7 +6121,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20-%203D%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -6137,7 +6137,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20-%203D%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -6153,7 +6153,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20-%203D%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02-12-19",
 			"TIME_endDate": "02-12-19",
@@ -6169,7 +6169,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20-%203D%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03-12-19",
 			"TIME_endDate": "03-12-19",
@@ -6185,7 +6185,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20-%203D%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "04-12-19",
 			"TIME_endDate": "04-12-19",
@@ -6201,7 +6201,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "28-11-19",
 			"TIME_endDate": "28-11-19",
@@ -6217,7 +6217,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "28-11-19",
 			"TIME_endDate": "28-11-19",
@@ -6233,7 +6233,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29-11-19",
 			"TIME_endDate": "29-11-19",
@@ -6249,7 +6249,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29-11-19",
 			"TIME_endDate": "29-11-19",
@@ -6265,7 +6265,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29-11-19",
 			"TIME_endDate": "29-11-19",
@@ -6281,7 +6281,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -6297,7 +6297,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -6313,7 +6313,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -6329,7 +6329,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -6345,7 +6345,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -6361,7 +6361,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -6377,7 +6377,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02-12-19",
 			"TIME_endDate": "02-12-19",
@@ -6393,7 +6393,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02-12-19",
 			"TIME_endDate": "02-12-19",
@@ -6409,7 +6409,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02-12-19",
 			"TIME_endDate": "02-12-19",
@@ -6425,7 +6425,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03-12-19",
 			"TIME_endDate": "03-12-19",
@@ -6441,7 +6441,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03-12-19",
 			"TIME_endDate": "03-12-19",
@@ -6457,7 +6457,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "04-12-19",
 			"TIME_endDate": "04-12-19",
@@ -6473,7 +6473,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "04-12-19",
 			"TIME_endDate": "04-12-19",
@@ -6489,7 +6489,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "28-11-19",
 			"TIME_endDate": "28-11-19",
@@ -6505,7 +6505,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29-11-19",
 			"TIME_endDate": "29-11-19",
@@ -6521,7 +6521,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29-11-19",
 			"TIME_endDate": "29-11-19",
@@ -6537,7 +6537,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -6553,7 +6553,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -6569,7 +6569,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -6585,7 +6585,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -6601,7 +6601,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -6617,7 +6617,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -6633,7 +6633,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02-12-19",
 			"TIME_endDate": "02-12-19",
@@ -6649,7 +6649,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02-12-19",
 			"TIME_endDate": "02-12-19",
@@ -6665,7 +6665,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03-12-19",
 			"TIME_endDate": "03-12-19",
@@ -6681,7 +6681,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "04-12-19",
 			"TIME_endDate": "04-12-19",
@@ -6697,7 +6697,7 @@
 			"GEN_language": "francese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "28-11-19",
 			"TIME_endDate": "28-11-19",
@@ -6713,7 +6713,7 @@
 			"GEN_language": "francese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "28-11-19",
 			"TIME_endDate": "28-11-19",
@@ -6729,7 +6729,7 @@
 			"GEN_language": "francese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29-11-19",
 			"TIME_endDate": "29-11-19",
@@ -6745,7 +6745,7 @@
 			"GEN_language": "francese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29-11-19",
 			"TIME_endDate": "29-11-19",
@@ -6761,7 +6761,7 @@
 			"GEN_language": "francese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -6777,7 +6777,7 @@
 			"GEN_language": "francese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -6793,7 +6793,7 @@
 			"GEN_language": "francese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -6809,7 +6809,7 @@
 			"GEN_language": "francese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -6825,7 +6825,7 @@
 			"GEN_language": "francese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -6841,7 +6841,7 @@
 			"GEN_language": "francese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02-12-19",
 			"TIME_endDate": "02-12-19",
@@ -6857,7 +6857,7 @@
 			"GEN_language": "francese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02-12-19",
 			"TIME_endDate": "02-12-19",
@@ -6873,7 +6873,7 @@
 			"GEN_language": "francese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03-12-19",
 			"TIME_endDate": "03-12-19",
@@ -6889,7 +6889,7 @@
 			"GEN_language": "francese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03-12-19",
 			"TIME_endDate": "03-12-19",
@@ -6905,7 +6905,7 @@
 			"GEN_language": "francese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "04-12-19",
 			"TIME_endDate": "04-12-19",
@@ -6921,7 +6921,7 @@
 			"GEN_language": "francese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "04-12-19",
 			"TIME_endDate": "04-12-19",
@@ -6937,7 +6937,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LE%20MANS%20%2766%20-%20LA%20GRANDE%20SFIDA%20%28FORD%20V.%20FERRARI%29/James%20Mangold/2019/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "28-11-19",
 			"TIME_endDate": "28-11-19",
@@ -6953,7 +6953,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LE%20MANS%20%2766%20-%20LA%20GRANDE%20SFIDA%20%28FORD%20V.%20FERRARI%29/James%20Mangold/2019/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29-11-19",
 			"TIME_endDate": "29-11-19",
@@ -6969,7 +6969,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LE%20MANS%20%2766%20-%20LA%20GRANDE%20SFIDA%20%28FORD%20V.%20FERRARI%29/James%20Mangold/2019/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -6985,7 +6985,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LE%20MANS%20%2766%20-%20LA%20GRANDE%20SFIDA%20%28FORD%20V.%20FERRARI%29/James%20Mangold/2019/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -7001,7 +7001,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LE%20MANS%20%2766%20-%20LA%20GRANDE%20SFIDA%20%28FORD%20V.%20FERRARI%29/James%20Mangold/2019/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02-12-19",
 			"TIME_endDate": "02-12-19",
@@ -7017,7 +7017,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LE%20MANS%20%2766%20-%20LA%20GRANDE%20SFIDA%20%28FORD%20V.%20FERRARI%29/James%20Mangold/2019/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "03-12-19",
 			"TIME_endDate": "03-12-19",
@@ -7033,7 +7033,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/AILO%20-%20UN%27AVVENTURA%20TRA%20I%20GHIACCI%20%28AILO%3A%20UNE%20ODYSSEE%20EN%20LAPONIE%29/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29-11-19",
 			"TIME_endDate": "29-11-19",
@@ -7049,7 +7049,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/AILO%20-%20UN%27AVVENTURA%20TRA%20I%20GHIACCI%20%28AILO%3A%20UNE%20ODYSSEE%20EN%20LAPONIE%29/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -7065,7 +7065,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/AILO%20-%20UN%27AVVENTURA%20TRA%20I%20GHIACCI%20%28AILO%3A%20UNE%20ODYSSEE%20EN%20LAPONIE%29/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -7081,7 +7081,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/AILO%20-%20UN%27AVVENTURA%20TRA%20I%20GHIACCI%20%28AILO%3A%20UNE%20ODYSSEE%20EN%20LAPONIE%29/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -7097,7 +7097,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/AILO%20-%20UN%27AVVENTURA%20TRA%20I%20GHIACCI%20%28AILO%3A%20UNE%20ODYSSEE%20EN%20LAPONIE%29/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -7113,7 +7113,7 @@
 			"GEN_language": "",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/AILO%20-%20UN%27AVVENTURA%20TRA%20I%20GHIACCI%20%28AILO%3A%20UNE%20ODYSSEE%20EN%20LAPONIE%29/_/_/_",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "02-12-19",
 			"TIME_endDate": "02-12-19",
@@ -7129,7 +7129,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LE%20RAGAZZE%20DI%20WALL%20STREET%20%28HUSTLERS%29/Lorene%20Scafaria/2019/https%3A//it.wikipedia.org/wiki/Le_ragazze_di_Wall_Street_-_Business_Is_Business",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Le_ragazze_di_Wall_Street_-_Business_Is_Business",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "28-11-19",
 			"TIME_endDate": "28-11-19",
@@ -7145,7 +7145,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LE%20RAGAZZE%20DI%20WALL%20STREET%20%28HUSTLERS%29/Lorene%20Scafaria/2019/https%3A//it.wikipedia.org/wiki/Le_ragazze_di_Wall_Street_-_Business_Is_Business",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Le_ragazze_di_Wall_Street_-_Business_Is_Business",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -7161,7 +7161,7 @@
 			"GEN_language": null,
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LA%20FAMIGLIA%20ADDAMS%20%28THE%20ADDAMS%20FAMILY%29/Barry%20Sonnenfeld/1991/https%3A//it.wikipedia.org/wiki/La_famiglia_Addams_%28film_1991%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/La_famiglia_Addams_%28film_1991%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -7177,7 +7177,7 @@
 			"GEN_language": null,
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LA%20FAMIGLIA%20ADDAMS%20%28THE%20ADDAMS%20FAMILY%29/Barry%20Sonnenfeld/1991/https%3A//it.wikipedia.org/wiki/La_famiglia_Addams_%28film_1991%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/La_famiglia_Addams_%28film_1991%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "01-12-19",
 			"TIME_endDate": "01-12-19",
@@ -7193,7 +7193,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "29-11-19",
 			"TIME_endDate": "29-11-19",
@@ -7209,7 +7209,7 @@
 			"GEN_language": "inglese",
 			"GEN_isTicketAvailable": true,
 			"GEN_locationText": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
-			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
+			"GEN_work_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29",
 			"SCREEN_salaNumber": "",
 			"TIME_startDate": "30-11-19",
 			"TIME_endDate": "30-11-19",
@@ -7243,7 +7243,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7253,7 +7253,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7263,7 +7263,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7273,7 +7273,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7283,7 +7283,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7293,7 +7293,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7303,7 +7303,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7313,7 +7313,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7323,7 +7323,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7333,7 +7333,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7343,7 +7343,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7353,7 +7353,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7363,7 +7363,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7373,7 +7373,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -7383,7 +7383,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": "https://en.wikipedia.org/wiki/Cetto_c'%C3%A8,_senzadubbiamente",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -7393,7 +7393,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": "https://en.wikipedia.org/wiki/Cetto_c'%C3%A8,_senzadubbiamente",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -7403,7 +7403,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": "https://en.wikipedia.org/wiki/Cetto_c'%C3%A8,_senzadubbiamente",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -7413,7 +7413,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": "https://en.wikipedia.org/wiki/Cetto_c'%C3%A8,_senzadubbiamente",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -7423,7 +7423,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": "https://en.wikipedia.org/wiki/Cetto_c'%C3%A8,_senzadubbiamente",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -7433,7 +7433,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": "https://en.wikipedia.org/wiki/Cetto_c'%C3%A8,_senzadubbiamente",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -7443,7 +7443,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": "https://en.wikipedia.org/wiki/Cetto_c'%C3%A8,_senzadubbiamente",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -7453,7 +7453,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": "https://en.wikipedia.org/wiki/Cetto_c'%C3%A8,_senzadubbiamente",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -7463,7 +7463,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": "https://en.wikipedia.org/wiki/Cetto_c'%C3%A8,_senzadubbiamente",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -7473,7 +7473,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": "https://en.wikipedia.org/wiki/Cetto_c'%C3%A8,_senzadubbiamente",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27%C3%88%2C%20SENZADUBBIAMENTE/_/_/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//en.wikipedia.org/wiki/Cetto_c%27%25C3%25A8%2C_senzadubbiamente"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7483,7 +7483,7 @@
 			"WORK_creator": "Todd Phillips",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7493,7 +7493,7 @@
 			"WORK_creator": "Todd Phillips",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7503,7 +7503,7 @@
 			"WORK_creator": "Todd Phillips",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7513,7 +7513,7 @@
 			"WORK_creator": "Todd Phillips",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7523,7 +7523,7 @@
 			"WORK_creator": "Todd Phillips",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7533,7 +7533,7 @@
 			"WORK_creator": "Todd Phillips",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7543,7 +7543,7 @@
 			"WORK_creator": "Todd Phillips",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7553,7 +7553,7 @@
 			"WORK_creator": "Todd Phillips",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7563,7 +7563,7 @@
 			"WORK_creator": "Todd Phillips",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7573,7 +7573,7 @@
 			"WORK_creator": "Todd Phillips",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7583,7 +7583,7 @@
 			"WORK_creator": "Todd Phillips",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7593,7 +7593,7 @@
 			"WORK_creator": "Todd Phillips",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": "Maleficent: Mistress of Evil",
@@ -7603,7 +7603,7 @@
 			"WORK_creator": "Joachim R\u00f8nning",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
 		},
 		{
 			"MOVIE_originalName": "Maleficent: Mistress of Evil",
@@ -7613,7 +7613,7 @@
 			"WORK_creator": "Joachim R\u00f8nning",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
 		},
 		{
 			"MOVIE_originalName": "Maleficent: Mistress of Evil",
@@ -7623,7 +7623,7 @@
 			"WORK_creator": "Joachim R\u00f8nning",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
 		},
 		{
 			"MOVIE_originalName": "Maleficent: Mistress of Evil",
@@ -7633,7 +7633,7 @@
 			"WORK_creator": "Joachim R\u00f8nning",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
 		},
 		{
 			"MOVIE_originalName": "Maleficent: Mistress of Evil",
@@ -7643,7 +7643,7 @@
 			"WORK_creator": "Joachim R\u00f8nning",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
 		},
 		{
 			"MOVIE_originalName": "Maleficent: Mistress of Evil",
@@ -7653,7 +7653,7 @@
 			"WORK_creator": "Joachim R\u00f8nning",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
 		},
 		{
 			"MOVIE_originalName": "Maleficent: Mistress of Evil",
@@ -7663,7 +7663,7 @@
 			"WORK_creator": "Joachim R\u00f8nning",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
 		},
 		{
 			"MOVIE_originalName": "Maleficent: Mistress of Evil",
@@ -7673,7 +7673,7 @@
 			"WORK_creator": "Joachim R\u00f8nning",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
 		},
 		{
 			"MOVIE_originalName": "Maleficent: Mistress of Evil",
@@ -7683,7 +7683,7 @@
 			"WORK_creator": "Joachim R\u00f8nning",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
 		},
 		{
 			"MOVIE_originalName": "Maleficent: Mistress of Evil",
@@ -7693,7 +7693,7 @@
 			"WORK_creator": "Joachim R\u00f8nning",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
 		},
 		{
 			"MOVIE_originalName": "Maleficent: Mistress of Evil",
@@ -7703,7 +7703,7 @@
 			"WORK_creator": "Joachim R\u00f8nning",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
 		},
 		{
 			"MOVIE_originalName": "Maleficent: Mistress of Evil",
@@ -7713,7 +7713,7 @@
 			"WORK_creator": "Joachim R\u00f8nning",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Maleficent_-_Signora_del_male",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MALEFICENT%20-%20SIGNORA%20DEL%20MALE/Joachim%20R%C3%B8nning/2019/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Maleficent_-_Signora_del_male"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7723,7 +7723,7 @@
 			"WORK_creator": "Roland Emmerich",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/V.O.%20MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7733,7 +7733,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/V.O.%20FROZEN%20II/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "\u6d77\u7363\u306e\u5b50\u4f9b",
@@ -7743,7 +7743,7 @@
 			"WORK_creator": "Ayumu Watanabe",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/I_figli_del_mare",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/I%20FIGLI%20DEL%20MARE%20%28KAIJU%20NO%20KODOMO%29/Ayumu%20Watanabe/2019/https%3A//it.wikipedia.org/wiki/I_figli_del_mare"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/I_figli_del_mare"
 		},
 		{
 			"MOVIE_originalName": "\u6d77\u7363\u306e\u5b50\u4f9b",
@@ -7753,7 +7753,7 @@
 			"WORK_creator": "Ayumu Watanabe",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/I_figli_del_mare",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/I%20FIGLI%20DEL%20MARE%20%28KAIJU%20NO%20KODOMO%29/Ayumu%20Watanabe/2019/https%3A//it.wikipedia.org/wiki/I_figli_del_mare"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/I_figli_del_mare"
 		},
 		{
 			"MOVIE_originalName": "\u6d77\u7363\u306e\u5b50\u4f9b",
@@ -7763,7 +7763,7 @@
 			"WORK_creator": "Ayumu Watanabe",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/I_figli_del_mare",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/I%20FIGLI%20DEL%20MARE%20%28KAIJU%20NO%20KODOMO%29/Ayumu%20Watanabe/2019/https%3A//it.wikipedia.org/wiki/I_figli_del_mare"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/I_figli_del_mare"
 		},
 		{
 			"MOVIE_originalName": "\u6d77\u7363\u306e\u5b50\u4f9b",
@@ -7773,7 +7773,7 @@
 			"WORK_creator": "Ayumu Watanabe",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/I_figli_del_mare",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/I%20FIGLI%20DEL%20MARE%20%28KAIJU%20NO%20KODOMO%29/Ayumu%20Watanabe/2019/https%3A//it.wikipedia.org/wiki/I_figli_del_mare"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/I_figli_del_mare"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -7783,7 +7783,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/WESTERN%20STARS/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -7793,7 +7793,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/WESTERN%20STARS/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -7803,7 +7803,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/WESTERN%20STARS/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7813,7 +7813,7 @@
 			"WORK_creator": "Roland Emmerich",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7823,7 +7823,7 @@
 			"WORK_creator": "Roland Emmerich",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7833,7 +7833,7 @@
 			"WORK_creator": "Roland Emmerich",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7843,7 +7843,7 @@
 			"WORK_creator": "Roland Emmerich",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7853,7 +7853,7 @@
 			"WORK_creator": "Roland Emmerich",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7863,7 +7863,7 @@
 			"WORK_creator": "Roland Emmerich",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7873,7 +7873,7 @@
 			"WORK_creator": "Roland Emmerich",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7883,7 +7883,7 @@
 			"WORK_creator": "Roland Emmerich",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7893,7 +7893,7 @@
 			"WORK_creator": "Roland Emmerich",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7903,7 +7903,7 @@
 			"WORK_creator": "Roland Emmerich",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7913,7 +7913,7 @@
 			"WORK_creator": "Roland Emmerich",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7923,7 +7923,7 @@
 			"WORK_creator": "Roland Emmerich",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7933,7 +7933,7 @@
 			"WORK_creator": "Roland Emmerich",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -7943,7 +7943,7 @@
 			"WORK_creator": "Roland Emmerich",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Midway_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/MIDWAY/Roland%20Emmerich/2019/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Midway_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7953,7 +7953,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20-%203D%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7963,7 +7963,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20-%203D%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7973,7 +7973,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20-%203D%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7983,7 +7983,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20-%203D%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -7993,7 +7993,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20-%203D%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8003,7 +8003,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20-%203D%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8013,7 +8013,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20-%203D%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8023,7 +8023,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20-%203D%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8033,7 +8033,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8043,7 +8043,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8053,7 +8053,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8063,7 +8063,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8073,7 +8073,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8083,7 +8083,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8093,7 +8093,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8103,7 +8103,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8113,7 +8113,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8123,7 +8123,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8133,7 +8133,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8143,7 +8143,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8153,7 +8153,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8163,7 +8163,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8173,7 +8173,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8183,7 +8183,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8193,7 +8193,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "Frozen II",
@@ -8203,7 +8203,7 @@
 			"WORK_creator": "Chris Buck",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/FROZEN%20II%20-%20IL%20SEGRETO%20DI%20ARENDELLE%20%28FROZEN%20II%29/Chris%20Buck/2019/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Frozen_II_-_Il_segreto_di_Arendelle"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8213,7 +8213,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8223,7 +8223,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8233,7 +8233,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8243,7 +8243,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8253,7 +8253,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8263,7 +8263,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8273,7 +8273,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8283,7 +8283,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8293,7 +8293,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8303,7 +8303,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8313,7 +8313,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8323,7 +8323,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8333,7 +8333,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/CETTO%20C%27E%27%2C%20SENZADUBBIAMENTE/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "J'accuse",
@@ -8343,7 +8343,7 @@
 			"WORK_creator": "Roman Pola\u0144ski",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
 		},
 		{
 			"MOVIE_originalName": "J'accuse",
@@ -8353,7 +8353,7 @@
 			"WORK_creator": "Roman Pola\u0144ski",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
 		},
 		{
 			"MOVIE_originalName": "J'accuse",
@@ -8363,7 +8363,7 @@
 			"WORK_creator": "Roman Pola\u0144ski",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
 		},
 		{
 			"MOVIE_originalName": "J'accuse",
@@ -8373,7 +8373,7 @@
 			"WORK_creator": "Roman Pola\u0144ski",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
 		},
 		{
 			"MOVIE_originalName": "J'accuse",
@@ -8383,7 +8383,7 @@
 			"WORK_creator": "Roman Pola\u0144ski",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
 		},
 		{
 			"MOVIE_originalName": "J'accuse",
@@ -8393,7 +8393,7 @@
 			"WORK_creator": "Roman Pola\u0144ski",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
 		},
 		{
 			"MOVIE_originalName": "J'accuse",
@@ -8403,7 +8403,7 @@
 			"WORK_creator": "Roman Pola\u0144ski",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
 		},
 		{
 			"MOVIE_originalName": "J'accuse",
@@ -8413,7 +8413,7 @@
 			"WORK_creator": "Roman Pola\u0144ski",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
 		},
 		{
 			"MOVIE_originalName": "J'accuse",
@@ -8423,7 +8423,7 @@
 			"WORK_creator": "Roman Pola\u0144ski",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
 		},
 		{
 			"MOVIE_originalName": "J'accuse",
@@ -8433,7 +8433,7 @@
 			"WORK_creator": "Roman Pola\u0144ski",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
 		},
 		{
 			"MOVIE_originalName": "J'accuse",
@@ -8443,7 +8443,7 @@
 			"WORK_creator": "Roman Pola\u0144ski",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
 		},
 		{
 			"MOVIE_originalName": "J'accuse",
@@ -8453,7 +8453,7 @@
 			"WORK_creator": "Roman Pola\u0144ski",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
 		},
 		{
 			"MOVIE_originalName": "J'accuse",
@@ -8463,7 +8463,7 @@
 			"WORK_creator": "Roman Pola\u0144ski",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
 		},
 		{
 			"MOVIE_originalName": "J'accuse",
@@ -8473,7 +8473,7 @@
 			"WORK_creator": "Roman Pola\u0144ski",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
 		},
 		{
 			"MOVIE_originalName": "J'accuse",
@@ -8483,7 +8483,7 @@
 			"WORK_creator": "Roman Pola\u0144ski",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/L'ufficiale_e_la_spia",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/L%27UFFICIALE%20E%20LA%20SPIA%20%28J%27ACCUSE%29/Roman%20Pola%C5%84ski/2019/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/L%27ufficiale_e_la_spia"
 		},
 		{
 			"MOVIE_originalName": "Ford v Ferrari",
@@ -8493,7 +8493,7 @@
 			"WORK_creator": "James Mangold",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Le_Mans_'66_-_La_grande_sfida",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LE%20MANS%20%2766%20-%20LA%20GRANDE%20SFIDA%20%28FORD%20V.%20FERRARI%29/James%20Mangold/2019/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida"
 		},
 		{
 			"MOVIE_originalName": "Ford v Ferrari",
@@ -8503,7 +8503,7 @@
 			"WORK_creator": "James Mangold",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Le_Mans_'66_-_La_grande_sfida",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LE%20MANS%20%2766%20-%20LA%20GRANDE%20SFIDA%20%28FORD%20V.%20FERRARI%29/James%20Mangold/2019/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida"
 		},
 		{
 			"MOVIE_originalName": "Ford v Ferrari",
@@ -8513,7 +8513,7 @@
 			"WORK_creator": "James Mangold",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Le_Mans_'66_-_La_grande_sfida",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LE%20MANS%20%2766%20-%20LA%20GRANDE%20SFIDA%20%28FORD%20V.%20FERRARI%29/James%20Mangold/2019/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida"
 		},
 		{
 			"MOVIE_originalName": "Ford v Ferrari",
@@ -8523,7 +8523,7 @@
 			"WORK_creator": "James Mangold",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Le_Mans_'66_-_La_grande_sfida",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LE%20MANS%20%2766%20-%20LA%20GRANDE%20SFIDA%20%28FORD%20V.%20FERRARI%29/James%20Mangold/2019/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida"
 		},
 		{
 			"MOVIE_originalName": "Ford v Ferrari",
@@ -8533,7 +8533,7 @@
 			"WORK_creator": "James Mangold",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Le_Mans_'66_-_La_grande_sfida",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LE%20MANS%20%2766%20-%20LA%20GRANDE%20SFIDA%20%28FORD%20V.%20FERRARI%29/James%20Mangold/2019/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida"
 		},
 		{
 			"MOVIE_originalName": "Ford v Ferrari",
@@ -8543,7 +8543,7 @@
 			"WORK_creator": "James Mangold",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Le_Mans_'66_-_La_grande_sfida",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LE%20MANS%20%2766%20-%20LA%20GRANDE%20SFIDA%20%28FORD%20V.%20FERRARI%29/James%20Mangold/2019/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Le_Mans_%2766_-_La_grande_sfida"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8553,7 +8553,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/AILO%20-%20UN%27AVVENTURA%20TRA%20I%20GHIACCI%20%28AILO%3A%20UNE%20ODYSSEE%20EN%20LAPONIE%29/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8563,7 +8563,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/AILO%20-%20UN%27AVVENTURA%20TRA%20I%20GHIACCI%20%28AILO%3A%20UNE%20ODYSSEE%20EN%20LAPONIE%29/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8573,7 +8573,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/AILO%20-%20UN%27AVVENTURA%20TRA%20I%20GHIACCI%20%28AILO%3A%20UNE%20ODYSSEE%20EN%20LAPONIE%29/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8583,7 +8583,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/AILO%20-%20UN%27AVVENTURA%20TRA%20I%20GHIACCI%20%28AILO%3A%20UNE%20ODYSSEE%20EN%20LAPONIE%29/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8593,7 +8593,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/AILO%20-%20UN%27AVVENTURA%20TRA%20I%20GHIACCI%20%28AILO%3A%20UNE%20ODYSSEE%20EN%20LAPONIE%29/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "",
@@ -8603,7 +8603,7 @@
 			"WORK_creator": "",
 			"WORK_createDate": "",
 			"WORK_url": false,
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/AILO%20-%20UN%27AVVENTURA%20TRA%20I%20GHIACCI%20%28AILO%3A%20UNE%20ODYSSEE%20EN%20LAPONIE%29/_/_/_"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/_"
 		},
 		{
 			"MOVIE_originalName": "Hustlers",
@@ -8613,7 +8613,7 @@
 			"WORK_creator": "Lorene Scafaria",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Le_ragazze_di_Wall_Street_-_Business_Is_Business",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LE%20RAGAZZE%20DI%20WALL%20STREET%20%28HUSTLERS%29/Lorene%20Scafaria/2019/https%3A//it.wikipedia.org/wiki/Le_ragazze_di_Wall_Street_-_Business_Is_Business"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Le_ragazze_di_Wall_Street_-_Business_Is_Business"
 		},
 		{
 			"MOVIE_originalName": "Hustlers",
@@ -8623,7 +8623,7 @@
 			"WORK_creator": "Lorene Scafaria",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Le_ragazze_di_Wall_Street_-_Business_Is_Business",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LE%20RAGAZZE%20DI%20WALL%20STREET%20%28HUSTLERS%29/Lorene%20Scafaria/2019/https%3A//it.wikipedia.org/wiki/Le_ragazze_di_Wall_Street_-_Business_Is_Business"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Le_ragazze_di_Wall_Street_-_Business_Is_Business"
 		},
 		{
 			"MOVIE_originalName": "The Addams Family",
@@ -8633,7 +8633,7 @@
 			"WORK_creator": "Barry Sonnenfeld",
 			"WORK_createDate": "1991",
 			"WORK_url": "https://it.wikipedia.org/wiki/La_famiglia_Addams_(film_1991)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LA%20FAMIGLIA%20ADDAMS%20%28THE%20ADDAMS%20FAMILY%29/Barry%20Sonnenfeld/1991/https%3A//it.wikipedia.org/wiki/La_famiglia_Addams_%28film_1991%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/La_famiglia_Addams_%28film_1991%29"
 		},
 		{
 			"MOVIE_originalName": "The Addams Family",
@@ -8643,7 +8643,7 @@
 			"WORK_creator": "Barry Sonnenfeld",
 			"WORK_createDate": "1991",
 			"WORK_url": "https://it.wikipedia.org/wiki/La_famiglia_Addams_(film_1991)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/LA%20FAMIGLIA%20ADDAMS%20%28THE%20ADDAMS%20FAMILY%29/Barry%20Sonnenfeld/1991/https%3A//it.wikipedia.org/wiki/La_famiglia_Addams_%28film_1991%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/La_famiglia_Addams_%28film_1991%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -8653,7 +8653,7 @@
 			"WORK_creator": "Todd Phillips",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
 		},
 		{
 			"MOVIE_originalName": null,
@@ -8663,7 +8663,7 @@
 			"WORK_creator": "Todd Phillips",
 			"WORK_createDate": "2019",
 			"WORK_url": "https://it.wikipedia.org/wiki/Joker_(film_2019)",
-			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/JOKER/Todd%20Phillips/2019/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
+			"WORK_URI": "http://www.semanticweb.org/facilitiesEventsOntology/https%3A//it.wikipedia.org/wiki/Joker_%28film_2019%29"
 		}
 	]
 }

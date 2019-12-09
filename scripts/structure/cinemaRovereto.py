@@ -32,7 +32,7 @@ def rm_main(JSONString):
 		                   movie['location'])
 		scr = ScreeningEvent('')
 		m = Movie(movie['originalName'], movie['genre'], movie['length'])
-		work_URI = text_to_URI([movie['title'], movie['director'], movie['year'], movie['wikiUrl']])
+		work_URI = text_to_URI([movie['wikiUrl']])
 		gen['work_URI'] = work_URI
 		work = CreativeWork(movie['title'], movie['director'], movie['year'], movie['wikiUrl'], work_URI)
 
