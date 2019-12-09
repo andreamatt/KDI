@@ -2,8 +2,8 @@ import json
 import requests
 from flashtext import KeywordProcessor
 
-constants_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/constants.py').text
-exec(constants_txt)
+utils_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/utils.py').text
+exec(utils_txt)
 
 
 def rm_main():

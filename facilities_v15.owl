@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/facilitiesEventsOntology#"
      xml:base="http://www.semanticweb.org/facilitiesEventsOntology"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -10,6 +11,12 @@
      xmlns:f_events="http://www.semanticweb.org/facilitiesEventsOntology#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/facilitiesEventsOntology">
         <owl:versionIRI rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology/1.0.0"/>
+        <dc:licence xml:lang="en">CC_by_3.0 .</dc:licence>
+        <creators xml:lang="en">Alessandro Conti
+Andrei Diaconu
+Davide Cappellaro
+Valentina Sofia Pigato</creators>
+        <rdfs:label xml:lang="en">Ontology about Events and Facility domain</rdfs:label>
     </owl:Ontology>
     
 
@@ -25,9 +32,21 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/licence -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/licence"/>
+    
+
+
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#WordNetID -->
 
     <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#WordNetID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/facilitiesEventsOntology#creators -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#creators"/>
     
 
 
@@ -117,8 +136,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#hasPeriod">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#isPeriodOf"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Time"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Period"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Schedule"/>
         <rdfs:comment xml:lang="en">Indicates whether an event is recurring in time</rdfs:comment>
         <rdfs:label xml:lang="en">hasPeriod</rdfs:label>
     </owl:ObjectProperty>
@@ -170,7 +189,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#isScheduleOf"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Event"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Time"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
         <rdfs:comment xml:lang="en">An organized event takes place at a certain time in a specific position</rdfs:comment>
         <rdfs:label xml:lang="en">hasSchedule</rdfs:label>
     </owl:ObjectProperty>
@@ -268,8 +287,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#isPeriodOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Period"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Time"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Schedule"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
         <rdfs:comment xml:lang="en">A periodic event is related to the time and date when the event takes place</rdfs:comment>
         <rdfs:label xml:lang="en">isPeriodOf</rdfs:label>
     </owl:ObjectProperty>
@@ -304,7 +323,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#isScheduleOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Time"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Event"/>
         <rdfs:comment xml:lang="en">Time reference related to a specific event</rdfs:comment>
         <rdfs:label xml:lang="en">isScheduleOf</rdfs:label>
@@ -349,109 +368,163 @@
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#BookProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#BookProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#BookProperty">
+        <rdfs:comment xml:lang="en">Data Properties for Book</rdfs:comment>
+        <rdfs:label xml:lang="en">BookProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#CreativeWorkProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#CreativeWorkProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#CreativeWorkProperty">
+        <rdfs:comment xml:lang="en">Data Properties for CreativeWork</rdfs:comment>
+        <rdfs:label xml:lang="en">CreativeWorkProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#EventProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#EventProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#EventProperty">
+        <rdfs:comment xml:lang="en">Data Properties for Event</rdfs:comment>
+        <rdfs:label xml:lang="en">EventProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#FacilityProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#FacilityProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#FacilityProperty">
+        <rdfs:comment xml:lang="en">Data Properties for Facility</rdfs:comment>
+        <rdfs:label xml:lang="en">FacilityProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinatesProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinatesProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinatesProperty">
+        <rdfs:comment xml:lang="en">Data Properties for GeoCoordinates</rdfs:comment>
+        <rdfs:label xml:lang="en">GeoCoordinatesProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#MovieProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#MovieProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#MovieProperty">
+        <rdfs:comment xml:lang="en">Data Properties for Movie</rdfs:comment>
+        <rdfs:label xml:lang="en">MovieProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#MusicEventProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#MusicEventProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#MusicEventProperty">
+        <rdfs:comment xml:lang="en">Data Properties for MusicEvent</rdfs:comment>
+        <rdfs:label xml:lang="en">MusicEventProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#MusicPlaylistProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#MusicPlaylistProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#MusicPlaylistProperty">
+        <rdfs:comment xml:lang="en">Data Properties for MusicPlaylist</rdfs:comment>
+        <rdfs:label xml:lang="en">MusicPlaylistProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#PeriodProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#PeriodProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#PeriodProperty">
+        <rdfs:comment xml:lang="en">Data Properties for Period</rdfs:comment>
+        <rdfs:label xml:lang="en">PeriodProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#PlayProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#PlayProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#PlayProperty">
+        <rdfs:comment xml:lang="en">Data Properties for Play</rdfs:comment>
+        <rdfs:label xml:lang="en">PlayProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#ScienceEventProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#ScienceEventProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#ScienceEventProperty">
+        <rdfs:comment xml:lang="en">Data Properties for ScienceEvent</rdfs:comment>
+        <rdfs:label xml:lang="en">ScienceEventProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#ScreeningEventProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#ScreeningEventProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#ScreeningEventProperty">
+        <rdfs:comment xml:lang="en">Data Properties for ScreeningEvent</rdfs:comment>
+        <rdfs:label xml:lang="en">ScreeningEventProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#TalkEventProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#TalkEventProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#TalkEventProperty">
+        <rdfs:comment xml:lang="en">Data Properties for TalkEvent</rdfs:comment>
+        <rdfs:label xml:lang="en">TalkEventProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#TheatreEventProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#TheatreEventProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#TheatreEventProperty">
+        <rdfs:comment xml:lang="en">Data Properties for TheatreEvent</rdfs:comment>
+        <rdfs:label xml:lang="en">TheatreEventProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#TimeProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#TimeProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#TimeProperty">
+        <rdfs:comment xml:lang="en">Data Properties for Time</rdfs:comment>
+        <rdfs:label xml:lang="en">TimeProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#TimetablesProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#TimetablesProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#TimetablesProperty">
+        <rdfs:comment xml:lang="en">Data Properties for Timetables</rdfs:comment>
+        <rdfs:label xml:lang="en">TimetablesProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#VisualArtsEventProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#VisualArtsEventProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#VisualArtsEventProperty">
+        <rdfs:comment xml:lang="en">Data Properties for VisualArtsEvent</rdfs:comment>
+        <rdfs:label xml:lang="en">VisualArtsEventProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#VisualArtworkProperty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#VisualArtworkProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#VisualArtworkProperty">
+        <rdfs:comment xml:lang="en">Data Properties for VisualArtwork</rdfs:comment>
+        <rdfs:label xml:lang="en">VisualArtworkProperty</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -549,7 +622,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#byDay">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#PeriodProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Period"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Schedule"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#stringArray"/>
         <rdfs:comment xml:lang="en">Defines the days of the week on which a recurring event takes place</rdfs:comment>
         <rdfs:label xml:lang="en">byDay</rdfs:label>
@@ -561,7 +634,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#byMonth">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#PeriodProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Period"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Schedule"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#stringArray"/>
         <rdfs:comment xml:lang="en">Defines the months of the year on which a recurring event takes place</rdfs:comment>
         <rdfs:label xml:lang="en">byMonth</rdfs:label>
@@ -573,7 +646,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#byMonthDay">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#PeriodProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Period"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Schedule"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#stringArray"/>
         <rdfs:comment xml:lang="en">Defines the days of the month on which a recurring event takes place</rdfs:comment>
         <rdfs:label xml:lang="en">byMonthDay</rdfs:label>
@@ -648,7 +721,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#endDate">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#TimeProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Time"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment xml:lang="en">The date in which an event ends</rdfs:comment>
         <rdfs:label xml:lang="en">endDate</rdfs:label>
@@ -660,7 +733,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#endTime">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#TimeProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Time"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment xml:lang="en">The time at which an event ends</rdfs:comment>
         <rdfs:label xml:lang="en">endTime</rdfs:label>
@@ -997,7 +1070,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#repeatCount">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#PeriodProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Period"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Schedule"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>Defines the number of times a recurring event will take place</rdfs:comment>
         <rdfs:label xml:lang="en">repeatCount</rdfs:label>
@@ -1009,7 +1082,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#repeatFrequency">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#PeriodProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Period"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Schedule"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Defines the frequency at which an event will occur</rdfs:comment>
         <rdfs:label xml:lang="en">repeatFrequency</rdfs:label>
@@ -1071,7 +1144,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#startDate">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#TimeProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Time"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The date at which an event starts</rdfs:comment>
         <rdfs:label xml:lang="en">startDate</rdfs:label>
@@ -1083,7 +1156,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#startTime">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#TimeProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Time"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The time at which an event starts</rdfs:comment>
         <rdfs:label xml:lang="en">startTime</rdfs:label>
@@ -1281,6 +1354,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/facilitiesEventsOntology#DateTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#DateTime">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#isScheduleOf"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Event"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#hasPeriod"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Schedule"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <WordNetID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07324217</WordNetID>
+        <rdfs:comment xml:lang="en">A point in time expressed with a date and time in which an event occurs</rdfs:comment>
+        <rdfs:label xml:lang="en">DateTime</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#Discount -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Discount">
@@ -1309,7 +1406,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#hasSchedule"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Time"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1426,23 +1523,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/facilitiesEventsOntology#Period -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Period">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#isPeriodOf"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Time"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <WordNetID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15315015</WordNetID>
-        <rdfs:comment xml:lang="en">A period indicates whether an event is recurring in time</rdfs:comment>
-        <rdfs:label xml:lang="en">Period</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#PlayCreativeWork -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#PlayCreativeWork">
@@ -1450,6 +1530,23 @@
         <WordNetID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07021061</WordNetID>
         <rdfs:comment xml:lang="en">A play is a form of literature expressed as a theatrical performance</rdfs:comment>
         <rdfs:label xml:lang="en">PlayCreativeWork</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/facilitiesEventsOntology#Schedule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Schedule">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#isPeriodOf"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <WordNetID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15315015</WordNetID>
+        <rdfs:comment xml:lang="en">A period indicates whether an event is recurring in time</rdfs:comment>
+        <rdfs:label xml:lang="en">Schedule</rdfs:label>
     </owl:Class>
     
 
@@ -1529,30 +1626,6 @@
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">An event concerning a theatre performace</rdfs:comment>
         <rdfs:label xml:lang="en">TheatreEvent</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/facilitiesEventsOntology#Time -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Time">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#isScheduleOf"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Event"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#hasPeriod"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Period"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <WordNetID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07324217</WordNetID>
-        <rdfs:comment xml:lang="en">A point in time expressed with a date and time in which an event occurs</rdfs:comment>
-        <rdfs:label xml:lang="en">Time</rdfs:label>
     </owl:Class>
     
 
@@ -1662,11 +1735,11 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#CreativeWork"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Event"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Facility"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Period"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Time"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Schedule"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Timetables"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#ValuePartition"/>
         </owl:members>
