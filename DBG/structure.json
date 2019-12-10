@@ -1,1852 +1,242 @@
 [
 	{
-		"Link": "http://www.trentotoday.it/eventi/musei-gratis-1-dicembre.html",
-		"category": "VisualArtsEvent",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mostre/",
-		"Title": "Domenica 1 dicembre gratis nei musei",
-		"location": "Castello del Buonconsiglio; Via Bernardo Clesio",
-		"price": "Gratis",
-		"date": "Dal 01/12/2019 al 01/12/2019; tutto il giorno",
-		"time": "00:00>23:59",
-		"description": "Tornano le domeniche gratis al museo, promosse dal Ministero dei Beni Culturali.; Ogni prima settimana del mese si potr\u00e0 entrare senza pagare il biglietto; per questo mese l'appuntamento \u00e8 fissato a domenica 3 novembre.; In Trentino si potr\u00e0 entrare in tutti i musei provinciali, i castelli, di propriet\u00e0 della Provincia, ed altri musei pubblici, oltre al Museo Diocesano. Ecco l'elenco.; Musei gratis in Trentino; A Trento: Castello del Buonconsiglio, Le Gallerie di Piedicastello, MUSE \u2013 Museo delle Scienze, Museo dell'Aeronautica Gianni Caproni, Museo Diocesano Tridentino, Spazio Archeologico Sotterraneo del Sas, Galleria Civica di Trento, Museo Diocesano.; A Rovereto il MART, Museo di Arte Contemporanea, ed il Museo Civico. A San Michele all'Adige il Museo degli Usi e Costumi della Gente Trentina. In Val di Non il Museo Retico di Sanzeno. A Fiav\u00e8 il Museo delle Palafitte. A Riva del Garda il MAG, Museo Alto Garda, riaperto per l'occasione sar\u00e0 visitabile al prezzo ridotto di 2,5 euro.; I castelli: Castel Stenico, Castel Beseno, Castel Thun e Castel Caldes. Ultima domenica di apertura per Forte Cadine, la fortezza austroungarica alle porte di Trento.",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "musei"
-			},
-			{
-				"name": "musei gratis"
-			}
-		],
-		"startDate": "01/12/2019",
-		"endDate": "01/12/2019",
-		"startTime": "00:00",
-		"endTime": "23:59"
+		"name": "Mart Membership",
+		"category": "Event",
+		"date": "12-11-19",
+		"time": "",
+		"comment": "Appuntamento annuale riservato alle categorie Membership aventi diritto. Informazioni: membership@mart.tn.it.",
+		"location": "",
+		"locationName": "",
+		"contact": "membership@mart.tn.it.",
+		"cost": "free",
+		"link": "mart.trento.it/agenda.jsp"
 	},
 	{
-		"Link": "http://www.trentotoday.it/eventi/krampus-fassa-mercatini-natale-2019.html",
+		"name": "Focus Collezioni\nBernardo Strozzi e Yves Klein",
 		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "La notte dei Krampus a Pozza di Fassa",
-		"location": "Centro Storico; Strada de Meida; Pozza di Fassa",
-		"price": "Gratis",
-		"date": "Dal 30/11/2019 al 30/11/2019 solo domani; vedi info",
-		"time": "vedi info",
-		"description": "Sabato 30 novembre grande appuntamento a Pozza di Fassa con la sfilata dei Krampus. Saranno ben 19 i gruppi mascherati che gireranno per il paese. Un vero e proprio \"raduno\" di Krampus da tutte le Alpi.; Chi sono i Krampus? Ecco la leggenda; I Krampus sono dei diavoli travestiti, in lingua tedesca, che accompagnano la figura folcloristica di San Nicola da Bari nella tradizionale sfilata lungo le strade del paese.; Krampus a Pozza di Fassa, foto di Alessandro Paris; I Krampus sono uomini-caproni scatenati e molto inquietanti che si aggirano per le strade alla ricerca dei bambini \"cattivi\". I loro volti sono coperti da terrificanti maschere diaboliche; i loro abiti sono laceri, sporchi e consunti. I Krampus, vagando per le vie dei paesi, provocano rumori ottenuti da campanacci o corni, che li accompagnano nel tragitto che compiono, mentre colpiscono con frustate la gente.; Ecco il programma completo della giornata:; Ore 15.00 apertura dei chioschi lungo la via Meida; Ore 16.00 musica con dj in piazza del comune; Ore 18.00 inizio sfilata; Ore 19.00 apertura cucine presso il tendone e afterparty con Dj Matthew B.",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "30/11/2019",
-		"endDate": "30/11/2019",
-		"startTime": "",
-		"endTime": ""
+		"date": "13-11-19",
+		"time": "10:00-17:00",
+		"comment": "Restauro della pala d'altare di Strozzi esposta nelle Collezioni, condotto in accordo con la Diocesi di Trento. Orario al pubblico: 10.00 - 13.00 / 14.00 - 17.00. Info: eventi@mart.tn.it.",
+		"location": "Mart, Sale espositive",
+		"locationName": "",
+		"contact": "eventi@mart.tn.it.",
+		"cost": "free",
+		"link": "mart.trento.it/agenda.jsp"
 	},
 	{
-		"Link": "http://www.trentotoday.it/eventi/mauro-corona-distillerie-marzadro.html",
+		"name": "Mente e cervello nel sogno ordinario e nel sogno lucido",
 		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/incontri/",
-		"Title": "Mauro Corona alle distillerie Marzadro",
-		"location": "Distilleria Marzadro; Strada Provinciale 90; Isera",
-		"price": "Gratis",
-		"date": "Dal 27/11/2019 al 27/11/2019; dalle 17",
-		"time": "dalle 17",
-		"description": "Mauro Corona alle distillerie Marzadro per presentare il nuovo libro in anteprima, \"Il passo del vento\", scritto a quattro mani con Matteo Righetto.; Un libro definito anche Sillabario alpino perch\u00e9 in una serie di parole selezionate dal vocabolario alpino e della sua personale esperienza di vita lo scrittore alpinista ci offre porte che si aprono sulla sua peculiare visione del mondo e della relazione tra l\u2019uomo e la natura.; Un\u2019occasione per seguire con l\u2019ospite d\u2019onore la visita guidata della distilleria, dagli alambicchi alle; bottaie e per parlare del suo ultimo libro. Mauro Corona (moderato dalla giornalista Adele Gerardi) si intratterr\u00e0 dalle 19.00 in poi con gli estimatori della sua vis artistica e della grappa, un connubio che ben si addice al contesto della montagna, intesa da Mauro Corona pi\u00f9 come categoria dello spirito che zona ambientale. All\u2019 attivo del noto scrittore ci sono decine di raccolte di racconti ed altrettanti romanzi che gli hanno valso diversi premi letterari, tra cui il Cardo d'argento nel 2008 al Premio Itas del libro di montagna per Cani, camosci, cuculi (e un corvo), il Premio Bancarella 2011 per La fine del mondo storto, il Premio Mario Rigoni Stern 2014 per La voce degli uomini freddi ed il Premio Selezione Campiello; 2014.",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "Mauro Corona"
-			},
-			{
-				"name": "libri"
-			},
-			{
-				"name": "montagna"
-			}
-		],
-		"startDate": "27/11/2019",
-		"endDate": "27/11/2019",
-		"startTime": "17",
-		"endTime": ""
+		"date": "14-11-19",
+		"time": "20:30-22:00",
+		"comment": "Incontro della serie \u201cIo, l\u2019arte e il sogno\u201d, organizzata in collaborazione con Dipartimento di Scienze Cognitive Unitn e Associazione URLA, a cura di Nicola De Pisapia. Prenotazioni: education@mart.tn.it.",
+		"location": "Mart, Area educazione",
+		"locationName": "",
+		"contact": "education@mart.tn.it.",
+		"cost": "free",
+		"link": "mart.trento.it/agenda.jsp"
 	},
 	{
-		"Link": "http://www.trentotoday.it/eventi/krampus-maurina-mercatini-natale-2019.html",
+		"name": "Mart Blabla Deutsch",
 		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "I Krampus a Maurina in Val di Non",
-		"location": "Maurina; Indirizzo non disponibile; Spormaggiore",
-		"price": "Prezzo non disponibile",
-		"date": "Dal 01/12/2019 al 01/12/2019; 16",
-		"time": "16",
-		"description": "Domenica 1 dicembre alle 16 a Maurina arrivano i Krampus Toatnroscht Tuifl Buchholz di Pochi di Salorno.; I Krampus sono dei diavoli travestiti, in lingua tedesca, che accompagnano la figura folcloristica di San Nicola da Bari nella tradizionale sfilata lungo le strade del paese.; I Krampus sono uomini-caproni scatenati e molto inquietanti che si aggirano per le strade alla ricerca dei bambini \"cattivi\". I loro volti sono coperti da terrificanti maschere diaboliche; i loro abiti sono laceri, sporchi e consunti. I Krampus, vagando per le vie dei paesi, provocano rumori ottenuti da campanacci o corni, che li accompagnano nel tragitto che compiono, mentre colpiscono con frustate la gente.",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "01/12/2019",
-		"endDate": "01/12/2019",
-		"startTime": "16",
-		"endTime": ""
+		"date": "15-11-19",
+		"time": "18:00-19:30",
+		"comment": "Parlare tedesco tra le opere del museo con la mediatrice madrelingua Petra Scholer. Costo: \u20ac 5. Prenotazioni: education@mart.tn.it - 0464 454135/108.",
+		"location": "Mart, sale espositive",
+		"locationName": "",
+		"contact": "education@mart.tn.it",
+		"cost": "Costo: \u20ac 5",
+		"link": "mart.trento.it/agenda.jsp"
 	},
 	{
-		"Link": "http://www.trentotoday.it/eventi/piedicastello-fai-2019.html",
-		"Title": "Alla scoperta di Piedicastello con il FAI",
-		"location": "Piedicastello; Via D\u00f2s Trento",
-		"price": "8 euro",
-		"date": "Dal 30/11/2019 al 30/11/2019 solo domani; 10",
-		"time": "10",
-		"description": "A passeggio con gli esperti del FAI nel borgo \"in dextera Athesis\", uno dei nuclei pi\u00f9 antichi della citt\u00e0, dove passato e presente si incontrano. abato 30 novembre 2019 alle ore 10:00 visita a Piedicastello, uno dei luoghi pi\u00f9 misteriosi e affascinanti di Trento, rimasto come cristallizzato nel tempo ad un passo dal centro cittadino.; La visita sar\u00e0 un modo per conoscere la sua straordinaria storia e il suo convivere con la modernit\u00e0. Alla fine della visita seguir\u00e0 il momento conviviale al Bar Funivia; Richiesta prenotazione tramite email: trento@faigiovani.fondoambiente.it. Contributo a partire da 8 \u20ac, max 30 persone",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "centro storico"
-			},
-			{
-				"name": "escursioni"
-			},
-			{
-				"name": "gite"
-			}
-		],
+		"name": "Mart by Night\nUn disegno tra le mani",
 		"category": "Event",
-		"startDate": "30/11/2019",
-		"endDate": "30/11/2019",
-		"startTime": "10",
-		"endTime": ""
+		"date": "15-11-19",
+		"time": "20:00-22:00",
+		"comment": "Workshop di sperimentazione grafica con l\u2019artista David Aaron Angeli.\nCosto: \u20ac 10 ( \u20ac 7 ridotto). Prenotazioni: education@mart.tn.it - 0464 454135-108.",
+		"location": "Mart, Area educazione",
+		"locationName": "",
+		"contact": "education@mart.tn.it",
+		"cost": "Costo: \u20ac 10",
+		"link": "mart.trento.it/agenda.jsp"
 	},
 	{
-		"Link": "http://www.trentotoday.it/eventi/fiera-ciucioi-lavis-2019.html",
+		"name": "Aperitivo inDanza\nSarajevo - La strage dell'uomo tranquillo\n\u00a0",
 		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/sagre/",
-		"Title": "A Lavis la Fiera dei Ciucioi: prima volta con il giardino aperto",
-		"location": "Giardino dei Ciucioi; Piazza Venezia, 2; Lavarone",
-		"price": "Gratis",
-		"date": "Dal 30/11/2019 al 01/12/2019 da domani; vedi programma",
-		"time": "vedi programma",
-		"description": "Finalmente la Fiera dei Ciucioi... con i Ciucioi. A Lavis torna la tradizionale festa dell'ultimo finesettimana di novembre, quest'anno con un'edizione speciale: \u00e8 stato infatti riaperto in autunno il Giardino dei Ciucioi, un luogo affascinante, tutto da scoprire.; Il giardino sar\u00e0 visitabile nei giorni della Fiera: sar\u00e0 possibile prenotare un turno di visita presso la casella della Pro Loco. Cuore della festa sar\u00e0 la piazza delle Suore Canossiane, ribattezzata per l'occasione \"Piazza del Gusto\". Sabato 30 novembre le casette apriranno i battenti alle ore 17.00 per dare il via alle degustazioni di prodotti tipici, accompagnate da musica dal vivo. Domenica 1 dicembre si inizia alle ore 9.00 e, oltre agli stand di degustazioni, ci saranno tante attivit\u00e0 per i pi\u00f9 piccoli. Sempre nella giornata di domenica sono in programma visite guidate alle chiese ed ai luoghi storici del paese di Lavis.",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "feste"
-			},
-			{
-				"name": "sagre"
-			},
-			{
-				"name": "storia"
-			}
-		],
-		"startDate": "30/11/2019",
-		"endDate": "01/12/2019",
-		"startTime": "",
-		"endTime": ""
+		"date": "15-11-19",
+		"time": "20:00-21:00",
+		"comment": "Performance di Gennaro Andrea Lauro, in collaborazione con Centro Servizi S. Chiara. A seguire aperitivo con Altemasi. Ingresso con biglietto Mart o biglietto dello spettacolo di Alessandro Sciarroni all'Auditorium Melotti. Info: eventi@mart.tn.it.",
+		"location": "Mart, Sale espositive",
+		"locationName": "",
+		"contact": "eventi@mart.tn.it.",
+		"cost": "free",
+		"link": "mart.trento.it/agenda.jsp"
 	},
 	{
-		"Link": "http://www.trentotoday.it/eventi/krampus-pergine-30-novembre-1-dicembre.html",
+		"name": "Isadora Duncan",
 		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/sagre/",
-		"Title": "I Krampus a Pergine con tante attivit\u00e0 per i pi\u00f9 piccoli",
-		"location": "Centro Storico; Indirizzo non disponibile; Pergine Valsugana",
-		"price": "Gratis",
-		"date": "Dal 30/11/2019 al 01/12/2019 da domani; vedi programma",
-		"time": "vedi programma",
-		"other_info": [
-			{
-				"name": "Evento per bambini",
-				"info": "Evento per bambini",
-				"info_url": "http://www.trentotoday.it/eventi/bambini/si/"
-			},
-			{
-				"name": "Evento per bambini"
-			}
-		],
-		"description": "I Krampus tornano ai Mercatini di Natale di Pergine, o meglio Perzenland: cos\u00ec si chiama la citt\u00e0 durante le feste natalizie. Sabato 30 novembre e domenica 1 dicembre tanti appuntamenti per conoscere la storia, la leggenda, la tradizione dei \"diavoli\" che scortano San Nicol\u00f2.; Protegonisti i Perchten di Amstetten, ovvero i \"Krampus buoni\" dell'Austria. Non conosci la leggenda dei Krampus? Clicca qui...; Ecco il programma; Sabato 30 novembre; Nel pomeriggio: spettacolo dei Krampus buoni assieme a St. Nikolaus e all'Angelo; Laboratori per bambini a cura del Centro Famiglie Valsugana (vicolo delle Garberie) dalle 14.30 alle 17.30; Stanza dei Canopi - Laboratori a tema \"Disegnamo i Krampus\" - a cura di Sara Arcobaleno dalle 10.30 alle 14.00; Domenica 1 dicembre; Nel pomeriggio: spettacolo dei Krampus buoni assieme a St. Nikolaus e all'Angelo; Ore 19.00 momento musicale Blues con i \"The Next Door\" in piazza Fruet (Piazzetta del Gusto); Laboratori per bambini a cura del Centro Famiglie Valsugana (vicolo delle Garberie) dalle 14.30 alle 17.30; Stanza dei Canopi - Laboratori a tema \"Disegnamo i Krampus\" - a cura di Sara Arcobaleno dalle 10.30 alle 14.00; Spettacolo itinerante per le vie del centro storico di Pergine Valsugana.; Casette espositori aperte dalle ore 10.00 alle ore 19.00, ristorazione dalle 10.00 alle 22.00. I negozi sono aperti",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "bambini"
-			},
-			{
-				"name": "krampus"
-			}
-		],
-		"startDate": "30/11/2019",
-		"endDate": "01/12/2019",
-		"startTime": "",
-		"endTime": ""
+		"date": "17-11-19",
+		"time": "15:00-16:00",
+		"comment": "Visita guidata alla mostra Danzare la rivoluzione. Isadora Duncan e  le arti figurative in Italia tra Ottocento e avanguardia. Costo: \u20ac 2.  Acquistabile il giorno stesso, dalle ore 14.00, in biglietteria. Info: education@mart.tn.it.",
+		"location": "Mart, Sale espositive",
+		"locationName": "",
+		"contact": "education@mart.tn.it.",
+		"cost": "Costo: \u20ac 2",
+		"link": "mart.trento.it/agenda.jsp"
 	},
 	{
-		"Link": "http://www.trentotoday.it/eventi/velia-lalli-bookique-2019.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/teatri/",
-		"Title": "Stand up comedy: Velia Lalli alla Bookique",
-		"location": "Bookique; Via Torre D'Augusto",
-		"price": "7 euro",
-		"date": "Dal 28/11/2019 al 28/11/2019; 21",
-		"time": "21",
-		"description": "Gioved\u00ec torna la stand up comedy alla Bookique. Per l'occasione del festival Loveisindieair \u2661 Genere di Musica. Musica di Genere il palco sar\u00e0 di Velia Lalli.; Ticket online: 5 euro + commissioni; https://oooh.events/evento/lallibookique-biglietti/; Ticket at the door: 7 euro; Nel suo quinto monologo Velia Lalli prova a chiudere il cerchio, dopo aver fatto bilanci ad ogni Capodanno, ogni anno dopo le ferie estive, al passaggio di ogni decade, e persino in ogni suo monologo. Si rifugia ancora una volta nella risata per accettare tutti i fallimenti delle sue ambizioni. E se alcune possono sembrare stravaganti, come scoprire di non aver raggiunto nemmeno fino in fondo lo status di gattara, tutto il resto \u00e8 l\u2019analisi lucida delle nostre ambizioni indotte pi\u00f9 comuni.; Non \u00e8 pi\u00f9 una ragazzina, non \u00e8 madre, non \u00e8 abbastanza gattara, non \u00e8 abbastanza fashion, non \u00e8 abbastanza gnocca, non \u00e8 abbastanza femminista. E non \u00e8 neanche abbastanza famosa.; Con un attacco aperto alla comicit\u00e0 femminile nazionale, Velia dichiara di essere una nicchia, dove la donna ha come arma una grassa risata, libera e consapevole, che non passa attraverso la critica trita del maschio. Nel momento in cui si parla tanto di donne, lei le vuole armate dell\u2019arma pi\u00f9 potente che conosce: la goliardia. Fornendo un prontuario di battute sferzanti da appuntarsi e utilizzare in caso di \u201cnecessit\u00e0\u201d.",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "commedia"
-			},
-			{
-				"name": "teatro"
-			},
-			{
-				"name": "trentino"
-			}
-		],
-		"startDate": "28/11/2019",
-		"endDate": "28/11/2019",
-		"startTime": "21",
-		"endTime": ""
+		"name": "Little Mart\nIl libro delle nuvole",
+		"category": "ScienceEvent",
+		"date": "17-11-19",
+		"time": "15:00-16:30",
+		"comment": "In occasione del Festival della meteorologia il laboratorio si dedica alle varie forme delle nuvole. Dai 5 ai 12 anni. Costo: \u20ac 5. Prenotazione: education@mart.tn.it - 0464 454135/108. Sab. e dom. 0464 438887.",
+		"location": "Mart, Area educazione",
+		"locationName": "",
+		"contact": "education@mart.tn.it",
+		"cost": "Costo: \u20ac 5",
+		"link": "mart.trento.it/agenda.jsp"
 	},
 	{
-		"Link": "http://www.trentotoday.it/eventi/come-sfruttare-energia-casa.html",
+		"name": "Focus Collezioni\nBernardo Strozzi e Yves Klein",
 		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/incontri/",
-		"Title": "Casa astuta: come sfruttare bene l\u2019energia a casa",
-		"location": "Circolo ACLI GARDOLO; Via Laurence Feininger, 4",
-		"price": "Gratis",
-		"date": "Dal 29/11/2019 al 29/11/2019 solo oggi; 20:30",
+		"date": "20-11-19",
+		"time": "10:00-17:00",
+		"comment": "Restauro della pala d'altare di Strozzi esposta nelle Collezioni, condotto in accordo con la Diocesi di Trento. Orario al pubblico: 10.00 - 13.00 / 14.00 - 17.00. Info: eventi@mart.tn.it.",
+		"location": "Mart, Sale espositive",
+		"locationName": "",
+		"contact": "eventi@mart.tn.it.",
+		"cost": "free",
+		"link": "mart.trento.it/agenda.jsp"
+	},
+	{
+		"name": "La citt\u00e0 di tutti",
+		"category": "ScienceEvent",
+		"date": "20-11-19",
+		"time": "16:00-18:00",
+		"comment": "Laboratorio in occasione del trentennale della convenzione ONU sui Diritti dell'Infanzia e dell'Adolescenza. Partecipazione gratuita senza prenotazione. Dai 6 ai 14 anni. Info: education@mart.tn.it.",
+		"location": "Muse, Trento",
+		"locationName": "",
+		"contact": "education@mart.tn.it.",
+		"cost": "free",
+		"link": "mart.trento.it/agenda.jsp"
+	},
+	{
+		"name": "Aspetti giuridici e responsabilit\u00e0 genitoriale della violenza domestica",
+		"category": "TalkEvent",
+		"date": "21-11-19",
+		"time": "17:00-19:00",
+		"comment": "Falenablu propone una formazione con la scrittrice Agnello Hornby, in collaborazione con Aiaf Trento. Valida ai fini della formazione. Gratuito, prenotazione obbligatoria email: education@mart.trento.it.",
+		"location": "Mart, Area educazione",
+		"locationName": "",
+		"contact": "education@mart.trento.it.",
+		"cost": "free",
+		"link": "mart.trento.it/agenda.jsp"
+	},
+	{
+		"name": "\"Credevo che\" o della violenza domestica",
+		"category": "Event",
+		"date": "21-11-19",
 		"time": "20:30",
-		"other_info": [
-			{
-				"name": "Sito web",
-				"info": "blogspot.it",
-				"info_url": "http://www.acligardolo.blogspot.it/"
-			},
-			{
-				"name": "Sito web"
-			}
-		],
-		"description": "Partendo da un esempio reale, di una casa a Gardolo, appunto una \u201ccasa astuta\u201d, analizzeremo metodi pratici e reali per sfruttare al meglio l\u2019energia di casa nostra, a partire dal risparmio energetico.",
-		"stars_of_5": 3,
-		"tags": [
-			{
-				"name": "consumatori"
-			},
-			{
-				"name": "energia"
-			},
-			{
-				"name": "risparmiare"
-			}
-		],
-		"startDate": "29/11/2019",
-		"endDate": "29/11/2019",
-		"startTime": "20:30",
-		"endTime": ""
+		"comment": "Reading in musica di Simonetta Agnello Hornby e Filomena Campus. A cura dell\u2019associazione FalenaBlu, in collaborazione con Aiaf Trento. Partecipazione gratuita. Info: eventi@mart.tn.it.",
+		"location": "Mart, Sala conferenze",
+		"locationName": "",
+		"contact": "eventi@mart.tn.it.",
+		"cost": "free",
+		"link": "mart.trento.it/agenda.jsp"
 	},
 	{
-		"Link": "http://www.trentotoday.it/eventi/intelligenza-artificiale-innovation-day-2019-eit-digital-italy.html",
+		"name": "Trasformare il sogno in arte: la pratica del Dream Tending",
 		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/incontri/",
-		"Title": "Intelligenza artificiale: mito o realt\u00e0? Se ne parla a Povo",
-		"location": "EIT Digital Italy Co-Location Centre; Via Sommarive, 18",
-		"price": "Gratis",
-		"date": "Dal 28/11/2019 al 28/11/2019; 09:00 - 17:00",
-		"time": "09:00 - 17:00",
-		"description": "Qual \u00e8 lo stato dell'arte delle applicazioni di Intelligenza Artificiale? Che tipo di impatto avr\u00e0 quest\u2019ultima sulle imprese e sulla societ\u00e0 nel prossimo futuro? Chi \u00e8 nella posizione migliore per beneficiare della corsa all\u2019IA? Il tema al centro dell\u2019italian innovation day 2019; Sono alcune delle domande a cui EIT Digital, organizzazione europea leader nella trasformazione digitale, la cui sede italiana \u00e8 a Trento, cercher\u00e0 di dare risposta nel corso dell\u2019Italian Innovation Day 2019, dal titolo \u201cThe AI Revolution: Hype or Reality?\u201d.; Un titolo che vuole sottolineare la doppia valenza del termine, diventato ormai un tormentone per chi si occupa di innovazione: da un lato l\u2019intelligenza artificiale \u00e8 senza dubbio destinata a cambiare in profondit\u00e0 il nostro modo di vivere, con America e Cina impegnate in una rincorsa al progresso sempre pi\u00f9 frenetica, e l\u2019Europa che cerca di tenere il passo.; Dall\u2019altro, non sempre quanto viene prodotto in questo campo \u00e8 davvero \u201cintelligente\u201d, ed \u00e8 necessario distinguere le ragionevoli aspettative in materia di IA, legate a casi aziendali reali, dalle iperboli usate a scopo marketing.; L\u2019evento \u00e8 in programma per gioved\u00ec 28 novembre, a partire dalle 9.30, nella sede di via Sommarive 18 a Povo: imprenditori ed esperti di alto profilo a livello europeo, convergeranno su Trento per analizzare le possibili applicazioni dell\u2019intelligenza artificiale negli ambiti in cui si concentrano le attivit\u00e0 di innovazione di EIT Digital: Digital Cities, Digital Wellbeing, Digital Tech, Digital Industry e Digital Finance.; Nel corso della mattinata si susseguiranno una serie di interventi di alto profilo moderati da Cristina Pozzi, amministratrice delegata e co-fondatrice della startup veronese ImpactScool; fra gli speaker, gli Ad di aziende innovative in forte crescita, attive nell\u2019ambito della guida autonoma (Harri Santamala, Sensible 4), della gestione intelligente dell\u2019energia negli edifici (Giuseppe Giordano Enerbrain), dell\u2019analisi dei dati sanitari e finanziari (Baher Al Hakim di Medicus AI e Daniele Grassi di Axyon AI).; Mattia Corbetta, policy analyst dell\u2019Organizzazione per la Cooperazione e lo Sviluppo Economico, aprir\u00e0 la sessione con un intervento introduttivo sulla nascita delle politiche industriali in ambito AI e sul ruolo delle piccole e medie imprese in questo contesto.; Nel pomeriggio, al centro dell'Innovation Day 2019 sar\u00e0 anche l'Innovation Village, dove verranno presentate una trentina di demo di prodotti e servizi innovativi, derivanti dalle attivit\u00e0 di innovazione di EIT Digital, nonch\u00e9 startup e scale-up nell'ecosistema dell'organizzazione.; Gallery",
-		"stars_of_5": 3,
-		"tags": [
-			{
-				"name": "scienza"
-			},
-			{
-				"name": "tecnologia"
-			},
-			{
-				"name": "universit\u00e0"
-			}
-		],
-		"startDate": "28/11/2019",
-		"endDate": "28/11/2019",
-		"startTime": "09:00",
-		"endTime": "17:00"
+		"date": "21-11-19",
+		"time": "20:30-22:00",
+		"comment": "Incontro della serie \u201cIo, l\u2019arte e il sogno\u201d, organizzata in collaborazione con Dipartimento di Scienze Cognitive Unitn e Associazione URLA, a cura di Gabriele Penazzi. Prenotazioni: education@mart.tn.it.",
+		"location": "Mart, Area educazione",
+		"locationName": "",
+		"contact": "education@mart.tn.it.",
+		"cost": "free",
+		"link": "mart.trento.it/agenda.jsp"
 	},
 	{
-		"Link": "http://www.trentotoday.it/eventi/cena-al-buio.html",
+		"name": "Mart Membership\nIntermedia",
 		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/cibo-e-vino/",
-		"Title": "Camerieri non vedenti e men\u00f9 a sopresa: ecco la cena al buio di Trento",
-		"location": "parrocchia di Madonna Bianca; Via Angelo Bettini, 11",
-		"price": "Men\u00f9 25 euro a persona",
-		"date": "Dal 30/11/2019 al 30/11/2019 solo domani; 20, ritrovo 19:30",
-		"time": "20, ritrovo 19:30",
-		"other_info": [
-			{
-				"name": "Evento per bambini",
-				"info": "Evento per bambini",
-				"info_url": "http://www.trentotoday.it/eventi/bambini/si/"
-			},
-			{
-				"name": "Evento per bambini"
-			}
-		],
-		"description": "Una cena al buio guidati da camerieri non vedenti. \u00c8 questa la proposta dell'Associazione Volontariato Pro Ciechi \u201cA.V.P.C., che per sabato 30 novembre ha organizzato l'appuntamento nelle sale parrocchiali della parrocchia di Madonna Bianca in via Bettini 11 a Trento.; \"I commensali in questa indimenticabile esperienza - scrivono gli organizzatori - saranno accompagnati ai tavoli in completa assenza di luce da camerieri non vedenti. Verr\u00e0 proposto un men\u00f9 completo a sorpresa al costo di 25 euro a persona\".; Come partecipare alla cena al buio di Trento; \"La prenotazione - precisano gli organizzatori - deve essere effettuata con pagamento anticipato entro il 28 novembre presso Unione Italiana Ciechi in via della Malvasia 15 Trento in orario di ufficio oppure tramite bonifico all\u2019IbanIT31M0801301800000010314360 specificando nome, cognome e il numero di persone partecipanti. Il ritrovo \u00e8 previsto per le ore 19:30\".; In caso di intolleranze alimentari sar\u00e0 possibile chiamare per verificare la compatibilit\u00e0 con il men\u00f9. Per ulteriori informazioni contattare il numero 340 5739425 o 335 5900918. \"Nel caso ci fossero prenotazioni che superano la capienza della sala - concludono gli organizzatori - verr\u00e0 proposto il pranzo alle ore 13 dello stesso giorno e con le stesse modalit\u00e0\".",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "eventi"
-			},
-			{
-				"name": "trento"
-			}
-		],
-		"startDate": "30/11/2019",
-		"endDate": "30/11/2019",
-		"startTime": "20",
-		"endTime": "19:30"
+		"date": "22-11-19",
+		"time": "10:00",
+		"comment": "Preview alla mostra Intermedia. Archivio di Nuova Scrittura. La Collezione di Paolo Della Grazia. Informazioni e prenotazioni: membership@mart.tn.it, 0464.454169 (entro il 20 novembre).",
+		"location": "Mart, Rovereto",
+		"locationName": "",
+		"contact": "membership@mart.tn.it",
+		"cost": "free",
+		"link": "mart.trento.it/agenda.jsp"
 	},
 	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-trento-2019-2020.html",
+		"name": "Mart Opening\nIntermedia",
 		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "Mercatini di Natale a Trento",
-		"location": "Piazza Fiera; Piazza di Fiera",
-		"price": "Gratis",
-		"date": "Dal 23/11/2019 al 06/01/2020; vedi info",
-		"time": "vedi info",
-		"other_info": [
-			{
-				"name": "Sito web",
-				"info": "trentotoday.it",
-				"info_url": "http://www.trentotoday.it/eventi/eventi-natale-trento-2019-2020.html"
-			},
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Sito web"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Tornano i Mercatini di Natale nel centro storico di Trento. L'appuntamento \u00e8 dal 23 novembre al 6 gennaio. Ad aspettare i visitatori il Natale nel capoluogo con la sua atmosfera, i suoi colori e le casette con tanti prodotti artigianali tipici. Oltre alla storica sede di Piazza Fiera, il mercatino \u00e8 presente anche in Piazza Cesare Battisti. Con le sue 93 casette di legno, Il Mercatino di Natale \u00e8 la manifestazione principale, ma molte altre sono le iniziative nel programma di Trento Citt\u00e0 del Natale: clicca qui...; Tra artigianato locale e tipicit\u00e0 enogastronomiche; Quello di Trento \u00e8 il pi\u00f9 antico Mercatino di Natale del Trentino: 93 casette di legno animano le storiche piazza Fiera e piazza Battisti e proprio qui si trova il meglio dell\u2019artigianato alpino e dell\u2019enogastronomia tradizionale locale.; Tutti i mercatini 2019/2020 in Trentino; Addobbi natalizi con materiali naturali del territorio, decorazioni artigianali per la casa, sculture in legno scolpite. E ancora guanti, sciarpe e pantofole che riprendono i motivi tipici della tradizione locale, scaldamani e cappelli in lana cotta. Non mancano poi prodotti naturali per la cura di s\u00e9 e il benessere della persona, cuscini con cirmolo e noccioli di ciliegie deliziosamente profumati.; La scelta degli espositori ha seguito criteri severi, mettendo al primo posto il lavoro home made e l\u2019artigianato locale, assicurando cos\u00ec un\u2019elevata qualit\u00e0 dei prodotti.; A Trento c'\u00e8 anche il Villaggio di Babbo Natale; Il Mercatino di Natale di Trento ospita anche eccellenze culinarie, tipicit\u00e0 della cucina tradizionale regionale da assaggiare o da acquistare come dolce ricordo della vacanza. Dai canederli preparati con speck o luganega, alla polenta da accompagnare ai buonissimi formaggi locali, tortel di patate, Brezel farciti o sfiziosi panini gourmet. E poi Strudel di mele, Strauben, Zelten e altri dolci tipici da abbinare al classico vin brul\u00e9 e alle birre artigianali trentine, al brul\u00e9 di mela, a tisane e cioccolate calde. Tutta la bont\u00e8 del Trentino.; Aperture/Orari; Il Mercatino \u00e8 aperto dalla domenica al gioved\u00ec dalle 10.00 alle 19.30; venerd\u00ec e sabato dalle 10.00 alle 20.30; sabato 14 dicembre 2019 e sabato 4 gennaio 2020 aperto dalle ore 10.00 alle ore 23.00. Il 26 dicembre 2019, il 1\u00b0 e il 6 gennaio 2020 aperto dalle 10.00 alle 19.30. Il giorno di Natale il Mercatino \u00e8 chiuso.; Grande festa per l'inaugurazione dei Mercatini; L'inaugurazione dei mercatini \u00e8 fissata per sabato 23 novembre: il momento in cui le casette apriranno i battenti sar\u00e0 l'occasione per brindare alla 26esima edizione dei Mercatini, ma ci sar\u00e0 anche l'apertura del Villaggio di Babbo Natale, e l'accensione del grande Albero di Natale in piazza Duomo. Ecco il programma, clicca qui...",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "23/11/2019",
-		"endDate": "06/01/2020",
-		"startTime": "",
-		"endTime": ""
+		"date": "22-11-19",
+		"time": "11:00-12:00",
+		"comment": "Una mostra prodotta con Museion sull\u2019Archivio di Nuova Scrittura (ANS), la collezione di Paolo Della Grazia dedicata alle ricerche tra parola e immagine nel Novecento. Partecipazione gratuita. Info: eventi@mart.tn.it.",
+		"location": "Mart, Rovereto",
+		"locationName": "",
+		"contact": "eventi@mart.tn.it.",
+		"cost": "free",
+		"link": "mart.trento.it/agenda.jsp"
 	},
 	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-riva-garda-2019-2020.html",
-		"Title": "Il Natale a Riva \u00e8 di gusto",
-		"location": "centro storico; Via Andrea Maffei; Riva del Garda",
-		"price": "Gratis",
-		"date": "Dal 16/11/2019 al 06/01/2020; 10.00 > 21.00 / 31 dicembre 10.00 > 2.00",
-		"time": "10.00 > 21.00 / 31 dicembre 10.00 > 2.00",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Per festeggiare il Natale a Riva torna l'appuntamento con \"Di gusto in gusto, profumi e sapori tipicamente trentini in un percorso dove si potranno scoprire, degustare ed acquistare le migliori eccellenze del territorio coccolati da una inconfondibile e magica atmosfera natalizia.; Un ambiente incantato, che far\u00e0 sognare all\u2019unisono grandi e piccini, perfetto per celebrare le festivit\u00e0 in famiglia.",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
+		"name": "L\u2019arte della fuga.\nIncontro con Gary Bartz + Maisha",
 		"category": "Event",
-		"startDate": "16/11/2019",
-		"endDate": "06/01/2020",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/concerti-natale-ruggiero-trento.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/concerti/",
-		"Title": "Concerti di Natale nelle chiese di Trento",
-		"location": "Chiese della citt\u00e0; Piazza Santa Maria Maggiore",
-		"price": "Gratis",
-		"date": "Dal 01/12/2019 al 29/12/2019; vedi programma",
-		"time": "vedi programma",
-		"other_info": [
-			{
-				"name": "Sito web",
-				"info": "trentotoday.it",
-				"info_url": "http://www.trentotoday.it/eventi/eventi-natale-trento-2019-2020.html"
-			},
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Sito web"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Novit\u00e0 musicale nell'edizione 2019/2020 di Trento Citt\u00e0 del Natale, il programma di eventi natalizi messo in campo dal Comune. Suoni di quartiere: questo il nome del calendario di appuntamenti con concerti da non perdere nelle chiese dei quartieri cittadini. Ecco il programma...; Antonella Ruggiero, voce e organo \u2013 Basilica di Santa Maria Maggiore; domenica 1 dicembre ore 17; Gavino Murgia, Gruppo vocale K.J. Feininger \u2013 Chiesa di San Marco; domenica 8 dicembre ore 18; The Followers of Christ Gospel Singer \u2013 Chiesa di San Pio X \u2013 Canova di Gardolo; domenica 15 dicembre ore 18; Radiodervish \u2013 Chiesa di San Martino; domenica 22 dicembre ore 18; Solis String Quartet \u2013 Chiesa del Sacro Cuore; domenica 29 dicembre ore 18; A questi si aggiungono i Cantantibus Organis, concerti natalizi sugli organi pi\u00f9 belli della citt\u00e0, a cura dell'Associazione organistica trentina R. Lunelli, che si svolgeranno sempre alle 16 il 1\u00b0 dicembre presso la chiesa di San Francesco Saverio, l\u20198 dicembre presso la chiesa di Santa Maria del Suffragio, il 15 dicembre presso la chiesa di Santa Maria Maggiore ed infine il 22 dicembre presso la cattedrale di San Vigilio.",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "Antonella Ruggiero"
-			},
-			{
-				"name": "mercatini di natale"
-			},
-			{
-				"name": "musica"
-			},
-			{
-				"name": "natale"
-			}
-		],
-		"startDate": "01/12/2019",
-		"endDate": "29/12/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-ossana-2019-2020.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "Ad Ossana 1000 presepi per il Natale",
-		"location": "Centro Storico; Indirizzo non disponibile; Ossana",
-		"price": "Gratis",
-		"date": "Dal 29/11/2019 al 06/01/2020; vedi info",
-		"time": "vedi info",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Per il Natale il borgo di Ossana si trasforma con un suggestivo percorso di presepi, quasi mille, a incorniciare il mercatino di Natale con i suoi prodotti tipici.; Protagonista d'eccezione e vero cuore pulsante della rassegna \u00e8 Castello San Michele. Riaperto al pubblico nel 2014, il maniero medievale di Ossana \u00e8 visitabile anche in inverno. Assolutamente da visitare il presepe appositamente realizzato in occasione dei 60 anni dal disastro aereo del Monte Giner, avvenuto il 22 dicembre 1956 in localit\u00e0 Pale Perse a quota 2.600 metri nel territorio di Ossana. Il presepe \u00e8 allestito nel \u00abMas dei Voltolini\u00bb.",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "29/11/2019",
-		"endDate": "06/01/2020",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/musicantica-2019-centro-santa-chiara.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/concerti/",
-		"Title": "Musicantica, sei concerti dedicati ai suoni d'altri tempi",
-		"location": "vedi info; Indirizzo non disponibile",
-		"price": "Gratis",
-		"date": "Dal 11/10/2019 al 06/12/2019; vedi info",
-		"time": "vedi info",
-		"description": "Con consueto vigore artistico e profondo spirito di ricerca, torna uno dei festival pi\u00f9 longevi dedicati all\u2019ammaliante mondo della musica antica. Si tratta di Trento Musicantica, tradizionale appuntamento autunnale che vede la citt\u00e0 di Trento diventare palcoscenico diffuso per Ensemble, cori e studiosi. Organizzata dal Centro Servizi Culturali S. Chiara, la 33esima edizione andr\u00e0 in scena dall\u2019 11 ottobre al 6 dicembre 2019 in luoghi di particolare rilevanza dove si respira il fascino del passato, a sigillo dello stretto legame della rassegna con la grande ricchezza storico artistica della citt\u00e0: la Chiesa di San Francesco Saverio, tra i massimi esempi di arte barocca del capoluogo trentino, il Castello del Buonconsiglio, tra i maggiori complessi monumentali di tutto il Trentino-Alto Adige e simbolo della citt\u00e0, e la romanica Badia di San Lorenzo.; Programmi monografici dedicati ad autori italiani, musica vocale e strumentale, rappresenteranno i filoni intorno ai quali si articoler\u00e0 \u201cMirabilia\u201d, titolo dell\u2019edizione 2019 del Festival, a sottolineare la somma bellezza creativa che traspare dalle opere in cartellone. L\u2019inaugurazione, l\u201911 ottobre, \u00e8 affidata a una compagine con all\u2019attivo una pluriennale attivit\u00e0 nel repertorio rinascimentale e barocco: La Stagione Armonica diretta da Sergio Balestracci, che con 16 cantori proporr\u00e0 un programma di mottetti di Josquin Desprez nel quinto centenario della morte di Leonardo da Vinci. Dopo il concerto di apertura si prosegue con altri due concerti in ottobre, il 16 e il 21, rispettivamente con il Duo Fantasticar\u00eca formato da Lucia Cortese (soprano) e Paola Ventrella (tiorba), impegnate in una variegata scaletta con pagine di autori italiani tra Cinquecento e Seicento, specchio di un mondo compositivo di sapiente profondit\u00e0 (Bellerofonte Castaldi, Luigi Rossi, Alessandro Piccinini, Claudio Monteverdi, Giovanni Giacomo Gastoldi, Pietro Antonio Giramo), e con l\u2019 Accademia d\u2019Arcadia, ensemble vocale e strumentale diretto da Alessandra Rossi L\u00fcrig, intento ad esplorare l\u2019atmosfera musicale dei primi decenni del Seicento con i ricercati mottetti del compositore Alessandro Grandi.; Segue l\u20198 novembre il concerto del Bonporti Antiqua Ensemble del Dipartimento di Musica Antica del Conservatorio \u201cF.A. Bonporti di Trento\u201d, coordinato da Roberto Gianotti, e della Classe di Canto Rinascimentale e Barocco di Lia Serafini, con musiche dalla Selva Morale e Spirituale di Claudio Monteverdi, un viaggio nella grande ricchezza espressiva del compositore cremonese. Ultimi due appuntamenti, il 19 novembre l\u2019ensemble Rosso Porpora, diretto da Walter Testolin, in un itinerario tra le articolazioni creative dei madrigali di Luca Marenzio e infine, il 6 dicembre, concluder\u00e0 la programmazione la Missa Pastoralis a otto voci di Orazio Benevoli con il Gruppo Vocale Laurence Feininger e la Corale Citt\u00e0 di Trento, diretti da Roberto Gianotti, e la Corale Polifonica dell\u2019Universit\u00e0 di Trento diretta da Marco Gozzi.; Come da prassi consolidata, all\u2019interno del Festival si svolgeranno degli eventi di particolare interesse musicologico. Dal 24 al 29 settembre si terr\u00e0 il Seminario Internazionale di Canto Liturgico Zelus domus tuae comedit me in onore di Laurence Feininger. Il seminario si svolge in collaborazione con il Dipartimento di Lettere e Filosofia dell\u2019Universit\u00e0 degli Studi di Trento, con la Libera Universit\u00e0 di Bolzano, con il Conservatorio di Musica \u2018F. A. Bonporti\u2019 di Trento, con la Biblioteca Fondazione San Bernardino, con lo Studio Teologico Accademico di Trento, con l\u2019Istituto Diocesano di Musica sacra, con l\u2019Ufficio Diocesano Cultura e Universit\u00e0, l\u2019Ufficio Diocesano Musica Sacra e il Museo Castello del Buonconsiglio di Trento. I corsi, diretti da Marco Gozzi, si concluderanno domenica 29 settembre con la Santa Messa in latino che vede la partecipazione degli allievi e dei docenti del seminario.; Domenica 27 ottobre, presso la Sala Accademica del Pontificio Istituto di Musica Sacra a Roma, ci sar\u00e0 la conferenza concerto con la presentazione dei due volumi Lyonel Feininger, Fugen: l\u2019opera musicale, edizione critica di Paolo Delama con un saggio di Danilo Curti-Feininger e prefazione di Marco Gozzi e Laurence Feininger, Le opere per tastiera, edizione moderna di Alberto Delama con introduzioni di Paolo Delama e Danilo Curti-Feininger e una prefazione di Marco Gozzi, con l\u2019intervento dei relatori Giuseppe Calliari, Danilo Curti-Feininger, Alberto Delama, Marco Gozzi e dei musicisti Adriano Dallap\u00e8 (organo), Roberto Gianotti (clavicordo), Lucrezia Slomp (pianoforte).; Inoltre l\u20198 novembre avr\u00e0 luogo a Trento la presentazione del libro di Lia Serafini Il canto. Maestro di equilibrio. Avvicinarsi al canto con la sapienza del corpo, relatrici Lia Nesler e Lia Serafini, e a dicembre si terr\u00e0 la presentazione del volume degli Atti del Convegno Internazionale su Orazio Benevoli tenuto a Palestrina il 2 e 3 febbraio 2019. L\u2019incontro vede Trento Musicantica in collaborazione con la Fondazione Giovanni Pierluigi da Palestrina.; Programma; Venerd\u00ec 11 ottobre 2019 - ore 21.00 | Trento \u2013 Badia di San Lorenzo; In memoria di Leonardo da vinci nel v centenario della morte; La Stagione Armonica, direttore Sergio Balestracci; Mercoled\u00ec 16 ottobre 2019 - ore 21.00 | Trento - Castello del Buonconsiglio, Sala delle Marangonerie; Il Giardino Bellerofonteo; Duo Fantasticar\u00eca: Lucia Cortese soprano, Paola Ventrella tiorba; Luned\u00ec 21 ottobre 2019 - ore 21.00 | Trento \u2013 Chiesa di San Francesco Saverio; I Mottetti di Alessandro Grandi \u2013 Celesti Fiori; Ensemble vocale e strumentale Accademia d\u2019Arcadia, direttore Alessandra Rossi L\u00fcrig; Venerd\u00ec 8 novembre 2019 - ore 21.00 | Trento \u2013 Badia di San Lorenzo; La Vertigine della Selva; Bonporti Antiqua Ensemble del Dipartimento di Musica Antica del Conservatorio \u201cF.A. Bonporti\u201d di Trento; direttore Roberto Gianotti, Classe di Canto Rinascimentale e Barocco di Lia Serafini; Marted\u00ec 19 novembre 2019 - ore 21.00 | Trento - Castello del Buonconsiglio, Sala delle Marangonerie; L\u2019amoroso & crudo stile; Ensemble Rosso Porpora, direttore Walter Testolin; Venerd\u00ec 6 dicembre 2019 \u2013 ore 21.00 | Trento \u2013 Chiesa di San Francesco Saverio; Orazio Benevoli Missa Pastoralis a otto voci; Gruppo Vocale Laurence Feininger e Corale Citt\u00e0 di Trento, direttore Roberto Gianotti; Corale Polifonica dell\u2019Universit\u00e0 di Trento direttore Marco Gozzi; Altri eventi; Dal 24 al 29 settembre 2019 | Trento - Istituto Diocesano di Musica Sacra, Castello del Buonconsiglio; Zelus domus tu\u00e6 comedit me: seminario di canto liturgico in onore di Laurence Feininger; Direttore dei corsi: Marco Gozzi Docenti: Giacomo Baroffio, Juan Carlos Asensio Palacios, Salvatore De Salvo, Paolo Delama, Giulia Gabrielli, Roberto Gianotti, Marco Gozzi, Stefano Rattini; Domenica 29 settembre 2019 - ore 19.00 | Trento \u2013 Chiesa del Seminario Maggiore Arcivescovile; Santa Messa in latino; Con la partecipazione degli allievi e dei docenti del corso \u201cZelus domus tu\u00e6 comedit me\u201d; Domenica 27 ottobre 2019 - ore 17.00 | Roma \u2013 Sala Accademica del Pontificio Istituto di Musica Sacra; presentazione dei volumi:; Lyonel Feininger, Fugen: l\u2019opera musicale, di Paolo Delama, Trento - Lucca, 2016; Laurence Feininger, Le opere per tastiera, di Alberto Delama,; con saggi di Paolo Delama e Danilo Curti-Feininger, Trento - Lucca, 2019; Relatori: Giuseppe Calliari, Danilo Curti-Feininger, Alberto Delama, Marco Gozzi; Musicisti: Adriano Dallap\u00e8, organo, Roberto Gianotti, clavicordo, Lucrezia Slomp, pianoforte; Venerd\u00ec 8 novembre 2019 - ore 17.00 | Trento \u2013 Palazzo Festi; presentazione del volume; Lia Serafini, Il canto. Maestro di equilibrio. Avvicinarsi al canto con la sapienza del corpo. Trento, 2019; Relatrici: Lia Serafini e Lia Nesler; Dicembre 2019 - ore 18.00 | Trento; presentazione del volume degli atti del convegno internazionale su orazio benevoli; tenuto a palestrina il 2 e 3 febbraio 2019; Ingresso libero; Per gli appuntamenti del 16 ottobre e del 19 novembre al Castello del Buonconsiglio \u00e8 necessario ritirare preventivamente il biglietto gratuito presso la biglietteria del Castello (da marted\u00ec a domenica, orario 10-18) a partire dal 9 ottobre.",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "concerti"
-			},
-			{
-				"name": "musica"
-			},
-			{
-				"name": "trentino"
-			}
-		],
-		"startDate": "11/10/2019",
-		"endDate": "06/12/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-rango-tenno-2019-2020.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "A Rango e Canale di Tenno mercatini di Natale d'altri tempi",
-		"location": "centro storico; Via Dante Alighieri; Tenno",
-		"price": "Gratis",
-		"date": "Dal 17/11/2019 al 29/12/2019; vedi info",
-		"time": "vedi info",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Si riaccende la magia dei Mercatini di Natale nei borghi di Rango e Canale di Tenno. Nei Borghi pi\u00f9 Belli d'Italia del Trentino un ricco programma di appuntamenti, eventi e sapori tra le vie, i v\u00f2lti, e piazzette antiche.; A Rango il Mercatino si svolger\u00e0 Il 17, 23, 24, 30 novembre 1,6, 7, 8, 13, 14, 15, 21, 22, 26, 27, 28 e 29 dicembre 2019 dalle ore 9.30 alle 18.30.; A Canale di Tenno Il 23, 24, 30 novembre 1, 7, 8, 14, 15 dicembre 2019 dalle ore 9.30 alle 18.30.",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			},
-			{
-				"name": "natale"
-			}
-		],
-		"startDate": "17/11/2019",
-		"endDate": "29/12/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/comici-stand-up-bugs.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/teatri/",
-		"Title": "Stand up comedy: al Bugs i \"big\" della nuova scena italiana",
-		"location": "Bugs; Largo Giosu\u00e8 Carducci",
-		"price": "vedi sito web",
-		"date": "Dal 25/09/2019 al 30/12/2019; vedi sito",
-		"time": "vedi sito",
-		"other_info": [
-			{
-				"name": "Sito web",
-				"info": "facebook.com",
-				"info_url": "https://www.facebook.com/bugstrento/"
-			},
-			{
-				"name": "Sito web"
-			}
-		],
-		"description": "Comicit\u00e0 al Bugs, il nuovo locale di largo Carducci a Trento, che sta diventando un vero e proprio punto di riferimento per gli amanti della nuova stand up comedy italiana. Sono veramente tanti i nomi del panorama nazionale attesi al microfono da settembre fino alla fine dell'anno. Ecco il programma:; - 25/09 Francesco Arienzo; - 16/10 Pietro Sparacino; - 30/10 Giorgio Magri; - 6/11 Luca Ravenna; - 20/11 Daniele Fabbri; - 4/12 Daniele Tinti; - 18/12 Giorgio Montanini; - 16/12 Stefano Rapone; - 30/12 Francesco Montanari & Alessandro Bardani",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "comici"
-			},
-			{
-				"name": "locali"
-			}
-		],
-		"startDate": "25/09/2019",
-		"endDate": "30/12/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-pergine-2019-2020.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "A Pergine i primi Mercatini di Natale",
-		"location": "Centro Storico; Piazza Gavazzi; Pergine Valsugana",
-		"price": "Gratis",
-		"date": "Dal 09/11/2019 al 06/01/2020; vedi info",
-		"time": "vedi info",
-		"other_info": [
-			{
-				"name": "Sito web",
-				"info": "visitvalsugana.it",
-				"info_url": "https://www.visitvalsugana.it/it/eventi-valsugana/mercatino-di-natale-dei-canopi_1074_ide/"
-			},
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Sito web"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Con il freddo tornano anche i primi mercatini di Natale: da sabato 9 novembre arriva il Mercatino di Natale dei Canopi, a Pergine Valsugana, ispirato alla leggenda di minatori, gnomi e dame, che nel periodo dell\u2019Avvento scendevano a Valle per offrire eventi unici e straordinari.; La citt\u00e0 verr\u00e0 addobbata non solo con luci colori e forme \u201ca tema\u201d, ma tra le casette si potranno trovare prodotti tipici e spazi dedicati alla gastronomia locale, oltre a prodotti solidali.; Il Mercatino di Natale dei Canopi \u00e8 un mercatino unico, a tema minerario, e dove soprattutto quest\u2019anno, nel suo decimo anniversario, i bambini saranno i protagonisti.; CALENDARIO APERTURE:; NOVEMBRE: 9-10-16-17-23-24-30; DICEMBRE: 1-6- 7-8-14-15-21-22-23-24-26-27-28-29-30-31; GENNAIO: 1-4-5-6; Orario Casette: dalle 10 alle 19; (gioved\u00ec 26 dicembre e mercoled\u00ec 1 gennaio dalle 14 alle 19, luned\u00ec 6 gennaio dalle 10 alle 18); Orario Casette Ristorazione: dalle 10 alle 22; (tranne sabato 7 dicembre fino alle ore 23, marted\u00ec 31 dicembre fino alle ore 01 e luned\u00ec 6 gennaio fino alle 18)",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini"
-			},
-			{
-				"name": "mercatini natale"
-			},
-			{
-				"name": "natale"
-			}
-		],
-		"startDate": "09/11/2019",
-		"endDate": "06/01/2020",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/transiti-2019-centro-santa-chiara-sanbapolis.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/concerti/",
-		"Title": "Transiti, al Sanbapolis grande musica",
-		"location": "Teatro Sanbapolis; Via della Malpensada",
-		"price": "10 euro",
-		"date": "Dal 11/10/2019 al 25/03/2020; 21",
-		"time": "21",
-		"description": "Divenuta negli ultimi cinque anni una delle proposte musicali di punta del Centro Servizi Culturali S. Chiara, torna anche in questa stagione TRANSITI \u2013 Musiche in movimento. La rassegna, curata da Alberto Campo, sar\u00e0 strutturata su sei appuntamenti (da ottobre a marzo presso il Teatro Sanb\u00e0Polis di Trento), mantenendo intatti i propositi iniziali che le hanno permesso di ritagliarsi un ruolo nelle abitudini cultuali del pubblico trentino: indagare l\u2019attualit\u00e0 musicale senza porsi limiti di genere o geografia, mettendo in scena sia interpreti portatori di linguaggi innovativi sia figure dotate di rilievo storico. Il calendario degli eventi \u00e8 stato illustrato questa mattina nel corso di una conferenza stampa da Francesco Nardelli, direttore del Centro Servizi Culturali S. Chiara, e Alberto Campo, consulente artistico, alla presenza di Corrado Bungaro, assessore alla Cultura del Comune di Trento.; Il programma prender\u00e0 il via venerd\u00ec 11 ottobre con THE NECKS, band australiana di culto riverita su scala planetaria, in attivit\u00e0 da tre decenni abbondanti. \u201cUn\u2019ossessione\u201d per lo scrittore Geoff Dyer, intenditore e appassionato di jazz, come testimoni\u00f2 il suo libro pi\u00f9 celebre, \u201cNatura morta con custodia di sax\u201d, che due anni fa sul \u201cNew York Times\u201d li ha definiti \u201cil migliore trio sulla faccia della Terra\u201d. Si tratta tuttavia di jazz sui generis, per certi versi affine al minimalismo colto e per altri alle avanguardie del rock. Da quest\u2019ultimo ambito proviene del resto il pianista Chris Abrahams, associatosi nel sottobosco indipendente di Sidney con il bassista Lloyd Swanton e il batterista Tony Buck. Autori fin qui di una ventina di dischi, dal vivo si avventurano nell\u2019improvvisazione sui canoni impressi in sala di registrazione creando astratte e suggestive musiche d\u2019atmosfera.; Nell\u2019arco di una carriera lunga oltre 40 anni il 68enne BILL FRISELL, atteso a Trento gioved\u00ec 24 ottobre, si \u00e8 imposto quale assoluto protagonista della scena musicale statunitense: status certificato nel 2005 dal Grammy Award assegnato al suo album \u201cUnspeakable\u201d. Compositore e arrangiatore, ma soprattutto chitarrista sopraffino, dopo essere affiorato dal circuito off del jazz newyorkese entr\u00f2 nei ranghi della celeberrima etichetta discografica bavarese Ecm, allargando poi nel tempo il raggio della propria azione creativa fino ad abbracciare la tradizione del folklore americano del Novecento. Trae ispirazione proprio da essa il progetto Harmony, titolo dell\u2019imminente album targato Blue Note, in cui suona accompagnato da Petra Haden (figlia di Charlie, leggendario contrabbassista jazz, in voce), Hank Roberts (violoncello) e Luke Bergman (chitarra baritona), per dare forma a ci\u00f2 che oltreoceano un commentatore ha chiamato \u201cmusica sacra\u201d.; Il cartellone della rassegna propone quindi venerd\u00ec 15 novembre un\u2019occasione forse unica e irripetibile. Preceduta dal disco uscito in estate, che mutua il titolo dal classico \u201chard boiled\u201d di Raymond Chandler \u201cThe Long Goodbye\u201d, potrebbe essere la tourn\u00e9e con cui i PERE UBU si accommiatano definitivamente dal proprio pubblico dopo un\u2019avventura artistica gloriosa, ispirata originariamente \u2013 come dichiarava il nome scelto \u2013 all\u2019Ubu Roi; antieroe \u201cpatafisico\u201d creato dal simbolista francese Alfred Jarry. Presentando l\u2019album, David Thomas - fondatore e leader della band di Cleveland, archetipo monumentale del post punk statunitense - ha affermato: \u00ab\u00c8 un riepilogo di tutte le storie e le canzoni proposte in modi differenti dai Pere Ubu nell\u2019arco di 40 e passa anni che fornisce risposte alle domande formulate da noi stessi durante questo tempo, consegnandole a quella che io considero sia la loro destinazione definitiva\u00bb.; Com\u2019\u00e8 consuetudine, anche quest\u2019anno il programma include un appuntamento con la sonorizzazione originale di un film muto, onorando sabato 1 febbraio la memoria di Carl Theodor Dreyer, rappresentato da un caposaldo della sua produzione: \u201cVampyr\u201d, horror d\u2019impronta surrealista realizzato dal regista danese nel 1932, subito dopo \u201cLa passione di Giovanna d\u2019Arco\u201d, e divenuto nel tempo oggetto di culto. A musicarlo dal vivo saranno i quotati strumentisti torinesi PAOLO SPACCAMONTI (chitarra e sintetizzatore) e RAMON MORO (tromba e flicorno), gi\u00e0 in coppia nel 2016 per la colonna sonora de \u201cI cormorani\u201d di Fabio Bobbio, insieme alla violoncellista canadese JULIA KENT, anni fa nella formazione dei Johnsons che affiancava Antony Hegarty: artista abituata a sconfinare in ambito cinematografico (un suo brano figurava in \u201cThis Must Be the Place\u201d di Paolo Sorrentino), nonch\u00e9 verso la danza e il teatro.; Il penultimo appuntamento \u00e8 in calendario venerd\u00ec 28 febbraio e vedr\u00e0 protagonista RICHARD DAWSON, artista del genere che noi chiameremmo cantautore, bench\u00e9 il suo stile tenda evidentemente altrove. Suonando la chitarra in maniera bizzarra e articolando un timbro di voce lunatico, fra Robert Wyatt e Syd Barrett, anche se lui sostiene d\u2019ispirarsi al canto devozionale sufi detto \u201cqawwali\u201d e al folk inglese d\u2019antan, si \u00e8 guadagnato nel novembre 2014 la copertina dell\u2019autorevole mensile \u201cThe Wire\u201d e il peana di \u201cThe Guardian\u201d per l\u2019album uscito nel 2017, \u201cPeasant\u201d: \u201cAstruso eppure stranamente accessibile, di ricerca ma azzeccato, un vero successo\u201d. Era il quinto atto in una serie avviata nel 2007, quando ancora lavorava da commesso in un negozio di dischi di Newcastle e strimpellava una sgangherata chitarra acustica dalle corde di nylon: il prossimo, \u201c2020\u201d \u00e8 atteso in ottobre.; Transiti si concluder\u00e0 venerd\u00ec 27 marzo mettendo in scena una suggestiva osmosi fra musica e immagini: questo offre il progetto chiamato JERUSALEM IN MY HEART, di cui sono responsabili il filmmaker canadese Charles-Andr\u00e9 Coderre e dal pluristrumentista e cantante di origine libanese Radwan Ghazi Moumneh, contitolare del leggendario studio di registrazione Hotel2Tango. Combinando sonorit\u00e0 in cui echi della tradizione araba fluttuano in ambienti elettronici a proiezioni di diapositive e video in 16 millimetri, il duo esplora una dimensione audiovisiva dalle qualit\u00e0 oniriche. Destinato inizialmente alla creazione di performance a soggetto, solo in un secondo tempo il lavoro degli artisti di Montr\u00e9al \u00e8 stato cristallizzato su disco, cosa accaduta ancora lo scorso anno con \u201cDaqa\u2019iq Tudaik\u201d, terzo album della serie, edito come i precedenti dall\u2019influente etichetta locale Constellation.; Il biglietto d\u2019ingresso per ciascun appuntamento \u00e8 in vendita a 10 Euro, con una riduzione a 8 per gli Under 26 e a 5 per gli studenti universitari.",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "concerti"
-			},
-			{
-				"name": "musica"
-			},
-			{
-				"name": "trentino"
-			}
-		],
-		"startDate": "11/10/2019",
-		"endDate": "25/03/2020",
-		"startTime": "21",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-ala-2019-2020.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "Mercatino di Natale ad Ala, un Natale speciale",
-		"location": "centro storico; Indirizzo non disponibile; Ala",
-		"price": "Gratis",
-		"date": "Dal 24/11/2019 al 23/12/2019; vedi info",
-		"time": "vedi info",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Ala, Citt\u00e0 di Velluto, con il suo mercatino di Natale alternativo, tra suggestione, storia, bellezza e tradizione, racconta e fa rivivere un\u2019atmosfera d\u2019altri tempi.; Aperto il 24-25 novembre, 1-2 dicembre, 8-9 dicembre, 15-16 dicembre, 22-23 dicembre; Gli androni e le sale di alcuni dei palazzi pi\u00f9 belli del centro storico ospitano artigiani e artisti con i loro originali manufatti che richiamano la storia, la cultura e le tradizioni di questo magnifico borgo trentino: tessuti, sete, decorazioni natalizie particolari e creative. Un suggestivo ed originale percorso del centro storico che vedr\u00e0 accolti, nei palazzi settecenteschi, artigiani ed artisti che metteranno in mostra i loro prodotti. Realt\u00e0 e aziende che mostrano un chiaro legame con il fare, ricreando, all\u2019interno dei palazzi, delle botteghe narranti capaci di raccontare e comunicare, attraverso laboratori e dimostrazioni, la propria storia e l\u2019unicit\u00e0 della propria proposta.",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "24/11/2019",
-		"endDate": "23/12/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-siror-2019-2020.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "Anche a Siror ci sono i mercatini di Natale",
-		"location": "centro storico; Indirizzo non disponibile; Siror",
-		"price": "Gratis",
-		"date": "Dal 24/11/2019 al 22/12/2019; dalle 10.30 alle 18.30",
-		"time": "dalle 10.30 alle 18.30",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Il Mercatino di Natale di Siror, il pi\u00f9 antico mercatino di Natale del Trentino, come da tradizione si prepara a trasformare l\u2019antico borgo di Primiero in un romantico Christkindlmarkt.; Le caratteristiche casette in legno, gli antichi fienili e le stalle del centro storico si trasformeranno in pittoresche botteghe dove trovare originalissimi regali natalizi: decorazioni, presepi, produzioni artigianali e numerose proposte golose, dolci e salate, come il tipico brazedel di Siror, lo zelten trentino, i salumi, il miele, le frittelle e tante altre delizie.; Durante il Mercatino di Natale scultori da tutta Italia parteciperanno al tradizionale Simposio di Scultura \u201cArte Natale\u201d e daranno vita, sotto gli occhi curiosi del pubblico, a piccoli capolavori in legno. Vista la vicinanza alla piste di San Martino di Castrozza-Passo Rolle, che si trovano a solo 13 chilometri, la visita al Mercatino di Natale di Siror diventer\u00e0 un\u2019ottima occasione per concludere in bellezza le prime sciate della stagione.; Quando: 24 novembre \u2013 1 \u2013 7 \u2013 8 \u2013 15 \u2013 22 dicembre dalle 10.30 alle 18.30 nel centro storico di Siror (Primiero San Martino di Castrozza)",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "24/11/2019",
-		"endDate": "22/12/2019",
-		"startTime": "10.30",
-		"endTime": "18.30"
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/grande-prosa-centro-santa-chiara-2019.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/teatri/",
-		"Title": "La stagione di Teatro tra la Grande Prosa e altre tendenze",
-		"location": "Teatro Sociale; Via Oss Mazzurana",
-		"price": "Prezzo non disponibile",
-		"date": "Dal 15/10/2019 al 01/04/2020; vedi programma",
-		"time": "vedi programma",
-		"description": "Da sempre palcoscenico per i \u201cgrandi\u201d del teatro, anche in questa nuova stagione la Grande Prosa manterr\u00e0 intatta la propria vocazione, ospitando celebri autori del passato, messi a confronto con autori affermati del teatro contemporaneo, e alcuni tra i volti pi\u00f9 noti del palcoscenico e del grande schermo come Alessandro Haber, Anna Foglietta, Paolo Calabresi, Sergio Rubini, Luigi Lo Cascio, Elio De Capitani e Natalino Balasso, tra gli altri. Il compito di aprire e chiudere la rassegna spetter\u00e0 per\u00f2 a due progetti fortemente legati alla territorialit\u00e0 trentina, che vedranno coinvolti l\u2019attore Andrea Castelli (in chiusura di Stagione, al Teatro Cuminetti) e la compagnia trentina OHT | Office for a Human Theatre. Quest\u2019ultima, in particolare, esordir\u00e0 con un progetto dedicato alla tragedia che nel 1985 ha colpito la Val di Stava e l\u2019intera comunit\u00e0 trentina. Ma una ulteriore novit\u00e0 caratterizzer\u00e0 la nuova Stagione: \u00ab19 LUGLIO 1985\u00bb, questo il titolo del progetto incentrato sulla catastrofe avvenuta in Val di Fiemme \u2013 che sar\u00e0 accompagnato da una mostra allestita presso lo Spazio Archeologico del SAS - sar\u00e0 infatti lo spettacolo che inaugurer\u00e0 anche la rassegna rivolta alle opere pi\u00f9 sperimentali e alternative della scena nazionale.; Entrambe le stagioni Grande Prosa e Altre Tendenze incominceranno quindi con il medesimo spettacolo al Teatro Sociale (e non pi\u00f9 al \u201cCuminetti\u201d), a sottolineare il legame tra le diverse forme e possibilit\u00e0 del teatro e la capacit\u00e0 della scena di farsi luogo di riflessione dei grandi temi del contemporaneo.; \u201c19 LUGLIO 1985\u201d \u00e8 una produzione originale di OHT, in coproduzione con il Centro Santa Chiara e Roma Europa Festival, e con la collaborazione di Centrale Fies e la Fondazione Stava 1985. A quasi 35 anni dalla colata di fango che cancell\u00f2 una valle e, con essa, centinaia di vite umane, Filippo Andreatta con il supporto drammaturgico di Marco Bernardi guarda a quell\u2019episodio come momento epifanico del rapporto uomo - montagna e lo celebra in una \u201ctragedia alpina\u201d. Sullo sfondo dei paesaggi della Val di Stava, il Coro Continuum diretto dal Maestro Luigi Azzolini accompagner\u00e0 la narrazione con un prezioso commento musicale. La proposta della Grande Prosa prosegue con un grande classico del teatro francese. In \u201cLA SCUOLA DELLE MOGLI\u201d , il napoletano Arturo Cirillo rilegge la commedia di Moli\u00e8re (in chiave moderna), raccontando la storia di come l\u2019amore sia la sola chiave della felicit\u00e0 umana. Dicembre sar\u00e0 il turno della commedia italiana con una produzione del Teatro Stabile di Bolzano, con in scena l\u2019amatissimo Natalino Balasso per la regia di Serena Sinigaglia e la riscrittura drammaturgia di Vitaliano Trevisan. \u201cLA BANCAROTTA\u201d , testo poco conosciuto di Goldoni, fotografa con ironia il personaggio di un imprenditore sull\u2019orlo del fallimento e dei vizi che l\u2019hanno portato a dissipare denaro e relazioni personali. Il 2020 inizier\u00e0 con il ritorno della coppia Luigi Lo Cascio - Sergio Rubini che dopo il successo di \u201cDelitto e Castigo\u201d scandaglieranno le oscurit\u00e0 del mondo attraverso un altro capolavoro della letteratura: \u201cDRACULA\u201d di Bram Stoker. Dai grandi classici alle nuove scritture di scena, \u201cLA CLASSE\u201d di Vincenzo Manna tratteggia il ritratto di un gruppo di studenti di un istituto professionale e di un professore di storia disposto a tutto pur di educare i suoi ragazzi alla difficile sfida della societ\u00e0 multiculturale. La stagione prosegue con Anna Foglietta e Paolo Calabresi, interpreti di \u201cBELLA FIGURA\u201d, surreale commedia della francese Yasmine Reza che prende il via dalla gelosia di un\u2019amante nei confronti della moglie. Grandi nomi anche per \u201cLIBRI DA ARDERE\u201d , unico testo teatrale di Am\u00e8lie Nothomb messo in scena dal Teatro dell\u2019Elfo e dalla Corte Ospitale, con Elio De Capitani accompagnato da Angelo Di Genio e Carolina Cametti. Stretti nella morsa della neve in una citt\u00e0 dell\u2019est Europa, un professore e due giovani devono scegliere tra morire di freddo o bruciare dei libri, combattuti tra lo spirito di sopravvivenza e il rispetto per i simboli cartacei della conoscenza umana. Alessandro Haber guidato dalla regia di Leo Muscato sar\u00e0 il protagonista di \u201cMORTE DI UN COMMESSO VIAGGIATORE\u201d , capolavoro di Arthur Miller prodotto dal Teatro Stabile di Bolzano, Goldenart e dal Teatro Stabile del Veneto. La storia del lavoratore attratto dal facile guadagno e dal miraggio del successo che continua a risuonare fortemente nella nostra contemporaneit\u00e0. Proseguendo nel filone letterario sar\u00e0 poi il turno di \u201cLO STRANO CASO DEL CANE UCCISO A MEZZANOTTE\u201d , coproduzione del Teatro dell\u2019Elfo e del Teatro Stabile di Torino tratto dal celebre romanzo di Mark Haddon. Il giovane Christopher, affetto dalla sindrome di Asperger, si trover\u00e0 a indagare sull\u2019uccisione del cane della sua vicina, aprendo un\u2019emozionante finestra sulla vita di chi vede il mondo in maniera un po\u2019 diversa. A chiudere la programmazione Andrea Castelli, nome pi\u00f9 che amato in tutta la regione e oltre, accompagnato dalle musiche live di Emanuele Dell\u2019Aquila, guider\u00e0 il suo pubblico in un viaggio della memoria con \u201cLA MERAVIGLIA. Voci e storie della citt\u00e0 sotterranea\u201d . Una produzione del Teatro Stabile di Bolzano che guarda al passato senza amara nostalgia, ma con il gusto di guardarsi indietro e riconoscersi accomunati dalle stesse storie.; Citando una vecchia pubblicit\u00e0 di Carosello, l\u2019indimenticato Ernesto Calindri \u2013 storica figura del teatro italiano \u2013 sosteneva che contro il logorio della vita moderna fosse sufficiente ricorrere ad un superalcolico al carciofo. La nuova Stagione del Centro Servizi Culturali S. Chiara, invece, per tentare di far fronte alle difficolt\u00e0 e alle contraddizioni del contemporaneo, propone al proprio pubblico un potente rimedio: il teatro, mai come in questo momento specchio che riflette le contraddizioni dell\u2019oggi, aprendo gli occhi al loro auspicabile superamento.; Anche la stagione Altre Tendenze, dopo essere iniziata con lo spettacolo dedicato alla tragedia di Stava, prosegue con titoli di grande richiamo che attraversano pi\u00f9 di duemila anni di storia del teatro. A calcare per prima il palco del Teatro Sociale sar\u00e0 la compagnia veneta Anagoor con il grandioso affresco classico \u201cORESTEA\u201d , tratto dalla trilogia di Eschilo con la regia di Simone Derai. Coprodotto da Centrale Fies, il trittico racconta la vicenda degli Atridi e la scia di sangue scatenata dalla Guerra di Troia, mescolando l\u2019epica antica con i moderni riti funebri. A seguire, il grande teatro di narrazione di Marco Baliani con \u201cUNA NOTTE SBAGLIATA\u201d accompagner\u00e0 il pubblico di Trento in un emozionante viaggio nella coscienza umana. Il caso di cronaca di un senzatetto picchiato da alcuni poliziotti e la violenza di cui lo stesso Baliani \u00e8 stato testimone diventano occasione per riflettere sulle zone oscure dell\u2019uomo. Ugualmente profondo, ma irresistibilmente ironico e pungente, \u201cOVERLOAD\u201d dei Sotterraneo \u00e8 uno spettacolo interattivo che si diverte a mettere alla prova l\u2019attenzione del pubblico, vincitore del Premio Ubu come migliore spettacolo del 2018. L\u2019anno nuovo inizia con alcune giovani compagnie italiane particolarmente amate da pubblico e critica. In \u201cCUORE DI CANE\u201d , la barese Licia Lanera si ispira alla cupa storia del russo Michail Bulgakov per portare sul palco dell\u2019Auditorium Melotti di Rovereto il mito della bellezza e dell\u2019eterna giovinezza, grandi ossessioni della societ\u00e0 contemporanea. A febbraio sar\u00e0 invece Stefano Cordella, alla guida della compagnia Oyes, a emozionare il pubblico di Trento e Rovereto. \u201cIO NON SONO UN GABBIANO\u201d secondo capitolo del dittico cechoviano, rilegge il grande classico del maestro del teatro russo per scoprire quanto ancora di vero c\u2019\u00e8 nell\u2019urlo di ribellione dei figli nei confronti dei padri. Tra i due spettacoli, la figura di un grande maestro del teatro contemporaneo. \u201cTHE NIGHT WRITER\u201d \u00e8 un viaggio intimo e prezioso nella vita di Jan Fabre, artista fiammingo tra i grandi protagonisti della scena internazionale. A dare corpo alle parole di Fabre il giovane talento italiano Lino Musella. La stagione proseguir\u00e0 con Alessandro Bergonzoni e il suo ultimo lavoro \u201cTRASCENDI E SALI\u201d . Nel pi\u00f9 puro stile bergonzoniano, tra comicit\u00e0 e rigore, l\u2019artista bolognese invita il pubblico a seguirlo in una tagliente riflessione sul presente. Dalla surrealt\u00e0 al risorgimento, \u201cV\u00c1 PENSIERO\u201d del Teatro delle Albe accompagna il pubblico del Teatro Sociale alla scoperta di una storia vera in grado di farsi parabola dei nostri tempi. In Emilia Romagna un poliziotto viene licenziato perch\u00e9 ha denunciato alcuni atti illeciti legati alla mafia. Ermanna Montanari e Marco Martinelli, con il Coro da Camera del Conservatorio di Trento, si ispirano alla musica di Giuseppe Verdi per parlare di democrazia, giustizia e speranza. A chiudere la stagione Altre Tendenze, la nuova produzione della compagnia teatrale trentina Emit Flesti \u201cJACQUES E IL SUO PADRONE\u201d . Unica opera teatrale di Milan Kundera, la commedia \u00e8 un esplicito omaggio a Denis Diderot e vede protagonisti un nobile francese e il suo valletto che discutono di amore tra avventure, tradimenti e scherzi, celebrando quell\u2019allegria che pu\u00f2 salvare dal buio della storia.; Per quanto riguarda la proposta di abbonamento alla Grande Prosa, i prezzi previsti per la nuova Stagione oscillano tra 40 e 175 Euro, con la consueta vantaggiosa proposta \u201csu misura\u201d per il sabato sera (da 35 a 160 euro). Confermata la \u201cCard Grande Prosa\u201d: 5 spettacoli a scelta tra i 10 della Grande Prosa, al costo di 120 Euro, con una riduzione dedicata ai giovani (Under 26) al prezzo di 40 Euro. Per gli abbonati sono inoltre previsti particolari benefit: al costo di 2,50 euro potranno essere acquistati fino a 5 biglietti di stagioni prosa \u201cpartner\u201d: 1 biglietto della stagione del Teatro Stabile di Bolzano, 2 della rassegna \u201cAltre Tendenze Trento e Rovereto\u201d, 2 della rassegna \u201cinDanza Trento e Bolzano\u201d, pi\u00f9 la possibilit\u00e0 di acquistare 1 biglietto da 10 Euro per lo spettacolo \u00abAnna dei Miracoli\u00bb. L\u2019acquisto dell\u2019abbonamento alla stagione di Grande Prosa dar\u00e0 inoltre diritto al \u201cridotto giovani\u201d per l\u2019acquisto di tutti i biglietti ovvero dell\u2019abbonamento alla rassegna Altre Tendenze. Sono infine previste ulteriori riduzioni per gli enti convenzionati.; Vantaggiose anche le condizioni di abbonamento alla rassegna Altre Tendenze. L\u2019abbonamento a 10 spettacoli avr\u00e0 un costo tra i 45 e gli 80 euro, con la possibilit\u00e0 di poterne sottoscrivere uno ai soli spettacoli di Trento o Rovereto, al costo di 50 Euro (con eventuali riduzioni).; Si ricorda inoltre che sar\u00e0 possibile rinnovare gli abbonamenti, sia Grande Prosa che Altre Tendenze, da sabato 7 a mercoled\u00ec 25 settembre 2019 (cambio turno/posto 26 e 27 settembre). La sottoscrizione dei nuovi abbonamenti, invece, partir\u00e0 sabato 28 settembre 2019. Gli abbonamenti saranno acquistabili presso le casse del Teatro Auditorium (lun-sab, 10-19), del Teatro Sociale (lun-sab, 16-19). I biglietti per la Grande Prosa e per le Altre Tendenze saranno invece acquistabili a partire da sabato 26 ottobre 2019. I biglietti saranno in vendita anche sul sito www.primiallaprima.it; Proseguono gli appuntamenti con i FOYER DELLA PROSA, grazie alla rinnovata collaborazione tra il Centro Servizi Culturali S. Chiara e il Dipartimento di Lettere e Filosofia dell\u2019Universit\u00e0 di Trento. Gli incontri di approfondimento sulla rassegna, curati dai professori Claudia Dematt\u00e8 e Giorgio Ieran\u00f2, si terranno nella giornata di venerd\u00ec, presso la Sala \u201cAnna Proclemer\u201d del Teatro Sociale di Trento e offriranno al pubblico la possibilit\u00e0 di confrontarsi direttamente con gli attori protagonisti.; Parte del programma di approfondimento della Stagione 2019/2020 sar\u00e0 nuovamente il ciclo di incontri denominato TEATRO \u201cSOTTERRANEO\u201d presso lo Spazio Archeologico del Sas (in collaborazione con l\u2019Universit\u00e0 degli Studi di Trento \u2013 Dipartimento di Lettere e Filosofia), curato dalla prof.ssa Caterina Mordeglia. Inoltre, frutto dell\u2019esperienza positiva maturata la scorsa stagione, verranno riproposti per quattro appuntamenti quelli che saranno dei veri e propri \u201cantipasti\u201d agli spettacoli, in collaborazione con la compagnia Emit Flesti.; Infine, anche in questa Stagione le famiglie potranno usufruire del servizio di baby-sitting durante il turno della domenica pomeriggio per i bambini dai 3 ai 10 anni. Il servizio \u00e8 gratuito per i possessori dell\u2019Abbonamento Grande Prosa.",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "cultura"
-			},
-			{
-				"name": "teatro"
-			},
-			{
-				"name": "trentino"
-			}
-		],
-		"startDate": "15/10/2019",
-		"endDate": "01/04/2020",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/teatro-meano-2019.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/teatri/",
-		"Title": "La nuova stagione del Teatro di Meano",
-		"location": "Teatro di Meano; Via delle Sugarine, 22",
-		"price": "Prezzo non disponibile",
-		"date": "Dal 15/09/2019 al 14/03/2020; vedi programma",
-		"time": "vedi programma",
-		"description": "Parte la nuova stagione: una ricca offerta tra teatro professionale, amatoriale e teatro ragazzi. Quest'anno anche la novit\u00e0 del musical; Si parte il 14 settembre alle 20.45 con la presentazione della stagione alla popolazione e alle associazioni di Meano, seguita dal concerto del Duo Salopette:; Domenica 15 settembre alle 17 sar\u00e0 la volta dei titoli di Teatro Ragazzi con lo spettacolo di Nicola Sordo, Bill Bizzarro, un caso che scotta a Meano, con merenda offerta a tutti.; Da qui si dipaner\u00e0 il cartellone, alternando le proposte dei diversi settori.; Si inizia con il teatro amatoriale: Onesti se nasse, furbi se deventa (12 ottobre) della Filodrammatica \u201cNino Berti\u201d di Rovereto con un testo scritto da Loredana Cont.; Seguir\u00e0 il 9 novembre Variazioni enigmatiche, una produzione del Teatro Instabile Meano, tratta da un testo di E. E. Schmitt.; Quindi, il 7 dicembre, l\u2019atmosfera si far\u00e0 fiabesca grazie all\u2019intreccio di parole, canzoni e danze irlandesi di Valamor.; Il 2020 si apre con I morti no i paga le tasse (18 gennaio 2020) una commedia firmata Compagnia \u201cStrapaes\u201d di San Giacomo di Laives (BZ).; Torna poi un\u2019altra produzione del T.I.M. sabato 15 febbraio 2020 con Art, una commedia brillante ambientata nella Parigi borghese dei nostri tempi;; mentre chiude la rassegna En diaol par cavel, dove tra un colpo di spazzola e un colpo di fortuna, tra uno shampoo e un cambio di colore, si intrecciano storie di personaggi reali, con i loro sogni, le piccole e le grandi tragedie che contraddistinguono le giornate di ciascuno (14 marzo).; Oltre alle 8 date, la stagione professionale ne integra due di Stand up Comedy e due di musical. Si parte con Standap di Mario Cagol (18 ottobre), mentre l\u20198 febbraio in scena ci sar\u00e0 Semi di Zucca con Mario Zucca.; La produzione di TeatroE propone, tra gli altri, Uno di voi (18 dicembre), una commedia che narra le dis-avventure di quattro amici e Don Chisciotte, l\u2019ultimo viaggio (11 gennaio). Per quanto riguarda invece la produzione firmata ariaTeatro, segnaliamo venerd\u00ec 15 novembre Tempo Orfano.; Il giorno successivo, 16 novembre, si d\u00e0 spazio a una novit\u00e0 2019-2020: andr\u00e0 in scena infatti Orario d\u2019ufficio, un musical della CMT (Musical Theater Company) di Verona. Non sar\u00e0 per\u00f2 l\u2019unica data di musical: per gli appassionati un\u2019altra occasione \u00e8 prevista domenica 29 dicembre con The golden age of Broadway - L\u2019epoca d\u2019oro, un salto nel passato, nella gloriosa epoca d\u2019oro degli spettacoli musicali di Broadway.; Il sipario di Meano si aprir\u00e0 anche su due storie di fatti realmente accaduti: venerd\u00ec 31 gennaio una straordinaria Laura Curino ci racconter\u00e0 la vita di Adriano Olivetti - Il sogno possibile, mentre Trickster Teatro porter\u00e0 invece in scena gioved\u00ec 19 marzo Kohlhaas. Chiude la rassegna professionale Due (4 aprile), uno spettacolo che racconta una storia d\u2019amore.; Unico fuoristagione sar\u00e0 Castagne Matte programmato per il 13 febbraio; un\u2019indagine storica e oggettiva su come la follia veniva recepita dalla societ\u00e0 e come la medicina cercasse di occuparsene.; Tutte le informazioni dettagliate, anche per abbonamenti e biglietti sono sul sito http://www.teatrodimeano.it",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "spettacoli"
-			},
-			{
-				"name": "teatro"
-			},
-			{
-				"name": "trentino"
-			}
-		],
-		"startDate": "15/09/2019",
-		"endDate": "14/03/2020",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-arco-2019-2020.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "Mercatini di Natale ad Arco",
-		"location": "centro storico; Via Giovanni Segantini; Arco",
-		"price": "Gratis",
-		"date": "Dal 15/11/2019 al 30/12/2019; vedi programma",
-		"time": "vedi programma",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Anche ad Arco tornano i tradizionali mercatini di Natale, con un' atmosfera unica, resa possibile anche grazie all'impegno e ai costumi a tema del Comitato Usi e Costumi Arcensi. Nato nel 1993, Arco Asburgica, passegger\u00e0 per le natalizie casette del mercatino, dandogli il tocco di magnificenza della corte imperiale. Gli abiti sontuosi e regali tipici di quegli Asburgo, tra cui sar\u00e0 presente anche l\u2019amata principessa Sissi che proprio in Arco aveva la sua residenza estiva.; Qui il programma completo",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "15/11/2019",
-		"endDate": "30/12/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/cineforum-san-marco-2019-2020.html",
-		"category": "ScreeningEvent",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/cinema/",
-		"Title": "Cineforum al Teatro San Marco",
-		"location": "Teatro San Marco; Via San Bernardino",
-		"price": "vedi sito web",
-		"date": "Dal 08/10/2019 al 25/02/2020; 17.30 e 20.45",
-		"time": "17.30 e 20.45",
-		"other_info": [
-			{
-				"name": "Sito web",
-				"info": "teatrosanmarco.it",
-				"info_url": "https://www.teatrosanmarco.it/"
-			},
-			{
-				"name": "Sito web"
-			}
-		],
-		"description": "Torna l'appuntamento con lo storico cineforum del Teatro San Marco. Sono 23 i titoli in programma, come di consueto nel doppio appuntamento delle 17.30 e delle 20.45. Confermate le collaborazioni con il Religion Today Filmfestival e con il Trento Film Festival, che il 3 dicembre porter\u00e0 al San Marco \"In questo mondo\", con ospite in sala la regista Anna Kauber. Da segnalare il mini-ciclo \"Omaggi\", con proiezioni dedicate a Bruno Ganz, Agn\u00e8s Varda e Federico Fellini.; Ecco tutti i film della rassegna; Between Two Seas; Marted\u00ec, 08 Ottobre; Life again; Marted\u00ec, 08 Ottobre; Der amerikanische Freund (L'amico americano); Marted\u00ec, 15 Ottobre; L'insulto; Marted\u00ec, 22 Ottobre; Cat people - Il bacio della pantera; Marted\u00ec, 29 Ottobre; Visages Villages; Marted\u00ec, 05 Novembre; BlacKkKlansman; Marted\u00ec, 12 Novembre; Storia di erbe fluttuanti; Marted\u00ec, 19 Novembre; La mia casa e i miei coinquilini; Marted\u00ec, 26 Novembre; La mia casa e i miei coinquilini; Marted\u00ec, 26 Novembre; Essi vivono; Marted\u00ec, 10 Dicembre; La truffa dei Logan; Marted\u00ec, 07 Gennaio 2020; Il bidone; Marted\u00ec, 21 Gennaio; Fiore gemello; Marted\u00ec, 14 Gennaio; Lontano da qui; Marted\u00ec, 28 Gennaio; L'invasione degli ultracorpi; Marted\u00ec, 11 Febbraio; La stanza delle meraviglie; Marted\u00ec, 18 Febbraio; Il filo nascosto; Marted\u00ec, 25 Febbraio",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "cinema"
-			},
-			{
-				"name": "eventi"
-			},
-			{
-				"name": "film"
-			}
-		],
-		"startDate": "08/10/2019",
-		"endDate": "25/02/2020",
-		"startTime": "17.30",
-		"endTime": "20.45"
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/muro-berlino-30-anni-2019.html",
-		"category": "VisualArtsEvent",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mostre/",
-		"Title": "Berlino 2019, a 30 anni dalla caduta del muro",
-		"location": "Le Gallerie Piedicastello; Via D\u00f2s Trento",
-		"price": "Gratis",
-		"date": "Dal 09/11/2019 al 09/02/2020; Da marted\u00ec a domenica, ore 9.00-18.00. Luned\u00ec chiuso",
-		"time": "Da marted\u00ec a domenica, ore 9.00-18.00. Luned\u00ec chiuso",
-		"description": "Una mostra alle Gallerie di Piedicastello per ricordare i 30 anni da un evento che ha cambiato la storia: la caduta del muro di Berlino.; Il progetto \u00e8 del fotografo Tommaso Bonaventura, in collabroazione con la curatrice Elisa Del Prete.; La mostra propone il racconto del Begr\u00fcssungsgeld, il denaro di benvenuto che dal 1970 al dicembre 1989 i cittadini della DDR ricevevano quando entravano nella Germania Ovest per la prima volta. Questa vicenda offre uno spunto per interrogarsi su un cambiamento epocale a partire da un punto di osservazione che privilegia le storie private e familiari, restituendole attraverso un duplice racconto: fotografico e video.; La semplice domanda \u00abRicordi come hai speso il tuo Begr\u00fcssungsgeld?\u00bb posta a un campione di tedeschi della ex DDR di generazioni differenti, intervistati nel corso del 2018 e 2019, ha rappresentato il punto di partenza per un viaggio nella memoria, oggi ancora poco condivisa, di queste persone che hanno vissuto un cambiamento totale, sia da un punto di vista materiale, lavorativo, sociale ed economico, sia politico.; Se la caduta del muro di Berlino ha posto le basi per un nuovo assetto politico e geografico mondiale segnando la fine della Guerra Fredda, la riunificazione tra Germania Est e Germania Ovest rimane ancora oggi un fenomeno complesso e poco discusso nei suoi aspetti pi\u00f9 profondi. Spesso risolto in modo semplicistico come il coronamento di uno scontato desiderio di libert\u00e0, il superamento del confine fisico che simbolicamente coincide con l\u2019abbattimento del muro porta inevitabilmente con s\u00e9 la necessit\u00e0 di superare anche un confine ideologico.; Il 9 novembre 1989 non cade soltanto il muro di Berlino ma cambia un intero paese: la parte che si ricongiunge alle sue origini subisce una inevitabile metamorfosi e svaniscono rapidamente un modo di vivere, di pensare, di comportarsi, di vestire, di spendere. In tempi brevissimi la Repubblica Democratica Tedesca \u00e8 rimossa dall'immaginario e dalla memoria. Quasi 17 milioni di persone si trovano di colpo immerse in un nuovo stile di vita, dove non valgono pi\u00f9 le regole apprese fino ad allora. La trasformazione \u00e8 repentina. Nelle politiche governative e nella vita quotidiana delle persone si afferma il nuovo alfabeto dell'Ovest, i suoi colori, i suoi odori, le sue politiche economiche e sociali, e quelle che erano due comunit\u00e0 distinte si trovano a convivere.; Il racconto fotografico di Tommaso Bonaventura, intrecciandosi alla narrazione di queste biografie, si propone di restituire una Berlino contemporanea fatta di volti, luoghi e storie non scontati, rimasta simbolo di uno degli eventi pi\u00f9 significativi della storia recente, ancora viva e presente nel tessuto cittadino, urbano e sociale. La ricerca si \u00e8 infatti focalizzata su Berlino quale emblema di questo cambiamento, ma anche citt\u00e0 in cui la presenza fisica e \"mentale\" del muro, che ha segnato cos\u00ec fortemente l'esperienza delle persone, in qualche modo permane.",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "cultura"
-			},
-			{
-				"name": "mostre"
-			},
-			{
-				"name": "storia"
-			}
-		],
-		"startDate": "09/11/2019",
-		"endDate": "09/02/2020",
-		"startTime": "9.00",
-		"endTime": "18.00"
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-moena-2019-2020.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "Mercatini di Natale a Moena",
-		"location": "centro storico; Piaz de Ramon; Moena",
-		"price": "Gratis",
-		"date": "Dal 30/11/2019 al 25/12/2019 da domani; vedi info",
-		"time": "vedi info",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Anche a Moena \u00e8 grande festa per il Natale: il paese si trasforma in un magico villaggio con casette in legno e giochi per bambini.; Seguendo la tradizione del Nord Europa, la \"Fata delle Dolomiti\" si trasforma in un vero e proprio villaggio natalizio con tanto di mercatini allestiti in Piaz de Ramon, Piaz de Sotegrava e piazzetta Perla Alpina. Dal 30 novembre al 25 dicembre si passeggia, lungo le vie del centro illuminate a festa, tra piccoli focolari accesi e tradizionali casette in legno, dove acquistare oggetti artigianali e souvenir, a ricordo della vacanza a Moena. I bambini potranno giocare e salire sulla giostra insieme agli elfi del bosco oltre ad assistere, nella piazzetta Perla Alpina, a simpatici spettacoli. In Piaz de Ramon sar\u00e0 possibile visitare la magica casa di Babbo Natale e partecipare a divertenti laboratori creativi con animazione. L\u2019atmosfer\u00e0 in Piaz de Sotegrava sar\u00e0 riscaldata da eventi musicali, mentre ai pi\u00f9 piccoli sar\u00e0 dedicata un\u2019area indoor per attivit\u00e0 e lavoretti.; Orari mercatini:; dal 30 novembre all\u20191 dicembre dalle 15.00 alle 18.30; dal 6 all\u20198 dicembre dalle 11.00 alle 13.00 e dalle 15.00 alle 18.30; dal 13 al 25 dicembre dalle 11.00 alle 13.00 e dalle 15.00 alle 18.30",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "30/11/2019",
-		"endDate": "25/12/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/vaia-tempesta-mostra-anniversario.html",
-		"category": "VisualArtsEvent",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mostre/",
-		"Title": "Un anno da Vaia, video installazione alle Gallerie",
-		"location": "Le Gallerie Piedicastello; Via D\u00f2s Trento",
-		"price": "Gratis",
-		"date": "Dal 26/10/2019 al 26/11/2019; 09-18",
-		"time": "09-18",
-		"description": "Alle Gallerie di Piedicastello una video-mostra per ricordare ad un anno di distanza la Tampesta Vaia, accostandola ad un altro disastrio naturale: l'alluvione che colp\u00ec il capoluogo di Provincia nel 1966.; \"AD UN ANNO DA VAIA. Dall'alluvione del '66 al racconto sui social\u2019 \u00e8 realizzata dalla Fondazione Museo storico del Trentino e sar\u00e0 visitabile per un mese presso le Gallerie di Piedicastello, a partire da sabato 26 ottobre 2019, giorno della commemorazione per Vaia a Trento.; L'installazione si compone di sei filmati. A sinistra quelli dedicati all'alluvione del 1966 e realizzati utilizzando immagini super 8. Ognuno dei tre video riguarda uno specifico tema: l'allagamento della citt\u00e0 di Trento, la devastazione nelle Valli che di fatto pagarono il prezzo pi\u00f9 alto in termini di vittime e distruzione, e \"il dopo\" con la conta dei danni e il lavoro per ripristinare il territorio.; A destra i filmati su Vaia, la tempesta che colp\u00ec il Trentino e non solo tra il 29 e il 30 ottobre 2018. Questi tre video raccontano il momento dell'emergenza, la fase della ricostruzione e la narrazione andata in scena \"in tempo reale\" sui social.",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "ambiente"
-			},
-			{
-				"name": "mostre"
-			},
-			{
-				"name": "pellicola"
-			}
-		],
-		"startDate": "26/10/2019",
-		"endDate": "26/11/2019",
-		"startTime": "09",
-		"endTime": "18"
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-rovereto-2019-2020.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "A Rovereto Natale di Luce, arrivano i mercatini",
-		"location": "centro storico; Corso Bettini; Rovereto",
-		"price": "Gratis",
-		"date": "Dal 22/11/2019 al 06/01/2020; dalle ore 10.00 alle ore 19.00.",
-		"time": "dalle ore 10.00 alle ore 19.00.",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Torna a Rovereto Natale di Luce, una magica atmosfera per le vie del centro storico, tra musiche, colori, luci, mostre, presepi e magiche atmosfere.; Oltre sei settimane di eventi per avvicinarsi al Natale e per vivere le festivit\u00e0 con tante proposte tra cui scegliere: per chi cerca lo svago e per chi vuole ritrovarsi per un momento di festa, per chi va alla ricerca di un'idea regalo o semplicemente di una situazione diversa nella quale apprezzare le bellezze del centro storico. Concerti e iniziative riempiono le piazze della citt\u00e0 e incantano grandi e piccini. Filo conduttore degli eventi, La Luce, simbolo di fratellanza, solidariet\u00e0 e umanit\u00e0, e portatrice di un messaggio di Pace. Luce che illumina le facciate dei palazzi, colora le vie e le piazze e crea suggestivi scenari per Presepi, mostre dedicate alla storia di Rovereto ed eventi.",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "22/11/2019",
-		"endDate": "06/01/2020",
-		"startTime": "10.00",
-		"endTime": "19.00"
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/jazz-about-2019.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/concerti/",
-		"Title": "Jazz About, la rassegna continua con tre grandi appuntamenti",
-		"location": "Teatro Sanbapolis; Via della Malpensada",
-		"price": "da 15 euro",
-		"date": "Dal 16/11/2019 al 20/12/2019; 21",
-		"time": "21",
-		"description": "La rassegna dedicata al Jazz, dopo il successo della prima serata con i Comet is Coming, continua con tre grandi concerti:; Sabato 16 novembre al Melotti Cory Wong; Sabato 23 novembre al Melotti Gary Barts; venerd\u00ec 20 dicembre al Sanbapolis Tullio De Piscopo e Tony Esposito; Biglietti a partire da 15 euro",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "concerti"
-			},
-			{
-				"name": "jazz"
-			},
-			{
-				"name": "musica"
-			}
-		],
-		"startDate": "16/11/2019",
-		"endDate": "20/12/2019",
-		"startTime": "21",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/babbo-natale-bambini-santa-maria-maggiore.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "In Santa Maria Maggiore c'\u00e8 Babbo Natale",
-		"location": "Piazza Santa Maria Maggiore; Piazza Santa Maria Maggiore",
-		"price": "Gratis",
-		"date": "Dal 23/11/2019 al 06/01/2020; vedi programma",
-		"time": "vedi programma",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Evento per bambini",
-				"info": "Evento per bambini",
-				"info_url": "http://www.trentotoday.it/eventi/bambini/si/"
-			},
-			{
-				"name": "Tema"
-			},
-			{
-				"name": "Evento per bambini"
-			}
-		],
-		"description": "Trento si trasforma in Citt\u00e0 del Natale: oltre ai celebri mercatini la citt\u00e0 propone una serie di eventi che animeranno il periodo natalizio. Per i pi\u00f9 piccoli in piazza Santa Maria Maggiore ci sar\u00e0 il Villaggio di Natale, dal 23 novembre al 6 gennaio.; Un piccolo regno dove i bambini e le loro famiglie potranno vivere la vera magia natalizia, incontrare gli aiutanti di Babbo Natale, giocare in compagnia, scrivere le letterine dei desideri, ascoltare incantevoli fiabe e molto altro ancora. Qui verr\u00e0 allestita l\u2019Officina del Natale, la casetta principale del villaggio, in cui i bambini potranno partecipare ai laboratori creativi, creare oggetti con la carta e minuterie del presepe, colorare disegni, realizzare piccoli addobbi, lavorare la creta e preparare i biscotti di Natale con l\u2019aiuto dei folletti del bosco, in una vera atmosfera natalizia, ricca di emozioni, affetto e colori.; Oltre ai laboratori liberi, fino al 20 dicembre, saranno organizzati nel Villaggio dei laboratori didattici dal titolo Alla scoperta degli antichi mestieri e delle tradizioni popolari, che mirano a promuovere la riscoperta delle tradizioni trentine e degli antichi mestieri. Accanto alla casetta principale si trover\u00e0 l\u2019ufficio postale di Babbo Natale: una piccola e graziosa postazione dove i bambini potranno incontrare Babbo Natale, arrivato a bordo della sua meravigliosa slitta, consegnargli di persona le letterine, oppure decidere di scriverle insieme alle animatrici ed imbucarle nella cassetta delle lettere. Protagonisti del Natale saranno anche gli animali e per l\u2019occasione nel Villaggio verr\u00e0 allestita una piccola fattoria dove grandi e piccini potranno ammirare da vicino asini, cavalli, galline, pecore e caprette.",
-		"stars_of_5": 3,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			},
-			{
-				"name": "natale"
-			}
-		],
-		"startDate": "23/11/2019",
-		"endDate": "06/01/2020",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mese-montagna-2019.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/incontri/",
-		"Title": "Mese Montagna: ospiti Messner, Lunger, De Stefani e tanti altri",
-		"location": "Centro Storico; Indirizzo non disponibile; Vezzano",
-		"price": "Gratis",
-		"date": "Dal 08/11/2019 al 29/11/2019; vedi programma",
-		"time": "vedi programma",
-		"description": "Con l\u2019inizio del mese di novembre si apre ufficialmente il periodo dell\u2019anno che la Valle dei Laghi dal 2005 dedica all\u2019alpinismo e all\u2019esplorazione. Da venerd\u00ec 8 a venerd\u00ec 29 \u00abMese Montagna\u00bb proporr\u00e0 sette incontri con dieci personaggi che sono stati capaci di legare il proprio nome a qualche piccola o grande impresa in alta quota o in ambienti selvaggi ed inospitali, ma terribilmente affascinanti. Tutti gli ospiti della rassegna sono stati protagonisti di storie che sembrano fatte apposta per essere raccontate, capaci di guadagnare risonanza nazionale o addirittura internazionale.; La prima protagonista a salire sul palco del rinnovato Teatro Valle dei Laghi di Vezzano sar\u00e0 Tamara Lunger, un\u2019atleta che ha spaziato fra diverse discipline prima di essere catturata dal fascino irresistibile dell\u2019alpinismo himalayano. Galeotto fu l\u2019incontro con Simone Moro, che ha condiviso con lei imprese talvolta compiute, altre solo sfiorate. L\u2019alpinista bolzanina aprir\u00e0 la rassegna venerd\u00ec prossimo alle ore 20.45.; Mercoled\u00ec 13 l\u2019attenzione si sposter\u00e0 su un regista, Pietro Bagnara, che presenter\u00e0 due documentari dedicati all\u2019arrampicata e al Trentino, venerd\u00ec 15 toccher\u00e0 alla coppia composta da Franco Perlotto e Fausto De Stefani, due alpinisti impegnati sul fronte della solidariet\u00e0, mercoled\u00ec 20 spazio a Maurizio Belli e Fulvio Giovannini, recenti protagonisti di una lunga traversata dell\u2019Alaska, venerd\u00ec 22 il palco sar\u00e0 tutto di Angelika Rainer, climber doc, campionessa di arrampicata sportiva e su ghiaccio, mercoled\u00ec 27 di Marco Furlani e Alessandro Gogna, chiamati a presentare il proprio libro dedicato alla storia dell\u2019alpinismo in Valle dei Laghi, mentre a chiudere l\u2019edizione 2019 sar\u00e0 nientemeno che Reinhold Messner.; Tutte le serate prenderanno il via alle ore 20.45 e saranno ospitate dal Teatro Valle dei Laghi. I biglietti sono acquistabili sul sito www.primiallaprima.it e presso il circuito delle Casse Rurali Trentine. La loro vendita sar\u00e0 anche attiva a partire dalle 18.30 fino ad esaurimento posti nelle giornate degli eventi presso il Teatro. Quelli per gli appuntamenti del mercoled\u00ec costano 5 euro, quelli per i quattro venerd\u00ec 7 euro. \u00c8 disponibile anche l\u2019abbonamento alle nove serate al costo di 35 euro.; Anche quest\u2019anno la manifestazione, organizzata dall\u2019APT Trento, Monte Bondone, Valle dei Laghi e dal Comune di Vallelaghi, raccoglier\u00e0 fondi per l\u2019Associazione no profit \u201cOskar for Langtang\u201d, contribuendo cos\u00ec alla ricostruzione di strutture mediche, logistiche e di ricovero per gli abitanti di quella zona martoriata dal terremoto del 2015.; Programma completo Mese Montagna; Allegati; MM_2019_web-2; Programma completo Mese Montagna",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "Reinhold Messner"
-			},
-			{
-				"name": "alpinismo"
-			},
-			{
-				"name": "camminate"
-			},
-			{
-				"name": "montagna"
-			}
-		],
-		"startDate": "08/11/2019",
-		"endDate": "29/11/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/fucinema-film-gratis-ossana.html",
-		"category": "ScreeningEvent",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/cinema/",
-		"Title": "FuCinema: quattro grandi film ad ingresso libero",
-		"location": "Cinema Comunale di Ossana; Via Bartolomeo Bezzi, 12; Ossana",
-		"price": "Gratis",
-		"date": "Dal 08/11/2019 al 29/11/2019; 20.45",
-		"time": "20.45",
-		"other_info": [
-			{
-				"name": "Sito web",
-				"info": "facebook.com",
-				"info_url": "http://www.facebook.com/events/394402488173311"
-			},
-			{
-				"name": "Sito web"
-			}
-		],
-		"description": "Il cinema torna nella frazione Fucine di Ossana, Val di Sole, con la rassegna \u201cCome mi vuoi, come mi voglio\u201d, un omaggio alle libert\u00e0 di essere.; Ingresso libero.; Venerd\u00ec 8 novembre ore 20.45; CUORI PURI; di Roberto De Paolis \u2013 Italia, 2017 (114 min.); Introduce: Oscar Andreis, FuCinema; Presentato al festival di Cannes 2017. Agnese e Stefano, due mondi agli antipodi a pochi metri di distanza. Lei devota ad una madre intransigente e ai precetti della parrocchia. Lui sottoposto alla dura legge della strada. Mentre tutto, attorno, cade a pezzi, i due ragazzi corrono inevitabilmente verso un incontro/scontro.; Venerd\u00ec 15 novembre ore 20.45; LA BICICLETTA VERDE; di Haifaa Al-Mansour \u2013 Arabia Saudita, 2012 (93 min.); Introduce: Non Una di Meno - Trento; Presentato al festival di Venezia 2012 dalla prima regista dell\u2019Arabia Saudita. Wadjda \u00e8 una bambina molto intelligente e piena di vita. Sogna disperatamente di avere una bicicletta per poter battere l\u2019amico Abdullah in una gara. Ma la societ\u00e0 considera le biciclette un pericolo per la virt\u00f9 delle ragazzine\u2026; Venerd\u00ec 22 novembre ore 20.45; MOONLIGHT; di Barry Jenkins \u2013 USA, 2016 (111 min.); Introduce: Arcigay del Trentino; Vincitore di tre premi Oscar. Il giovanissimo Chiron vive nei sobborghi di Miami, accerchiato da gang intrise di machismo e criminalit\u00e0. Impossibile per lui manifestare la propria omosessualit\u00e0, che custodisce come un segreto. Sar\u00e0 costretto a cambiare, diventare un altro, ma come nascondere per sempre quello che si \u00e8?; Venerd\u00ec 29 novembre ore 20.45; AMERICAN LIFE; di Sam Mendes \u2013 USA, 2009 (98 min.); Introduce: Valeria Bigongiali, FuCinema; Dal premio Oscar Sam Mendes (con American Beauty), una commedia tenera e brillante. Burt e Verona, in attesa di una bambina, intraprendono un viaggio alla ricerca di un luogo dove crescere la loro famiglia e dove essere amanti e genitori a modo loro, lontano dai condizionamenti di chi li vorrebbe diversi.",
-		"stars_of_5": 3,
-		"tags": [
-			{
-				"name": "cinema"
-			},
-			{
-				"name": "film"
-			},
-			{
-				"name": "gratis"
-			}
-		],
-		"startDate": "08/11/2019",
-		"endDate": "29/11/2019",
-		"startTime": "20.45",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-fiemme-2019-2020.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "Il Magnifico Mercatino di Natale",
-		"location": "centro storico; Indirizzo non disponibile; Cavalese",
-		"price": "Gratis",
-		"date": "Dal 01/12/2019 al 06/12/2019; Orario non disponibile",
-		"time": "Orario non disponibile",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Anche in Val di Fiemme, tra le piste da sci, non possono mancare i mercatini di Natale: dal 1 dicembre al 6 gennaio a Cavalese musica, zelten, spumante e vin brul\u00e8.; Nel Magnifico Mercatino di Natale si passeggia in un giardino incantato, illuminato dalle candele e animato da spettacoli, laboratori d\u2019arte e weekend tematici che riscoprono antiche tradizioni come le lavorazioni di lana, legno, erbe e miele, ma anche le danze popolari, i krampus e i costumi d\u2019epoca.; Il programma degli eventi che si svolgono tra le casette \u00e8 in via di definizione",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "01/12/2019",
-		"endDate": "06/12/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-cimego-2019-2020.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "Mercatini di Natale di Cimego",
-		"location": "Centro Storico; Indirizzo non disponibile; Cimego",
-		"price": "Gratis",
-		"date": "Dal 24/11/2019 al 29/12/2019; vedi info",
-		"time": "vedi info",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Anche nella Valle del Chiese ci si prepara per il periodo pi\u00f9 magico dell'anno: a Cimego dal 24 novembre arrivano i mercatini di Natale.; Cortili, cantine, androni addobbati a festa, mantenendo la suggestiva atmosfera di questo borgo, costellato di piccoli angoli caratteristici, dalla presenza della Casa Museo Marascalchi e della Chiesetta di Sant\u2019Antonio. Per i pi\u00f9 golosi, in occasione del mercatino, sar\u00e0 possibile degustare piatti tipici: ogni giorno a pranzo possibilit\u00e0 di gustare le Polente tipiche della Valle del Chiese.; Ogni giorno a pranzo, viene servita la polenta, quella famosa tratta dalle pannocchie \u201crosse\u201d, declinata per l\u2019occasione in ben 3 diverse specialit\u00e0: carbonera, macafana e di patate. E verso sera, a scaldare il freddo ma suggestivo freddo invernale, tra le contrade arrivano, appena sfornati, piatti caldi di minestre, zuppe e dolci natalizi. Tutti i fine settimana ci saranno eventi, laboratori, musiche e profumi per trasportarci al Natale il momento pi\u00f9 magico dell\u2019anno per grandi e piccini\u2026; Un evento unico e suggestivo, quello di Cimego, raccolto e suggestivo, che permette di immergersi in una calda atmosfera dove anche i pi\u00f9 piccoli, in una struttura loro dedicata, vengono coinvolti e coccolati con laboratori, giochi e spettacoli studiati ad hoc, nella magica attesa di Santa Lucia e Babbo Natale.; Il mercatino \u00e8 aperto nelle seguenti giornate:; Domenica 24 Novembre 2019 - dalle 9.30 alle 18.30; Sabato 30 Novembre e domenica 01 dicembre 2019 - dalle 9.30 alle 18.30; Sabato 7 e domenica 8 Dicembre 2019 - dalle 9.30 alle 18.30; Sabato 14 e domenica 15 Dicembre 2019 - dalle 9.30 alle 18.30; Sabato 21 e domenica 22 Dicembre 2019 - dalle 9.30 alle 18.30; Sabato 28 e domenica 29 Dicembre 2019 - dalle 9.30 alle 18.30",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "24/11/2019",
-		"endDate": "29/12/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/stagione-teatro-portland.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/teatri/",
-		"Title": "Teatro: \"La bella stagione\" del Portland",
-		"location": "Teatro Portland; Via Papiria, 8",
-		"price": "vedi sito web",
-		"date": "Dal 25/10/2019 al 03/04/2020; serale",
-		"time": "serale",
-		"other_info": [
-			{
-				"name": "Sito web",
-				"info": "teatroportland.it",
-				"info_url": "http://www.teatroportland.it/"
-			},
-			{
-				"name": "Sito web"
-			}
-		],
-		"description": "La Bella Stagione del Teatro Portland inizia il 25 ottobre con White Rabbit Red Rabbit, un fenomeno teatrale mondiale mai stato ospitato in Trentino. Si tratta di un esperimento sociale in forma di spettacolo scritto dall\u2019iraniano Nassim Soleimanpour e interpretato da Andrea Brunello, senza regia, senza prove, e senza mai avere letto il testo. Nassim Soleimanpour scrive questo testo nel 2010 in un momento di impossibilit\u00e0 a lasciare il suo paese. Il testo vive in una busta sigillata, a nessuno degli interpreti \u00e8 consentito sapere in anticipo di cosa tratti lo spettacolo. Per scoprirlo bisogna venire al Teatro Portland in apertura di stagione!; Si continua l\u20198 novembre con La donna pi\u00f9 grassa del mondo, una produzione Centro Teatrale MaMiMo\u0300. Il drammaturgo Emanuele Aldrovandi tocca il tema esistenziale di cosa siamo disposti a fare pur di raggiungere la felicit\u00e0, anche se per farlo mettiamo a rischio la nostra vita e quella degli altri.; La storica compagnia sarda Cada Die Teatro ci porta a Cagliari nel 1943 con Cielo Nero, dove alla tragedia collettiva della guerra si aggiunge quella di due fratelli, uno soldato e l\u2019altro no, con la consapevolezza che l\u2019unica sicurezza nella vita \u00e8 che non si \u00e8 mai al sicuro.; Gli Eccentrici Dadar\u00f2 chiudono la programmazione 2019 con la commedia francese Tutto quello che volete di di Matthieu Delaporte e Alexandre de la Patellie\u0300re. Lo spettacolo, gi\u00e0 previsto nella stagione passata ma sfortunatamente annullato, va in scena il 13 dicembre, e ci porta a riflettere sul paradosso della troppa felicit\u00e0: dobbiamo essere infelici per essere creativi? In altre parole: troppa felicit\u00e0 ci rende infelici?; Il nuovo anno si apre con lo spettacolo vincitore di InBox 2019, Farsi Fuori, di Luisa Merloni, in scena il 10 gennaio. Il tema questa volta \u00e8 della maternit\u00e0 e di come a volte subiamo le decisioni di altri. Uno spettacolo molto divertente ma dalle profonde implicazioni filosofiche.; Il 24 gennaio \u00e8 il momento di Mare morto, di Officina Teatro. Teatro iper-realista e di grandissima attualit\u00e0 sul problema dei migranti. Una storia drammatica e durissima che per\u00f2 vuole aprirci gli occhi sull\u2019umanit\u00e0 di tanti che rischiano la vita e quella dei loro cari per cercarne una migliore.; La compagnia Arditodes\u00eco torna al Portland il 7 febbraio con Noi, Robot una riflessione sull\u2019intelligenza artificiale e su cosa voglia dire Essere Umano. Lo spettacolo torna a Trento dopo una importante tourn\u00e9e nazionale.; La Bella Stagione continua il 6 marzo con un\u2019altra compagnia trentina, Elementare Teatro, che presenta la sua nuova produzione Humana. Lo spettacolo prende le mosse dalla constatazione che la nostra societ\u00e0 \u00e8 pronta a qualsiasi sacrificio, incluso la nostra libert\u00e0 personale, pur di allungare la vita ed eliminare ogni malattia.; Il 20 marzo sar\u00e0 la compagnia lombarda Teatro Invito a portarci nel mondo di Herman Melville con Bartleby, la storia di un uomo che si rifiuta di vivere in un mondo che fatica a capire.; Infine, a chiusura di stagione, il Teatro Portland ospita uno spettacolo divertente ma estremamente profondo e provocatorio, che va ad analizzare quale sia la differenza tra il vivere e il sopravvivere. Questa \u00e8 la domanda esistenziale di I Will Survive, produzione di Qui e Ora Residenza Teatrale in scena il 3 aprile.; Continua la collaborazione fra il Teatro Portland e i teatri di Pergine, di Meano e di Villazzano. Oltre ad un coordinamento collettivo sulle date e sulle tematiche, i quattro teatri condivideranno una biglietteria unica, per permettere agli spettatori di acquistare i biglietti per tutti gli eventi nei teatri presso le casse degli stessi, indipendentemente da dove si terranno gli spettacoli. Questa sinergia permette un accesso privilegiato ad un totale di quasi 200 serate di spettacolo durante la stagione. Per chi lo vorr\u00e0, sar\u00e0 possibile acquistare una Card dei Teatri che per il prezzo di 15 euro offre biglietti ridotti per tutti i quattro teatri aderenti all\u2019iniziativa.",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "teatro"
-			}
-		],
-		"startDate": "25/10/2019",
-		"endDate": "03/04/2020",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/pellicola-gallerie-piedicastello.html",
-		"category": "VisualArtsEvent",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mostre/",
-		"Title": "Pellicole in mostra, come si filmava una volta",
-		"location": "Le Gallerie Piedicastello; Via D\u00f2s Trento",
-		"price": "Gratis",
-		"date": "Dal 05/07/2019 al 03/05/2020; vedi info",
-		"time": "vedi info",
-		"description": "Un viaggio nella storia fino a maggio 2020 in esposizione alle Gallerie di Piedicastello. Documenti catturati dalla cinepresa, un'azione che appartiene al passato. Forse non ancora al passato remoto, ma comunque prima dell'arrivo del digitale. Nell'era delle pellicole \u201criprendere\u201d o essere \u201cripresi\u201d \u00e8 stata un'esperienza comune a molti. Esperienza e gesto che \u00e8 alla \u201cpreistoria\u201d di quello che oggi ripetiamo continuamente, usando lo smartphone.; I formati ridotti indicano le pellicole realizzate in ambito non professionale a partire dagli anni venti fino agli anni ottanta del Novecento. Un campo molto vasto di produzioni filmiche, che vanno dal cinema di famiglia per uso domestico al documentario. Dal punto di visto storico diventano preziosi strumenti per cogliere i cambiamenti dei riti sociali, i modelli di comportamento, le trasformazioni del territorio del secolo scorso. Le storie in formato ridotto incontrano cos\u00ec la \u201cgrande Storia\u201d.; Le pellicole sono conservate dalla Fondazione Museo storico del Trentino nella sua Cineteca e questa esposizione vuole essere un invito a valorizzare un patrimonio, a renderlo fruibile per il pubblico. I Musei servono anche a questo. Le Gallerie a mettere in scena tutto ci\u00f2.; VISITE GUIDATE GRATUITE; domenica 29 settembre 2019, ore 15.30; domenica 27 ottobre 2019, ore 15.30; domenica 24 novembre 2019, ore 15.30; domenica 29 dicembre 2019, ore 15.30; ORARI; Da marted\u00ec a domenica, ore 9.00-18.00. Luned\u00ec chiuso. Ingresso libero.",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "cinema"
-			},
-			{
-				"name": "mostre"
-			},
-			{
-				"name": "musei"
-			}
-		],
-		"startDate": "05/07/2019",
-		"endDate": "03/05/2020",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/natale-castello-avio-2019.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "Natale al Castello di Avio",
-		"location": "Castello di Avio; via al castello; Avio",
-		"price": "Prezzo non disponibile",
-		"date": "Dal 30/11/2019 al 15/12/2019 da domani; vedi info",
-		"time": "vedi info",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Tre weekend in un luogo davvero magico, illuminati dal fuoco, riscaldati dal cibo e dal vino, accompagnati dal ritmo delle parole e della musica. Castellum Ava ha sentieri nascosti, enigmi da risolvere, storie e leggende da raccontare, un\u2019atmosfera da scoprire.; Castellum Ava ha sentieri nascosti, enigmi da risolvere sulle pareti delle sue stanze. In cima al mastio e alle sue torri si intrecciano storie e leggende, poesie d'amore per gli innamorati, storie di viaggio per sedentari e viaggiatori, storie di coraggio per pavidi ed eroi. Questi incanti saranno svelati al ritmo delle parole, della musica, dei giochi. Ma dentro il castello sono arrivati anche i mercanti, con le loro stoffe pregiate, gli oggetti intagliati nel legno, nella pietra, nella cera, i deliziosi prodotti dei loro orti preparati con mani sapienti; pozioni dal sapore di-vino. Programma giorno per giorno; Sabato 30 novembre dalle 10.00 alle 19.00; Ore 10.00 Apertura del Castello; Mercatino degli hobbisti, agricoltori e artigiani; Visite guidate alla scoperta del Castello alle ore 11.00 | 13.00 | 15.00 | 17.00; Zampognari itineranti; Le leggende del Castello: racconti, fiabe e laboratori per i pi\u00f9 piccoli; Domenica 1 dicembre dalle 10.00 alle 18.00; Ore 10.00 Apertura del Castello; Mercatino degli hobbisti, agricoltori e artigiani; Visite guidate alla scoperta del Castello alle ore 11.00 | 13.00 | 15.00 | 17.00; Le leggende del Castello: racconti, fiabe e laboratori per i pi\u00f9 piccoli; Spettacoli itineranti e concerti; Sabato 7 dicembre dalle 10.00 alle 19.00; Ore 10.00 Apertura del Castello; Mercatino degli hobbisti, agricoltori e artigiani; Visite guidate alla scoperta del Castello alle ore 11.00 | 13.00 | 15.00 | 17.00; Zampognari itineranti; Le leggende del Castello: racconti, fiabe e laboratori per i pi\u00f9 piccoli; Domenica 8 dicembre dalle 10.00 alle 18.00; Ore 10.00 Apertura del Castello; Mercatino degli hobbisti, agricoltori e artigiani; Visite guidate alla scoperta del Castello alle ore 11.00 | 13.00 | 15.00 | 17.00; Le leggende del Castello: racconti, fiabe e laboratori per i pi\u00f9 piccoli; Spettacoli itineranti e concerti; Sabato 14 dicembre dalle 10.00 alle 19.00; Ore 10.00 Apertura del Castello; Mercatino degli hobbisti, agricoltori e artigiani; Visite guidate alla scoperta del Castello alle ore 11.00 | 13.00 | 15.00 | 17.00; Zampognari itineranti; Le leggende del Castello: racconti, fiabe e laboratori per i pi\u00f9 piccoli; Domenica 15 dicembre dalle 10.00 alle 18.00; Ore 10.00 Apertura del Castello; Mercatino degli hobbisti, agricoltori e artigiani; Visite guidate alla scoperta del Castello alle ore 11.00 | 13.00 | 15.00 | 17.00; Le leggende del Castello: racconti, fiabe e laboratori per i pi\u00f9 piccoli; Spettacoli itineranti e concerti",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "30/11/2019",
-		"endDate": "15/12/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-palazzi-barocchi-2019.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "Natale nei Palazzi Barocchi",
-		"location": "Centro Storico; Indirizzo non disponibile; Ala",
-		"price": "Gratis",
-		"date": "Dal 23/11/2019 al 22/12/2019; vedi info",
-		"time": "vedi info",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Torna il Natale nei Palazzi Barocchi all'interno del centro storico della Citt\u00e0 di Velluto. Un mercatino tutto particolare, organizzato nell'ambito dei \"Natali della Vallagarina\" in collaborazione con il Coordinamento Teatrale Trentino, il Comune di Ala e Visit Rovereto!; Per cinque weekend i visitatori avranno la possibilit\u00e0 di passeggiare tra le esposizioni di numerosi artigiani, commercianti ed hobbisti, che si alterneranno nel corso dei fine settimana, ed allo stesso tempo cogliere l'opportunit\u00e0 per ammirare i pittoreschi palazzi settecenteschi che caratterizzano Ala.; Non mancheranno poi i dolci tradizionali e la possibilit\u00e0 di degustare ed acquistare prodotti e vini della Vallagarina, grazie alla presenza delle aziende vitivinicole del nostro territorio.; Quest'anno, oltre alle tradizionali visite del centro storico e dei suoi palazzi alla luce delle lanterne a cura dell'Associazione culturale Vellutai Citt\u00e0 di Ala, si aggiungeranno spettacoli itineranti musicali e teatrali, concerti corali e speciali attivit\u00e0 per i pi\u00f9 piccoli.; Il Natale nei Palazzi Barocchi \u00e8 inserito nei \"Natali della Vallagarina\" ed in particolare \u00e8 abbinato al \"Natale al Castello di Avio\" del Comune di Avio, situato a circa 8 km da Ala, in direzione sud.; Per maggiori informazioni:; www.nataleneipalazzibarocchi.it; https://www.visitrovereto.it/vivi/eventi/mercatino-di-natale-ala/",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "23/11/2019",
-		"endDate": "22/12/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-santa-massenza-2019.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "Vite di Luce: i mercatini di Natale a Santa Massenza",
-		"location": "Santa Massenza; Centro storico; Vezzano",
-		"price": "Gratis",
-		"date": "Dal 30/11/2019 al 22/12/2019 da domani; vedi programma",
-		"time": "vedi programma",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Torna uno dei pi\u00f9 suggestivi mercatini del Trentino, a Santa Massenza, il 30 novembre e l'1, 7, 8, 14, 15, 2 e 22 dicembre.; Nel piccolo borgo di Santa Massenza, situato a poca distanza dalla citt\u00e0 di Trento nel comune di Vallelaghi, nasce Vite di Luce, dallo spirito artigiano del luogo e dalla volont\u00e0 delle persone che lo vivono. La kermesse offre un ricco programma di appuntamenti e laboratori creativi per bambini accompagnato da un caratteristico mercatino di Natale artigianale dove il \u201cfatto a mano\u201d \u00e8 d'obbligo.; I visitatori con i loro bambini potranno assistere e partecipare ai laboratori a loro dedicati ed essere parte integrante dell'ambiente natalizio di Santa Massenza. Come di consueto si terranno \u201cla Notte degli Alambicchi accesi\", la mattinata sportiva \"Rincorri Babbo Natale\", oltre a piacevoli esibizioni musicali immerse fra pittoreschi punti ristoro che offrono succulente pietanze tipiche.",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			},
-			{
-				"name": "mercatini natale"
-			}
-		],
-		"startDate": "30/11/2019",
-		"endDate": "22/12/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-levico-2019.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "A Levico il tradizionale mercatino di Natale nel Parco Asburgico",
-		"location": "Parco Asburgico; Via Guglielmo Marconi; Levico Terme",
-		"price": "Gratis",
-		"date": "Dal 23/11/2019 al 04/01/2020; vedi info",
-		"time": "vedi info",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Torna il tradizionale appuntamento nel Parco Asburgico di Levico: per il Natale un allestimento fiabesco in mezzo al verde.; Un\u2019oasi naturale che nel periodo natalizio abbraccia con calore le tradizionali casette di legno nascoste tra gli alberi secolari tinti di bianco dai fiocchi di neve.; PROGRAMMA COMPLETO; NOVEMBRE; 23 Novembre ore 13.30 e 17.30 \u2013 Pan di Zenzero; 23 Novembre ore 14.00 \u2013 La Corte Asburgica al Mercatino; 23 Novembre ore 17.00 \u2013 I cori di Montagna; 24 Novembre ore 15.00 \u2013 Festa della Polenta; 24 Novembre ore 15.00 \u2013 Adotta un Albero; 30 Novembre ore 13.30 e 17.30 \u2013 Pan di Zenzero; 30 Novembre ore 15.00 - La Corte Asburgica al Mercatino; 30 Novembre ore 17.00 \u2013 I cori di Montagna; 30 Novembre ore 21.30 \u2013 Fuochi d\u2019Artificio; DICEMBRE; 1 Dicembre ore 15.00 \u2013 Festa del Formai de Malga; 6 Dicembre ore 15.00 \u2013 Festa del Miele; 7 Dicembre ore 13.30 e 17.30 \u2013 Pan di Zenzero; 7 Dicembre ore 15.00 \u2013 Festa della Patata; 7 Dicembre ore 16.00 \u2013 Krampus; 7 Dicembre ore 17.00 \u2013 I cori di Montagna; 7 Dicembre ore 21.30 \u2013 Fuochi d\u2019Artificio; 8 Dicembre ore 15.00 \u2013 Festa della Polenta; 12 Dicembre ore 17.30 \u2013 Strozegada di Santa Lucia; 14 Dicembre ore 13.30 e 17.30 \u2013 Pan di Zenzero; 14 Dicembre ore 17.00 \u2013 I cori di Montagna; 14 Dicembre ore 21.30 \u2013 Fuochi d\u2019Artificio; 15 Dicembre ore 15.00 \u2013 Festa del Formai de Malga; 21 Dicembre ore 13.30 e 17.30 \u2013 Pan di Zenzero; 21 Dicembre ore 15.00 - La Corte Asburgica al Mercatino; 21 Dicembre ore 17.00 \u2013 I cori di Montagna; 24 Dicembre ore 16.00 \u2013 Presepe Vivente; 26 Dicembre ore 16.00 \u2013 Presepe Vivente; 28 Dicembre ore 15.00 - La Corte Asburgica al Mercatino; 31 Dicembre ore 0.30 \u2013 Spettacolo Pirotecnico di Capodanno; GENNAIO; 4 Gennaio ore 15.00 - La Corte Asburgica al Mercatino; Dal 23 Novembre al 6 Gennaio \u2013 \u201cEl Presepe vizin a c\u00e0\u201d Tradizionale mostra di Presepi; Dal 5 all\u20198 Dicembre \u2013 Scultori del Lego; Orario di apertura:; Novembre 23 \u2013 24, 29 \u2013 30* \u2013; Dicembre 1, 6 \u2013 7* \u2013 8, 13 \u2013 14* \u2013 15, 20 \u2013 21 \u2013 22 \u2013 23 \u2013 24; Dal 26 dicembre al 6 gennaio; Tutti i giorni dalle 10.00 alle 19.00; *dalle 10.00 alle 22.30 con spettacolo pirotecnico",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "23/11/2019",
-		"endDate": "04/01/2020",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/percorso-cuffie-natale-trento.html",
-		"category": "VisualArtsEvent",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mostre/",
-		"Title": "Mercatini: c'\u00e8 anche il percorso in citt\u00e0 con la musica in cuffia",
-		"location": "Centro Storico; Piazza del Duomo",
-		"price": "Gratis",
-		"date": "Dal 23/11/2019 al 04/01/2020; vedi programma",
-		"time": "vedi programma",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Un percorso \"silente\" attraverso i luoghi pi\u00f9 suggestivi della Citt\u00e0 del Natale. Per questa 26a edizione del Mercatino di Natale di Trento, Miscele d\u2019Aria Factory propone: Canto Trento \u2013 ogni pietra un sentimento, un nuovo spettacolo musicale itinerante con ascolti in cuffia wireless dedicato alla citt\u00e0 ed alla sua storia.; Un\u2019esperienza musicale, sensoriale, emozionale e divertente, dove i protagonisti saranno i palazzi, le chiese, le strade e gli angoli pi\u00f9 suggestivi del centro, che al passaggio del pubblico prendono vita fra narrazione, musica dal vivo e suoni.; Sono previste delle repliche dello spettacolo il 23 e 30 novembre, il 14, il 21, il 28 dicembre e il 4 gennaio alle 15 e alle 17.",
-		"stars_of_5": 3,
-		"tags": [
-			{
-				"name": "arte"
-			},
-			{
-				"name": "mercatini di natale"
-			},
-			{
-				"name": "musica"
-			}
-		],
-		"startDate": "23/11/2019",
-		"endDate": "04/01/2020",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mattinate-fai-inverno.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/turismo/",
-		"Title": "'Mattinate Fai d'inverno': i luoghi visitabili a Rovereto e Trento",
-		"location": "Indirizzo non disponibile",
-		"price": "Prezzo non disponibile",
-		"date": "Dal 25/11/2019 al 30/11/2019 fino a domani; Orario non disponibile",
-		"time": "Orario non disponibile",
-		"other_info": [
-			{
-				"name": "Sito web",
-				"info": "fondoambiente.it",
-				"info_url": "http://www.fondoambiente.it/"
-			},
-			{
-				"name": "Evento per bambini",
-				"info": "Evento per bambini",
-				"info_url": "http://www.trentotoday.it/eventi/bambini/si/"
-			},
-			{
-				"name": "Sito web"
-			},
-			{
-				"name": "Evento per bambini"
-			}
-		],
-		"description": "In occasione delle Mattinate Fai d'inverno, verranno proposte visite ai palazzi Del Ben e Saracini-Cresseri di Rovereto e Trento in compagnia di ciceroni.; Palazzo del Ben a Rovereto, attuale sede della Fondazione Caritro, e palazzo Saracini-Cresseri, a Trento, di propriet\u00e0 e sede della Sat, sono le mete scelte dal Fai per l'ottava edizione delle 'Mattinate Fai d'inverno', visite esclusive per le scuole a cura degli 'apprendisti ciceroni' del Fai, in programma da luned\u00ec 25 a sabato 30 novembre.; In oltre cento citt\u00e0 d'Italia saranno aperti pi\u00f9 di 200 tesori selezionati perch\u00e9 speciali, curiosi e originali. A Rovereto le visite saranno a cura degli apprendisti ciceroni dell'Istituto delle arti - Liceo artistico Depero, a Trento saranno in azione gli apprendisti ciceroni del Liceo linguistico Sophie Magdalena Scholl.",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "eventi"
-			}
-		],
-		"startDate": "25/11/2019",
-		"endDate": "30/11/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mondo-leonardo-palazzo-albere-2019.html",
-		"category": "VisualArtsEvent",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mostre/",
-		"Title": "Il Mondo di Leonardo, mostra a Palazzo delle Albere",
-		"location": "Palazzo delle Albere; Via Roberto da Sanseverino",
-		"price": "Gratis",
-		"date": "Dal 22/11/2019 al 23/02/2020; Orario non disponibile",
-		"time": "Orario non disponibile",
-		"description": "Fino al 23 Febbario 2020 sar\u00e0 possibile ammirare questa grande mostra al Palazzo delle Albere, dedicata ad una delle pi\u00f9 importanti menti dell'umanit\u00e0.; Esperienze multimediali, ricostruzioni inedite e postazioni interattive invitano il pubblico a interagire in prima persona con le macchine, le opere artistiche e i codici del genio toscano: un appuntamento importante per chiunque sia interessato a scoprire Leonardo da Vinci, come mai visto prima, nel cinquecentesimo anniversario della sua morte.; La mostra, che sar\u00e0 ad ingresso gratuito, \u00e8 realizzata dal Centro studi Leonardo3 di Milano grazie al sostegno di Provincia autonoma di Trento, Comune di Trento e MUSE - Museo delle Scienze.",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "cultura"
-			},
-			{
-				"name": "mostre"
-			},
-			{
-				"name": "musei"
-			}
-		],
-		"startDate": "22/11/2019",
-		"endDate": "23/02/2020",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mercatino-natale-solidarieta-2019-2020.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "Mercatini di Natale: c'\u00e8 anche quello della solidariet\u00e0",
-		"location": "Centro Storico; Via Giuseppe Garibaldi",
-		"price": "Gratis",
-		"date": "Dal 29/11/2019 al 06/01/2020; vedi info",
-		"time": "vedi info",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Mercatini di Natale di Trento da 26 anni vuol dire anche solidariet\u00e0: anche quest'anno in via Garibaldi, la strada che collega piazza Fiera a piazza Duomo, apriranno i battenti le casette destinate ad onlus ed associazioni a scopo benefico, che potranno vedere i propri prodotti per finanziare progetti sociali.; E' il Mercatino di Natale del volontariato e della solidariet\u00e0, che quest'anno sar\u00e0 inaugurato venerd\u00ec 29 novembre 2019, alle ore 11, e rester\u00e0 aperto fino al 6 gennaio 2020. L'iniziativa fa parte del ricco programma di Trento Citt\u00e0 del Natale, con tanti eventi nel periodo dei mercatini, clicca qui...",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			},
-			{
-				"name": "solidariet\u00e0"
-			}
-		],
-		"startDate": "29/11/2019",
-		"endDate": "06/01/2020",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/ristoranti-trento-doc-spumante.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/cibo-e-vino/",
-		"Title": "Il Trento doc nei ristoranti della citt\u00e0",
-		"location": "Ristoranti della citt\u00e0; Piazza del Duomo",
-		"price": "costo normale dell'aperitivo",
-		"date": "Dal 21/11/2019 al 08/12/2019; aperitivo",
-		"time": "aperitivo",
-		"description": "Dal 21 novembre all'8 dicembre Trento celebra il prodotto enologico che prende il nome della citt\u00e0, e che non pu\u00f2 mancare nelle feste natalizie: Happy Trentodoc porta nei ristoranti della citt\u00e0 le bollicine e le eccellenze gastronomiche trentine.; Le bollicine di montagna incontrano i prodotti gastronomici della Strada del Vino e dei Sapori del Trentino: stuzzicanti abbinamenti che renderanno pi\u00f9 \u201csparkling\u201d il momento dell\u2019aperitivo. Ecco i men\u00f9...; Agriturismo Maso Mir\u00ec* (via dei pomari 41 \u2013 Romagnano di Trento); Il Trentodoc di Azienda Agricola Mittesteiner (Trento) incontra i prodotti di Salumificio Val Rendena (Porte di Rendena); Antica Trattoria Due Mori* (via San Marco 11 \u2013 Trento); Il Trentodoc di Borgo dei Posseri (Ala) incontra i prodotti di Carni e Salumi Troier (Lavis); Bar Pasi (piazza Pasi 1 - Trento); Il Trentodoc di Fondazione E. Mach (San Michele all\u2019Adige) incontra i prodotti di Panificio Sosi (Trento); Dolcemente Marzari (c/o Complesso Le Albere, viale della Costituzione 28 - Trento); Il Trentodoc di Cantina d\u2019Isera (Isera) incontra i prodotti di Pasticceria Marzari (Altopiano della Vigolana); Locanda Le Due Travi - Bar (via del Suffragio 20 - Trento); Il Trentodoc di Rev\u00ec Trentodoc (Aldeno) incontra l\u2019olio extravergine di oliva di Agraria Riva del Garda (Riva del Garda); Locanda Le Due Travi - Ristorante (via del Suffragio 20 - Trento); Il Trentodoc di Maso Martis Azienda Agricola Biologica (Trento) incontra i formaggi di Latte Trento (Trento); Locanda Margon * (via Margone 15 \u2013 Ravina di Trento); Il Trentodoc di Cantine Ferrari (Trento) incontra i formaggi di Caseificio degli Altipiani e del Vezzena (Lavarone); Osteria a \u201cLe Due Spade\u201d * (via Don A. Rizzi 11 \u2013 Trento); Il Trentodoc di Vivallis (Nogaredo) incontra i formaggi di Caseificio Sociale di Sabbionara (Avio); Panificio Moderno (piazza Lodron 21 - Trento); Il Trentodoc di Mas dei Chini (Trento) incontra i prodotti di Panificio Moderno (Isera); Ristorante al V\u00f2* (vicolo del V\u00f2 11 \u2013 Trento); Il Trentodoc di Cembra cantina di montagna (Cembra Lisignago) incontra i prodotti ittici di Trota Oro (Borgo Lares); Ristorante Enologico Il Libertino (piazza Piedicastello 4 - Trento); Il Trentodoc di Cantina Sociale di Trento (Trento) incontra i formaggi di Azienda Agricola Le Mandre (Bedollo); Ristorante Pizzeria Duomo* (via Verdi 77 \u2013 Trento); Il Trentodoc di Azienda Agricola Francesco Moser (Trento) incontra i prodotti di Salumeria Belli (Trento); Scrigno del Duomo (piazza Duomo 29 - Trento); Il Trentodoc di Altemasi (Trento) incontra i prodotti di Crucolo (Scurelle); Info; Strada del Vino e dei Sapori del Trentino; tel. 0461-921863 - info@stradavinotrentino.com",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "ristoranti"
-			},
-			{
-				"name": "spumante"
-			},
-			{
-				"name": "vino"
-			}
-		],
-		"startDate": "21/11/2019",
-		"endDate": "08/12/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/visite-citta-romana-mercatini.html",
-		"category": "VisualArtsEvent",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mostre/",
-		"Title": "Trento: sotto i Mercatini c'\u00e8 la citt\u00e0 romana",
-		"location": "Spazio Archeologico Sotterraneo del SAS; Piazza Cesare Battisti",
-		"price": "normale costo biglietto",
-		"date": "Dal 29/11/2019 al 28/12/2019; vedi programma",
-		"time": "vedi programma",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Evento per bambini",
-				"info": "Evento per bambini",
-				"info_url": "http://www.trentotoday.it/eventi/bambini/si/"
-			},
-			{
-				"name": "Tema"
-			},
-			{
-				"name": "Evento per bambini"
-			}
-		],
-		"description": "Le vie del centro storico di Trento immerse nelle atmosfere del Mercatino di Natale nascondono un\u2019altra citt\u00e0, la Tridentum fondata dai Romani pi\u00f9 di duemila anni fa. Per conoscere questo luogo ricco di storia e suggestione i Servizi Educativi dell\u2019Ufficio beni archeologici della Soprintendenza per i beni culturali propongono \u201cNatale a Tridentum\u201d, visite guidate gratuite e laboratori per famiglie. Il primo appuntamento, in programma venerd\u00ec 29 novembre, alle ore 15.30, prevede la visita al S.A.S.S. Spazio Archeologico Sotterraneo del Sas, sotto piazza Cesare Battisti, alla mostra \u201cOstriche e vino. In cucina con gli antichi romani\u201d e alle aree archeologiche di Palazzo Lodron e Palazzo Roccabruna. L\u2019iniziativa sar\u00e0 ripetuta venerd\u00ec 6, 13, 20 e 27 dicembre. Sabato 7 dicembre alle ore 10 e alle 15, nell\u2019ambito del Festival della Famiglia, al S.A.S.S. si terr\u00e0 \u201cDadi, noci e astragali: giochi a Tridentum\u201d, un laboratorio dedicato ai pi\u00f9 piccoli per scoprire come giocavano i bambini dell'antica Roma che sar\u00e0 riproposto anche sabato 21 e 28 dicembre alle ore 15. Informazioni e prenotazione tel. 0461 230171.",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "mostre"
-			},
-			{
-				"name": "visite guidate"
-			}
-		],
-		"startDate": "29/11/2019",
-		"endDate": "28/12/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/corso-sogno-lucido-francesco-tormen.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/corsi/",
-		"Title": "Corso di sogno lucido e consapevolezza onirica",
-		"location": "Centro di meditazione Kushi Ling; Via Alle Fontane, Loc. Laghel 44; Arco",
-		"price": "\u20ac80",
-		"date": "Dal 16/11/2019 al 30/11/2019 fino a domani; 10:00 - 18:00",
-		"time": "10:00 - 18:00",
-		"other_info": [
-			{
-				"name": "Sito web",
-				"info": "sognolucido.org",
-				"info_url": "http://www.sognolucido.org/"
-			},
-			{
-				"name": "Sito web"
-			}
-		],
-		"description": "Sognare sapendo di sognare, dirigere i sogni, usarli per varcare i limiti del noto ed esplorare le profondit\u00e0 della mente. Tutto ci\u00f2 non rappresenta un\u2019abilit\u00e0 paranormale, ma un fenomeno noto a molte culture e recentemente scoperto dalla scienza. \u00c8 una potenzialit\u00e0 che abbiamo tutti e che pu\u00f2 essere sviluppata attraverso semplici pratiche.; In 4 sabati, a cominciare dal 16/11, imparerai a coltivare livelli crescenti di consapevolezza onirica attraverso un percorso che integra diversi approcci e tradizioni, tra cui le indagini scientifiche di Stephen LaBerge, lo yoga tibetano de sogno, le ricerche di Carlos Castaneda e la tradizione teosofica.; Si comincia con un approfondimento del fenomeno del sonno e delle sue fasi, che permetter\u00e0 di migliorare la qualit\u00e0 del riposo e sviluppare la capacit\u00e0 di ricordare nitidamente i sogni. Su questa base impareremo ad applicare le tecniche che permettono di fare sogni lucidi, ossia riconoscere i sogni nel momento in cui sorgono e dirigerli consapevolmente. Verranno anche esplorate alcune tecniche che consentono di entrare nella dimensione onirica senza soluzione di continuit\u00e0 con lo stato di veglia, accedendo ai fenomeni noti come \u201cviaggi astrali\u201d o \u201cesperienze fuori dal corpo\u201d.; Al di l\u00e0 del grande senso di gioia e libert\u00e0 che queste esperienze regalano, lo sviluppo della consapevolezza onirica dischiude un campo di esperienza virtualmente inesauribile, che permette di esplorare i livelli pi\u00f9 profondi della mente, confrontarsi con i propri lati d\u2019ombra, contattare le proprie risorse interiori, liberarsi dai condizionamenti e, secondo alcune tradizioni, addirittura accedere a dimensioni diverse da quella fisica ma altrettanto reali.; Oltre alle spiegazioni teoriche, il corso include esercitazioni pratiche, momenti di condivisione, materiali di approfondimento e colloqui individuali per ricevere istruzioni personalizzate sulla pratica.; La prima parte del corso prevede due incontri, che si terranno sabato 16 e sabato 30 novembre, dalle 10 alle 18. La seconda parte del corso si svolger\u00e0 tra gennaio e febbraio 2020. Il costo indicato comprende i primi due incontri.",
-		"stars_of_5": 1,
-		"tags": [
-			{
-				"name": "corsi"
-			},
-			{
-				"name": "psicologia"
-			}
-		],
-		"startDate": "16/11/2019",
-		"endDate": "30/11/2019",
-		"startTime": "10:00",
-		"endTime": "18:00"
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/palazzo-roccabruna-trentodoc-orari.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/cibo-e-vino/",
-		"Title": "\"Bollicine sulla citt\u00e0\" a Palazzo Roccabruna",
-		"location": "Palazzo Roccabruna; Via Santa Trinit\u00e0, 44",
-		"price": "Gratis",
-		"date": "Dal 22/11/2019 al 09/12/2019; vedi info",
-		"time": "vedi info",
-		"description": "Lo spumante non pu\u00f2 mancare nelle Feste natalizie, ovviamente... Trento doc! La citt\u00e0 dei Mercatini di Natale festeggia il prodotto che porta nel marchio di origine controllata il nome della citt\u00e0 con una serie di eventi dedicati alle bollicine. Oltre all'aperitivo che abbiner\u00e0 i migliori spumanti ai prodotti di montagna, nei ristoranti cittadini, l'enoteca provinciale di Palazzo Roccabruna propone degustazioni a tema, laboratori per approfondire la conoscenza del metodo classico di montagna, le tante novit\u00e0 della collezione Trentodoc 2018, nonch\u00e9 l\u2019infinita ricchezza del patrimonio agroalimentare locale attraverso proposte gastronomiche a tema.; Immancabile l\u2019appuntamento dal gioved\u00ec alla domenica con le degustazioni libere in cui gli ospiti dell\u2019Enoteca potranno scegliere fra riserve, millesimati, brut, extra brut, ros\u00e9, pas dos\u00e9, demi sec, blanc de noir in una molteplicit\u00e0 di declinazioni che solo la ricchezza e la variet\u00e0 di un territorio particolarmente vocato rendono possibile con la complicit\u00e0 di tecniche colturali rispettose dell\u2019ambiente e di una cura maniacale per la qualit\u00e0 delle uve e per la perfezione del metodo produttivo.; Nelle sale dell\u2019Enoteca sar\u00e0 possibile degustare al tavolo il Trentodoc bianco, rosato e riserva abbinato a taglieri di formaggi e salumi trentini.; Gioved\u00ec e venerd\u00ec dalle 17.00 alle 22.00; Sabato dalle 11.00 alle 22.00; Domenica dalle 11.00 alle 19.00",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "degustazioni"
-			},
-			{
-				"name": "spumante"
-			},
-			{
-				"name": "vino"
-			}
-		],
-		"startDate": "22/11/2019",
-		"endDate": "09/12/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/libri-usato-via-suffragio.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "Festa in via Suffragio: bancarelle e libri usati",
-		"location": "Via del Suffragio; Via del Suffragio",
-		"price": "Gratis",
-		"date": "Dal 30/11/2019 al 30/11/2019 solo domani; tutto il giorno",
-		"time": "00:00>23:59",
-		"other_info": [
-			{
-				"name": "Evento per bambini",
-				"info": "Evento per bambini",
-				"info_url": "http://www.trentotoday.it/eventi/bambini/si/"
-			},
-			{
-				"name": "Evento per bambini"
-			}
-		],
-		"description": "Vecchi oggetti tornano a nuova vita e, soprattutto, libri usati passano di mano: in via Suffragio, in centro citt\u00e0 a Trento, torna la Giornata del Riuso. Sabato 30 novembre ci saranno bancarelle con oggetti e libri usati, ma sar\u00e0 anche una festa per tutti, con visite guidate a quella che era chiamata la Contrada Tedesca (ritrovo alla chiesa del Suffragio ore 10), una mostra di cartoline d'epoca per ripercorrere la storia della citt\u00e0 e per i pi\u00f9 piccoli lo spettacolo \"Il teatrino dell'Albero Parlante\" alle ore 14.00.",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "libri"
-			},
-			{
-				"name": "mercatini"
-			},
-			{
-				"name": "usato"
-			}
-		],
-		"startDate": "30/11/2019",
-		"endDate": "30/11/2019",
-		"startTime": "00:00",
-		"endTime": "23:59"
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mart-gratis-domenica-1-dicembre.html",
-		"category": "VisualArtsEvent",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mostre/",
-		"Title": "Mart Open Day: ingresso gratuito",
-		"location": "Mart - Museo di Arte Moderna e Contemporanea; Corso Bettini; Rovereto",
-		"price": "Gratis",
-		"date": "Dal 01/12/2019 al 01/12/2019; tutto il giorno",
-		"time": "00:00>23:59",
-		"description": "Il Mart Open Day \u00e8 da sempre un momento di festa e di condivisione. La prima domenica del mese con ingresso gratuito \u00e8 un\u2019occasione unica per partecipare a tante attivit\u00e0 e sperimentare differenti modalit\u00e0 di visita al museo. Al naturale compito di conservazione e trasmissione del patrimonio culturale si \u00e8 affiancato negli ultimi anni un ruolo sempre pi\u00f9 importante dei musei come luoghi di aggregazione e di partecipazione, che rispettino l\u2019inclusione e valorizzino il talento di tutti i cittadini. Al Mart, tra i programmi di lungo periodo portati avanti con continuit\u00e0, spiccano i Progetti speciali, destinati a persone con disabilit\u00e0 e pensati per i visitatori la cui fruizione va mediata e sostenuta con particolare cura. Il Mart dedica l\u2019Open Day di dicembre ai temi dell\u2019inclusione e della valorizzazione delle diversit\u00e0, anticipando la Giornata Internazionale delle Persone con Disabilit\u00e0 del 3 dicembre.; Nel programma dell\u2019Open Day sono inseriti numerosi incontri. Dalle ore 10.00 alle ore 11.00 verr\u00e0 presentata in Sala Conferenze la guida cartacea realizzata con la Comunicazione Aumentativa Alternativa, un linguaggio che favorisce l\u2019accesso ad alcune opere delle Collezioni a un pubblico con bisogni complessi. Questa traduzione elimina le barriere culturali e fisiche e inserisce le persone con disabilit\u00e0 in un percorso di arricchimento personale. La guida \u00e8 realizzata in collaborazione con le cooperative sociali Il Ponte e Iter nell\u2019ambito del progetto Le vie dell\u2019arte. La conferenza sar\u00e0 tradotta in LIS a cura dell\u2019Ente Nazionale Sordi di Trento.; Alle 11.30 nelle sale espositive si potr\u00e0 assistere a un talk con i partecipanti dell\u2019Inclusive Practice Workshop, un laboratorio di danza inclusiva di quattro giorni organizzato dal Centro internazionale della Danza e Oriente Occidente Dance Festival. Tenuto dal danzatore non vedente Giuseppe Comuniello, da Camilla Guarino e dalla britannica Stopgag Dance company, l\u2019ultimo giorno di workshop vede i partecipanti svolgere le prove libere nelle sale del museo, con orario 10.00-12.00 e 14.00-16.00. Il talk delle 11.30, traduzione in LIS a cura di Ente Nazionale Sordi di Trento, sar\u00e0 un momento di dialogo aperto con i danzatori e le danzatrici nell\u2019ottica della condivisione e della piena inclusione delle persone con disabilit\u00e0.; Inoltre, dalle 10.00 alle 17.00, l\u2019Area educazione si trasformer\u00e0 in uno spazio espositivo con presentazione al pubblico alle 14.30. Protagonisti i lavori realizzati durante i laboratori condotti al Mart con la cooperativa sociale Eliodoro di Riva del Garda. La cooperativa sociale Villa Maria, infine, si occuper\u00e0 dell\u2019accoglienza in sala per Les silences \u00e9ternels de ces espaces infinis, concerto per pianoforte di Franco Venturini nell\u2019ambito della rassegna Mart Music in collaborazione con l\u2019Associazione Filarmonica di Rovereto.; La partecipazione alle attivit\u00e0 \u00e8 gratuita e senza prenotazione.",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "gratis"
-			},
-			{
-				"name": "mart"
-			},
-			{
-				"name": "musei"
-			}
-		],
-		"startDate": "01/12/2019",
-		"endDate": "01/12/2019",
-		"startTime": "00:00",
-		"endTime": "23:59"
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/carmen-consoli-immacolata-mart-2019.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/concerti/",
-		"Title": "Concertone dell'Immacolata, a Rovereto arriva Carmen Consoli",
-		"location": "Mart - Museo di Arte Moderna e Contemporanea; Corso Bettini; Rovereto",
-		"price": "biglietto intero \u20ac 15,00 + 2,00, ridotto giovani e universitari under 26 \u20ac 10,00 + 2,00",
-		"date": "Dal 07/12/2019 al 07/12/2019; 21",
-		"time": "21",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "Per l'ormai classico concerto dell'immacolata nella piazza del Mart quest'anno si esibir\u00e0 Carmen Consoli. L' appuntamento \u00e8 per sabato 7 dicembre alle 21; In questo concerto speciale \u201cla cantantessa\u201d porter\u00e0 al pubblico la sua anima rock che l\u2019ha accompagnata nel corso della sua ventennale carriera, e che insieme a quella acustica, l\u2019ha resa una delle artiste pi\u00f9 eclettiche del panorama musicale italiano, per la capacit\u00e0 di lasciare il segno tra le sensazioni pi\u00f9 intimiste e quelle amplificate del rock graffiante.; Carmen Consoli sar\u00e0 accompagnata sul palco da Massimo Roccaforte alla chitarra, Luciana Luccini al basso e Antonio Marra alla batteria.",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "concerti"
-			},
-			{
-				"name": "musica"
-			},
-			{
-				"name": "spettacoli"
-			}
-		],
-		"startDate": "07/12/2019",
-		"endDate": "07/12/2019",
-		"startTime": "21",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/alambicchi-accesi-santa-massenza-2019.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/sagre/",
-		"Title": "La notte degli alambicchi accesi",
-		"location": "Trentino-Alto Adige, Italy; Piazza di San Vigilio; Calavino",
-		"price": "Prezzo non disponibile",
-		"date": "Dal 08/12/2019 al 08/12/2019; 8-19",
-		"time": "8-19",
-		"description": "Torna la magica notte dedicata al distillato pi\u00f9 amato del Trentino.; Domenica 8 dicembre a Santa Massenza,culla della grappa artigianale trentina tra le pi\u00f9 apprezzate al mondo, si ripete l'appuntamento con la notte degli alambicchi accesi, dove si rivive la magia del passato, si celebra la squisitezza di oggi e brinda al futuro di eterno successo.; Mercatini di Natale a Trento e Santa Massenza con visita guidata alle distillerie del borgo e degustazione.; INFO E PRENOTAZIONI 045.8960341",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "feste"
-			},
-			{
-				"name": "mercatini di natale"
-			},
-			{
-				"name": "santa massenza"
-			}
-		],
-		"startDate": "08/12/2019",
-		"endDate": "08/12/2019",
-		"startTime": "8",
-		"endTime": "19"
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mondo-nuovo-ianes-sardagna.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/incontri/",
-		"Title": "\"Il nuovo mondo a Sardagna\": l'eco-thriller di Marco Ianes",
-		"location": "Sala della circoscrizione di Sardagna; Localita' Sardagna",
-		"price": "Gratis",
-		"date": "Dal 05/12/2019 al 05/12/2019; 20:30",
-		"time": "20:30",
-		"description": "Il Nuovo Mondo \u00e8 un libro thriller climate fiction. Marco Ianes presenter\u00e0 il suo rmanzo a Sardagna. Un modo diverso per parlare di cambiamenti climatici. Un libro unico! Prenota il tuo posto gratuito on line e presentati con il tagliando e parteciperai all'estrazione di una copia del libro.",
-		"stars_of_5": 2,
-		"tags": [
-			{
-				"name": "ambiente"
-			},
-			{
-				"name": "libri"
-			}
-		],
-		"startDate": "05/12/2019",
-		"endDate": "05/12/2019",
-		"startTime": "20:30",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/marco-ianes-campestrini-pergine.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/incontri/",
-		"Title": "Scrittori trentini: Ianes a Campestrini a Pergine",
-		"location": "Teatro comunale di Pergine Valsugana; Piazza Garibaldi, 5g; Pergine Valsugana",
-		"price": "Gratis",
-		"date": "Dal 07/12/2019 al 07/12/2019; 18:00",
+		"date": "23-11-19",
 		"time": "18:00",
-		"description": "Marco Ianes e Corrado Campestrini. Il Nuovo Mondo e Nel nome di Alice.; Due romanzi, due autori trentini al Foyer del teatro di Pergine Valsugana.; Insieme presenteranno le loro opere.; Ingresso gratuito, la cittadinanza \u00e8 invitata.",
-		"stars_of_5": 2,
-		"tags": [
-			{
-				"name": "libri"
-			}
-		],
-		"startDate": "07/12/2019",
-		"endDate": "07/12/2019",
-		"startTime": "18:00",
-		"endTime": ""
+		"comment": "Per la rassegna Arcipelago Suite, uno dei concerti jazz pi\u00f9 attesi della stagione. Progetto a cura di Francesca Aste per il Centro Servizi Culturali S. Chiara, in collaborazione con Jazz'About. Info: pinfo@centrosantachiara.it.",
+		"location": "Mart, Rovereto",
+		"locationName": "",
+		"contact": "pinfo@centrosantachiara.it.",
+		"cost": "free",
+		"link": "mart.trento.it/agenda.jsp"
 	},
 	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-bezzecca-2019.html",
+		"name": "Little Mart\nIl colore \u00e8 nell'aria",
+		"category": "ScienceEvent",
+		"date": "24-11-19",
+		"time": "15:00-16:30",
+		"comment": "Il colore: pigmenti da spargere come zucchero a velo e bolle di sapone che lasciano magiche impronte. Dai 3 ai 10 anni. Costo: \u20ac 5. Prenotazioni.: education@mart.tn.it - 0464 454135/108. Sab. e dom. 0464 438887.",
+		"location": "Mart, Area educazione",
+		"locationName": "",
+		"contact": "education@mart.tn.it",
+		"cost": "Costo: \u20ac 5",
+		"link": "mart.trento.it/agenda.jsp"
+	},
+	{
+		"name": "Isadora Duncan",
 		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "A Bezzecca il villaggio di Natale del gigante",
-		"location": "Centro Storico; Indirizzo non disponibile; Ledro",
-		"price": "Gratis",
-		"date": "Dal 07/12/2019 al 30/12/2019; Orario non disponibile",
-		"time": "Orario non disponibile",
-		"description": "L\u2019unico mercatino in Trentino che vi far\u00e0 entrare in una favola: la storia affascinante e misteriosa del Gigante Gilli. In suo onore, gli avvolti e le contrade del paese di Bezzecca si animano durante il periodo natalizio per creare la magica atmosfera del Villaggio di Natale del Gigante, un mercatino che propone ai visitatori prelibatezze gastronomiche, prodotti locali, oggetti d\u2019arte ed artigianato, e che di anno in anno regala sempre nuove ed interessanti iniziative. Il museo, le serate animate da caratteristici spettacoli e concerti: tutto nel periodo natalizio a Bezzecca concorre a trasportarvi in un luogo senza tempo, dove realt\u00e0 e fantasia si fondono.; Bezzecca (TN) \u2013 Pro Loco Bezzecca; 7 - 8 - 21 - 22 - 28 - 29 - 30 dicembre 2019 e 4 - 5 gennaio 2020",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "07/12/2019",
-		"endDate": "30/12/2019",
-		"startTime": "",
-		"endTime": ""
+		"date": "24-11-19",
+		"time": "15:00-16:00",
+		"comment": "Visita guidata alla mostra Danzare la rivoluzione. Isadora Duncan e  le arti figurative in Italia tra Ottocento e avanguardia. Costo: \u20ac 2.  Acquistabile il giorno stesso, dalle ore 14.00, in biglietteria. Info: education@mart.tn.it.",
+		"location": "Mart, Sale espositive",
+		"locationName": "",
+		"contact": "education@mart.tn.it.",
+		"cost": "Costo: \u20ac 2",
+		"link": "mart.trento.it/agenda.jsp"
 	},
 	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natae-presepi-tesero-2019-2020.html",
+		"name": "Rassegna Settearti\nLa scomparsa di mia madre",
+		"category": "ScreeningEvent",
+		"date": "26-11-19",
+		"time": "21:00",
+		"comment": "Un film dedicato alla vita di Benedetta Barzini, modella iconica degli anni '60. Proiezione a cura di Centro S. Chiara. Costo: \u20ac 5 (\u20ac 3 con tessera Cineforum Rovereto). Info: pinfo@centrosantachiara.it.",
+		"location": "\r\nAuditorium Melotti, Rovereto",
+		"locationName": "",
+		"contact": "pinfo@centrosantachiara.it.",
+		"cost": "Costo: \u20ac 5",
+		"link": "mart.trento.it/agenda.jsp"
+	},
+	{
+		"name": "Focus Collezioni\nBernardo Strozzi e Yves Klein",
 		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "Tesero festeggia il Natale con i suoi presepi",
-		"location": "centro storico; piazza Cesare Battisti; Tesero",
-		"price": "Gratis",
-		"date": "Dal 07/12/2019 al 05/01/2020; 08-20",
-		"time": "08-20",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "E' dal 1965 che a Tesero si festeggia in tutto il paese con presepi esposti, e anche quest'anno non pu\u00f2 mancare l'appuntamento:; Tesero si colora nel periodo natalizio di una atmosfera tradizionale che fa risalire le proprie radici al XVIII\u00b0 secolo. Il centro storico \u00e8 un percorso alla riscoperta di luoghi affascinanti e suggestioni architettoniche uniche per la loro peculiarit\u00e0 e conservazione: le case costruite a ridosso l\u2019una dell\u2019altra, gli archi e le volte, le strette viuzze, i pertugi e i cortili delle case, le stalle e le cantine sembrano essere parte di un unico grande presepio. D; Al Grande presepio in piazza ed al percorso nel centro storico alla scoperta dei gruppi di presepi nelle \u201ccorte\u201d si aggiunge l\u2019 esposizione di notevole interesse sul tema della Nativit\u00e0 con opere di collezionisti e manufatti tradizionali di svariata provenienza nelle cantine e stalle di Casa Jellici.",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "07/12/2019",
-		"endDate": "05/01/2020",
-		"startTime": "08",
-		"endTime": "20"
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/mercatini-natale-castellano-2019-2020.html",
-		"category": "Event",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mercatini/",
-		"Title": "El nos Nadal, il Natale dei ricordi a Castellano",
-		"location": "Castellano; via al castello; Villa Lagarina",
-		"price": "Gratis",
-		"date": "Dal 07/12/2019 al 15/12/2019; sabato 7 dicembre dalle 14.00 alle 22.00 domenica 8 dicembre dalle 10.30 alle 20.30 sabato 14 dicembre dalle 14.00 alle 22.00 domenica 15 dicembre dalle 10.30 alle 20.30",
-		"time": "sabato 7 dicembre dalle 14.00 alle 22.00 domenica 8 dicembre dalle 10.30 alle 20.30 sabato 14 dicembre dalle 14.00 alle 22.00 domenica 15 dicembre dalle 10.30 alle 20.30",
-		"other_info": [
-			{
-				"name": "Tema",
-				"info": "Natale",
-				"info_url": "http://www.trentotoday.it/eventi/tema/natale/"
-			},
-			{
-				"name": "Tema"
-			}
-		],
-		"description": "A Castellano il Natale di una volta, tradizionale, con storie e sapori dal passato.; El nos Nadal in dialetto trentino \u00e8 il nostro Natale. Un Natale speciale, un Natale della tradizione, un Natale che racconta le storie di un tempo. La magia del passato rivive nelle corti, nelle piazzette, e nelle cantine del paese, che ospitano i piatti della tradizione e i mercatini della terra e dell'artigianato. Ma non solo. Il Castello del Duecento, da cui il nome Castellano, diventa cornice suggestiva per un viaggio nei ricordi e le vie del paese si illuminano di proiezioni ed immagini. Le ricette e le musiche della tradizione Gli abitanti del piccolo paese, di poco pi\u00f9 di 700 anime, aprono le loro abitazioni e ci guidano alla scoperta delle unicit\u00e0 storiche e culturali del luogo. Unicit\u00e0 raccontate attraverso i piatti tradizionali ultracentenari serviti nelle corti come l\u2019orzet, il minestrom, il brobrus\u00e0, la beca de pam, il baccal\u00e0 con polenta, accompagnati dai vini del territorio, ma anche attraverso concerti musicali realizzati in collaborazione con l\u2019Associazione Mozart Italia, canti corali della montagna, melodie e note natalizie. Mostre, installazioni e animazioni Se il Natale \u00e8 tradizione, \u00e8 anche un momento speciale per i pi\u00f9 piccoli, che a Castellano troveranno disegni, strumenti musicali, giochi, animali nella stalla, passeggiate con i pony per passare insieme dei bei momenti in compagnia. In programma anche mostre ed esposizioni a cura degli artisti locali, allestite nei luoghi pi\u00f9 significativi del paese, e installazioni fotografiche lungo le strade, a raccontare la storia di un passato fatto di persone, di incontri e di memorie. Tanti gli eventi in programma, dalle rappresentazioni teatrali, che raccontano leggende che si tramandano da secoli, alle musiche lungo le vie del paese con fiati, cornamuse, fisarmoniche e cori, dalle visite guidate al castello alle merende per i pi\u00f9 piccoli. Nei giorni della manifestazione sar\u00e0 attivo un bus navetta da Rovereto per Castellano. Partenza da Largo Posta a Rovereto, con fermate intermedie presso lo Stadio Quercia di Rovereto, Villa Lagarina e Pedersano.",
-		"stars_of_5": 5,
-		"tags": [
-			{
-				"name": "mercatini di natale"
-			}
-		],
-		"startDate": "07/12/2019",
-		"endDate": "15/12/2019",
-		"startTime": "",
-		"endTime": ""
-	},
-	{
-		"Link": "http://www.trentotoday.it/eventi/luci-natale-albere-cometa.html",
-		"category": "VisualArtsEvent",
-		"category_url": "http://www.trentotoday.it/eventi/tipo/mostre/",
-		"Title": "\"Cometa Sonora\": suoni e luci per Natale alle Albere",
-		"location": "Quartiere Le Albere; Via Roberto da Sanseverino",
-		"price": "Gratis",
-		"date": "Dal 06/12/2019 al 06/01/2020; tutti i giorni",
-		"time": "tutti i giorni",
-		"description": "Non solo il centro citt\u00e0, con i Mercatini di Natale: anche l'ultramoderno quartiere delle Albere si illumina per il periodo delle festivit\u00e0 natalizie e lo fa, giustamete, con un progetto artistico all'avanguardia. Ecco \u201cCometa Sonora\u201d, un\u2019installazione artistica diffusa, un complesso di opere che si occupa di inquinamento, inteso non semplicemente nella sua accezione ambientale, ma anche in quella personale, sociale. Le opere che la compongono sono tre, interconnesse fra loro. Sar\u00e0 presente \u201cCometa\u201d, un richiamo visivo e sonoro alla cittadinanza; \u201cSlalom\u201d, installazione artistica a cielo aperto che invita gli avventori a compiere delle scelte e \u201cSon et Lumi\u00e9re: the App Symphony\u201d, uno spettacolo coordinato di luci e suoni della durata di circa 5 minuti, che illuminer\u00e0 ed arreder\u00e0 con il suono tutta la via principale del quartiere.; Il concetto alla base di questa installazione \u00e8 quello di unire il tema natalizio estrapolandolo per qualche momento dal suo habitat consumistico per recuperarne la dimensione spirituale, prima ancora che religiosa. L\u2019idea \u00e8 quella di un richiamo artistico alle masse, una \u201ccometa\u201d che trasformi le famiglie in esploratori, che si incamminano sui sentieri della scelta. Dal 6 dicembre 2019 al 6 gennaio 2020.",
-		"stars_of_5": 4,
-		"tags": [
-			{
-				"name": "arte"
-			},
-			{
-				"name": "mercatini natale"
-			}
-		],
-		"startDate": "06/12/2019",
-		"endDate": "06/01/2020",
-		"startTime": "",
-		"endTime": ""
+		"date": "27-11-19",
+		"time": "10:00-17:00",
+		"comment": "Restauro della pala d'altare di Strozzi esposta nelle Collezioni, condotto in accordo con la Diocesi di Trento. Orario al pubblico: 10.00 - 13.00 / 14.00 - 17.00. Info: eventi@mart.tn.it.",
+		"location": "Mart, Sale espositive",
+		"locationName": "",
+		"contact": "eventi@mart.tn.it.",
+		"cost": "free",
+		"link": "mart.trento.it/agenda.jsp"
 	}
 ]
