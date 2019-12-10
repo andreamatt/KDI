@@ -1,5 +1,8 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
 @prefix obda: <https://w3id.org/obda/vocabulary#> .
 @prefix f_events: <http://www.semanticweb.org/facilitiesEventsOntology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -7,12 +10,12 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1drm6o006x1 a km-dev:R2RMLMapping ;
+_:node1drov244jx1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "facilities.csv" ;
-	km-dev:modelPublicationTime "1575924531206"^^xsd:long ;
+	km-dev:modelPublicationTime "1576017137812"^^xsd:long ;
 	km-dev:modelVersion "1.7" ;
-	km-dev:hasInputColumns "[[{\"columnName\":\"GEO_postalCode\"}],[{\"columnName\":\"GEO_locationText\"}],[{\"columnName\":\"GEO_addressLocality\"}],[{\"columnName\":\"FAC_isIndoor\"}],[{\"columnName\":\"GEO_addressRegion\"}],[{\"columnName\":\"FAC_animalsAllowed\"}],[{\"columnName\":\"GEO_address\"}],[{\"columnName\":\"FAC_smokingAllowed\"}],[{\"columnName\":\"GEO_longitude\"}],[{\"columnName\":\"FAC_hasParking\"}],[{\"columnName\":\"GEO_altitude\"}],[{\"columnName\":\"FAC_website\"}],[{\"columnName\":\"GEO_latitude\"}],[{\"columnName\":\"FAC_mail\"}],[{\"columnName\":\"FAC_name\"}],[{\"columnName\":\"FAC_telephone\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"GEO_postalCode\"}],[{\"columnName\":\"FAC_URI\"}],[{\"columnName\":\"GEO_locationText\"}],[{\"columnName\":\"GEO_addressLocality\"}],[{\"columnName\":\"FAC_isIndoor\"}],[{\"columnName\":\"GEO_addressRegion\"}],[{\"columnName\":\"FAC_animalsAllowed\"}],[{\"columnName\":\"GEO_address\"}],[{\"columnName\":\"FAC_smokingAllowed\"}],[{\"columnName\":\"GEO_longitude\"}],[{\"columnName\":\"FAC_hasParking\"}],[{\"columnName\":\"GEO_altitude\"}],[{\"columnName\":\"FAC_website\"}],[{\"columnName\":\"GEO_latitude\"}],[{\"columnName\":\"FAC_mail\"}],[{\"columnName\":\"FAC_name\"}],[{\"columnName\":\"FAC_telephone\"}]]" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"GEO_address\"}],[{\"columnName\":\"FAC_smokingAllowed\"}],[{\"columnName\":\"GEO_altitude\"}],[{\"columnName\":\"FAC_animalsAllowed\"}],[{\"columnName\":\"GEO_longitude\"}],[{\"columnName\":\"FAC_hasParking\"}],[{\"columnName\":\"GEO_latitude\"}],[{\"columnName\":\"FAC_mail\"}],[{\"columnName\":\"TIMETABLE_Sunday\"}],[{\"columnName\":\"FAC_website\"}],[{\"columnName\":\"TIMETABLE_Saturday\"}],[{\"columnName\":\"FAC_telephone\"}],[{\"columnName\":\"TIMETABLE_Friday\"}],[{\"columnName\":\"TIMETABLE_Thursday\"}],[{\"columnName\":\"FAC_name\"}],[{\"columnName\":\"GEO_locationText\"}],[{\"columnName\":\"TIMETABLE_Wednesday\"}],[{\"columnName\":\"GEO_postalCode\"}],[{\"columnName\":\"TIMETABLE_Tuesday\"}],[{\"columnName\":\"GEO_addressRegion\"}],[{\"columnName\":\"TIMETABLE_Monday\"}],[{\"columnName\":\"GEO_addressLocality\"}],[{\"columnName\":\"FAC_isIndoor\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"FAC_smokingAllowed\"}],[{\"columnName\":\"FAC_animalsAllowed\"}],[{\"columnName\":\"FAC_hasParking\"}],[{\"columnName\":\"FAC_mail\"}],[{\"columnName\":\"FAC_website\"}],[{\"columnName\":\"FAC_telephone\"}],[{\"columnName\":\"TIMETABLE_Wednesday\"}],[{\"columnName\":\"TIMETABLE_Tuesday\"}],[{\"columnName\":\"TIMETABLE_Monday\"}],[{\"columnName\":\"FAC_isIndoor\"}],[{\"columnName\":\"GEO_address\"}],[{\"columnName\":\"GEO_altitude\"}],[{\"columnName\":\"GEO_longitude\"}],[{\"columnName\":\"GEO_latitude\"}],[{\"columnName\":\"TIMETABLE_Sunday\"}],[{\"columnName\":\"TIMETABLE_Saturday\"}],[{\"columnName\":\"TIMETABLE_Friday\"}],[{\"columnName\":\"TIMETABLE_Thursday\"}],[{\"columnName\":\"FAC_URI\"}],[{\"columnName\":\"TIMETABLE_URI\"}],[{\"columnName\":\"FAC_name\"}],[{\"columnName\":\"GEO_locationText\"}],[{\"columnName\":\"GEO_postalCode\"}],[{\"columnName\":\"GEO_addressRegion\"}],[{\"columnName\":\"GEO_addressLocality\"}]]" ;
 	km-dev:hasModelLabel "facilities.csv" ;
 	km-dev:hasBaseURI "http://localhost:8080/source/" ;
 	km-dev:hasWorksheetHistory """[
@@ -43,7 +46,7 @@ _:node1drm6o006x1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"transformationCode\",
                 \"type\": \"other\",
-                \"value\": \"return \\\"http://www.semanticweb.org/facilitiesEventsOntology/facilities/facility_\\\" + str(getRowIndex())\"
+                \"value\": \"return \\\"http://www.semanticweb.org/facilitiesEventsOntology/Facility/Facility_\\\" + str(getRowIndex())\"
             },
             {
                 \"name\": \"errorDefaultValue\",
@@ -64,6 +67,58 @@ _:node1drm6o006x1 a km-dev:R2RMLMapping ;
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
                 \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"FAC_URI\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"TIMETABLE_Sunday\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"TIMETABLE_URI\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"http://www.semanticweb.org/facilitiesEventsOntology/Facility/TimeTable/TimeTable_\\\" + str(getRowIndex())\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_URI\\\"}]}]\"
             }
         ],
         \"tags\": [\"Transformation\"]
@@ -1102,6 +1157,493 @@ _:node1drm6o006x1 a km-dev:R2RMLMapping ;
         \"tags\": [\"SemanticType\"]
     },
     {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"TIMETABLE_Monday\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#monday\",
+                    \"DomainLabel\": \"f_events:Timetables1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_Monday\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_Monday\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"TIMETABLE_Tuesday\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#tuesday\",
+                    \"DomainLabel\": \"f_events:Timetables1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_Tuesday\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_Tuesday\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"TIMETABLE_Wednesday\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#wednesday\",
+                    \"DomainLabel\": \"f_events:Timetables1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_Wednesday\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_Wednesday\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"TIMETABLE_Thursday\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#thursday\",
+                    \"DomainLabel\": \"f_events:Timetables1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_Thursday\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_Thursday\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"TIMETABLE_Friday\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#friday\",
+                    \"DomainLabel\": \"f_events:Timetables1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_Friday\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_Friday\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"TIMETABLE_Saturday\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#saturday\",
+                    \"DomainLabel\": \"f_events:Timetables1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_Saturday\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_Saturday\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"TIMETABLE_Sunday\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#sunday\",
+                    \"DomainLabel\": \"f_events:Timetables1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_Sunday\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_Sunday\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"TIMETABLE_URI\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"f_events:Timetables1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_URI\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TIMETABLE_URI\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
         \"commandName\": \"AddLinkCommand\",
         \"model\": \"new\",
         \"inputParameters\": [
@@ -1166,341 +1708,583 @@ _:node1drm6o006x1 a km-dev:R2RMLMapping ;
             }
         ],
         \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Facility1\",
+                    \"edgeId\": \"http://www.semanticweb.org/facilitiesEventsOntology#isTimetableOf\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Facility\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables1\",
+                    \"edgeId\": \"http://www.semanticweb.org/facilitiesEventsOntology#hasTimetable\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Timetables\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/facilitiesEventsOntology#Facility1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#Facility\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
     }
 ]""" .
 
-km-dev:TriplesMap_94c71a7b-7463-47f4-b611-e4df9c8ad026 a rr:TriplesMap .
+km-dev:TriplesMap_8c1b8e11-7b8a-4ae1-9e1d-9ca1f8ba7e9a a rr:TriplesMap .
 
-_:node1drm6o006x1 km-dev:hasTriplesMap km-dev:TriplesMap_94c71a7b-7463-47f4-b611-e4df9c8ad026 .
+_:node1drov244jx1 km-dev:hasTriplesMap km-dev:TriplesMap_8c1b8e11-7b8a-4ae1-9e1d-9ca1f8ba7e9a .
 
-km-dev:TriplesMap_94c71a7b-7463-47f4-b611-e4df9c8ad026 km-dev:isPartOfMapping _:node1drm6o006x1 .
+km-dev:TriplesMap_8c1b8e11-7b8a-4ae1-9e1d-9ca1f8ba7e9a km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x2 rr:tableName "facilities.csv" ;
+_:node1drov244jx2 rr:tableName "facilities.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasLogicalTable _:node1drm6o006x2 .
+_:node1drov244jx1 km-dev:hasLogicalTable _:node1drov244jx2 .
 
-km-dev:TriplesMap_94c71a7b-7463-47f4-b611-e4df9c8ad026 rr:logicalTable _:node1drm6o006x2 ;
-	rr:subjectMap _:node1drm6o006x3 .
+km-dev:TriplesMap_8c1b8e11-7b8a-4ae1-9e1d-9ca1f8ba7e9a rr:logicalTable _:node1drov244jx2 ;
+	rr:subjectMap _:node1drov244jx3 .
 
-_:node1drm6o006x1 km-dev:hasSubjectMap _:node1drm6o006x3 .
+_:node1drov244jx1 km-dev:hasSubjectMap _:node1drov244jx3 .
 
-_:node1drm6o006x3 km-dev:isPartOfMapping _:node1drm6o006x1 ;
+_:node1drov244jx3 km-dev:isPartOfMapping _:node1drov244jx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.semanticweb.org/facilitiesEventsOntology#Facility1" ;
 	rr:class f_events:Facility ;
 	rr:template "{FAC_URI}" ;
 	a km-dev:steinerTreeRootNode .
 
-km-dev:PredicateObjectMap_f69cbe71-708c-4381-85f6-13758af1c291 rr:predicate f_events:mail .
+km-dev:PredicateObjectMap_bf65699c-d5de-4af8-a365-90e705033561 rr:predicate f_events:isIndoor .
 
-_:node1drm6o006x4 rr:column "FAC_mail" ;
+_:node1drov244jx4 rr:column "FAC_isIndoor" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasObjectMap _:node1drm6o006x4 .
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx4 .
 
-km-dev:PredicateObjectMap_f69cbe71-708c-4381-85f6-13758af1c291 rr:objectMap _:node1drm6o006x4 .
+km-dev:PredicateObjectMap_bf65699c-d5de-4af8-a365-90e705033561 rr:objectMap _:node1drov244jx4 .
 
-km-dev:TriplesMap_94c71a7b-7463-47f4-b611-e4df9c8ad026 rr:predicateObjectMap km-dev:PredicateObjectMap_f69cbe71-708c-4381-85f6-13758af1c291 .
+km-dev:TriplesMap_8c1b8e11-7b8a-4ae1-9e1d-9ca1f8ba7e9a rr:predicateObjectMap km-dev:PredicateObjectMap_bf65699c-d5de-4af8-a365-90e705033561 .
 
-km-dev:PredicateObjectMap_f69cbe71-708c-4381-85f6-13758af1c291 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+km-dev:PredicateObjectMap_bf65699c-d5de-4af8-a365-90e705033561 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f69cbe71-708c-4381-85f6-13758af1c291 .
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_bf65699c-d5de-4af8-a365-90e705033561 .
 
-km-dev:PredicateObjectMap_257fa87e-a1cb-484b-9f12-03d9111d708c rr:predicate f_events:facilityWebsite .
+km-dev:PredicateObjectMap_2eea3ea5-52f0-446f-8d38-cabd9bbce444 rr:predicate f_events:facilityWebsite .
 
-_:node1drm6o006x5 rr:column "FAC_website" ;
+_:node1drov244jx5 rr:column "FAC_website" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasObjectMap _:node1drm6o006x5 .
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx5 .
 
-km-dev:PredicateObjectMap_257fa87e-a1cb-484b-9f12-03d9111d708c rr:objectMap _:node1drm6o006x5 .
+km-dev:PredicateObjectMap_2eea3ea5-52f0-446f-8d38-cabd9bbce444 rr:objectMap _:node1drov244jx5 .
 
-km-dev:TriplesMap_94c71a7b-7463-47f4-b611-e4df9c8ad026 rr:predicateObjectMap km-dev:PredicateObjectMap_257fa87e-a1cb-484b-9f12-03d9111d708c .
+km-dev:TriplesMap_8c1b8e11-7b8a-4ae1-9e1d-9ca1f8ba7e9a rr:predicateObjectMap km-dev:PredicateObjectMap_2eea3ea5-52f0-446f-8d38-cabd9bbce444 .
 
-km-dev:PredicateObjectMap_257fa87e-a1cb-484b-9f12-03d9111d708c a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+km-dev:PredicateObjectMap_2eea3ea5-52f0-446f-8d38-cabd9bbce444 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_257fa87e-a1cb-484b-9f12-03d9111d708c .
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2eea3ea5-52f0-446f-8d38-cabd9bbce444 .
 
-km-dev:PredicateObjectMap_7d4b6944-6eb9-4f85-8442-163494c04a02 rr:predicate f_events:isIndoor .
+km-dev:PredicateObjectMap_fdf0c443-e2b9-4d9b-9cd6-bb4f3ac847ed rr:predicate f_events:hasPosition .
 
-_:node1drm6o006x6 rr:column "FAC_isIndoor" ;
+km-dev:RefObjectMap_0883eaa7-e75f-49c9-affd-dfb670beb122 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_495e1b13-3f07-459c-b081-7d55178ed409 ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasObjectMap km-dev:RefObjectMap_0883eaa7-e75f-49c9-affd-dfb670beb122 .
+
+km-dev:PredicateObjectMap_fdf0c443-e2b9-4d9b-9cd6-bb4f3ac847ed rr:objectMap km-dev:RefObjectMap_0883eaa7-e75f-49c9-affd-dfb670beb122 .
+
+km-dev:TriplesMap_8c1b8e11-7b8a-4ae1-9e1d-9ca1f8ba7e9a rr:predicateObjectMap km-dev:PredicateObjectMap_fdf0c443-e2b9-4d9b-9cd6-bb4f3ac847ed .
+
+km-dev:PredicateObjectMap_fdf0c443-e2b9-4d9b-9cd6-bb4f3ac847ed a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_fdf0c443-e2b9-4d9b-9cd6-bb4f3ac847ed .
+
+km-dev:PredicateObjectMap_d3d5e9eb-028d-4965-964d-2d74c6eabc35 rr:predicate f_events:facilityName .
+
+_:node1drov244jx6 rr:column "FAC_name" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasObjectMap _:node1drm6o006x6 .
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx6 .
 
-km-dev:PredicateObjectMap_7d4b6944-6eb9-4f85-8442-163494c04a02 rr:objectMap _:node1drm6o006x6 .
+km-dev:PredicateObjectMap_d3d5e9eb-028d-4965-964d-2d74c6eabc35 rr:objectMap _:node1drov244jx6 .
 
-km-dev:TriplesMap_94c71a7b-7463-47f4-b611-e4df9c8ad026 rr:predicateObjectMap km-dev:PredicateObjectMap_7d4b6944-6eb9-4f85-8442-163494c04a02 .
+km-dev:TriplesMap_8c1b8e11-7b8a-4ae1-9e1d-9ca1f8ba7e9a rr:predicateObjectMap km-dev:PredicateObjectMap_d3d5e9eb-028d-4965-964d-2d74c6eabc35 .
 
-km-dev:PredicateObjectMap_7d4b6944-6eb9-4f85-8442-163494c04a02 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+km-dev:PredicateObjectMap_d3d5e9eb-028d-4965-964d-2d74c6eabc35 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7d4b6944-6eb9-4f85-8442-163494c04a02 .
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d3d5e9eb-028d-4965-964d-2d74c6eabc35 .
 
-km-dev:PredicateObjectMap_32d3e0de-8314-40a9-be04-0990b1b1f233 rr:predicate f_events:telephone .
+km-dev:PredicateObjectMap_d1f63066-6b87-4fed-8e19-94b981869b1c rr:predicate f_events:mail .
 
-_:node1drm6o006x7 rr:column "FAC_telephone" ;
+_:node1drov244jx7 rr:column "FAC_mail" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasObjectMap _:node1drm6o006x7 .
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx7 .
 
-km-dev:PredicateObjectMap_32d3e0de-8314-40a9-be04-0990b1b1f233 rr:objectMap _:node1drm6o006x7 .
+km-dev:PredicateObjectMap_d1f63066-6b87-4fed-8e19-94b981869b1c rr:objectMap _:node1drov244jx7 .
 
-km-dev:TriplesMap_94c71a7b-7463-47f4-b611-e4df9c8ad026 rr:predicateObjectMap km-dev:PredicateObjectMap_32d3e0de-8314-40a9-be04-0990b1b1f233 .
+km-dev:TriplesMap_8c1b8e11-7b8a-4ae1-9e1d-9ca1f8ba7e9a rr:predicateObjectMap km-dev:PredicateObjectMap_d1f63066-6b87-4fed-8e19-94b981869b1c .
 
-km-dev:PredicateObjectMap_32d3e0de-8314-40a9-be04-0990b1b1f233 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+km-dev:PredicateObjectMap_d1f63066-6b87-4fed-8e19-94b981869b1c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_32d3e0de-8314-40a9-be04-0990b1b1f233 .
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d1f63066-6b87-4fed-8e19-94b981869b1c .
 
-km-dev:PredicateObjectMap_fc5c18ca-149b-4dec-b4a9-d635127b9e13 rr:predicate f_events:animalsAllowed .
+km-dev:PredicateObjectMap_4ecdf640-197c-4ed1-9d36-96bb621dc421 rr:predicate f_events:smokingAllowed .
 
-_:node1drm6o006x8 rr:column "FAC_animalsAllowed" ;
+_:node1drov244jx8 rr:column "FAC_smokingAllowed" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasObjectMap _:node1drm6o006x8 .
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx8 .
 
-km-dev:PredicateObjectMap_fc5c18ca-149b-4dec-b4a9-d635127b9e13 rr:objectMap _:node1drm6o006x8 .
+km-dev:PredicateObjectMap_4ecdf640-197c-4ed1-9d36-96bb621dc421 rr:objectMap _:node1drov244jx8 .
 
-km-dev:TriplesMap_94c71a7b-7463-47f4-b611-e4df9c8ad026 rr:predicateObjectMap km-dev:PredicateObjectMap_fc5c18ca-149b-4dec-b4a9-d635127b9e13 .
+km-dev:TriplesMap_8c1b8e11-7b8a-4ae1-9e1d-9ca1f8ba7e9a rr:predicateObjectMap km-dev:PredicateObjectMap_4ecdf640-197c-4ed1-9d36-96bb621dc421 .
 
-km-dev:PredicateObjectMap_fc5c18ca-149b-4dec-b4a9-d635127b9e13 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+km-dev:PredicateObjectMap_4ecdf640-197c-4ed1-9d36-96bb621dc421 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_fc5c18ca-149b-4dec-b4a9-d635127b9e13 .
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4ecdf640-197c-4ed1-9d36-96bb621dc421 .
 
-km-dev:PredicateObjectMap_98691fd5-2b59-4d62-88de-a770b4409320 rr:predicate f_events:hasPosition .
+km-dev:PredicateObjectMap_5320e780-7030-4300-b2d4-06de832a4a1d rr:predicate f_events:animalsAllowed .
 
-km-dev:RefObjectMap_76c014ab-1636-4faa-b4d7-162a9f460147 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_47c1d9e4-5521-487b-860d-36363f7dcef0 ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
-
-_:node1drm6o006x1 km-dev:hasObjectMap km-dev:RefObjectMap_76c014ab-1636-4faa-b4d7-162a9f460147 .
-
-km-dev:PredicateObjectMap_98691fd5-2b59-4d62-88de-a770b4409320 rr:objectMap km-dev:RefObjectMap_76c014ab-1636-4faa-b4d7-162a9f460147 .
-
-km-dev:TriplesMap_94c71a7b-7463-47f4-b611-e4df9c8ad026 rr:predicateObjectMap km-dev:PredicateObjectMap_98691fd5-2b59-4d62-88de-a770b4409320 .
-
-km-dev:PredicateObjectMap_98691fd5-2b59-4d62-88de-a770b4409320 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
-
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_98691fd5-2b59-4d62-88de-a770b4409320 .
-
-km-dev:PredicateObjectMap_60561947-cdb9-4ae3-8d29-4a690f883767 rr:predicate f_events:facilityName .
-
-_:node1drm6o006x9 rr:column "FAC_name" ;
+_:node1drov244jx9 rr:column "FAC_animalsAllowed" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasObjectMap _:node1drm6o006x9 .
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx9 .
 
-km-dev:PredicateObjectMap_60561947-cdb9-4ae3-8d29-4a690f883767 rr:objectMap _:node1drm6o006x9 .
+km-dev:PredicateObjectMap_5320e780-7030-4300-b2d4-06de832a4a1d rr:objectMap _:node1drov244jx9 .
 
-km-dev:TriplesMap_94c71a7b-7463-47f4-b611-e4df9c8ad026 rr:predicateObjectMap km-dev:PredicateObjectMap_60561947-cdb9-4ae3-8d29-4a690f883767 .
+km-dev:TriplesMap_8c1b8e11-7b8a-4ae1-9e1d-9ca1f8ba7e9a rr:predicateObjectMap km-dev:PredicateObjectMap_5320e780-7030-4300-b2d4-06de832a4a1d .
 
-km-dev:PredicateObjectMap_60561947-cdb9-4ae3-8d29-4a690f883767 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+km-dev:PredicateObjectMap_5320e780-7030-4300-b2d4-06de832a4a1d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_60561947-cdb9-4ae3-8d29-4a690f883767 .
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5320e780-7030-4300-b2d4-06de832a4a1d .
 
-km-dev:PredicateObjectMap_be36ea8a-d317-4d47-98f5-7fe98d4c5b46 rr:predicate f_events:hasParking .
+km-dev:PredicateObjectMap_c4752594-cd7c-4584-86e1-855c14b672fa rr:predicate f_events:hasParking .
 
-_:node1drm6o006x10 rr:column "FAC_hasParking" ;
+_:node1drov244jx10 rr:column "FAC_hasParking" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasObjectMap _:node1drm6o006x10 .
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx10 .
 
-km-dev:PredicateObjectMap_be36ea8a-d317-4d47-98f5-7fe98d4c5b46 rr:objectMap _:node1drm6o006x10 .
+km-dev:PredicateObjectMap_c4752594-cd7c-4584-86e1-855c14b672fa rr:objectMap _:node1drov244jx10 .
 
-km-dev:TriplesMap_94c71a7b-7463-47f4-b611-e4df9c8ad026 rr:predicateObjectMap km-dev:PredicateObjectMap_be36ea8a-d317-4d47-98f5-7fe98d4c5b46 .
+km-dev:TriplesMap_8c1b8e11-7b8a-4ae1-9e1d-9ca1f8ba7e9a rr:predicateObjectMap km-dev:PredicateObjectMap_c4752594-cd7c-4584-86e1-855c14b672fa .
 
-km-dev:PredicateObjectMap_be36ea8a-d317-4d47-98f5-7fe98d4c5b46 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+km-dev:PredicateObjectMap_c4752594-cd7c-4584-86e1-855c14b672fa a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_be36ea8a-d317-4d47-98f5-7fe98d4c5b46 .
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c4752594-cd7c-4584-86e1-855c14b672fa .
 
-km-dev:PredicateObjectMap_55c9d68c-f6fa-477a-b523-9ada91b32707 rr:predicate f_events:smokingAllowed .
+km-dev:PredicateObjectMap_99bf4d3f-2628-430e-b347-f215acc6f833 rr:predicate f_events:telephone .
 
-_:node1drm6o006x11 rr:column "FAC_smokingAllowed" ;
+_:node1drov244jx11 rr:column "FAC_telephone" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasObjectMap _:node1drm6o006x11 .
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx11 .
 
-km-dev:PredicateObjectMap_55c9d68c-f6fa-477a-b523-9ada91b32707 rr:objectMap _:node1drm6o006x11 .
+km-dev:PredicateObjectMap_99bf4d3f-2628-430e-b347-f215acc6f833 rr:objectMap _:node1drov244jx11 .
 
-km-dev:TriplesMap_94c71a7b-7463-47f4-b611-e4df9c8ad026 rr:predicateObjectMap km-dev:PredicateObjectMap_55c9d68c-f6fa-477a-b523-9ada91b32707 .
+km-dev:TriplesMap_8c1b8e11-7b8a-4ae1-9e1d-9ca1f8ba7e9a rr:predicateObjectMap km-dev:PredicateObjectMap_99bf4d3f-2628-430e-b347-f215acc6f833 .
 
-km-dev:PredicateObjectMap_55c9d68c-f6fa-477a-b523-9ada91b32707 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+km-dev:PredicateObjectMap_99bf4d3f-2628-430e-b347-f215acc6f833 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_55c9d68c-f6fa-477a-b523-9ada91b32707 .
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_99bf4d3f-2628-430e-b347-f215acc6f833 .
 
-km-dev:TriplesMap_47c1d9e4-5521-487b-860d-36363f7dcef0 a rr:TriplesMap .
+km-dev:PredicateObjectMap_5aaaf627-8775-4155-95d9-e8dd7129b231 rr:predicate f_events:hasTimetable .
 
-_:node1drm6o006x1 km-dev:hasTriplesMap km-dev:TriplesMap_47c1d9e4-5521-487b-860d-36363f7dcef0 .
+km-dev:RefObjectMap_1bff83bd-d2e9-4b67-956e-f7a7a8c46c84 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_3876830b-8acf-4e9a-90e0-a2692ab2a681 ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-km-dev:TriplesMap_47c1d9e4-5521-487b-860d-36363f7dcef0 km-dev:isPartOfMapping _:node1drm6o006x1 .
+_:node1drov244jx1 km-dev:hasObjectMap km-dev:RefObjectMap_1bff83bd-d2e9-4b67-956e-f7a7a8c46c84 .
 
-_:node1drm6o006x12 rr:tableName "facilities.csv" ;
+km-dev:PredicateObjectMap_5aaaf627-8775-4155-95d9-e8dd7129b231 rr:objectMap km-dev:RefObjectMap_1bff83bd-d2e9-4b67-956e-f7a7a8c46c84 .
+
+km-dev:TriplesMap_8c1b8e11-7b8a-4ae1-9e1d-9ca1f8ba7e9a rr:predicateObjectMap km-dev:PredicateObjectMap_5aaaf627-8775-4155-95d9-e8dd7129b231 .
+
+km-dev:PredicateObjectMap_5aaaf627-8775-4155-95d9-e8dd7129b231 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5aaaf627-8775-4155-95d9-e8dd7129b231 .
+
+km-dev:TriplesMap_3876830b-8acf-4e9a-90e0-a2692ab2a681 a rr:TriplesMap .
+
+_:node1drov244jx1 km-dev:hasTriplesMap km-dev:TriplesMap_3876830b-8acf-4e9a-90e0-a2692ab2a681 .
+
+km-dev:TriplesMap_3876830b-8acf-4e9a-90e0-a2692ab2a681 km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx12 rr:tableName "facilities.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasLogicalTable _:node1drm6o006x12 .
+_:node1drov244jx1 km-dev:hasLogicalTable _:node1drov244jx12 .
 
-km-dev:TriplesMap_47c1d9e4-5521-487b-860d-36363f7dcef0 rr:logicalTable _:node1drm6o006x12 ;
-	rr:subjectMap _:node1drm6o006x13 .
+km-dev:TriplesMap_3876830b-8acf-4e9a-90e0-a2692ab2a681 rr:logicalTable _:node1drov244jx12 ;
+	rr:subjectMap _:node1drov244jx13 .
 
-_:node1drm6o006x1 km-dev:hasSubjectMap _:node1drm6o006x13 .
+_:node1drov244jx1 km-dev:hasSubjectMap _:node1drov244jx13 .
 
-_:node1drm6o006x13 km-dev:isPartOfMapping _:node1drm6o006x1 ;
+_:node1drov244jx13 km-dev:isPartOfMapping _:node1drov244jx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/facilitiesEventsOntology#Timetables1" ;
+	rr:class f_events:Timetables ;
+	rr:template "{TIMETABLE_URI}" .
+
+km-dev:PredicateObjectMap_8a0f45e8-6e9a-402f-8bbf-a20c16d8d61a rr:predicate f_events:monday .
+
+_:node1drov244jx14 rr:column "TIMETABLE_Monday" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx14 .
+
+km-dev:PredicateObjectMap_8a0f45e8-6e9a-402f-8bbf-a20c16d8d61a rr:objectMap _:node1drov244jx14 .
+
+km-dev:TriplesMap_3876830b-8acf-4e9a-90e0-a2692ab2a681 rr:predicateObjectMap km-dev:PredicateObjectMap_8a0f45e8-6e9a-402f-8bbf-a20c16d8d61a .
+
+km-dev:PredicateObjectMap_8a0f45e8-6e9a-402f-8bbf-a20c16d8d61a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8a0f45e8-6e9a-402f-8bbf-a20c16d8d61a .
+
+km-dev:PredicateObjectMap_d46c0d3d-e4c5-4898-bffb-715cccd55e70 rr:predicate f_events:isTimetableOf .
+
+km-dev:RefObjectMap_a1a99297-a3c6-4a8a-b5c8-13a3deac5bd6 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_8c1b8e11-7b8a-4ae1-9e1d-9ca1f8ba7e9a ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasObjectMap km-dev:RefObjectMap_a1a99297-a3c6-4a8a-b5c8-13a3deac5bd6 .
+
+km-dev:PredicateObjectMap_d46c0d3d-e4c5-4898-bffb-715cccd55e70 rr:objectMap km-dev:RefObjectMap_a1a99297-a3c6-4a8a-b5c8-13a3deac5bd6 .
+
+km-dev:TriplesMap_3876830b-8acf-4e9a-90e0-a2692ab2a681 rr:predicateObjectMap km-dev:PredicateObjectMap_d46c0d3d-e4c5-4898-bffb-715cccd55e70 .
+
+km-dev:PredicateObjectMap_d46c0d3d-e4c5-4898-bffb-715cccd55e70 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d46c0d3d-e4c5-4898-bffb-715cccd55e70 .
+
+km-dev:PredicateObjectMap_3a63da30-f1c5-4d54-9913-b54cdce7d0db rr:predicate f_events:wednesday .
+
+_:node1drov244jx15 rr:column "TIMETABLE_Wednesday" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx15 .
+
+km-dev:PredicateObjectMap_3a63da30-f1c5-4d54-9913-b54cdce7d0db rr:objectMap _:node1drov244jx15 .
+
+km-dev:TriplesMap_3876830b-8acf-4e9a-90e0-a2692ab2a681 rr:predicateObjectMap km-dev:PredicateObjectMap_3a63da30-f1c5-4d54-9913-b54cdce7d0db .
+
+km-dev:PredicateObjectMap_3a63da30-f1c5-4d54-9913-b54cdce7d0db a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3a63da30-f1c5-4d54-9913-b54cdce7d0db .
+
+km-dev:PredicateObjectMap_91c1e92b-8d60-43ec-8cb3-8b4d646f9773 rr:predicate f_events:thursday .
+
+_:node1drov244jx16 rr:column "TIMETABLE_Thursday" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx16 .
+
+km-dev:PredicateObjectMap_91c1e92b-8d60-43ec-8cb3-8b4d646f9773 rr:objectMap _:node1drov244jx16 .
+
+km-dev:TriplesMap_3876830b-8acf-4e9a-90e0-a2692ab2a681 rr:predicateObjectMap km-dev:PredicateObjectMap_91c1e92b-8d60-43ec-8cb3-8b4d646f9773 .
+
+km-dev:PredicateObjectMap_91c1e92b-8d60-43ec-8cb3-8b4d646f9773 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_91c1e92b-8d60-43ec-8cb3-8b4d646f9773 .
+
+km-dev:PredicateObjectMap_1b533e6f-e638-491f-9619-066562645a5c rr:predicate f_events:friday .
+
+_:node1drov244jx17 rr:column "TIMETABLE_Friday" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx17 .
+
+km-dev:PredicateObjectMap_1b533e6f-e638-491f-9619-066562645a5c rr:objectMap _:node1drov244jx17 .
+
+km-dev:TriplesMap_3876830b-8acf-4e9a-90e0-a2692ab2a681 rr:predicateObjectMap km-dev:PredicateObjectMap_1b533e6f-e638-491f-9619-066562645a5c .
+
+km-dev:PredicateObjectMap_1b533e6f-e638-491f-9619-066562645a5c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1b533e6f-e638-491f-9619-066562645a5c .
+
+km-dev:PredicateObjectMap_073077df-24bc-4403-bdbd-ab1708ea1059 rr:predicate f_events:saturday .
+
+_:node1drov244jx18 rr:column "TIMETABLE_Saturday" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx18 .
+
+km-dev:PredicateObjectMap_073077df-24bc-4403-bdbd-ab1708ea1059 rr:objectMap _:node1drov244jx18 .
+
+km-dev:TriplesMap_3876830b-8acf-4e9a-90e0-a2692ab2a681 rr:predicateObjectMap km-dev:PredicateObjectMap_073077df-24bc-4403-bdbd-ab1708ea1059 .
+
+km-dev:PredicateObjectMap_073077df-24bc-4403-bdbd-ab1708ea1059 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_073077df-24bc-4403-bdbd-ab1708ea1059 .
+
+km-dev:PredicateObjectMap_fe726214-d7e1-4fb9-bc34-820470b3b200 rr:predicate f_events:sunday .
+
+_:node1drov244jx19 rr:column "TIMETABLE_Sunday" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx19 .
+
+km-dev:PredicateObjectMap_fe726214-d7e1-4fb9-bc34-820470b3b200 rr:objectMap _:node1drov244jx19 .
+
+km-dev:TriplesMap_3876830b-8acf-4e9a-90e0-a2692ab2a681 rr:predicateObjectMap km-dev:PredicateObjectMap_fe726214-d7e1-4fb9-bc34-820470b3b200 .
+
+km-dev:PredicateObjectMap_fe726214-d7e1-4fb9-bc34-820470b3b200 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_fe726214-d7e1-4fb9-bc34-820470b3b200 .
+
+km-dev:PredicateObjectMap_cfaf68e3-4dc6-4c7b-b443-aa734dc6c730 rr:predicate f_events:tuesday .
+
+_:node1drov244jx20 rr:column "TIMETABLE_Tuesday" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx20 .
+
+km-dev:PredicateObjectMap_cfaf68e3-4dc6-4c7b-b443-aa734dc6c730 rr:objectMap _:node1drov244jx20 .
+
+km-dev:TriplesMap_3876830b-8acf-4e9a-90e0-a2692ab2a681 rr:predicateObjectMap km-dev:PredicateObjectMap_cfaf68e3-4dc6-4c7b-b443-aa734dc6c730 .
+
+km-dev:PredicateObjectMap_cfaf68e3-4dc6-4c7b-b443-aa734dc6c730 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_cfaf68e3-4dc6-4c7b-b443-aa734dc6c730 .
+
+km-dev:TriplesMap_495e1b13-3f07-459c-b081-7d55178ed409 a rr:TriplesMap .
+
+_:node1drov244jx1 km-dev:hasTriplesMap km-dev:TriplesMap_495e1b13-3f07-459c-b081-7d55178ed409 .
+
+km-dev:TriplesMap_495e1b13-3f07-459c-b081-7d55178ed409 km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx21 rr:tableName "facilities.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasLogicalTable _:node1drov244jx21 .
+
+km-dev:TriplesMap_495e1b13-3f07-459c-b081-7d55178ed409 rr:logicalTable _:node1drov244jx21 ;
+	rr:subjectMap _:node1drov244jx22 .
+
+_:node1drov244jx1 km-dev:hasSubjectMap _:node1drov244jx22 .
+
+_:node1drov244jx22 km-dev:isPartOfMapping _:node1drov244jx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates1" ;
 	rr:class f_events:GeoCoordinates ;
 	rr:template "{GEO_locationText}" .
 
-km-dev:PredicateObjectMap_aa3347eb-7d31-40dc-8fc3-dd41d81de1de rr:predicate f_events:addressLocality .
+km-dev:PredicateObjectMap_57dbef81-5801-42d5-b331-7fdd0c963b59 rr:predicate f_events:addressLocality .
 
-_:node1drm6o006x14 rr:column "GEO_addressLocality" ;
+_:node1drov244jx23 rr:column "GEO_addressRegion" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasObjectMap _:node1drm6o006x14 .
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx23 .
 
-km-dev:PredicateObjectMap_aa3347eb-7d31-40dc-8fc3-dd41d81de1de rr:objectMap _:node1drm6o006x14 .
+km-dev:PredicateObjectMap_57dbef81-5801-42d5-b331-7fdd0c963b59 rr:objectMap _:node1drov244jx23 .
 
-km-dev:TriplesMap_47c1d9e4-5521-487b-860d-36363f7dcef0 rr:predicateObjectMap km-dev:PredicateObjectMap_aa3347eb-7d31-40dc-8fc3-dd41d81de1de .
+km-dev:TriplesMap_495e1b13-3f07-459c-b081-7d55178ed409 rr:predicateObjectMap km-dev:PredicateObjectMap_57dbef81-5801-42d5-b331-7fdd0c963b59 .
 
-km-dev:PredicateObjectMap_aa3347eb-7d31-40dc-8fc3-dd41d81de1de a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+km-dev:PredicateObjectMap_57dbef81-5801-42d5-b331-7fdd0c963b59 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_aa3347eb-7d31-40dc-8fc3-dd41d81de1de .
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_57dbef81-5801-42d5-b331-7fdd0c963b59 .
 
-km-dev:PredicateObjectMap_e91db80c-85b4-4616-910e-90a5599cc949 rr:predicate f_events:addressLocality .
+km-dev:PredicateObjectMap_09e17805-550b-4d55-8b39-ff3e28f3a292 rr:predicate f_events:addressLocality .
 
-_:node1drm6o006x15 rr:column "GEO_addressRegion" ;
+_:node1drov244jx24 rr:column "GEO_addressLocality" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasObjectMap _:node1drm6o006x15 .
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx24 .
 
-km-dev:PredicateObjectMap_e91db80c-85b4-4616-910e-90a5599cc949 rr:objectMap _:node1drm6o006x15 .
+km-dev:PredicateObjectMap_09e17805-550b-4d55-8b39-ff3e28f3a292 rr:objectMap _:node1drov244jx24 .
 
-km-dev:TriplesMap_47c1d9e4-5521-487b-860d-36363f7dcef0 rr:predicateObjectMap km-dev:PredicateObjectMap_e91db80c-85b4-4616-910e-90a5599cc949 .
+km-dev:TriplesMap_495e1b13-3f07-459c-b081-7d55178ed409 rr:predicateObjectMap km-dev:PredicateObjectMap_09e17805-550b-4d55-8b39-ff3e28f3a292 .
 
-km-dev:PredicateObjectMap_e91db80c-85b4-4616-910e-90a5599cc949 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+km-dev:PredicateObjectMap_09e17805-550b-4d55-8b39-ff3e28f3a292 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e91db80c-85b4-4616-910e-90a5599cc949 .
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_09e17805-550b-4d55-8b39-ff3e28f3a292 .
 
-km-dev:PredicateObjectMap_358f4e32-b2e9-4d54-bacd-82ace8b8b974 rr:predicate f_events:latitude .
+km-dev:PredicateObjectMap_9dfb5532-5d07-4011-b2e8-5334cd852a89 rr:predicate f_events:longitude .
 
-_:node1drm6o006x16 rr:column "GEO_latitude" ;
+_:node1drov244jx25 rr:column "GEO_longitude" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasObjectMap _:node1drm6o006x16 .
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx25 .
 
-km-dev:PredicateObjectMap_358f4e32-b2e9-4d54-bacd-82ace8b8b974 rr:objectMap _:node1drm6o006x16 .
+km-dev:PredicateObjectMap_9dfb5532-5d07-4011-b2e8-5334cd852a89 rr:objectMap _:node1drov244jx25 .
 
-km-dev:TriplesMap_47c1d9e4-5521-487b-860d-36363f7dcef0 rr:predicateObjectMap km-dev:PredicateObjectMap_358f4e32-b2e9-4d54-bacd-82ace8b8b974 .
+km-dev:TriplesMap_495e1b13-3f07-459c-b081-7d55178ed409 rr:predicateObjectMap km-dev:PredicateObjectMap_9dfb5532-5d07-4011-b2e8-5334cd852a89 .
 
-km-dev:PredicateObjectMap_358f4e32-b2e9-4d54-bacd-82ace8b8b974 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+km-dev:PredicateObjectMap_9dfb5532-5d07-4011-b2e8-5334cd852a89 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_358f4e32-b2e9-4d54-bacd-82ace8b8b974 .
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9dfb5532-5d07-4011-b2e8-5334cd852a89 .
 
-km-dev:PredicateObjectMap_b4da9164-d884-447a-b095-849c68e2ad74 rr:predicate f_events:altitude .
+km-dev:PredicateObjectMap_8a6bb22e-d9d3-42df-911e-debfc6209705 rr:predicate f_events:postalCode .
 
-_:node1drm6o006x17 rr:column "GEO_altitude" ;
+_:node1drov244jx26 rr:column "GEO_postalCode" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasObjectMap _:node1drm6o006x17 .
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx26 .
 
-km-dev:PredicateObjectMap_b4da9164-d884-447a-b095-849c68e2ad74 rr:objectMap _:node1drm6o006x17 .
+km-dev:PredicateObjectMap_8a6bb22e-d9d3-42df-911e-debfc6209705 rr:objectMap _:node1drov244jx26 .
 
-km-dev:TriplesMap_47c1d9e4-5521-487b-860d-36363f7dcef0 rr:predicateObjectMap km-dev:PredicateObjectMap_b4da9164-d884-447a-b095-849c68e2ad74 .
+km-dev:TriplesMap_495e1b13-3f07-459c-b081-7d55178ed409 rr:predicateObjectMap km-dev:PredicateObjectMap_8a6bb22e-d9d3-42df-911e-debfc6209705 .
 
-km-dev:PredicateObjectMap_b4da9164-d884-447a-b095-849c68e2ad74 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+km-dev:PredicateObjectMap_8a6bb22e-d9d3-42df-911e-debfc6209705 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b4da9164-d884-447a-b095-849c68e2ad74 .
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8a6bb22e-d9d3-42df-911e-debfc6209705 .
 
-km-dev:PredicateObjectMap_9015c134-af7e-4812-a0ce-b2f68606d3f7 rr:predicate f_events:longitude .
+km-dev:PredicateObjectMap_4eb07d43-46be-436b-9a97-ca0904b00f66 rr:predicate f_events:isPositionOf .
 
-_:node1drm6o006x18 rr:column "GEO_longitude" ;
+km-dev:RefObjectMap_77ea8672-9a16-4927-9320-ecd370a85c8d a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_8c1b8e11-7b8a-4ae1-9e1d-9ca1f8ba7e9a ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasObjectMap km-dev:RefObjectMap_77ea8672-9a16-4927-9320-ecd370a85c8d .
+
+km-dev:PredicateObjectMap_4eb07d43-46be-436b-9a97-ca0904b00f66 rr:objectMap km-dev:RefObjectMap_77ea8672-9a16-4927-9320-ecd370a85c8d .
+
+km-dev:TriplesMap_495e1b13-3f07-459c-b081-7d55178ed409 rr:predicateObjectMap km-dev:PredicateObjectMap_4eb07d43-46be-436b-9a97-ca0904b00f66 .
+
+km-dev:PredicateObjectMap_4eb07d43-46be-436b-9a97-ca0904b00f66 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
+
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4eb07d43-46be-436b-9a97-ca0904b00f66 .
+
+km-dev:PredicateObjectMap_9fc79400-e2f9-4f7a-bda7-4cc6c0ccb8d0 rr:predicate f_events:latitude .
+
+_:node1drov244jx27 rr:column "GEO_latitude" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasObjectMap _:node1drm6o006x18 .
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx27 .
 
-km-dev:PredicateObjectMap_9015c134-af7e-4812-a0ce-b2f68606d3f7 rr:objectMap _:node1drm6o006x18 .
+km-dev:PredicateObjectMap_9fc79400-e2f9-4f7a-bda7-4cc6c0ccb8d0 rr:objectMap _:node1drov244jx27 .
 
-km-dev:TriplesMap_47c1d9e4-5521-487b-860d-36363f7dcef0 rr:predicateObjectMap km-dev:PredicateObjectMap_9015c134-af7e-4812-a0ce-b2f68606d3f7 .
+km-dev:TriplesMap_495e1b13-3f07-459c-b081-7d55178ed409 rr:predicateObjectMap km-dev:PredicateObjectMap_9fc79400-e2f9-4f7a-bda7-4cc6c0ccb8d0 .
 
-km-dev:PredicateObjectMap_9015c134-af7e-4812-a0ce-b2f68606d3f7 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+km-dev:PredicateObjectMap_9fc79400-e2f9-4f7a-bda7-4cc6c0ccb8d0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9015c134-af7e-4812-a0ce-b2f68606d3f7 .
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9fc79400-e2f9-4f7a-bda7-4cc6c0ccb8d0 .
 
-km-dev:PredicateObjectMap_ecf1da77-d26b-4fa0-ba7c-9a1673855db0 rr:predicate f_events:postalCode .
+km-dev:PredicateObjectMap_cbdf933b-5e88-47dd-9447-c927f79ced0e rr:predicate f_events:altitude .
 
-_:node1drm6o006x19 rr:column "GEO_postalCode" ;
+_:node1drov244jx28 rr:column "GEO_altitude" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasObjectMap _:node1drm6o006x19 .
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx28 .
 
-km-dev:PredicateObjectMap_ecf1da77-d26b-4fa0-ba7c-9a1673855db0 rr:objectMap _:node1drm6o006x19 .
+km-dev:PredicateObjectMap_cbdf933b-5e88-47dd-9447-c927f79ced0e rr:objectMap _:node1drov244jx28 .
 
-km-dev:TriplesMap_47c1d9e4-5521-487b-860d-36363f7dcef0 rr:predicateObjectMap km-dev:PredicateObjectMap_ecf1da77-d26b-4fa0-ba7c-9a1673855db0 .
+km-dev:TriplesMap_495e1b13-3f07-459c-b081-7d55178ed409 rr:predicateObjectMap km-dev:PredicateObjectMap_cbdf933b-5e88-47dd-9447-c927f79ced0e .
 
-km-dev:PredicateObjectMap_ecf1da77-d26b-4fa0-ba7c-9a1673855db0 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+km-dev:PredicateObjectMap_cbdf933b-5e88-47dd-9447-c927f79ced0e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ecf1da77-d26b-4fa0-ba7c-9a1673855db0 .
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_cbdf933b-5e88-47dd-9447-c927f79ced0e .
 
-km-dev:PredicateObjectMap_6fc042eb-9dbd-4a02-a0fd-05a357c0ede3 rr:predicate f_events:isPositionOf .
+km-dev:PredicateObjectMap_9192e5e8-d622-4183-9f6e-bd0833e717a7 rr:predicate f_events:address .
 
-km-dev:RefObjectMap_b1043ac8-343c-4a00-962f-35e85b0daaf3 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_94c71a7b-7463-47f4-b611-e4df9c8ad026 ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
-
-_:node1drm6o006x1 km-dev:hasObjectMap km-dev:RefObjectMap_b1043ac8-343c-4a00-962f-35e85b0daaf3 .
-
-km-dev:PredicateObjectMap_6fc042eb-9dbd-4a02-a0fd-05a357c0ede3 rr:objectMap km-dev:RefObjectMap_b1043ac8-343c-4a00-962f-35e85b0daaf3 .
-
-km-dev:TriplesMap_47c1d9e4-5521-487b-860d-36363f7dcef0 rr:predicateObjectMap km-dev:PredicateObjectMap_6fc042eb-9dbd-4a02-a0fd-05a357c0ede3 .
-
-km-dev:PredicateObjectMap_6fc042eb-9dbd-4a02-a0fd-05a357c0ede3 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
-
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6fc042eb-9dbd-4a02-a0fd-05a357c0ede3 .
-
-km-dev:PredicateObjectMap_073969db-f850-45d1-8a4c-c36df3700509 rr:predicate f_events:address .
-
-_:node1drm6o006x20 rr:column "GEO_address" ;
+_:node1drov244jx29 rr:column "GEO_address" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasObjectMap _:node1drm6o006x20 .
+_:node1drov244jx1 km-dev:hasObjectMap _:node1drov244jx29 .
 
-km-dev:PredicateObjectMap_073969db-f850-45d1-8a4c-c36df3700509 rr:objectMap _:node1drm6o006x20 .
+km-dev:PredicateObjectMap_9192e5e8-d622-4183-9f6e-bd0833e717a7 rr:objectMap _:node1drov244jx29 .
 
-km-dev:TriplesMap_47c1d9e4-5521-487b-860d-36363f7dcef0 rr:predicateObjectMap km-dev:PredicateObjectMap_073969db-f850-45d1-8a4c-c36df3700509 .
+km-dev:TriplesMap_495e1b13-3f07-459c-b081-7d55178ed409 rr:predicateObjectMap km-dev:PredicateObjectMap_9192e5e8-d622-4183-9f6e-bd0833e717a7 .
 
-km-dev:PredicateObjectMap_073969db-f850-45d1-8a4c-c36df3700509 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drm6o006x1 .
+km-dev:PredicateObjectMap_9192e5e8-d622-4183-9f6e-bd0833e717a7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1drov244jx1 .
 
-_:node1drm6o006x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_073969db-f850-45d1-8a4c-c36df3700509 .
+_:node1drov244jx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9192e5e8-d622-4183-9f6e-bd0833e717a7 .
