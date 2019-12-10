@@ -59,7 +59,7 @@ def Book(pages, genre, editor):
 	return locals()
 
 
-def DateDateTime(startDate, endDate, startTime, endTime):
+def DateTime(startDate, endDate, startTime, endTime):
 	return locals()
 
 
@@ -100,7 +100,7 @@ def text_to_URI(labels):
 def specific_event_columns(category):
 	general_cols = [f'GEN_{v}' for v in list(GeneralEvent("", "", "", "", "", "", "", "").keys())[:-1]]
 	uri_cols = ['GEN_geoURI', 'GEN_workURI']
-	datetime_cols = [f'DATETIME_{v}' for v in DateDateTime("", "", "", "").keys()]
+	datetime_cols = [f'DATETIME_{v}' for v in DateTime("", "", "", "").keys()]
 	schedule_cols = [f'SCHEDULE_{v}' for v in Schedule("", "", "", "", "").keys()]
 
 	col_map = {
