@@ -14,7 +14,7 @@ FIELDS = [
 
 DETAILS_FIELDS = ','.join(FIELDS)
 
-utils_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/utils.py').text
+utils_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/all_fields/utils/utils.py').text
 exec(utils_txt)
 
 

@@ -1,7 +1,7 @@
 import json
 import requests
 
-utils_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/utils.py').text
+utils_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/all_fields/utils/utils.py').text
 exec(utils_txt)
 
 
@@ -15,28 +15,28 @@ def rm_main(JSONString):
 	for e in muse['events']:
 		gen = GeneralEvent(e['name'], e['cost'], e['description'], e['link'], '', '', '', e['where'])
 
-		period = Period([], [], [], '', '')
+		schedule = Schedule([], [], [], '', '')
 		if len(e['days']) > 0:
-			period = Period(e['days'], '', '', '', 'daily')
+			schedule = Schedule(e['days'], '', '', '', 'daily')
 
 		times = []
 		for time in e['time']:
 			if '-' in time:
-				times.append(Time('', '', time.split('-')[0], time.split('-')[1]))
+				times.append(DateTime('', '', time.split('-')[0], time.split('-')[1]))
 			else:
-				times.append(Time('', '', time, ''))
+				times.append(DateTime('', '', time, ''))
 
 		if len(times) == 0:
-			times.append(Time('', '', '', ''))
+			times.append(DateTime('', '', '', ''))
 
 		times_with_dates = []
 		for date in e['when']:
 			if '-' in date:
 				for time in times:
-					times_with_dates.append(Time(date.split('-')[0], date.split('-')[1], time['startTime'], time['endTime']))
+					times_with_dates.append(DateTime(date.split('-')[0], date.split('-')[1], time['startTime'], time['endTime']))
 			else:
 				for time in times:
-					times_with_dates.append(Time(date, date, time['startTime'], time['endTime']))
+					times_with_dates.append(DateTime(date, date, time['startTime'], time['endTime']))
 
 		# found no dates => use simple times
 		if len(times_with_dates) == 0:
@@ -47,9 +47,9 @@ def rm_main(JSONString):
 			for k, v in gen.items():
 				event[f'GEN_{k}'] = v
 			for k, v in time.items():
-				event[f'TIME_{k}'] = v
-			for k, v in period.items():
-				event[f'PERIOD_{k}'] = v
+				event[f'DATETIME_{k}'] = v
+			for k, v in schedule.items():
+				event[f'SCHEDULE_{k}'] = v
 
 			if e['Subcategory'] not in events:
 				events[e['Subcategory']] = []

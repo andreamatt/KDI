@@ -59,11 +59,11 @@ def Book(pages, genre, editor):
 	return locals()
 
 
-def Time(startDate, endDate, startTime, endTime):
+def DateDateTime(startDate, endDate, startTime, endTime):
 	return locals()
 
 
-def Period(byDay, byMonth, byMonthDay, repeatCount, repeatFrequency):
+def Schedule(byDay, byMonth, byMonthDay, repeatCount, repeatFrequency):
 	return locals()
 
 
@@ -95,3 +95,22 @@ def text_to_URI(labels):
 		else:
 			result += f'/{quote("unknown")}'
 	return result
+
+
+def specific_event_columns(category):
+	general_cols = [f'GEN_{v}' for v in list(GeneralEvent("", "", "", "", "", "", "", "").keys())[:-1]]
+	uri_cols = ['GEN_geoURI', 'GEN_workURI']
+	datetime_cols = [f'DATETIME_{v}' for v in DateDateTime("", "", "", "").keys()]
+	schedule_cols = [f'SCHEDULE_{v}' for v in Schedule("", "", "", "", "").keys()]
+
+	col_map = {
+	    general: general_cols + uri_cols + datetime_cols + schedule_cols,
+	    science: general_cols + [f'SCIENCE_{v}' for v in ScienceEvent("").keys()] + uri_cols + datetime_cols + schedule_cols,
+	    visual: general_cols + [f'VISUAL_{v}' for v in VisualArtsEvent("").keys()] + uri_cols + datetime_cols + schedule_cols,
+	    music: general_cols + [f'MUSIC_{v}' for v in MusicEvent("", "").keys()] + uri_cols + datetime_cols + schedule_cols,
+	    screen: general_cols + [f'SCREEN_{v}' for v in ScreeningEvent("").keys()] + uri_cols + datetime_cols + schedule_cols,
+	    theatre: general_cols + [f'THEATRE_{v}' for v in TheatreEvent("").keys()] + uri_cols + datetime_cols + schedule_cols,
+	    talk: general_cols + [f'TALK_{v}' for v in TalkEvent("", "").keys()] + uri_cols + datetime_cols + schedule_cols
+	}
+
+	return col_map[category]

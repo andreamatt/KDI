@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import requests
 
-utils_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/utils.py').text
+utils_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/all_fields/utils/utils.py').text
 exec(utils_txt)
 
 
@@ -20,19 +20,19 @@ def rm_main(JSONString):
 		scr = ScreeningEvent('')
 		m = Movie(movie['originalName'], movie['genre'], movie['length'])
 		work_URI = text_to_URI([movie['wikiUrl']])
-		gen['work_URI'] = work_URI
+		gen['workURI'] = work_URI
 		work = CreativeWork(movie['title'], movie['director'], movie['year'], movie['wikiUrl'], work_URI)
 
 		for dateAndTime in movie['time']:
 			for hour in dateAndTime['hour'].split('-'):
-				date = Time(dateAndTime['day'], dateAndTime['day'], hour, '')
+				date = DateTime(dateAndTime['day'], dateAndTime['day'], hour, '')
 				event = {}
 				for k, v in gen.items():
 					event[f'GEN_{k}'] = v
 				for k, v in scr.items():
 					event[f'SCREEN_{k}'] = v
 				for k, v in date.items():
-					event[f'TIME_{k}'] = v
+					event[f'DATETIME_{k}'] = v
 				events.append(event)
 
 				creative_movie = {}
