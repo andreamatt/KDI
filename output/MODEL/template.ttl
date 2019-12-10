@@ -1,6 +1,8 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix terms: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
 @prefix obda: <https://w3id.org/obda/vocabulary#> .
 @prefix f_events: <http://www.semanticweb.org/facilitiesEventsOntology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -8,14 +10,13 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1drolu4lax1 a km-dev:R2RMLMapping ;
-	km-dev:sourceName "general.csv" ;
-	km-dev:modelPublicationTime "1576007570090"^^xsd:long ;
+_:node1droproirx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "music.csv" ;
+	km-dev:modelPublicationTime "1576011686491"^^xsd:long ;
 	km-dev:modelVersion "1.7" ;
-	km-dev:hasInputColumns "[[{\"columnName\":\"DATETIME_endDate\"}],[{\"columnName\":\"DATETIME_startDate\"}],[{\"columnName\":\"DATETIME_endTime\"}],[{\"columnName\":\"DATETIME_startTime\"}],[{\"columnName\":\"SCHEDULE_byMonth\"}],[{\"columnName\":\"SCHEDULE_byDay\"}],[{\"columnName\":\"SCHEDULE_repeatCount\"}],[{\"columnName\":\"SCHEDULE_byMonthDay\"}],[{\"columnName\":\"GEN_geoURI\"}],[{\"columnName\":\"SCHEDULE_repeatFrequency\"}],[{\"columnName\":\"GEN_workURI\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"DATETIME_endDate\"}],[{\"columnName\":\"DATETIME_startDate\"}],[{\"columnName\":\"DATETIME_endTime\"}],[{\"columnName\":\"DATETIME_startTime\"}],[{\"columnName\":\"SCHEDULE_byMonth\"}],[{\"columnName\":\"SCHEDULE_byDay\"}],[{\"columnName\":\"SCHEDULE_repeatCount\"}],[{\"columnName\":\"SCHEDULE_byMonthDay\"}],[{\"columnName\":\"GEN_geoURI\"}],[{\"columnName\":\"SCHEDULE_repeatFrequency\"}],[{\"columnName\":\"GEN_workURI\"}]]" ;
-	km-dev:hasModelLabel "general.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"SCHEDULE_repeatCount\"}],[{\"columnName\":\"SCHEDULE_byMonthDay\"}],[{\"columnName\":\"DATETIME_endTime\"}],[{\"columnName\":\"DATETIME_startTime\"}],[{\"columnName\":\"SCHEDULE_byMonth\"}],[{\"columnName\":\"SCHEDULE_byDay\"}],[{\"columnName\":\"GEN_geoURI\"}],[{\"columnName\":\"DATETIME_endDate\"}],[{\"columnName\":\"DATETIME_startDate\"}],[{\"columnName\":\"SCHEDULE_repeatFrequency\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"SCHEDULE_repeatCount\"}],[{\"columnName\":\"SCHEDULE_byMonthDay\"}],[{\"columnName\":\"DATETIME_endTime\"}],[{\"columnName\":\"DATETIME_startTime\"}],[{\"columnName\":\"SCHEDULE_byMonth\"}],[{\"columnName\":\"SCHEDULE_byDay\"}],[{\"columnName\":\"GEN_geoURI\"}],[{\"columnName\":\"DATETIME_endDate\"}],[{\"columnName\":\"DATETIME_startDate\"}],[{\"columnName\":\"SCHEDULE_repeatFrequency\"}]]" ;
+	km-dev:hasModelLabel "music.csv" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"commandName\": \"SetMetaPropertyCommand\",
@@ -87,80 +88,6 @@ _:node1drolu4lax1 a km-dev:R2RMLMapping ;
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
                 \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_geoURI\\\"}]}]\"
-            }
-        ],
-        \"tags\": [\"SemanticType\"]
-    },
-    {
-        \"commandName\": \"SetMetaPropertyCommand\",
-        \"model\": \"new\",
-        \"inputParameters\": [
-            {
-                \"name\": \"hNodeId\",
-                \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \"GEN_workURI\"}]
-            },
-            {
-                \"name\": \"worksheetId\",
-                \"type\": \"worksheetId\",
-                \"value\": \"W\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"type\": \"other\",
-                \"value\": \"DEFAULT_TEST\"
-            },
-            {
-                \"name\": \"metaPropertyName\",
-                \"type\": \"other\",
-                \"value\": \"isUriOfClass\"
-            },
-            {
-                \"name\": \"metaPropertyUri\",
-                \"type\": \"other\",
-                \"value\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork\"
-            },
-            {
-                \"name\": \"metaPropertyId\",
-                \"type\": \"other\",
-                \"value\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork1\"
-            },
-            {
-                \"name\": \"SemanticTypesArray\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork\",
-                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork1\",
-                    \"isPrimary\": true,
-                    \"isProvenance\": false,
-                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
-                    \"DomainLabel\": \"f_events:MovieCreativeWork1 (add)\"
-                }]
-            },
-            {
-                \"name\": \"trainAndShowUpdates\",
-                \"type\": \"other\",
-                \"value\": true
-            },
-            {
-                \"name\": \"rdfLiteralType\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"language\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_workURI\\\"}]}]\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"GEN_workURI\\\"}]}]\"
             }
         ],
         \"tags\": [\"SemanticType\"]
@@ -764,70 +691,24 @@ _:node1drolu4lax1 a km-dev:R2RMLMapping ;
     }
 ]""" .
 
-km-dev:TriplesMap_de329c2d-f428-4c8a-95e3-4941e504ef6b a rr:TriplesMap .
+km-dev:TriplesMap_cdd66ed6-9079-41dc-a0d5-f3aefd9da4b9 a rr:TriplesMap .
 
-_:node1drolu4lax1 km-dev:hasTriplesMap km-dev:TriplesMap_de329c2d-f428-4c8a-95e3-4941e504ef6b .
+_:node1droproirx1 km-dev:hasTriplesMap km-dev:TriplesMap_cdd66ed6-9079-41dc-a0d5-f3aefd9da4b9 .
 
-km-dev:TriplesMap_de329c2d-f428-4c8a-95e3-4941e504ef6b km-dev:isPartOfMapping _:node1drolu4lax1 .
+km-dev:TriplesMap_cdd66ed6-9079-41dc-a0d5-f3aefd9da4b9 km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax2 rr:tableName "general.csv" ;
+_:node1droproirx2 rr:tableName "music.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasLogicalTable _:node1drolu4lax2 .
+_:node1droproirx1 km-dev:hasLogicalTable _:node1droproirx2 .
 
-km-dev:TriplesMap_de329c2d-f428-4c8a-95e3-4941e504ef6b rr:logicalTable _:node1drolu4lax2 ;
-	rr:subjectMap _:node1drolu4lax3 .
+km-dev:TriplesMap_cdd66ed6-9079-41dc-a0d5-f3aefd9da4b9 rr:logicalTable _:node1droproirx2 ;
+	rr:subjectMap _:node1droproirx3 .
 
-_:node1drolu4lax1 km-dev:hasSubjectMap _:node1drolu4lax3 .
+_:node1droproirx1 km-dev:hasSubjectMap _:node1droproirx3 .
 
-_:node1drolu4lax3 km-dev:isPartOfMapping _:node1drolu4lax1 ;
-	a rr:SubjectMap ;
-	km-dev:alignmentNodeId "http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates1" ;
-	rr:class f_events:GeoCoordinates ;
-	rr:template "{GEN_geoURI}" .
-
-km-dev:TriplesMap_f82af182-9b39-4b44-a148-2cbd23d18d59 a rr:TriplesMap .
-
-_:node1drolu4lax1 km-dev:hasTriplesMap km-dev:TriplesMap_f82af182-9b39-4b44-a148-2cbd23d18d59 .
-
-km-dev:TriplesMap_f82af182-9b39-4b44-a148-2cbd23d18d59 km-dev:isPartOfMapping _:node1drolu4lax1 .
-
-_:node1drolu4lax4 rr:tableName "general.csv" ;
-	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
-
-_:node1drolu4lax1 km-dev:hasLogicalTable _:node1drolu4lax4 .
-
-km-dev:TriplesMap_f82af182-9b39-4b44-a148-2cbd23d18d59 rr:logicalTable _:node1drolu4lax4 ;
-	rr:subjectMap _:node1drolu4lax5 .
-
-_:node1drolu4lax1 km-dev:hasSubjectMap _:node1drolu4lax5 .
-
-_:node1drolu4lax5 km-dev:isPartOfMapping _:node1drolu4lax1 ;
-	a rr:SubjectMap ;
-	km-dev:alignmentNodeId "http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork1" ;
-	rr:class f_events:MovieCreativeWork ;
-	rr:template "{GEN_workURI}" .
-
-km-dev:TriplesMap_823d5bd8-571f-4fd8-b927-c09b8818c423 a rr:TriplesMap .
-
-_:node1drolu4lax1 km-dev:hasTriplesMap km-dev:TriplesMap_823d5bd8-571f-4fd8-b927-c09b8818c423 .
-
-km-dev:TriplesMap_823d5bd8-571f-4fd8-b927-c09b8818c423 km-dev:isPartOfMapping _:node1drolu4lax1 .
-
-_:node1drolu4lax6 rr:tableName "general.csv" ;
-	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
-
-_:node1drolu4lax1 km-dev:hasLogicalTable _:node1drolu4lax6 .
-
-km-dev:TriplesMap_823d5bd8-571f-4fd8-b927-c09b8818c423 rr:logicalTable _:node1drolu4lax6 ;
-	rr:subjectMap _:node1drolu4lax7 .
-
-_:node1drolu4lax1 km-dev:hasSubjectMap _:node1drolu4lax7 .
-
-_:node1drolu4lax7 km-dev:isPartOfMapping _:node1drolu4lax1 ;
+_:node1droproirx3 km-dev:isPartOfMapping _:node1droproirx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.semanticweb.org/facilitiesEventsOntology#DateTime1" ;
 	rr:class f_events:DateTime ;
@@ -835,213 +716,236 @@ _:node1drolu4lax7 km-dev:isPartOfMapping _:node1drolu4lax1 ;
 	km-dev:namePrefix "f_events:DateTime1" ;
 	a km-dev:steinerTreeRootNode .
 
-km-dev:PredicateObjectMap_ac02c755-9cba-45a1-8ec7-f495a43d9465 rr:predicate f_events:startDate .
+km-dev:PredicateObjectMap_a61de375-e241-4e2f-ba62-779506c10e0b rr:predicate f_events:startDate .
 
-_:node1drolu4lax8 rr:column "DATETIME_startDate" ;
+_:node1droproirx4 rr:column "DATETIME_startDate" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasObjectMap _:node1drolu4lax8 .
+_:node1droproirx1 km-dev:hasObjectMap _:node1droproirx4 .
 
-km-dev:PredicateObjectMap_ac02c755-9cba-45a1-8ec7-f495a43d9465 rr:objectMap _:node1drolu4lax8 .
+km-dev:PredicateObjectMap_a61de375-e241-4e2f-ba62-779506c10e0b rr:objectMap _:node1droproirx4 .
 
-km-dev:TriplesMap_823d5bd8-571f-4fd8-b927-c09b8818c423 rr:predicateObjectMap km-dev:PredicateObjectMap_ac02c755-9cba-45a1-8ec7-f495a43d9465 .
+km-dev:TriplesMap_cdd66ed6-9079-41dc-a0d5-f3aefd9da4b9 rr:predicateObjectMap km-dev:PredicateObjectMap_a61de375-e241-4e2f-ba62-779506c10e0b .
 
-km-dev:PredicateObjectMap_ac02c755-9cba-45a1-8ec7-f495a43d9465 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+km-dev:PredicateObjectMap_a61de375-e241-4e2f-ba62-779506c10e0b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ac02c755-9cba-45a1-8ec7-f495a43d9465 .
+_:node1droproirx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a61de375-e241-4e2f-ba62-779506c10e0b .
 
-km-dev:PredicateObjectMap_20629eda-e6c3-48e0-8e63-5e2309042cd7 rr:predicate f_events:endDate .
+km-dev:PredicateObjectMap_423f7d4b-3a54-4cc7-a69a-b619a6c4b28e rr:predicate f_events:endDate .
 
-_:node1drolu4lax9 rr:column "DATETIME_endDate" ;
+_:node1droproirx5 rr:column "DATETIME_endDate" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasObjectMap _:node1drolu4lax9 .
+_:node1droproirx1 km-dev:hasObjectMap _:node1droproirx5 .
 
-km-dev:PredicateObjectMap_20629eda-e6c3-48e0-8e63-5e2309042cd7 rr:objectMap _:node1drolu4lax9 .
+km-dev:PredicateObjectMap_423f7d4b-3a54-4cc7-a69a-b619a6c4b28e rr:objectMap _:node1droproirx5 .
 
-km-dev:TriplesMap_823d5bd8-571f-4fd8-b927-c09b8818c423 rr:predicateObjectMap km-dev:PredicateObjectMap_20629eda-e6c3-48e0-8e63-5e2309042cd7 .
+km-dev:TriplesMap_cdd66ed6-9079-41dc-a0d5-f3aefd9da4b9 rr:predicateObjectMap km-dev:PredicateObjectMap_423f7d4b-3a54-4cc7-a69a-b619a6c4b28e .
 
-km-dev:PredicateObjectMap_20629eda-e6c3-48e0-8e63-5e2309042cd7 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+km-dev:PredicateObjectMap_423f7d4b-3a54-4cc7-a69a-b619a6c4b28e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_20629eda-e6c3-48e0-8e63-5e2309042cd7 .
+_:node1droproirx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_423f7d4b-3a54-4cc7-a69a-b619a6c4b28e .
 
-km-dev:PredicateObjectMap_5a43c657-d162-4359-8cd0-5199c6691b25 rr:predicate f_events:startTime .
+km-dev:PredicateObjectMap_63c19909-4e06-4bb6-b3d3-145634222c95 rr:predicate f_events:startTime .
 
-_:node1drolu4lax10 rr:column "DATETIME_startTime" ;
+_:node1droproirx6 rr:column "DATETIME_startTime" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasObjectMap _:node1drolu4lax10 .
+_:node1droproirx1 km-dev:hasObjectMap _:node1droproirx6 .
 
-km-dev:PredicateObjectMap_5a43c657-d162-4359-8cd0-5199c6691b25 rr:objectMap _:node1drolu4lax10 .
+km-dev:PredicateObjectMap_63c19909-4e06-4bb6-b3d3-145634222c95 rr:objectMap _:node1droproirx6 .
 
-km-dev:TriplesMap_823d5bd8-571f-4fd8-b927-c09b8818c423 rr:predicateObjectMap km-dev:PredicateObjectMap_5a43c657-d162-4359-8cd0-5199c6691b25 .
+km-dev:TriplesMap_cdd66ed6-9079-41dc-a0d5-f3aefd9da4b9 rr:predicateObjectMap km-dev:PredicateObjectMap_63c19909-4e06-4bb6-b3d3-145634222c95 .
 
-km-dev:PredicateObjectMap_5a43c657-d162-4359-8cd0-5199c6691b25 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+km-dev:PredicateObjectMap_63c19909-4e06-4bb6-b3d3-145634222c95 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5a43c657-d162-4359-8cd0-5199c6691b25 .
+_:node1droproirx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_63c19909-4e06-4bb6-b3d3-145634222c95 .
 
-km-dev:PredicateObjectMap_df4b3fa4-9306-4e30-859b-d8745a652e29 rr:predicate f_events:endTime .
+km-dev:PredicateObjectMap_7515a027-30bf-4c90-ac4c-f111075ac965 rr:predicate f_events:endTime .
 
-_:node1drolu4lax11 rr:column "DATETIME_endTime" ;
+_:node1droproirx7 rr:column "DATETIME_endTime" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasObjectMap _:node1drolu4lax11 .
+_:node1droproirx1 km-dev:hasObjectMap _:node1droproirx7 .
 
-km-dev:PredicateObjectMap_df4b3fa4-9306-4e30-859b-d8745a652e29 rr:objectMap _:node1drolu4lax11 .
+km-dev:PredicateObjectMap_7515a027-30bf-4c90-ac4c-f111075ac965 rr:objectMap _:node1droproirx7 .
 
-km-dev:TriplesMap_823d5bd8-571f-4fd8-b927-c09b8818c423 rr:predicateObjectMap km-dev:PredicateObjectMap_df4b3fa4-9306-4e30-859b-d8745a652e29 .
+km-dev:TriplesMap_cdd66ed6-9079-41dc-a0d5-f3aefd9da4b9 rr:predicateObjectMap km-dev:PredicateObjectMap_7515a027-30bf-4c90-ac4c-f111075ac965 .
 
-km-dev:PredicateObjectMap_df4b3fa4-9306-4e30-859b-d8745a652e29 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+km-dev:PredicateObjectMap_7515a027-30bf-4c90-ac4c-f111075ac965 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_df4b3fa4-9306-4e30-859b-d8745a652e29 .
+_:node1droproirx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7515a027-30bf-4c90-ac4c-f111075ac965 .
 
-km-dev:PredicateObjectMap_d996f395-0839-403f-9b41-69f5cd0d1b40 rr:predicate f_events:hasSchedule .
+km-dev:PredicateObjectMap_7004e1fc-b0e1-4d7f-8863-1edae4de516d rr:predicate f_events:hasSchedule .
 
-km-dev:RefObjectMap_65321971-33f0-4b32-bea0-0f3ab45a314a a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_2507975c-a5a2-4a75-afea-a8da8ea6f890 ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+km-dev:RefObjectMap_106469f0-69ab-4b6b-b673-3b2656760fb4 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_3dfe69f8-37b6-4bc9-8b7a-77b87c244910 ;
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasObjectMap km-dev:RefObjectMap_65321971-33f0-4b32-bea0-0f3ab45a314a .
+_:node1droproirx1 km-dev:hasObjectMap km-dev:RefObjectMap_106469f0-69ab-4b6b-b673-3b2656760fb4 .
 
-km-dev:PredicateObjectMap_d996f395-0839-403f-9b41-69f5cd0d1b40 rr:objectMap km-dev:RefObjectMap_65321971-33f0-4b32-bea0-0f3ab45a314a .
+km-dev:PredicateObjectMap_7004e1fc-b0e1-4d7f-8863-1edae4de516d rr:objectMap km-dev:RefObjectMap_106469f0-69ab-4b6b-b673-3b2656760fb4 .
 
-km-dev:TriplesMap_823d5bd8-571f-4fd8-b927-c09b8818c423 rr:predicateObjectMap km-dev:PredicateObjectMap_d996f395-0839-403f-9b41-69f5cd0d1b40 .
+km-dev:TriplesMap_cdd66ed6-9079-41dc-a0d5-f3aefd9da4b9 rr:predicateObjectMap km-dev:PredicateObjectMap_7004e1fc-b0e1-4d7f-8863-1edae4de516d .
 
-km-dev:PredicateObjectMap_d996f395-0839-403f-9b41-69f5cd0d1b40 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+km-dev:PredicateObjectMap_7004e1fc-b0e1-4d7f-8863-1edae4de516d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d996f395-0839-403f-9b41-69f5cd0d1b40 .
+_:node1droproirx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7004e1fc-b0e1-4d7f-8863-1edae4de516d .
 
-km-dev:TriplesMap_2507975c-a5a2-4a75-afea-a8da8ea6f890 a rr:TriplesMap .
+km-dev:TriplesMap_3dfe69f8-37b6-4bc9-8b7a-77b87c244910 a rr:TriplesMap .
 
-_:node1drolu4lax1 km-dev:hasTriplesMap km-dev:TriplesMap_2507975c-a5a2-4a75-afea-a8da8ea6f890 .
+_:node1droproirx1 km-dev:hasTriplesMap km-dev:TriplesMap_3dfe69f8-37b6-4bc9-8b7a-77b87c244910 .
 
-km-dev:TriplesMap_2507975c-a5a2-4a75-afea-a8da8ea6f890 km-dev:isPartOfMapping _:node1drolu4lax1 .
+km-dev:TriplesMap_3dfe69f8-37b6-4bc9-8b7a-77b87c244910 km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax12 rr:tableName "general.csv" ;
+_:node1droproirx8 rr:tableName "music.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasLogicalTable _:node1drolu4lax12 .
+_:node1droproirx1 km-dev:hasLogicalTable _:node1droproirx8 .
 
-km-dev:TriplesMap_2507975c-a5a2-4a75-afea-a8da8ea6f890 rr:logicalTable _:node1drolu4lax12 ;
-	rr:subjectMap _:node1drolu4lax13 .
+km-dev:TriplesMap_3dfe69f8-37b6-4bc9-8b7a-77b87c244910 rr:logicalTable _:node1droproirx8 ;
+	rr:subjectMap _:node1droproirx9 .
 
-_:node1drolu4lax1 km-dev:hasSubjectMap _:node1drolu4lax13 .
+_:node1droproirx1 km-dev:hasSubjectMap _:node1droproirx9 .
 
-_:node1drolu4lax13 km-dev:isPartOfMapping _:node1drolu4lax1 ;
+_:node1droproirx9 km-dev:isPartOfMapping _:node1droproirx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.semanticweb.org/facilitiesEventsOntology#Schedule1" ;
 	rr:class f_events:Schedule ;
 	rr:termType rr:BlankNode ;
 	km-dev:namePrefix "f_events:Schedule1" .
 
-km-dev:PredicateObjectMap_5bc28e26-15a8-4ac6-89df-0bf56cde7034 rr:predicate f_events:byDay .
+km-dev:PredicateObjectMap_ba87208b-165d-4e3d-9e94-2a2938f35f2c rr:predicate f_events:byMonthDay .
 
-_:node1drolu4lax14 rr:column "SCHEDULE_byDay" ;
+_:node1droproirx10 rr:column "SCHEDULE_byMonthDay" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasObjectMap _:node1drolu4lax14 .
+_:node1droproirx1 km-dev:hasObjectMap _:node1droproirx10 .
 
-km-dev:PredicateObjectMap_5bc28e26-15a8-4ac6-89df-0bf56cde7034 rr:objectMap _:node1drolu4lax14 .
+km-dev:PredicateObjectMap_ba87208b-165d-4e3d-9e94-2a2938f35f2c rr:objectMap _:node1droproirx10 .
 
-km-dev:TriplesMap_2507975c-a5a2-4a75-afea-a8da8ea6f890 rr:predicateObjectMap km-dev:PredicateObjectMap_5bc28e26-15a8-4ac6-89df-0bf56cde7034 .
+km-dev:TriplesMap_3dfe69f8-37b6-4bc9-8b7a-77b87c244910 rr:predicateObjectMap km-dev:PredicateObjectMap_ba87208b-165d-4e3d-9e94-2a2938f35f2c .
 
-km-dev:PredicateObjectMap_5bc28e26-15a8-4ac6-89df-0bf56cde7034 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+km-dev:PredicateObjectMap_ba87208b-165d-4e3d-9e94-2a2938f35f2c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5bc28e26-15a8-4ac6-89df-0bf56cde7034 .
+_:node1droproirx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ba87208b-165d-4e3d-9e94-2a2938f35f2c .
 
-km-dev:PredicateObjectMap_3d200692-0fdb-45e0-86d2-dd079658131e rr:predicate f_events:byMonth .
+km-dev:PredicateObjectMap_649790e9-c9b2-4118-910c-12b3663d6622 rr:predicate f_events:repeatCount .
 
-_:node1drolu4lax15 rr:column "SCHEDULE_byMonth" ;
+_:node1droproirx11 rr:column "SCHEDULE_repeatCount" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasObjectMap _:node1drolu4lax15 .
+_:node1droproirx1 km-dev:hasObjectMap _:node1droproirx11 .
 
-km-dev:PredicateObjectMap_3d200692-0fdb-45e0-86d2-dd079658131e rr:objectMap _:node1drolu4lax15 .
+km-dev:PredicateObjectMap_649790e9-c9b2-4118-910c-12b3663d6622 rr:objectMap _:node1droproirx11 .
 
-km-dev:TriplesMap_2507975c-a5a2-4a75-afea-a8da8ea6f890 rr:predicateObjectMap km-dev:PredicateObjectMap_3d200692-0fdb-45e0-86d2-dd079658131e .
+km-dev:TriplesMap_3dfe69f8-37b6-4bc9-8b7a-77b87c244910 rr:predicateObjectMap km-dev:PredicateObjectMap_649790e9-c9b2-4118-910c-12b3663d6622 .
 
-km-dev:PredicateObjectMap_3d200692-0fdb-45e0-86d2-dd079658131e a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+km-dev:PredicateObjectMap_649790e9-c9b2-4118-910c-12b3663d6622 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3d200692-0fdb-45e0-86d2-dd079658131e .
+_:node1droproirx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_649790e9-c9b2-4118-910c-12b3663d6622 .
 
-km-dev:PredicateObjectMap_53fbe396-bd19-4062-82b6-75cd507eb5ae rr:predicate f_events:byMonthDay .
+km-dev:PredicateObjectMap_0a372b53-57a5-4293-8cf1-d6ae4ed93fb8 rr:predicate f_events:isScheduleOf .
 
-_:node1drolu4lax16 rr:column "SCHEDULE_byMonthDay" ;
+km-dev:RefObjectMap_ec21448f-2609-4dc1-ab98-ae3faaa4c5fd a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_cdd66ed6-9079-41dc-a0d5-f3aefd9da4b9 ;
+	km-dev:isPartOfMapping _:node1droproirx1 .
+
+_:node1droproirx1 km-dev:hasObjectMap km-dev:RefObjectMap_ec21448f-2609-4dc1-ab98-ae3faaa4c5fd .
+
+km-dev:PredicateObjectMap_0a372b53-57a5-4293-8cf1-d6ae4ed93fb8 rr:objectMap km-dev:RefObjectMap_ec21448f-2609-4dc1-ab98-ae3faaa4c5fd .
+
+km-dev:TriplesMap_3dfe69f8-37b6-4bc9-8b7a-77b87c244910 rr:predicateObjectMap km-dev:PredicateObjectMap_0a372b53-57a5-4293-8cf1-d6ae4ed93fb8 .
+
+km-dev:PredicateObjectMap_0a372b53-57a5-4293-8cf1-d6ae4ed93fb8 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1droproirx1 .
+
+_:node1droproirx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0a372b53-57a5-4293-8cf1-d6ae4ed93fb8 .
+
+km-dev:PredicateObjectMap_12f081cd-1c6c-4b27-8f3c-a0b47f2ef412 rr:predicate f_events:byMonth .
+
+_:node1droproirx12 rr:column "SCHEDULE_byMonth" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasObjectMap _:node1drolu4lax16 .
+_:node1droproirx1 km-dev:hasObjectMap _:node1droproirx12 .
 
-km-dev:PredicateObjectMap_53fbe396-bd19-4062-82b6-75cd507eb5ae rr:objectMap _:node1drolu4lax16 .
+km-dev:PredicateObjectMap_12f081cd-1c6c-4b27-8f3c-a0b47f2ef412 rr:objectMap _:node1droproirx12 .
 
-km-dev:TriplesMap_2507975c-a5a2-4a75-afea-a8da8ea6f890 rr:predicateObjectMap km-dev:PredicateObjectMap_53fbe396-bd19-4062-82b6-75cd507eb5ae .
+km-dev:TriplesMap_3dfe69f8-37b6-4bc9-8b7a-77b87c244910 rr:predicateObjectMap km-dev:PredicateObjectMap_12f081cd-1c6c-4b27-8f3c-a0b47f2ef412 .
 
-km-dev:PredicateObjectMap_53fbe396-bd19-4062-82b6-75cd507eb5ae a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+km-dev:PredicateObjectMap_12f081cd-1c6c-4b27-8f3c-a0b47f2ef412 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_53fbe396-bd19-4062-82b6-75cd507eb5ae .
+_:node1droproirx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_12f081cd-1c6c-4b27-8f3c-a0b47f2ef412 .
 
-km-dev:PredicateObjectMap_be2257b7-288c-47be-88b1-fd6fde1ce313 rr:predicate f_events:repeatCount .
+km-dev:PredicateObjectMap_513d7d93-1123-4088-b769-24a1eccb8ae7 rr:predicate f_events:repeatFrequency .
 
-_:node1drolu4lax17 rr:column "SCHEDULE_repeatCount" ;
+_:node1droproirx13 rr:column "SCHEDULE_repeatFrequency" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasObjectMap _:node1drolu4lax17 .
+_:node1droproirx1 km-dev:hasObjectMap _:node1droproirx13 .
 
-km-dev:PredicateObjectMap_be2257b7-288c-47be-88b1-fd6fde1ce313 rr:objectMap _:node1drolu4lax17 .
+km-dev:PredicateObjectMap_513d7d93-1123-4088-b769-24a1eccb8ae7 rr:objectMap _:node1droproirx13 .
 
-km-dev:TriplesMap_2507975c-a5a2-4a75-afea-a8da8ea6f890 rr:predicateObjectMap km-dev:PredicateObjectMap_be2257b7-288c-47be-88b1-fd6fde1ce313 .
+km-dev:TriplesMap_3dfe69f8-37b6-4bc9-8b7a-77b87c244910 rr:predicateObjectMap km-dev:PredicateObjectMap_513d7d93-1123-4088-b769-24a1eccb8ae7 .
 
-km-dev:PredicateObjectMap_be2257b7-288c-47be-88b1-fd6fde1ce313 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+km-dev:PredicateObjectMap_513d7d93-1123-4088-b769-24a1eccb8ae7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_be2257b7-288c-47be-88b1-fd6fde1ce313 .
+_:node1droproirx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_513d7d93-1123-4088-b769-24a1eccb8ae7 .
 
-km-dev:PredicateObjectMap_041a7aea-6f83-40d7-8581-d573f072f1c4 rr:predicate f_events:repeatFrequency .
+km-dev:PredicateObjectMap_32f50020-0150-456e-95c4-e8ab610e27c7 rr:predicate f_events:byDay .
 
-_:node1drolu4lax18 rr:column "SCHEDULE_repeatFrequency" ;
+_:node1droproirx14 rr:column "SCHEDULE_byDay" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasObjectMap _:node1drolu4lax18 .
+_:node1droproirx1 km-dev:hasObjectMap _:node1droproirx14 .
 
-km-dev:PredicateObjectMap_041a7aea-6f83-40d7-8581-d573f072f1c4 rr:objectMap _:node1drolu4lax18 .
+km-dev:PredicateObjectMap_32f50020-0150-456e-95c4-e8ab610e27c7 rr:objectMap _:node1droproirx14 .
 
-km-dev:TriplesMap_2507975c-a5a2-4a75-afea-a8da8ea6f890 rr:predicateObjectMap km-dev:PredicateObjectMap_041a7aea-6f83-40d7-8581-d573f072f1c4 .
+km-dev:TriplesMap_3dfe69f8-37b6-4bc9-8b7a-77b87c244910 rr:predicateObjectMap km-dev:PredicateObjectMap_32f50020-0150-456e-95c4-e8ab610e27c7 .
 
-km-dev:PredicateObjectMap_041a7aea-6f83-40d7-8581-d573f072f1c4 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+km-dev:PredicateObjectMap_32f50020-0150-456e-95c4-e8ab610e27c7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-_:node1drolu4lax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_041a7aea-6f83-40d7-8581-d573f072f1c4 .
+_:node1droproirx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_32f50020-0150-456e-95c4-e8ab610e27c7 .
 
-km-dev:PredicateObjectMap_35ee341b-fa87-464a-9736-ffcd658d08c4 rr:predicate f_events:isScheduleOf .
+km-dev:TriplesMap_0cb1f3db-b423-4df1-b64a-a5d6534f665b a rr:TriplesMap .
 
-km-dev:RefObjectMap_6ff86ae5-7e6a-4501-9a07-2c52c4248f9f a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_823d5bd8-571f-4fd8-b927-c09b8818c423 ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+_:node1droproirx1 km-dev:hasTriplesMap km-dev:TriplesMap_0cb1f3db-b423-4df1-b64a-a5d6534f665b .
 
-_:node1drolu4lax1 km-dev:hasObjectMap km-dev:RefObjectMap_6ff86ae5-7e6a-4501-9a07-2c52c4248f9f .
+km-dev:TriplesMap_0cb1f3db-b423-4df1-b64a-a5d6534f665b km-dev:isPartOfMapping _:node1droproirx1 .
 
-km-dev:PredicateObjectMap_35ee341b-fa87-464a-9736-ffcd658d08c4 rr:objectMap km-dev:RefObjectMap_6ff86ae5-7e6a-4501-9a07-2c52c4248f9f .
+_:node1droproirx15 rr:tableName "music.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1droproirx1 .
 
-km-dev:TriplesMap_2507975c-a5a2-4a75-afea-a8da8ea6f890 rr:predicateObjectMap km-dev:PredicateObjectMap_35ee341b-fa87-464a-9736-ffcd658d08c4 .
+_:node1droproirx1 km-dev:hasLogicalTable _:node1droproirx15 .
 
-km-dev:PredicateObjectMap_35ee341b-fa87-464a-9736-ffcd658d08c4 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1drolu4lax1 .
+km-dev:TriplesMap_0cb1f3db-b423-4df1-b64a-a5d6534f665b rr:logicalTable _:node1droproirx15 ;
+	rr:subjectMap _:node1droproirx16 .
 
-_:node1drolu4lax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_35ee341b-fa87-464a-9736-ffcd658d08c4 .
+_:node1droproirx1 km-dev:hasSubjectMap _:node1droproirx16 .
+
+_:node1droproirx16 km-dev:isPartOfMapping _:node1droproirx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates1" ;
+	rr:class f_events:GeoCoordinates ;
+	rr:template "{GEN_geoURI}" .
