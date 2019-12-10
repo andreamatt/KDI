@@ -3,7 +3,7 @@ import json
 import pandas as pd
 import requests
 
-utils_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/master/scripts/utils.py').text
+utils_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/all_fields/utils/utils.py').text
 exec(utils_txt)
 
 
@@ -23,13 +23,13 @@ def rm_main(JSONString):
 		endTime = time[0]
 		if len(time) > 1:
 			endTime = time[1]
-		time = Time(startDate, endDate, startTime, endTime)
+		time = DateTime(startDate, endDate, startTime, endTime)
 
 		event = {}
 		for k, v in gen.items():
 			event[f'GEN_{k}'] = v
 		for k, v in time.items():
-			event[f'TIME_{k}'] = v
+			event[f'DATETIME_{k}'] = v
 
 		if e['category'] not in events:
 			events[e['category']] = []
