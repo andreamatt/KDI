@@ -106,6 +106,19 @@ Valentina Sofia Pigato</creators>
     
 
 
+    <!-- http://www.semanticweb.org/facilitiesEventsOntology#hasDatetime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#hasDatetime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#isDateTimeOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
+        <rdfs:comment xml:lang="en">An organized event takes place at a certain time in a specific position</rdfs:comment>
+        <rdfs:label xml:lang="en">hasDatetime</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#hasDiscount -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#hasDiscount">
@@ -127,19 +140,6 @@ Valentina Sofia Pigato</creators>
         <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork"/>
         <rdfs:comment xml:lang="en">A Screening Event is about watching a movie</rdfs:comment>
         <rdfs:label xml:lang="en">hasMovie</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/facilitiesEventsOntology#hasPeriod -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#hasPeriod">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#isPeriodOf"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Schedule"/>
-        <rdfs:comment xml:lang="en">Indicates whether an event is recurring in time</rdfs:comment>
-        <rdfs:label xml:lang="en">hasPeriod</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -188,9 +188,9 @@ Valentina Sofia Pigato</creators>
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#hasSchedule">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#isScheduleOf"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Event"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
-        <rdfs:comment xml:lang="en">An organized event takes place at a certain time in a specific position</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Schedule"/>
+        <rdfs:comment xml:lang="en">Indicates whether an event is recurring in time</rdfs:comment>
         <rdfs:label xml:lang="en">hasSchedule</rdfs:label>
     </owl:ObjectProperty>
     
@@ -218,6 +218,18 @@ Valentina Sofia Pigato</creators>
         <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#VisualArtworkCreativeWork"/>
         <rdfs:comment xml:lang="en">During a Visual Arts Event many artworks can be exhibited</rdfs:comment>
         <rdfs:label xml:lang="en">hasVisualArtwork</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/facilitiesEventsOntology#isDateTimeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#isDateTimeOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Event"/>
+        <rdfs:comment xml:lang="en">Time reference related to a specific event</rdfs:comment>
+        <rdfs:label xml:lang="en">isDatetimeOf</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -283,18 +295,6 @@ Valentina Sofia Pigato</creators>
     
 
 
-    <!-- http://www.semanticweb.org/facilitiesEventsOntology#isPeriodOf -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#isPeriodOf">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Schedule"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
-        <rdfs:comment xml:lang="en">A periodic event is related to the time and date when the event takes place</rdfs:comment>
-        <rdfs:label xml:lang="en">isPeriodOf</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#isPlayedAt -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#isPlayedAt">
@@ -323,9 +323,9 @@ Valentina Sofia Pigato</creators>
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#isScheduleOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Event"/>
-        <rdfs:comment xml:lang="en">Time reference related to a specific event</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Schedule"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
+        <rdfs:comment xml:lang="en">A periodic event is related to the time and date when the event takes place</rdfs:comment>
         <rdfs:label xml:lang="en">isScheduleOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -1293,7 +1293,7 @@ Valentina Sofia Pigato</creators>
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#Audience -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Audience">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#ValuePartition"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Enumeration"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Discount"/>
         <WordNetID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">08239214</WordNetID>
         <rdfs:comment xml:lang="en">The different categories of the public to which an event is addressed</rdfs:comment>
@@ -1359,14 +1359,14 @@ Valentina Sofia Pigato</creators>
     <owl:Class rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#DateTime">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#isScheduleOf"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#isDateTimeOf"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Event"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#hasPeriod"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#hasSchedule"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onClass rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Schedule"/>
             </owl:Restriction>
@@ -1381,7 +1381,7 @@ Valentina Sofia Pigato</creators>
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#Discount -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Discount">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#ValuePartition"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#Enumeration"/>
         <rdfs:comment xml:lang="en">Categoris of people to which the discount related to an event is applied</rdfs:comment>
         <rdfs:label xml:lang="en">Discount</rdfs:label>
     </owl:Class>
@@ -1399,12 +1399,21 @@ Valentina Sofia Pigato</creators>
     
 
 
+    <!-- http://www.semanticweb.org/facilitiesEventsOntology#Enumeration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Enumeration">
+        <rdfs:comment>A Enumeration class for the Audience and Discount classes</rdfs:comment>
+        <rdfs:label xml:lang="en">Enumeration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#Event -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Event">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#hasSchedule"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#hasDatetime"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
             </owl:Restriction>
@@ -1539,7 +1548,7 @@ Valentina Sofia Pigato</creators>
     <owl:Class rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Schedule">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#isPeriodOf"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#isScheduleOf"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
             </owl:Restriction>
@@ -1647,15 +1656,6 @@ Valentina Sofia Pigato</creators>
     
 
 
-    <!-- http://www.semanticweb.org/facilitiesEventsOntology#ValuePartition -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#ValuePartition">
-        <rdfs:comment>A ValuePartition class for the Audience and Discount classes</rdfs:comment>
-        <rdfs:label xml:lang="en">ValuePartition</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/facilitiesEventsOntology#VisualArtsEvent -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#VisualArtsEvent">
@@ -1736,12 +1736,12 @@ Valentina Sofia Pigato</creators>
         <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#CreativeWork"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#DateTime"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Enumeration"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Event"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Facility"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#GeoCoordinates"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Schedule"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#Timetables"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/facilitiesEventsOntology#ValuePartition"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
