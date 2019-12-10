@@ -1,7 +1,7 @@
 import json
 import requests
 
-utils_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/all_fields/utils/utils.py').text
+utils_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/all_fields/scripts/utils.py').text
 exec(utils_txt)
 
 cat_dict = {

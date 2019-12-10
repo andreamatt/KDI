@@ -2,7 +2,7 @@ import json
 import requests
 from pandas import DataFrame
 
-utils_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/all_fields/utils/utils.py').text
+utils_txt = requests.get('https://raw.githubusercontent.com/andreamatt/KDI/all_fields/scripts/utils.py').text
 exec(utils_txt)
 
 
@@ -15,10 +15,9 @@ def rm_main(JSONstring):
 	event_types = [general, science, visual, music, screen, theatre, talk]
 	for t in event_types:
 		if len(events[t]) > 0:
-			events[t] = DataFrame(events[t])
+			events[t] = DataFrame(events[t], columns=specific_event_columns(t))
 		else:
-			fields = [f'GEN_{v}' for v in list(GeneralEvent("", "", "", "", "", "", "", "").keys())[:-1]]
-			events[t] = DataFrame(columns=fields)
+			events[t] = DataFrame(columns=specific_event_columns(t))
 
 	events['facilities'] = DataFrame(events['facilities'])
 	events[creative_movies] = DataFrame(events[creative_movies])
