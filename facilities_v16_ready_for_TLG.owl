@@ -8,9 +8,12 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:obda="https://w3id.org/obda/vocabulary#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="http://schema.org/"
      xmlns:f_events="http://www.semanticweb.org/facilitiesEventsOntology#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/facilitiesEventsOntology">
         <owl:versionIRI rdf:resource="http://www.semanticweb.org/facilitiesEventsOntology/1.0.0"/>
+        <owl:imports rdf:resource="http://schema.org/"/>
         <dc:licence xml:lang="en">CC_by_3.0 .</dc:licence>
         <creators xml:lang="en">Alessandro Conti
 Andrei Diaconu
