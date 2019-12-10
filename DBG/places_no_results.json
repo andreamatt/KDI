@@ -1,0 +1,699 @@
+{
+	"Centro Storico; Indirizzo non disponibile; Cimego": {
+		"address_components": [
+			{
+				"long_name": "Cimego",
+				"short_name": "Cimego",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Cimego",
+				"short_name": "Cimego",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Province of Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-South Tyrol",
+				"short_name": "Trentino-South Tyrol",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38082",
+				"short_name": "38082",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "38082 Cimego, Province of Trento, Italy",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": 45.9183573,
+					"lng": 10.6275294
+				},
+				"southwest": {
+					"lat": 45.9095337,
+					"lng": 10.6100106
+				}
+			},
+			"location": {
+				"lat": 45.9117544,
+				"lng": 10.6134314
+			},
+			"location_type": "APPROXIMATE",
+			"viewport": {
+				"northeast": {
+					"lat": 45.9183573,
+					"lng": 10.6275294
+				},
+				"southwest": {
+					"lat": 45.9095337,
+					"lng": 10.6100106
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJY1bvtVA6gkcRsbtNVzf3bh8",
+		"types": [
+			"locality",
+			"political"
+		]
+	},
+	"Giardino dei Ciucioi; Piazza Venezia, 2; Lavarone": {
+		"address_components": [
+			{
+				"long_name": "Giardino dei Ciucioi",
+				"short_name": "Giardino dei Ciucioi",
+				"types": [
+					"establishment",
+					"park",
+					"point_of_interest",
+					"tourist_attraction"
+				]
+			},
+			{
+				"long_name": "Vicolo dei Ciucioi",
+				"short_name": "Vicolo dei Ciucioi",
+				"types": [
+					"route"
+				]
+			},
+			{
+				"long_name": "Lavis",
+				"short_name": "Lavis",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Lavis",
+				"short_name": "Lavis",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Provincia di Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-Alto Adige",
+				"short_name": "Trentino-Alto Adige",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38015",
+				"short_name": "38015",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "Giardino dei Ciucioi, Vicolo dei Ciucioi, 38015 Lavis TN, Italy",
+		"geometry": {
+			"location": {
+				"lat": 46.1387805,
+				"lng": 11.1179099
+			},
+			"location_type": "GEOMETRIC_CENTER",
+			"viewport": {
+				"northeast": {
+					"lat": 46.1401294802915,
+					"lng": 11.1192588802915
+				},
+				"southwest": {
+					"lat": 46.1374315197085,
+					"lng": 11.1165609197085
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJjeE7x296gkcROI-SaZ8fjAw",
+		"plus_code": {
+			"compound_code": "44Q9+G5 Lavis, Province of Trento, Italy",
+			"global_code": "8FRH44Q9+G5"
+		},
+		"types": [
+			"establishment",
+			"park",
+			"point_of_interest",
+			"tourist_attraction"
+		]
+	},
+	"centro storico; Indirizzo non disponibile; Siror": {
+		"address_components": [
+			{
+				"long_name": "Siror",
+				"short_name": "Siror",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Siror",
+				"short_name": "Siror",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Province of Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-South Tyrol",
+				"short_name": "Trentino-South Tyrol",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38054",
+				"short_name": "38054",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "38054 Siror, Province of Trento, Italy",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": 46.1910367,
+					"lng": 11.8355545
+				},
+				"southwest": {
+					"lat": 46.1816238,
+					"lng": 11.8283843
+				}
+			},
+			"location": {
+				"lat": 46.1877609,
+				"lng": 11.8302311
+			},
+			"location_type": "APPROXIMATE",
+			"viewport": {
+				"northeast": {
+					"lat": 46.1910367,
+					"lng": 11.8355545
+				},
+				"southwest": {
+					"lat": 46.1816238,
+					"lng": 11.8283843
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJgWxR4bn3eEcR8IfAP1XJTkA",
+		"types": [
+			"locality",
+			"political"
+		]
+	},
+	"vedi info; Indirizzo non disponibile": "",
+	"Maurina; Indirizzo non disponibile; Spormaggiore": {
+		"address_components": [
+			{
+				"long_name": "Maurina",
+				"short_name": "Maurina",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Spormaggiore",
+				"short_name": "Spormaggiore",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Province of Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-South Tyrol",
+				"short_name": "Trentino-South Tyrol",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38010",
+				"short_name": "38010",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "38010 Maurina, Province of Trento, Italy",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": 46.221951,
+					"lng": 11.038125
+				},
+				"southwest": {
+					"lat": 46.2198122,
+					"lng": 11.035158
+				}
+			},
+			"location": {
+				"lat": 46.2207428,
+				"lng": 11.0364617
+			},
+			"location_type": "APPROXIMATE",
+			"viewport": {
+				"northeast": {
+					"lat": 46.22223058029149,
+					"lng": 11.038125
+				},
+				"southwest": {
+					"lat": 46.2195326197085,
+					"lng": 11.035158
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJc0DbanhjgkcRsT1wLogJByY",
+		"types": [
+			"locality",
+			"political"
+		]
+	},
+	"Indirizzo non disponibile": "",
+	"Centro Storico; Indirizzo non disponibile; Ossana": {
+		"address_components": [
+			{
+				"long_name": "Ossana",
+				"short_name": "Ossana",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Ossana",
+				"short_name": "Ossana",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Province of Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-South Tyrol",
+				"short_name": "Trentino-South Tyrol",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38026",
+				"short_name": "38026",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "38026 Ossana, Province of Trento, Italy",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": 46.3090288,
+					"lng": 10.7431437
+				},
+				"southwest": {
+					"lat": 46.3034064,
+					"lng": 10.7331989
+				}
+			},
+			"location": {
+				"lat": 46.3078419,
+				"lng": 10.7355513
+			},
+			"location_type": "APPROXIMATE",
+			"viewport": {
+				"northeast": {
+					"lat": 46.3090288,
+					"lng": 10.7431437
+				},
+				"southwest": {
+					"lat": 46.3034064,
+					"lng": 10.7331989
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJV86wuBBYgkcRqtQSsNlw7Ak",
+		"types": [
+			"locality",
+			"political"
+		]
+	},
+	"Centro Storico; Indirizzo non disponibile; Vezzano": {
+		"address_components": [
+			{
+				"long_name": "Vezzano",
+				"short_name": "Vezzano",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Vezzano",
+				"short_name": "Vezzano",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Province of Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-South Tyrol",
+				"short_name": "Trentino-South Tyrol",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38070",
+				"short_name": "38070",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "38070 Vezzano, Province of Trento, Italy",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": 46.0847606,
+					"lng": 11.0045533
+				},
+				"southwest": {
+					"lat": 46.0738054,
+					"lng": 10.9938407
+				}
+			},
+			"location": {
+				"lat": 46.0802175,
+				"lng": 11.0014092
+			},
+			"location_type": "APPROXIMATE",
+			"viewport": {
+				"northeast": {
+					"lat": 46.0847606,
+					"lng": 11.0045533
+				},
+				"southwest": {
+					"lat": 46.0738054,
+					"lng": 10.9938407
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJHcrSPWlugkcRaaXU1f_yACY",
+		"types": [
+			"locality",
+			"political"
+		]
+	},
+	"Mart, Sale espositive": "",
+	"centro storico; Indirizzo non disponibile; Ala": "",
+	"Centro Storico; Indirizzo non disponibile; Ala": "",
+	"Centro Storico; Indirizzo non disponibile; Ledro": {
+		"address_components": [
+			{
+				"long_name": "Ledro",
+				"short_name": "Ledro",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Province of Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-South Tyrol",
+				"short_name": "Trentino-South Tyrol",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38067",
+				"short_name": "38067",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "38067 Ledro, Province of Trento, Italy",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": 45.9698749,
+					"lng": 10.8579872
+				},
+				"southwest": {
+					"lat": 45.8018536,
+					"lng": 10.6111793
+				}
+			},
+			"location": {
+				"lat": 45.8765359,
+				"lng": 10.7321478
+			},
+			"location_type": "APPROXIMATE",
+			"viewport": {
+				"northeast": {
+					"lat": 45.9698749,
+					"lng": 10.8579872
+				},
+				"southwest": {
+					"lat": 45.8018536,
+					"lng": 10.6111793
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJk8aJIRM9gkcR_CpveFtR34U",
+		"types": [
+			"administrative_area_level_3",
+			"political"
+		]
+	},
+	"centro storico; piazza Cesare Battisti; Tesero": {
+		"address_components": [
+			{
+				"long_name": "Piazza Cesare Battisti",
+				"short_name": "Piazza Cesare Battisti",
+				"types": [
+					"town_square"
+				]
+			},
+			{
+				"long_name": "Tesero",
+				"short_name": "Tesero",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Tesero",
+				"short_name": "Tesero",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Provincia di Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-Alto Adige",
+				"short_name": "Trentino-Alto Adige",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38038",
+				"short_name": "38038",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "Piazza Cesare Battisti, 38038 Tesero TN, Italy",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": 46.2894008,
+					"lng": 11.5112096
+				},
+				"southwest": {
+					"lat": 46.2884407,
+					"lng": 11.5101717
+				}
+			},
+			"location": {
+				"lat": 46.2888742,
+				"lng": 11.5106452
+			},
+			"location_type": "APPROXIMATE",
+			"viewport": {
+				"northeast": {
+					"lat": 46.2902697302915,
+					"lng": 11.5120396302915
+				},
+				"southwest": {
+					"lat": 46.2875717697085,
+					"lng": 11.5093416697085
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJP23DtSxjeEcRnUn3TnsmNw4",
+		"types": [
+			"town_square"
+		]
+	},
+	"Mart, sale espositive": ""
+}

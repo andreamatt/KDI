@@ -151,6 +151,10 @@ def rm_main(eventsJSON):
 
 	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/DBG/places_errors.json', 'w') as outfile:
 		json.dump(errors, outfile, indent="\t")
+	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/DBG/places_details.json', 'w') as outfile:
+		json.dump(details_results, outfile, indent="\t")
+	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/DBG/places_no_results.json', 'w') as outfile:
+		json.dump(no_results, outfile, indent="\t")
 
 	for searched_name, result in details_results.items():
 		fac = {}
@@ -174,11 +178,24 @@ def rm_main(eventsJSON):
 				postalCode = comp['long_name']
 		coordinates = GeoCoordinates(lat, lng, altitude, address, addressLocality, addressRegion, postalCode, text_to_URI([searched_name]))
 
+		timetable = {}
+		if 'opening_hours' in result and 'weekday_text' in result['opening_hours']:
+			week = result['opening_hours']['weekday_text']
+			timetable['Monday'] = week[0][8:]
+			timetable['Tuesday'] = week[1][9:]
+			timetable['Wednesday'] = week[2][11:]
+			timetable['Thursday'] = week[3][10:]
+			timetable['Friday'] = week[4][8:]
+			timetable['Saturday'] = week[5][10:]
+			timetable['Sunday'] = week[6][8:]
+
 		facility = {}
 		for k, v in fac.items():
 			facility[f'FAC_{k}'] = v
 		for k, v in coordinates.items():
 			facility[f'GEO_{k}'] = v
+		for k, v in timetable.items():
+			facility[f'TIMETABLE_{k}'] = v
 
 		facilities.append(facility)
 
