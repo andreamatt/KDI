@@ -1,0 +1,652 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix f_events: <http://www.semanticweb.org/facilitiesEventsOntology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1ds57h2ojx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "creative_movies.csv" ;
+	km-dev:modelPublicationTime "1576428669715"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"MOVIE_genre\"}],[{\"columnName\":\"MOVIE_originalName\"}],[{\"columnName\":\"WORK_name\"}],[{\"columnName\":\"MOVIE_duration\"}],[{\"columnName\":\"WORK_createDate\"}],[{\"columnName\":\"WORK_creator\"}],[{\"columnName\":\"WORK_URI\"}],[{\"columnName\":\"WORK_url\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"MOVIE_genre\"}],[{\"columnName\":\"MOVIE_originalName\"}],[{\"columnName\":\"WORK_name\"}],[{\"columnName\":\"MOVIE_duration\"}],[{\"columnName\":\"WORK_createDate\"}],[{\"columnName\":\"WORK_creator\"}],[{\"columnName\":\"WORK_URI\"}],[{\"columnName\":\"WORK_url\"}]]" ;
+	km-dev:hasModelLabel "creative_movies.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"MOVIE_originalName\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#originalName\",
+                    \"DomainLabel\": \"f_events:MovieCreativeWork1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"MOVIE_originalName\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"MOVIE_originalName\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"MOVIE_genre\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#movieGenre\",
+                    \"DomainLabel\": \"f_events:MovieCreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"MOVIE_genre\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"MOVIE_genre\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"MOVIE_duration\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#movieDuration\",
+                    \"DomainLabel\": \"f_events:MovieCreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"MOVIE_duration\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"MOVIE_duration\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"WORK_name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#creativeWorkName\",
+                    \"DomainLabel\": \"f_events:MovieCreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"WORK_name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"WORK_name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"WORK_creator\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#creator\",
+                    \"DomainLabel\": \"f_events:MovieCreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"WORK_creator\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"WORK_creator\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"WORK_createDate\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#createDate\",
+                    \"DomainLabel\": \"f_events:MovieCreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"WORK_createDate\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"WORK_createDate\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"WORK_url\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/facilitiesEventsOntology#url\",
+                    \"DomainLabel\": \"f_events:MovieCreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"WORK_url\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"WORK_url\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"WORK_URI\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork\",
+                    \"DomainId\": \"http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"f_events:MovieCreativeWork1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"WORK_URI\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"WORK_URI\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_017bae1c-4958-4272-9a21-a084fe8ad56a a rr:TriplesMap .
+
+_:node1ds57h2ojx1 km-dev:hasTriplesMap km-dev:TriplesMap_017bae1c-4958-4272-9a21-a084fe8ad56a .
+
+km-dev:TriplesMap_017bae1c-4958-4272-9a21-a084fe8ad56a km-dev:isPartOfMapping _:node1ds57h2ojx1 .
+
+_:node1ds57h2ojx2 rr:tableName "creative_movies.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1ds57h2ojx1 .
+
+_:node1ds57h2ojx1 km-dev:hasLogicalTable _:node1ds57h2ojx2 .
+
+km-dev:TriplesMap_017bae1c-4958-4272-9a21-a084fe8ad56a rr:logicalTable _:node1ds57h2ojx2 ;
+	rr:subjectMap _:node1ds57h2ojx3 .
+
+_:node1ds57h2ojx1 km-dev:hasSubjectMap _:node1ds57h2ojx3 .
+
+_:node1ds57h2ojx3 km-dev:isPartOfMapping _:node1ds57h2ojx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/facilitiesEventsOntology#MovieCreativeWork1" ;
+	rr:class f_events:MovieCreativeWork ;
+	rr:template "{WORK_URI}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_811df398-38b5-43e7-847e-873b95382845 rr:predicate f_events:originalName .
+
+_:node1ds57h2ojx4 rr:column "MOVIE_originalName" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ds57h2ojx1 .
+
+_:node1ds57h2ojx1 km-dev:hasObjectMap _:node1ds57h2ojx4 .
+
+km-dev:PredicateObjectMap_811df398-38b5-43e7-847e-873b95382845 rr:objectMap _:node1ds57h2ojx4 .
+
+km-dev:TriplesMap_017bae1c-4958-4272-9a21-a084fe8ad56a rr:predicateObjectMap km-dev:PredicateObjectMap_811df398-38b5-43e7-847e-873b95382845 .
+
+km-dev:PredicateObjectMap_811df398-38b5-43e7-847e-873b95382845 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ds57h2ojx1 .
+
+_:node1ds57h2ojx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_811df398-38b5-43e7-847e-873b95382845 .
+
+km-dev:PredicateObjectMap_456a6435-b050-4199-b450-e88e7c98bdb7 rr:predicate f_events:movieGenre .
+
+_:node1ds57h2ojx5 rr:column "MOVIE_genre" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ds57h2ojx1 .
+
+_:node1ds57h2ojx1 km-dev:hasObjectMap _:node1ds57h2ojx5 .
+
+km-dev:PredicateObjectMap_456a6435-b050-4199-b450-e88e7c98bdb7 rr:objectMap _:node1ds57h2ojx5 .
+
+km-dev:TriplesMap_017bae1c-4958-4272-9a21-a084fe8ad56a rr:predicateObjectMap km-dev:PredicateObjectMap_456a6435-b050-4199-b450-e88e7c98bdb7 .
+
+km-dev:PredicateObjectMap_456a6435-b050-4199-b450-e88e7c98bdb7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ds57h2ojx1 .
+
+_:node1ds57h2ojx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_456a6435-b050-4199-b450-e88e7c98bdb7 .
+
+km-dev:PredicateObjectMap_23f0db82-e556-44b4-a3e7-5c98da5f3373 rr:predicate f_events:movieDuration .
+
+_:node1ds57h2ojx6 rr:column "MOVIE_duration" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ds57h2ojx1 .
+
+_:node1ds57h2ojx1 km-dev:hasObjectMap _:node1ds57h2ojx6 .
+
+km-dev:PredicateObjectMap_23f0db82-e556-44b4-a3e7-5c98da5f3373 rr:objectMap _:node1ds57h2ojx6 .
+
+km-dev:TriplesMap_017bae1c-4958-4272-9a21-a084fe8ad56a rr:predicateObjectMap km-dev:PredicateObjectMap_23f0db82-e556-44b4-a3e7-5c98da5f3373 .
+
+km-dev:PredicateObjectMap_23f0db82-e556-44b4-a3e7-5c98da5f3373 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ds57h2ojx1 .
+
+_:node1ds57h2ojx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_23f0db82-e556-44b4-a3e7-5c98da5f3373 .
+
+km-dev:PredicateObjectMap_8cb9dc7b-5035-4661-9160-7e7e182eb6ee rr:predicate f_events:creativeWorkName .
+
+_:node1ds57h2ojx7 rr:column "WORK_name" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ds57h2ojx1 .
+
+_:node1ds57h2ojx1 km-dev:hasObjectMap _:node1ds57h2ojx7 .
+
+km-dev:PredicateObjectMap_8cb9dc7b-5035-4661-9160-7e7e182eb6ee rr:objectMap _:node1ds57h2ojx7 .
+
+km-dev:TriplesMap_017bae1c-4958-4272-9a21-a084fe8ad56a rr:predicateObjectMap km-dev:PredicateObjectMap_8cb9dc7b-5035-4661-9160-7e7e182eb6ee .
+
+km-dev:PredicateObjectMap_8cb9dc7b-5035-4661-9160-7e7e182eb6ee a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ds57h2ojx1 .
+
+_:node1ds57h2ojx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8cb9dc7b-5035-4661-9160-7e7e182eb6ee .
+
+km-dev:PredicateObjectMap_8fcbeb88-879b-4a98-a306-a11db49e7132 rr:predicate f_events:creator .
+
+_:node1ds57h2ojx8 rr:column "WORK_creator" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ds57h2ojx1 .
+
+_:node1ds57h2ojx1 km-dev:hasObjectMap _:node1ds57h2ojx8 .
+
+km-dev:PredicateObjectMap_8fcbeb88-879b-4a98-a306-a11db49e7132 rr:objectMap _:node1ds57h2ojx8 .
+
+km-dev:TriplesMap_017bae1c-4958-4272-9a21-a084fe8ad56a rr:predicateObjectMap km-dev:PredicateObjectMap_8fcbeb88-879b-4a98-a306-a11db49e7132 .
+
+km-dev:PredicateObjectMap_8fcbeb88-879b-4a98-a306-a11db49e7132 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ds57h2ojx1 .
+
+_:node1ds57h2ojx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8fcbeb88-879b-4a98-a306-a11db49e7132 .
+
+km-dev:PredicateObjectMap_c0ce82b5-b1e7-4d9a-ba10-710c5e80ed13 rr:predicate f_events:createDate .
+
+_:node1ds57h2ojx9 rr:column "WORK_createDate" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ds57h2ojx1 .
+
+_:node1ds57h2ojx1 km-dev:hasObjectMap _:node1ds57h2ojx9 .
+
+km-dev:PredicateObjectMap_c0ce82b5-b1e7-4d9a-ba10-710c5e80ed13 rr:objectMap _:node1ds57h2ojx9 .
+
+km-dev:TriplesMap_017bae1c-4958-4272-9a21-a084fe8ad56a rr:predicateObjectMap km-dev:PredicateObjectMap_c0ce82b5-b1e7-4d9a-ba10-710c5e80ed13 .
+
+km-dev:PredicateObjectMap_c0ce82b5-b1e7-4d9a-ba10-710c5e80ed13 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ds57h2ojx1 .
+
+_:node1ds57h2ojx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c0ce82b5-b1e7-4d9a-ba10-710c5e80ed13 .
+
+km-dev:PredicateObjectMap_90b4ecfa-e834-46ee-85d1-e4eed2efc974 rr:predicate f_events:url .
+
+_:node1ds57h2ojx10 rr:column "WORK_url" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1ds57h2ojx1 .
+
+_:node1ds57h2ojx1 km-dev:hasObjectMap _:node1ds57h2ojx10 .
+
+km-dev:PredicateObjectMap_90b4ecfa-e834-46ee-85d1-e4eed2efc974 rr:objectMap _:node1ds57h2ojx10 .
+
+km-dev:TriplesMap_017bae1c-4958-4272-9a21-a084fe8ad56a rr:predicateObjectMap km-dev:PredicateObjectMap_90b4ecfa-e834-46ee-85d1-e4eed2efc974 .
+
+km-dev:PredicateObjectMap_90b4ecfa-e834-46ee-85d1-e4eed2efc974 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1ds57h2ojx1 .
+
+_:node1ds57h2ojx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_90b4ecfa-e834-46ee-85d1-e4eed2efc974 .
