@@ -10,11 +10,11 @@
 			"length": "Durata: 138",
 			"schedule": [
 				{
-					"day": "04-12-19",
+					"day": "04-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "21:00-23:18"
+							"hour": "21:00:00-23:18:00"
 						}
 					],
 					"Price": "8.50",
@@ -30,11 +30,11 @@
 			"length": "Durata: 103",
 			"schedule": [
 				{
-					"day": "03-12-19",
+					"day": "03-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "19:45-21:28"
+							"hour": "19:45:00-21:28:00"
 						}
 					],
 					"Price": "8.50",
@@ -50,28 +50,28 @@
 			"length": "Durata: 111",
 			"schedule": [
 				{
-					"day": "03-12-19",
+					"day": "03-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "17:30-19:21"
+							"hour": "17:30:00-19:21:00"
 						},
 						{
-							"hour": "19:45-21:36"
+							"hour": "19:45:00-21:36:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "04-12-19",
+					"day": "04-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "18:00-19:51"
+							"hour": "18:00:00-19:51:00"
 						},
 						{
-							"hour": "21:00-22:51"
+							"hour": "21:00:00-22:51:00"
 						}
 					],
 					"Price": "8.50",
@@ -87,33 +87,33 @@
 			"length": "Durata: 83",
 			"schedule": [
 				{
-					"day": "02-12-19",
+					"day": "02-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "22:00-23:23"
+							"hour": "22:00:00-23:23:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "03-12-19",
+					"day": "03-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "20:30-21:53"
+							"hour": "20:30:00-21:53:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "04-12-19",
+					"day": "04-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "21:00-22:23"
+							"hour": "21:00:00-22:23:00"
 						}
 					],
 					"Price": "8.50",
@@ -129,90 +129,90 @@
 			"length": "Durata: 138",
 			"schedule": [
 				{
-					"day": "28-11-19",
+					"day": "28-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "19:20-21:38"
+							"hour": "19:20:00-21:38:00"
 						},
 						{
-							"hour": "22:00-00:18"
+							"hour": "22:00:00-00:18:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "29-11-19",
+					"day": "29-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "19:20-21:38"
+							"hour": "19:20:00-21:38:00"
 						},
 						{
-							"hour": "22:00-00:18"
+							"hour": "22:00:00-00:18:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "30-11-19",
+					"day": "30-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "16:00-18:18"
+							"hour": "16:00:00-18:18:00"
 						},
 						{
-							"hour": "19:30-21:48"
+							"hour": "19:30:00-21:48:00"
 						},
 						{
-							"hour": "22:00-00:18"
+							"hour": "22:00:00-00:18:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "01-12-19",
+					"day": "01-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "16:00-18:18"
+							"hour": "16:00:00-18:18:00"
 						},
 						{
-							"hour": "18:45-21:03"
+							"hour": "18:45:00-21:03:00"
 						},
 						{
-							"hour": "21:30-23:48"
+							"hour": "21:30:00-23:48:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "02-12-19",
+					"day": "02-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "19:20-21:38"
+							"hour": "19:20:00-21:38:00"
 						},
 						{
-							"hour": "22:00-00:18"
+							"hour": "22:00:00-00:18:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "03-12-19",
+					"day": "03-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "17:30-19:48"
+							"hour": "17:30:00-19:48:00"
 						},
 						{
-							"hour": "22:00-00:18"
+							"hour": "22:00:00-00:18:00"
 						}
 					],
 					"Price": "8.50",
@@ -228,72 +228,72 @@
 			"length": "Durata: 103",
 			"schedule": [
 				{
-					"day": "29-11-19",
+					"day": "29-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "17:30-19:13"
+							"hour": "17:30:00-19:13:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "30-11-19",
+					"day": "30-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "15:40-17:23"
+							"hour": "15:40:00-17:23:00"
 						},
 						{
-							"hour": "17:50-19:33"
+							"hour": "17:50:00-19:33:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "01-12-19",
+					"day": "01-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "15:00-16:43"
+							"hour": "15:00:00-16:43:00"
 						},
 						{
-							"hour": "17:15-18:58"
+							"hour": "17:15:00-18:58:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "02-12-19",
+					"day": "02-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "17:30-19:13"
+							"hour": "17:30:00-19:13:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "03-12-19",
+					"day": "03-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "17:30-19:13"
+							"hour": "17:30:00-19:13:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "04-12-19",
+					"day": "04-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "18:00-19:43"
+							"hour": "18:00:00-19:43:00"
 						}
 					],
 					"Price": "8.50",
@@ -309,110 +309,110 @@
 			"length": "Durata: 103",
 			"schedule": [
 				{
-					"day": "28-11-19",
+					"day": "28-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "20:45-22:28"
+							"hour": "20:45:00-22:28:00"
 						},
 						{
-							"hour": "19:45-21:28"
+							"hour": "19:45:00-21:28:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "29-11-19",
+					"day": "29-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "17:45-19:28"
+							"hour": "17:45:00-19:28:00"
 						},
 						{
-							"hour": "20:45-22:28"
+							"hour": "20:45:00-22:28:00"
 						},
 						{
-							"hour": "19:45-21:28"
+							"hour": "19:45:00-21:28:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "30-11-19",
+					"day": "30-11-2019",
 					"location": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
 					"time": [
 						{
-							"hour": "17:00-18:43"
+							"hour": "17:00:00-18:43:00"
 						},
 						{
-							"hour": "19:15-20:58"
+							"hour": "19:15:00-20:58:00"
 						},
 						{
-							"hour": "21:30-23:13"
+							"hour": "21:30:00-23:13:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Corso III Novembre, 35 \u2013 Trento"
 				},
 				{
-					"day": "01-12-19",
+					"day": "01-12-2019",
 					"location": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
 					"time": [
 						{
-							"hour": "15:45-17:28"
+							"hour": "15:45:00-17:28:00"
 						},
 						{
-							"hour": "18:00-19:43"
+							"hour": "18:00:00-19:43:00"
 						},
 						{
-							"hour": "20:30-22:13"
+							"hour": "20:30:00-22:13:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Corso III Novembre, 35 \u2013 Trento"
 				},
 				{
-					"day": "02-12-19",
+					"day": "02-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "17:45-19:28"
+							"hour": "17:45:00-19:28:00"
 						},
 						{
-							"hour": "20:45-22:28"
+							"hour": "20:45:00-22:28:00"
 						},
 						{
-							"hour": "19:45-21:28"
+							"hour": "19:45:00-21:28:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "03-12-19",
+					"day": "03-12-2019",
 					"location": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
 					"time": [
 						{
-							"hour": "17:45-19:28"
+							"hour": "17:45:00-19:28:00"
 						},
 						{
-							"hour": "20:45-22:28"
+							"hour": "20:45:00-22:28:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Corso III Novembre, 35 \u2013 Trento"
 				},
 				{
-					"day": "04-12-19",
+					"day": "04-12-2019",
 					"location": "Trento - Cinema Teatro Nuovo RomaCorso III Novembre, 35 \u2013 Trento",
 					"time": [
 						{
-							"hour": "17:45-19:28"
+							"hour": "17:45:00-19:28:00"
 						},
 						{
-							"hour": "20:45-22:28"
+							"hour": "20:45:00-22:28:00"
 						}
 					],
 					"Price": "8.50",
@@ -428,95 +428,95 @@
 			"length": "Durata: 91",
 			"schedule": [
 				{
-					"day": "28-11-19",
+					"day": "28-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "19:30-21:01"
+							"hour": "19:30:00-21:01:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "29-11-19",
+					"day": "29-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "17:30-19:01"
+							"hour": "17:30:00-19:01:00"
 						},
 						{
-							"hour": "19:30-21:01"
+							"hour": "19:30:00-21:01:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "30-11-19",
+					"day": "30-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "17:30-19:01"
+							"hour": "17:30:00-19:01:00"
 						},
 						{
-							"hour": "20:00-21:31"
+							"hour": "20:00:00-21:31:00"
 						},
 						{
-							"hour": "22:15-23:46"
+							"hour": "22:15:00-23:46:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "01-12-19",
+					"day": "01-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "16:50-18:21"
+							"hour": "16:50:00-18:21:00"
 						},
 						{
-							"hour": "19:30-21:01"
+							"hour": "19:30:00-21:01:00"
 						},
 						{
-							"hour": "21:30-23:01"
+							"hour": "21:30:00-23:01:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "02-12-19",
+					"day": "02-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "17:30-19:01"
+							"hour": "17:30:00-19:01:00"
 						},
 						{
-							"hour": "19:30-21:01"
+							"hour": "19:30:00-21:01:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "03-12-19",
+					"day": "03-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "22:10-23:41"
+							"hour": "22:10:00-23:41:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "04-12-19",
+					"day": "04-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "18:00-19:31"
+							"hour": "18:00:00-19:31:00"
 						}
 					],
 					"Price": "8.50",
@@ -532,101 +532,101 @@
 			"length": "Durata: 132",
 			"schedule": [
 				{
-					"day": "28-11-19",
+					"day": "28-11-2019",
 					"location": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
 					"time": [
 						{
-							"hour": "18:00-20:12"
+							"hour": "18:00:00-20:12:00"
 						},
 						{
-							"hour": "21:00-23:12"
+							"hour": "21:00:00-23:12:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Via Manci, 72 \u2013 Trento"
 				},
 				{
-					"day": "29-11-19",
+					"day": "29-11-2019",
 					"location": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
 					"time": [
 						{
-							"hour": "18:00-20:12"
+							"hour": "18:00:00-20:12:00"
 						},
 						{
-							"hour": "21:00-23:12"
+							"hour": "21:00:00-23:12:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Via Manci, 72 \u2013 Trento"
 				},
 				{
-					"day": "30-11-19",
+					"day": "30-11-2019",
 					"location": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
 					"time": [
 						{
-							"hour": "16:40-18:52"
+							"hour": "16:40:00-18:52:00"
 						},
 						{
-							"hour": "19:20-21:32"
+							"hour": "19:20:00-21:32:00"
 						},
 						{
-							"hour": "22:00-00:12"
+							"hour": "22:00:00-00:12:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Via Manci, 72 \u2013 Trento"
 				},
 				{
-					"day": "01-12-19",
+					"day": "01-12-2019",
 					"location": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
 					"time": [
 						{
-							"hour": "17:00-19:12"
+							"hour": "17:00:00-19:12:00"
 						},
 						{
-							"hour": "20:30-22:42"
+							"hour": "20:30:00-22:42:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Via Manci, 72 \u2013 Trento"
 				},
 				{
-					"day": "02-12-19",
+					"day": "02-12-2019",
 					"location": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
 					"time": [
 						{
-							"hour": "18:00-20:12"
+							"hour": "18:00:00-20:12:00"
 						},
 						{
-							"hour": "21:00-23:12"
+							"hour": "21:00:00-23:12:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Via Manci, 72 \u2013 Trento"
 				},
 				{
-					"day": "03-12-19",
+					"day": "03-12-2019",
 					"location": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
 					"time": [
 						{
-							"hour": "18:00-20:12"
+							"hour": "18:00:00-20:12:00"
 						},
 						{
-							"hour": "21:00-23:12"
+							"hour": "21:00:00-23:12:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Via Manci, 72 \u2013 Trento"
 				},
 				{
-					"day": "04-12-19",
+					"day": "04-12-2019",
 					"location": "Trento - Supercinema VittoriaVia Manci, 72 \u2013 Trento",
 					"time": [
 						{
-							"hour": "18:00-20:12"
+							"hour": "18:00:00-20:12:00"
 						},
 						{
-							"hour": "21:00-23:12"
+							"hour": "21:00:00-23:12:00"
 						}
 					],
 					"Price": "8.50",
@@ -642,66 +642,66 @@
 			"length": "Durata: 152",
 			"schedule": [
 				{
-					"day": "28-11-19",
+					"day": "28-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "21:30-00:02"
+							"hour": "21:30:00-00:02:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "29-11-19",
+					"day": "29-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "21:30-00:02"
+							"hour": "21:30:00-00:02:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "30-11-19",
+					"day": "30-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "22:00-00:32"
+							"hour": "22:00:00-00:32:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "01-12-19",
+					"day": "01-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "18:40-21:12"
+							"hour": "18:40:00-21:12:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "02-12-19",
+					"day": "02-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "21:30-00:02"
+							"hour": "21:30:00-00:02:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "03-12-19",
+					"day": "03-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "21:30-00:02"
+							"hour": "21:30:00-00:02:00"
 						}
 					],
 					"Price": "8.50",
@@ -717,50 +717,50 @@
 			"length": "Durata: 86",
 			"schedule": [
 				{
-					"day": "29-11-19",
+					"day": "29-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "17:30-18:56"
+							"hour": "17:30:00-18:56:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "30-11-19",
+					"day": "30-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "15:40-17:06"
+							"hour": "15:40:00-17:06:00"
 						},
 						{
-							"hour": "17:40-19:06"
+							"hour": "17:40:00-19:06:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "01-12-19",
+					"day": "01-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "15:00-16:26"
+							"hour": "15:00:00-16:26:00"
 						},
 						{
-							"hour": "16:50-18:16"
+							"hour": "16:50:00-18:16:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "02-12-19",
+					"day": "02-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "17:30-18:56"
+							"hour": "17:30:00-18:56:00"
 						}
 					],
 					"Price": "8.50",
@@ -776,22 +776,22 @@
 			"length": "Durata: 110",
 			"schedule": [
 				{
-					"day": "28-11-19",
+					"day": "28-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "22:00-23:50"
+							"hour": "22:00:00-23:50:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "01-12-19",
+					"day": "01-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "21:30-23:20"
+							"hour": "21:30:00-23:20:00"
 						}
 					],
 					"Price": "8.50",
@@ -807,22 +807,22 @@
 			"length": "Durata: 86",
 			"schedule": [
 				{
-					"day": "30-11-19",
+					"day": "30-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "15:40-17:06"
+							"hour": "15:40:00-17:06:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "01-12-19",
+					"day": "01-12-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "15:00-16:26"
+							"hour": "15:00:00-16:26:00"
 						}
 					],
 					"Price": "8.50",
@@ -838,22 +838,22 @@
 			"length": "Durata: 122",
 			"schedule": [
 				{
-					"day": "29-11-19",
+					"day": "29-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "22:00-00:02"
+							"hour": "22:00:00-00:02:00"
 						}
 					],
 					"Price": "8.50",
 					"Address": "Viale S. F. d\u2019Assisi, 8/a \u2013 Trento"
 				},
 				{
-					"day": "30-11-19",
+					"day": "30-11-2019",
 					"location": "Trento - Multisala G. ModenaViale S. F. d\u2019Assisi, 8/a \u2013 Trento",
 					"time": [
 						{
-							"hour": "19:30-21:32"
+							"hour": "19:30:00-21:32:00"
 						}
 					],
 					"Price": "8.50",

@@ -1,273 +1,4 @@
 {
-	"Centro Storico; Indirizzo non disponibile; Cimego": {
-		"address_components": [
-			{
-				"long_name": "Cimego",
-				"short_name": "Cimego",
-				"types": [
-					"locality",
-					"political"
-				]
-			},
-			{
-				"long_name": "Cimego",
-				"short_name": "Cimego",
-				"types": [
-					"administrative_area_level_3",
-					"political"
-				]
-			},
-			{
-				"long_name": "Province of Trento",
-				"short_name": "TN",
-				"types": [
-					"administrative_area_level_2",
-					"political"
-				]
-			},
-			{
-				"long_name": "Trentino-South Tyrol",
-				"short_name": "Trentino-South Tyrol",
-				"types": [
-					"administrative_area_level_1",
-					"political"
-				]
-			},
-			{
-				"long_name": "Italy",
-				"short_name": "IT",
-				"types": [
-					"country",
-					"political"
-				]
-			},
-			{
-				"long_name": "38082",
-				"short_name": "38082",
-				"types": [
-					"postal_code"
-				]
-			}
-		],
-		"formatted_address": "38082 Cimego, Province of Trento, Italy",
-		"geometry": {
-			"bounds": {
-				"northeast": {
-					"lat": 45.9183573,
-					"lng": 10.6275294
-				},
-				"southwest": {
-					"lat": 45.9095337,
-					"lng": 10.6100106
-				}
-			},
-			"location": {
-				"lat": 45.9117544,
-				"lng": 10.6134314
-			},
-			"location_type": "APPROXIMATE",
-			"viewport": {
-				"northeast": {
-					"lat": 45.9183573,
-					"lng": 10.6275294
-				},
-				"southwest": {
-					"lat": 45.9095337,
-					"lng": 10.6100106
-				}
-			}
-		},
-		"partial_match": true,
-		"place_id": "ChIJY1bvtVA6gkcRsbtNVzf3bh8",
-		"types": [
-			"locality",
-			"political"
-		]
-	},
-	"Giardino dei Ciucioi; Piazza Venezia, 2; Lavarone": {
-		"address_components": [
-			{
-				"long_name": "Giardino dei Ciucioi",
-				"short_name": "Giardino dei Ciucioi",
-				"types": [
-					"establishment",
-					"park",
-					"point_of_interest",
-					"tourist_attraction"
-				]
-			},
-			{
-				"long_name": "Vicolo dei Ciucioi",
-				"short_name": "Vicolo dei Ciucioi",
-				"types": [
-					"route"
-				]
-			},
-			{
-				"long_name": "Lavis",
-				"short_name": "Lavis",
-				"types": [
-					"locality",
-					"political"
-				]
-			},
-			{
-				"long_name": "Lavis",
-				"short_name": "Lavis",
-				"types": [
-					"administrative_area_level_3",
-					"political"
-				]
-			},
-			{
-				"long_name": "Provincia di Trento",
-				"short_name": "TN",
-				"types": [
-					"administrative_area_level_2",
-					"political"
-				]
-			},
-			{
-				"long_name": "Trentino-Alto Adige",
-				"short_name": "Trentino-Alto Adige",
-				"types": [
-					"administrative_area_level_1",
-					"political"
-				]
-			},
-			{
-				"long_name": "Italy",
-				"short_name": "IT",
-				"types": [
-					"country",
-					"political"
-				]
-			},
-			{
-				"long_name": "38015",
-				"short_name": "38015",
-				"types": [
-					"postal_code"
-				]
-			}
-		],
-		"formatted_address": "Giardino dei Ciucioi, Vicolo dei Ciucioi, 38015 Lavis TN, Italy",
-		"geometry": {
-			"location": {
-				"lat": 46.1387805,
-				"lng": 11.1179099
-			},
-			"location_type": "GEOMETRIC_CENTER",
-			"viewport": {
-				"northeast": {
-					"lat": 46.1401294802915,
-					"lng": 11.1192588802915
-				},
-				"southwest": {
-					"lat": 46.1374315197085,
-					"lng": 11.1165609197085
-				}
-			}
-		},
-		"partial_match": true,
-		"place_id": "ChIJjeE7x296gkcROI-SaZ8fjAw",
-		"plus_code": {
-			"compound_code": "44Q9+G5 Lavis, Province of Trento, Italy",
-			"global_code": "8FRH44Q9+G5"
-		},
-		"types": [
-			"establishment",
-			"park",
-			"point_of_interest",
-			"tourist_attraction"
-		]
-	},
-	"centro storico; Indirizzo non disponibile; Siror": {
-		"address_components": [
-			{
-				"long_name": "Siror",
-				"short_name": "Siror",
-				"types": [
-					"locality",
-					"political"
-				]
-			},
-			{
-				"long_name": "Siror",
-				"short_name": "Siror",
-				"types": [
-					"administrative_area_level_3",
-					"political"
-				]
-			},
-			{
-				"long_name": "Province of Trento",
-				"short_name": "TN",
-				"types": [
-					"administrative_area_level_2",
-					"political"
-				]
-			},
-			{
-				"long_name": "Trentino-South Tyrol",
-				"short_name": "Trentino-South Tyrol",
-				"types": [
-					"administrative_area_level_1",
-					"political"
-				]
-			},
-			{
-				"long_name": "Italy",
-				"short_name": "IT",
-				"types": [
-					"country",
-					"political"
-				]
-			},
-			{
-				"long_name": "38054",
-				"short_name": "38054",
-				"types": [
-					"postal_code"
-				]
-			}
-		],
-		"formatted_address": "38054 Siror, Province of Trento, Italy",
-		"geometry": {
-			"bounds": {
-				"northeast": {
-					"lat": 46.1910367,
-					"lng": 11.8355545
-				},
-				"southwest": {
-					"lat": 46.1816238,
-					"lng": 11.8283843
-				}
-			},
-			"location": {
-				"lat": 46.1877609,
-				"lng": 11.8302311
-			},
-			"location_type": "APPROXIMATE",
-			"viewport": {
-				"northeast": {
-					"lat": 46.1910367,
-					"lng": 11.8355545
-				},
-				"southwest": {
-					"lat": 46.1816238,
-					"lng": 11.8283843
-				}
-			}
-		},
-		"partial_match": true,
-		"place_id": "ChIJgWxR4bn3eEcR8IfAP1XJTkA",
-		"types": [
-			"locality",
-			"political"
-		]
-	},
-	"vedi info; Indirizzo non disponibile": "",
 	"Maurina; Indirizzo non disponibile; Spormaggiore": {
 		"address_components": [
 			{
@@ -353,7 +84,178 @@
 			"political"
 		]
 	},
-	"Indirizzo non disponibile": "",
+	"Centro Storico; Indirizzo non disponibile; Ala": "",
+	"vedi info; Indirizzo non disponibile": "",
+	"centro storico; Indirizzo non disponibile; Siror": {
+		"address_components": [
+			{
+				"long_name": "Siror",
+				"short_name": "Siror",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Siror",
+				"short_name": "Siror",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Province of Trento",
+				"short_name": "TN",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Trentino-South Tyrol",
+				"short_name": "Trentino-South Tyrol",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "38054",
+				"short_name": "38054",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "38054 Siror, Province of Trento, Italy",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": 46.1910367,
+					"lng": 11.8355545
+				},
+				"southwest": {
+					"lat": 46.1816238,
+					"lng": 11.8283843
+				}
+			},
+			"location": {
+				"lat": 46.1877609,
+				"lng": 11.8302311
+			},
+			"location_type": "APPROXIMATE",
+			"viewport": {
+				"northeast": {
+					"lat": 46.1910367,
+					"lng": 11.8355545
+				},
+				"southwest": {
+					"lat": 46.1816238,
+					"lng": 11.8283843
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJgWxR4bn3eEcR8IfAP1XJTkA",
+		"types": [
+			"locality",
+			"political"
+		]
+	},
+	"Centro Storico; Indirizzo non disponibile; Vezzano": {
+		"address_components": [
+			{
+				"long_name": "Vezzano Ligure",
+				"short_name": "Vezzano Ligure",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Vezzano Ligure",
+				"short_name": "Vezzano Ligure",
+				"types": [
+					"administrative_area_level_3",
+					"political"
+				]
+			},
+			{
+				"long_name": "Province of La Spezia",
+				"short_name": "SP",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Liguria",
+				"short_name": "Liguria",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "Italy",
+				"short_name": "IT",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "19020",
+				"short_name": "19020",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"formatted_address": "19020 Vezzano Ligure, SP, Italy",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": 44.1457129,
+					"lng": 9.8940342
+				},
+				"southwest": {
+					"lat": 44.1362529,
+					"lng": 9.875349100000001
+				}
+			},
+			"location": {
+				"lat": 44.1401297,
+				"lng": 9.890590399999999
+			},
+			"location_type": "APPROXIMATE",
+			"viewport": {
+				"northeast": {
+					"lat": 44.1457129,
+					"lng": 9.8940342
+				},
+				"southwest": {
+					"lat": 44.1362529,
+					"lng": 9.875349100000001
+				}
+			}
+		},
+		"partial_match": true,
+		"place_id": "ChIJKzKLA5bi1BIRcOl6xmcO_ls",
+		"types": [
+			"locality",
+			"political"
+		]
+	},
 	"Centro Storico; Indirizzo non disponibile; Ossana": {
 		"address_components": [
 			{
@@ -439,19 +341,19 @@
 			"political"
 		]
 	},
-	"Centro Storico; Indirizzo non disponibile; Vezzano": {
+	"Centro Storico; Indirizzo non disponibile; Cimego": {
 		"address_components": [
 			{
-				"long_name": "Vezzano",
-				"short_name": "Vezzano",
+				"long_name": "Cimego",
+				"short_name": "Cimego",
 				"types": [
 					"locality",
 					"political"
 				]
 			},
 			{
-				"long_name": "Vezzano",
-				"short_name": "Vezzano",
+				"long_name": "Cimego",
+				"short_name": "Cimego",
 				"types": [
 					"administrative_area_level_3",
 					"political"
@@ -482,51 +384,50 @@
 				]
 			},
 			{
-				"long_name": "38070",
-				"short_name": "38070",
+				"long_name": "38082",
+				"short_name": "38082",
 				"types": [
 					"postal_code"
 				]
 			}
 		],
-		"formatted_address": "38070 Vezzano, Province of Trento, Italy",
+		"formatted_address": "38082 Cimego, Province of Trento, Italy",
 		"geometry": {
 			"bounds": {
 				"northeast": {
-					"lat": 46.0847606,
-					"lng": 11.0045533
+					"lat": 45.9183573,
+					"lng": 10.6275294
 				},
 				"southwest": {
-					"lat": 46.0738054,
-					"lng": 10.9938407
+					"lat": 45.9095337,
+					"lng": 10.6100106
 				}
 			},
 			"location": {
-				"lat": 46.0802175,
-				"lng": 11.0014092
+				"lat": 45.9117544,
+				"lng": 10.6134314
 			},
 			"location_type": "APPROXIMATE",
 			"viewport": {
 				"northeast": {
-					"lat": 46.0847606,
-					"lng": 11.0045533
+					"lat": 45.9183573,
+					"lng": 10.6275294
 				},
 				"southwest": {
-					"lat": 46.0738054,
-					"lng": 10.9938407
+					"lat": 45.9095337,
+					"lng": 10.6100106
 				}
 			}
 		},
 		"partial_match": true,
-		"place_id": "ChIJHcrSPWlugkcRaaXU1f_yACY",
+		"place_id": "ChIJY1bvtVA6gkcRsbtNVzf3bh8",
 		"types": [
 			"locality",
 			"political"
 		]
 	},
-	"Mart, Sale espositive": "",
+	"Indirizzo non disponibile": "",
 	"centro storico; Indirizzo non disponibile; Ala": "",
-	"Centro Storico; Indirizzo non disponibile; Ala": "",
 	"Centro Storico; Indirizzo non disponibile; Ledro": {
 		"address_components": [
 			{
@@ -694,6 +595,5 @@
 		"types": [
 			"town_square"
 		]
-	},
-	"Mart, sale espositive": ""
+	}
 }

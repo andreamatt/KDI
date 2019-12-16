@@ -17,9 +17,11 @@ def rm_main(JSONString):
 			for hour in hours:
 				hour = hour.replace(' ', '')
 				hour = hour.replace('.', ':')
+				hour += ':00'
 				day = dateAndTime['day']
 				day = re.findall(r'\d+\/\d+\/\d+', day)
-				day = day[0]
+				day = day[0].replace('/', '-')
+				day = day[:6] + '20' + day[6:]
 				times.append({"day": day, "hour": hour})
 		movie['time'] = times
 		movies.append(movie)

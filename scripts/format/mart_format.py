@@ -13,12 +13,12 @@ def rm_main(JSONString):
 		times = re.findall(r'\d+:\d+', event['time'])
 		time = ""
 		if len(times) > 0:
-			time = times[0]
+			time = times[0] + ':00'
 		if len(times) > 1:
-			time += "-" + times[1]
+			time += "-" + times[1] + ':00'
 		event['time'] = time
 
-		date = re.findall(r'\d+\/\d+', event['date'])[0].replace('/', '-') + '-19'
+		date = re.findall(r'\d+\/\d+', event['date'])[0].replace('/', '-') + '-2019'
 		event['date'] = date
 
 		events.append(event)

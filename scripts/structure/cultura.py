@@ -1,81 +1,90 @@
 import json
-import requests
+import re
+
 import pandas as pd
+import requests
 
-
-class eventObj:
-
-	def __init__(self,
-	             title="",
-	             ScienceEvent=False,
-	             VisualArtsEvent=False,
-	             MusicEvent=False,
-	             ScreeningEvent=False,
-	             TheatreEvent=False,
-	             TalkEvent=False,
-	             GeneralEvent=False,
-	             date="",
-	             time="",
-	             locationName="",
-	             locationURL="",
-	             suitableFor="",
-	             source="",
-	             description="",
-	             other="",
-	             contact="",
-	             cost="",
-	             link=""):
-		self.source = source.replace("\n", " ,")
-		self.ScienceEvent = ScienceEvent
-		self.VisualArtsEvent = VisualArtsEvent
-		self.MusicEvent = MusicEvent
-		self.ScreeningEvent = ScreeningEvent
-		self.TheatreEvent = TheatreEvent
-		self.TalkEvent = TalkEvent
-		self.GeneralEvent = GeneralEvent
-		self.suitableFor = suitableFor.replace("\n", " ,")
-		self.title = title.replace("\n", " ,")
-		self.date = date.replace("\n", " ,")
-		self.time = time.replace("\n", " ,")
-		self.locationName = locationName.replace("\n", " ,")
-		self.locationURL = locationURL.replace("\n", " ,")
-		self.description = description.replace("\n", " ,")
-		self.contact = contact.replace("\n", " ,")
-		self.cost = cost.replace("\n", " ,")
-		self.other = other.replace("\n", " ,")
-		self.link = link.replace("\n", " ,")
+utils_txt = requests.get('https://raw.githubusercontent.com/vale17accidentidellastoria/KDI-Project-FacilityDomain/master/models/script/utils.py').text
+exec(utils_txt)
 
 
 def rm_main(JSONString):
-	with open('C:/Users/andre/Desktop/kdi/scraping/KDI/DBG/structure.json', 'w') as outfile:
-		json.dump(json.loads(JSONString), outfile, indent="\t")
-
+	dictionary = {
+	    "Cultural exhibitions and events,": general,
+	    "Cultural exhibitions and events,Guided tour,": general,
+	    "Dance,Opera and modern ballet,": theatre,
+	    "Drama,": theatre,
+	    "Meetings and conferences,": talk,
+	    "Meetings and conferences,Workshop,": science,
+	    "Music,": music,
+	    "Music,Classical music concert,": music,
+	    "Music,Jazz concert,": music,
+	    "exhibition,": general,
+	    "exhibition,Art exhibition,": visual,
+	    "exhibition,Photographic exhibition,": visual,
+	}
 	cultura = json.loads(JSONString)
-	events = []
+	events = {}
 	for day in cultura['result']['events']:
 		for eventType in day['tipo_evento']:
-			for event in eventType['events']:
+			for e in eventType['events']:
 				subSubCategory = ""
-				for subType in event['tipo_evento']:
+				for subType in e['tipo_evento']:
 					if subType['name'] is not None:
 						subSubCategory += subType['name'] + ","
-				if len(event['luogo_della_cultura']) == 0:
-					event['luogo_della_cultura'].append({"name": ""})
-				events.append(
-				    eventObj(
-				        source="cultura",
-				        category="Cultural",
-				        subCategory=eventType['name'],
-				        subSubCategory=subSubCategory,
-				        title=event['name'],
-				        link=event['href'],
-				        date=day['day']['identifier'],
-				        time=event['orario_svolgimento'],
-				        locationName=event['comune'][0]['name'] + " --SELF-- " + event['luogo_svolgimento'] + " --SELF-- " +
-				        event['luogo_della_cultura'][0]['name'],
-				        cost=event['costi'],
-				        contact=event['contact'],
-				        description=event['description']))
-	events = [ob.__dict__ for ob in events]
-	df = pd.DataFrame(events)
-	return df
+				if len(e['luogo_della_cultura']) == 0:
+					e['luogo_della_cultura'].append({"name": ""})
+				subSubCategory = dictionary[subSubCategory]
+				location = e['comune'][0]['name'] + ", " + e['luogo_svolgimento'] + ", " + e['luogo_della_cultura'][0]['name']
+				starts = day['day']['identifier'].split('-')
+				startDate = f'{starts[2].zfill(2)}-{starts[1].zfill(2)}-{starts[0]}'
+				ends = day['day']['identifier'].split('-')
+				endDate = f'{ends[2].zfill(2)}-{ends[1].zfill(2)}-{ends[0]}'
+				startTime = ""
+				endTime = ""
+				time = e['orario_svolgimento']
+				tmp = re.findall(r'at \d+\.\d+', time)
+				if len(tmp) > 0:
+					startTime = tmp[0][3:].replace('.', ':')
+				else:
+					tmp = re.findall(r'\d+\.\d+', time)
+					if len(tmp) == 0:
+						tmp = re.findall(r'\d+\,\d+', time)
+						if len(tmp) == 0:
+							pass
+						elif len(tmp) == 1:
+							startTime = tmp[0].replace(',', ':')
+						elif len(tmp) > 1:
+							startTime = tmp[0].replace(',', ':')
+							endTime = tmp[1].replace(',', ':')
+						pass
+					elif len(tmp) == 1:
+						startTime = tmp[0].replace('.', ':')
+						pass
+					elif len(tmp) > 1:
+						startTime = tmp[0].replace('.', ':')
+						endTime = tmp[1].replace('.', ':')
+
+				if len(startTime) == 4:
+					startTime = '0' + startTime + ':00'
+				elif len(startTime) == 5:
+					startTime = startTime + ':00'
+
+				if len(endTime) == 4:
+					endTime = '0' + endTime + ':00'
+				elif len(endTime) == 5:
+					endTime = endTime + ':00'
+
+				gen = GeneralEvent(e['name'].replace('\n', '. '), e['costi'].replace('\n', '. '), e['description'].replace('\n', '. '),
+				                   e['href'].replace('\n', '. '), '', '', '', location.replace('\n', '. '))
+				time = DateTime(startDate, endDate, startTime, endTime)
+
+				event = {}
+				for k, v in gen.items():
+					event[f'GEN_{k}'] = v
+				for k, v in time.items():
+					event[f'DATETIME_{k}'] = v
+				if subSubCategory not in events:
+					events[subSubCategory] = []
+				events[subSubCategory].append(event)
+	return json.dumps(events)
